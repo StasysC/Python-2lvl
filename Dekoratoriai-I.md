@@ -1,5 +1,3 @@
-### Dekoratoriai
-
 Dekoratoriai priima funkcijas, prie tų funkcijų prideda papildomą funkcionalumą, 
 ir grąžina rezultatą.
 Dekoratorius yra šiek tiek sudėtinga perprasti, ir galbūt praktikoje patiems 
