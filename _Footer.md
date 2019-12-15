@@ -1,1 +1,1 @@
-//
+©Donatas Noreika ir Jotautas Treigys
