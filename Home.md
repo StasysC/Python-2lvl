@@ -1,1 +1,1 @@
-Welcome to the kursas wiki!
+Sveiki, čia bus jūsų mokomoji medžiaga. Pasirinkite temą iš meniu dešinėje!
