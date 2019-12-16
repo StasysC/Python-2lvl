@@ -23,4 +23,4 @@
 
 **Iteratoriai**
 
-[Iteratoriai I](https://github.com/robotautas/kursas/wiki/Iteratoriai-I)
+* [Iteratoriai I](https://github.com/robotautas/kursas/wiki/Iteratoriai-I)
