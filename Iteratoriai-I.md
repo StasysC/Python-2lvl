@@ -61,3 +61,48 @@ while True:
 # 2
 # 3
 ```
+
+O dabar parašykime šiek tiek universalesnę funkciją:
+
+```python
+def iteruoklis(objektas, func):
+    iteratorius = iter(objektas)
+    while True:
+        try:
+            result = next(iteratorius)
+        except StopIteration:
+            break
+        else:
+            func(result)
+```
+
+Mūsų funkcija priima objektą (pvz. list'ą ar kt.) iš karto jį paverčia iteratoriumi. 
+Tuomet, kol yra ką iteruoti, iteruoja ir praleidžia per mūsų funkciją argumentuose *func*.
+Pvz.:
+
+```python
+broliai = ['jurgis', 'antanas', 'aloyzas', 'martynas']
+iteruoklis(broliai, print)
+
+# jurgis
+# antanas
+# aloyzas
+# martynas
+``` 
+Šiuo atveju pritaikėme Python integruotą funkciją *print*, 
+taigi mums bus paprasčiausiai atspausdinti brolių vardai.
+Galime panaudoti savo sukurtą funkciją, tarkime:
+
+```python
+def kubu(x):
+    print(x**3)
+
+nums = [1, 2, 3, 4, 5]
+iteruoklis(nums, kubu)
+
+# 1
+# 8
+# 27
+# 64
+# 125
+```
