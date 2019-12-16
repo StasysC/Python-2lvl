@@ -20,3 +20,7 @@
 * [Dekoratoriai II](https://github.com/robotautas/kursas/wiki/Dekoratoriai-II)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Dekoratoriai---u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Dekoratoriai---atsakymai)
+
+**Iteratoriai**
+
+[Iteratoriai I](https://github.com/robotautas/kursas/wiki/Iteratoriai-I)
