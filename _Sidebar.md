@@ -23,5 +23,5 @@
 
 **Iteratoriai ir generatoriai**
 
-* [Iteratoriai](https://github.com/robotautas/kursas/wiki/Iteratoriai-I)
+* [Iteratoriai](https://github.com/robotautas/kursas/wiki/Iteratoriai)
 * [Generatoriai](https://github.com/robotautas/kursas/wiki/Generatoriai)
