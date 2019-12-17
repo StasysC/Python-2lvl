@@ -21,6 +21,7 @@
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Dekoratoriai---u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Dekoratoriai---atsakymai)
 
-**Iteratoriai**
+**Iteratoriai ir generatoriai**
 
-* [Iteratoriai I](https://github.com/robotautas/kursas/wiki/Iteratoriai-I)
+* [Iteratoriai](https://github.com/robotautas/kursas/wiki/Iteratoriai-I)
+* [Generatoriai](https://github.com/robotautas/kursas/wiki/Generatoriai)
