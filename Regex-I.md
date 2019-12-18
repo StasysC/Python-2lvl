@@ -32,7 +32,7 @@ Deja, UTF-8 simboliai nepakliūna į šią kategoriją, todėl lietuviškos raid
 Vėliau aptarsime, kaip šitą problemą apeiti. Tarpus galime išrankioti su \s, skaičius su \d. 
 Jeigu norime išgaudyti ir tarpus ir skaičius, naudojame loginį 'arba' simbolį '|':
 
-04\s|\d
+![\s|\d](https://github.com/robotautas/kursas/blob/master/RegEx/04%5Cs%7C%5Cd.png)
 
 svarbi regex sintaksės dalis yra vadinami Quantifiers. Jų pagalba šablone nustatome, kiek 
 kartų simbolis atsikartoja šablone:
@@ -47,7 +47,7 @@ kartų simbolis atsikartoja šablone:
 
 Tarkime, iš duoto teksto norime ištraukti '(2017 m.)':
 
-05\(\d+\s\w\W{2}
+![\(\d+\s\w\W{2}](https://github.com/robotautas/kursas/blob/master/RegEx/05%5C(%5Cd%2B%5Cs%5Cw%5CW%7B2%7D.png)
 
 * Panagrinėkime - \( ištraukia skliaustelį, kadangi skliaustelis regex'o sintaksėje turi paskirtį, 
 prieš jį naudojame *escape* simbolį '\\'.
@@ -63,8 +63,6 @@ tiesiog \(2017 m\.\). Viskas priklauso nuo to ar ieškome daugiau šablono *(pat
 Arba, tarkime mums prireikė visų keturženklių skaičių. Atkreipkite dėmesį, metai užrašomi be tarpo, pvz. 2017, o kiti 
 keturženkliai su pvz. 1 034.
 
-06\d\s?\d{3} 
-
-
+![\d\s?\d{3}](https://github.com/robotautas/kursas/blob/master/RegEx/06%5Cd%5Cs%3F%5Cd%7B3%7D.png)
 
 
