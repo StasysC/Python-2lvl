@@ -6,11 +6,11 @@ užduotims vykdyti.
 www.pythex.org - svetainė, kurioje galima praktikuotis, tikrinti savo regex šablonus. Pvz. įvedus vieną raidę a, regex
 išgaudo visas raides tikrinamame tekste.
 
-01a
+![a](https://github.com/robotautas/kursas/blob/master/RegEx/01a.png)
 
 įvedus žodį rodo, surandami visi žodžiai 'rodo':
 
-02rodo
+![rodo](https://github.com/robotautas/kursas/blob/master/RegEx/02rodo.png)
 
 regex'as turi savo sintaksę, kurios pagalba galime apsibrėžti pačias įvairiausias paieškos tekste užklausas.
 
@@ -25,7 +25,7 @@ UTF simboliai nėra alphanumeric.
 
 pabandykime tiesiog įvesti \w:
 
-03\w
+![\w](https://github.com/robotautas/kursas/blob/master/RegEx/03%5Cw.png)
 
 Rezultate matome, kad išrinktos visos alphanumeric reikšmės. 
 Deja, UTF-8 simboliai nepakliūna į šią kategoriją, todėl lietuviškos raidės neišgaudytos. 
