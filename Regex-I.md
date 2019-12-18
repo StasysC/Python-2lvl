@@ -47,7 +47,7 @@ kartų simbolis atsikartoja šablone:
 
 Tarkime, iš duoto teksto norime ištraukti '(2017 m.)':
 
-![](https://github.com/robotautas/kursas/blob/master/RegEx/05%5C(%5Cd%2B%5Cs%5Cw%5CW%7B2%7D.png)
+![](https://github.com/robotautas/kursas/blob/master/RegEx/05.png)
 
 * Panagrinėkime - \( ištraukia skliaustelį, kadangi skliaustelis regex'o sintaksėje turi paskirtį, 
 prieš jį naudojame *escape* simbolį '\\'.
