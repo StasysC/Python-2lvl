@@ -25,5 +25,5 @@
 
 * [Iteratoriai](https://github.com/robotautas/kursas/wiki/Iteratoriai)
 * [Generatoriai](https://github.com/robotautas/kursas/wiki/Generatoriai)
-* [Užduotys]
+* [Užduotys](https://github.com/robotautas/kursas/wiki/Generatoriai--u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Generatoriai---atsakymai)
