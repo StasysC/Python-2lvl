@@ -18,6 +18,9 @@ def fibonacci():
 
 3
 ```python
+#Tarkime, kad teisingas pin yra 0123
+PIN = '0123'
+
 def pin_breaker():
     guess = 0
     while True:
