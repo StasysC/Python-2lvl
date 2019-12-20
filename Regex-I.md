@@ -57,7 +57,7 @@ prieš jį naudojame *escape* simbolį '\\'.
 * '.)'  kombinacija yra du NE alphanumerical simboliai, tiesiog panaudojome \W{2}
 
 Turėkite omenyje, kad nėra vieno varianto šiai užduočiai atlikti, galime naudoti, pvz. \W\d{4}\s?m\W{1,2}. Arba 
-tiesiog \(2017 m\.\). Viskas priklauso nuo to ar ieškome daugiau šablono *(pattern)*, ar konkrečios atkarpos.
+tiesiog \\(2017 m\\.\\). Viskas priklauso nuo to ar ieškome daugiau šablono *(pattern)*, ar konkrečios atkarpos.
 
 
 Arba, tarkime mums prireikė visų keturženklių skaičių. Atkreipkite dėmesį, metai užrašomi be tarpo, pvz. 2017, o kiti 
