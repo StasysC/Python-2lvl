@@ -65,4 +65,67 @@ keturženkliai su pvz. 1 034.
 
 ![\d\s?\d{3}](https://github.com/robotautas/kursas/blob/master/RegEx/06%5Cd%5Cs%3F%5Cd%7B3%7D.png)
 
+Laužtiniai skliaustai naudojami simbolių, kurie priklauso juose nurodytai grupei, paieškai. Tarkime [A-Za-z0-9] 
+išrinks didžiąsias raides, mažąsias raides ir skaičius nuo 0 iki 9. [ąčęėįšųūž] išrankios lietuviškas raides, o, pvz, 
+[\wąčęėįšųūž]+ išrinks visus žodžius ir skaičius lietuviškame tekste. (iš tiesų, Python'e paprasčiau su unicode simboliais, 
+o šiame puslapyje geriau su angliškais tekstais praktikuotis).
+
+07kazkas
+
+dar šiek tiek sintaksės:
+* ^ - ieško šablono tik iš eilutės pradžios
+* $ - ieško šablono tik iš eilutės pabaigos
+* \b - žodžio ribos simbolis
+
+Pvz.:
+
+08kazkas
+
+
+Šiuo atveju mūsų regex'as pasigauna abudu keturženklius. Jeigu mes norėtumėm, kad pasigautų tik pirmąjį, 
+po kurio nėra, prieš ir po šablono naudotumėm \b:
+
+ 
+09
+
+
+Jeigu mums prireiktų atkarpos 'blablabla', tai tiesiog suvedus tai į šabloną, mums išrinks visas blablabla. 
+Tačiau, prireikus tokios, kuri nesiriboja su jokiais kitais žodžiais, reikia daryti taip:
+
+
+10
+
+
+Jeigu mus domina žodis, kuriuo prasideda eilutė, rašome taip:
+
+
+11
+
+
+O simbolių kombinacijas eilutės pabaigoje išrenkame taip:
+
+
+12
+
+
+Paskutinė sintaksės porcija:
+
+* | - loginis 'arba'
+* () - grupavimas
+
+
+Pvz.:
+
+12
+
+
+Panagrinėkime šabloną (Mr.|Mrs.)\s([A-Z\w]+\s[A-Z\w]+):
+* (Mr.|Mrs.) - ieško Mr. ARBA Mrs. Vienas iš dviejų.
+* \s - tarpas
+* ([A-Z\w]+\s[A-Z\w]+) - Ieško divejų žodžių, prasidedančių didžiąja raide, atskirtų vienu tarpu.
+
+paveikslėlyje atkreipkite dėmesį į *Match Captures* skiltį. Matome, kad rezultatas išskirstytas į grupes, 
+t.y. 1. kreipinys 2. Vardas Pavardė, nes jos išskirtos skliausteliuose. Programuojant Python aplinkoje galėsime
+skirstyti užklausos rezultatus pagal grupes.
+
 
