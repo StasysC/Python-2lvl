@@ -27,3 +27,9 @@
 * [Generatoriai](https://github.com/robotautas/kursas/wiki/Generatoriai)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Generatoriai--u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Generatoriai---atsakymai)
+
+**RegEx**
+
+* [RegEx sintaksė](https://github.com/robotautas/kursas/wiki/Regex-I)
+* [Užduotys](https://github.com/robotautas/kursas/wiki/Regex-I-u%C5%BEduotys)
+* [Atsakymai](https://github.com/robotautas/kursas/wiki/Regex-I-atsakymai)
