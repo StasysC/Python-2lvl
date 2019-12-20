@@ -70,7 +70,6 @@ išrinks didžiąsias raides, mažąsias raides ir skaičius nuo 0 iki 9. [ąč�
 [\wąčęėįšųūž]+ išrinks visus žodžius ir skaičius lietuviškame tekste. (iš tiesų, Python'e paprasčiau su unicode simboliais, 
 o šiame puslapyje geriau su angliškais tekstais praktikuotis).
 
-07kazkas
 ![](https://github.com/robotautas/kursas/blob/master/RegEx/07skliaustai.png)
 
 Dar šiek tiek sintaksės:
@@ -80,35 +79,26 @@ Dar šiek tiek sintaksės:
 
 Pvz.:
 
-08kazkas
 ![](https://github.com/robotautas/kursas/blob/master/RegEx/08d4.png)
 
 Šiuo atveju mūsų regex'as pasigauna abudu keturženklius. Jeigu mes norėtumėm, kad pasigautų tik pirmąjį, 
 kuris nesiriboja su kitais simboliais, prieš ir po naudotumėm \b:
 
- 
-09
 ![](https://github.com/robotautas/kursas/blob/master/RegEx/09.png)
 
 Jeigu mums prireiktų atkarpos 'blablabla', tai tiesiog suvedus tai į šabloną, mums išrinks visas blablabla. 
 Tačiau, prireikus tokios, kuri nesiriboja su jokiais kitais žodžiais, reikia daryti taip:
 
-
-10
 ![](https://github.com/robotautas/kursas/blob/master/RegEx/10blablabla.png)
 
 Jeigu mus domina žodis, kuriuo prasideda eilutė, rašome taip:
 
 
-11
 ![](https://github.com/robotautas/kursas/blob/master/RegEx/11%5Eblablabla.png)
 
 O simbolių kombinacijas eilutės pabaigoje išrenkame taip:
 
-
 ![](https://github.com/robotautas/kursas/blob/master/RegEx/11blablabla%24.png)
-
-
 
 Paskutinė sintaksės porcija:
 
@@ -118,7 +108,6 @@ Paskutinė sintaksės porcija:
 
 Pvz.:
 
-12
 ![](https://github.com/robotautas/kursas/blob/master/RegEx/12mrmrs.png)
 
 Panagrinėkime šabloną (Mr.|Mrs.)\s([A-Z\w]+\s[A-Z\w]+):
