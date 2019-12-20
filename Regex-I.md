@@ -71,6 +71,7 @@ išrinks didžiąsias raides, mažąsias raides ir skaičius nuo 0 iki 9. [ąč�
 o šiame puslapyje geriau su angliškais tekstais praktikuotis).
 
 07kazkas
+[](https://github.com/robotautas/kursas/blob/master/RegEx/07skliaustai.png)
 
 dar šiek tiek sintaksės:
 * ^ - ieško šablono tik iš eilutės pradžios *(\* Naudojamas laužtiniuose skliaustuose turi reikšmę NOT)*
