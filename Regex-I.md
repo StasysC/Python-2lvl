@@ -119,7 +119,7 @@ Paskutinė sintaksės porcija:
 Pvz.:
 
 12
-
+![](https://github.com/robotautas/kursas/blob/master/RegEx/12mrmrs.png)
 
 Panagrinėkime šabloną (Mr.|Mrs.)\s([A-Z\w]+\s[A-Z\w]+):
 * (Mr.|Mrs.) - ieško Mr. ARBA Mrs. Vienas iš dviejų.
