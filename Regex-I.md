@@ -73,7 +73,7 @@ o šiame puslapyje geriau su angliškais tekstais praktikuotis).
 07kazkas
 
 dar šiek tiek sintaksės:
-* ^ - ieško šablono tik iš eilutės pradžios
+* ^ - ieško šablono tik iš eilutės pradžios *(\* Naudojamas laužtiniuose skliaustuose turi reikšmę NOT)*
 * $ - ieško šablono tik iš eilutės pabaigos
 * \b - žodžio ribos simbolis
 
