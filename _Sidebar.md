@@ -33,7 +33,6 @@
 * [RegEx sintaksė](https://github.com/robotautas/kursas/wiki/Regex-I)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Regex-I-u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Regex-I-atsakymai)
-
 * [RegEx Python'e](https://github.com/robotautas/kursas/wiki/Regex-II)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Regex-II-u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Regex-II-atsakymai)
