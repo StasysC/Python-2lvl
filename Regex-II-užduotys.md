@@ -1,8 +1,8 @@
-#1\
+### #1
 parašykite funkciją, kuri įvestą datą (formatas dd.mm.yyyy) keistų į yyyy mm dd. 
 Dėl datų logikos nesirūpinkite, dirbame grynai su tekstu.
 
-#2\
+### #2
  ```python
 text = '''Workshop & Tutorial proposals: November 21, 2019
 Notification of acceptance: December 1, 2019
@@ -14,7 +14,7 @@ Tutorial material due (online): April 10, 2020'''
 ```
 Iš šio teksto atspausdinkite datų sąrašą.
 
-#3\ 
+### #3 
 Atspausdinkite tą patį teksta taip:
 
 ```python
@@ -29,7 +29,7 @@ Atspausdinkite tą patį teksta taip:
 # ir t.t.
 ```
 
-#4\ 
+### #4 
 Parašykite funkciją, kuri į parametrus priimtų teksta ir žodžių, kuriuos reikia jame išcenzūruoti sąrašą.
 Pvz, žodis "kvaraba" yra baisus keiksmažodis, ir mums reikia duotame tekste pakeisti k*****a. 
 Pradėkite maždaug taip:
@@ -43,7 +43,7 @@ cenzura('baisūs žodžiai, tokie kaip kvaraba, žaltys..', 'kvaraba', 'žaltys'
 # baisūs žodžiai, tokie kaip k*****a, ž****s..
 ```
 žodžių cenzūravimui naudokite regex, o jų sukeitimui tekste naudokite *.replace()*\
-#5
+### #5
 
 Išsaugokite visą tekstą iš nuorodos į failą:
 https://raw.githubusercontent.com/robotautas/kursas/master/RegEx/most_visited.html
