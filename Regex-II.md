@@ -65,6 +65,8 @@ print(validate_email('neteisingas@@email.lt'))
 
 Įsivaizduokite, kiek Python kodo reikėtų, norint parašyti analogišką funkciją nenaudojant regex :)
 
+# Grupavimas
+
 Kaip gauti naudos iš grupavimo? Tarkime, turime vardų sąrašą tokiu formatu - Mr. Phil Collins.
 Parašykime funkciją, kuri išskaido kreipinį, vardą ir pavardę:
 
