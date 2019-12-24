@@ -132,4 +132,72 @@ pattern.sub metode nurodytas '\\g<1> **** **** ****' argumentas yra mūsų pakei
 kuriame '\\g<1>' yra pirma grupė mūsų šablone. Ją paliekame nekeistą. likusią dalį 
 pakeičiame '\*' simboliais. Antras argumentas yra tekstas su kuriuo dirbame.
 
-**...Čia dar bus re flags...**
+re flags
+
+norėdami savo užklausoms pridėti papildomo funkcionalumo, galime naudoti *flags*.
+
+Iš dažniau naudojamų reikėtų paminėti šias:
+
+* *re.IGNORECASE* arba *re.I* - padaro jūsų užklausą case insensitive. t.y. nekreipia dėmesio, į didžiąsias - mažąsias raides.
+* *re.MULTILINE* arba *re.M* - elgiasi su jūsų tekstu kaip su daug eilučių turinčia struktūra, o ne žiūri kaip į vieną eilutę.
+* *re.VERBOSE arba *re.X* - leidžia jums suformuoti regex užklausą per kelias eilutes su komentarais. Prideda užklausoms skaitomumo.
+
+*flags* naudojimo pavyzdžiai:
+
+re.IGNORECASE:
+
+```python
+tekstas = '''Trumpas tekstas 
+apie beleką'''
+pattern = re.compile(r't\w+', re.I)
+res = pattern.findall(tekstas)
+print(res)
+
+# ['Trumpas', 'tekstas']
+```
+
+Čia turime užklausą žodžių iš t raidės. Matome, kaip pridėjus re.I, rezultate gauname žodžius iš t ir T.
+
+re.MULTILINE:
+
+```python
+tekstas = '''Trumpas tekstas 
+apie beleką'''
+
+pattern = re.compile(r'^\w+')
+res = pattern.findall(tekstas)
+
+pattern2 = re.compile(r'^\w+', re.M)
+res2 = pattern2.findall(tekstas)
+
+print(res)
+print(res2)
+
+#['Trumpas']
+#['Trumpas', 'apie']
+```
+
+re.VERBOSE:
+
+```python
+tekstas = 'Jonas Jonaitis +370 622 01234'
+pattern = re.compile(r'''
+                    [A-Z]\w+              # vardas
+                    \s                    # tarpas
+                    [a-z]\w+              # pavardė
+                    \s                    # tarpas
+                    \+370\s6\d{2}\s\d{5}  # telefono numeris
+                    ''', re.X | re.I)
+res = pattern.findall(tekstas)
+print(res) 
+
+# ['Jonas Jonaitis +370 622 01234']
+```
+
+atkreipkite dėmesį, šiame pavyzdyje panaudojome dvi vėliavėles - jas tarpusavyje kombinuoti leidžia '|' simbolis.
+
+Apie regex reikėtų žinoti , kad:
+
+* Nebūna 100% veikiančių regex užklausų, arba jos būna pernelyg ilgos ir visiškai neįskaitomos. Pvz. susiraskite oficialią regex užklausą e-mail adresams:)
+
+* RegEx yra labai plati tema, prirašyta nemažai storų knygų. Tai ką išmokome tėra pagrindai.
