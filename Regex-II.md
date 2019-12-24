@@ -105,6 +105,7 @@ pattern = re.compile(r'^(?P<kreipinys>[A-Z]\w{1,3}\.)\s([A-Z]\w+)\s([A-Z]\w+)$')
 print(f'Kreipinys: {result.group("kreipinys")}')
 ```
 Šiuo atveju nereikia sukti galvos, kelintoje grupėje mūsų norimas rezultatas.
+# .sub()
 
 RegEx galime pasitelkti ir simbolių eilučių pakeitimams. Tam naudojamas metodas re.sub():
 
