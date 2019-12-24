@@ -132,4 +132,4 @@ pattern.sub metode nurodytas '\\g<1> **** **** ****' argumentas yra mūsų pakei
 kuriame '\\g<1>' yra pirma grupė mūsų šablone. Ją paliekame nekeistą. likusią dalį 
 pakeičiame '\*' simboliais. Antras argumentas yra tekstas su kuriuo dirbame.
 
-<!--**...Čia dar bus re flags...**-->
+**...Čia dar bus re flags...**
