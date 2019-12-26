@@ -39,4 +39,4 @@
 
 **NumPy**
 
-* [NumPy arrays]()
+* [NumPy arrays](https://github.com/robotautas/kursas/blob/master/NumPy/numpy.ipynb)
