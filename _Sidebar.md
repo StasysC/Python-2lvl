@@ -36,3 +36,7 @@
 * [RegEx Python'e](https://github.com/robotautas/kursas/wiki/Regex-II)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Regex-II-u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Regex-II-atsakymai)
+
+**NumPy**
+
+* [NumPy arrays]()
