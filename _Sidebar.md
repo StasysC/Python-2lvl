@@ -1,19 +1,3 @@
-**Įžanga**
-
-* Kodėl Python?
-* Ką išmoksime?
-
-**Darbo aplinkos diegimas**
-
-* Python diegimas Windows
-* Pip diegimas
-* Dar kažkas
-
-**Kintamieji**
-
-* Kintamųjų tipai
-* Kintamojo tipo keitimas
-
 **Dekoratoriai**
 
 * [Dekoratoriai I](https://github.com/robotautas/kursas/wiki/Dekoratoriai-I)
