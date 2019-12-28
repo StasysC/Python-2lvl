@@ -40,3 +40,5 @@
 **NumPy**
 
 * [NumPy arrays](https://github.com/robotautas/kursas/blob/master/NumPy/numpy.ipynb)
+* [Užduotys](https://github.com/robotautas/kursas/blob/master/NumPy/Uzduotys.ipynb)
+* [Atsakymai](https://github.com/robotautas/kursas/blob/master/NumPy/Atsakymai.ipynb)
