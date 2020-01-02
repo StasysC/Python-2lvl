@@ -29,10 +29,10 @@
 
 **Requests, JSON, API**
 
-* [Requests]()
+* [Requests](https://github.com/robotautas/kursas/wiki/Requests)
 * [Užduotys]()
 * [Atsakymai]()
-* [JSON]()
+* [JSON](https://github.com/robotautas/kursas/wiki/JSON)
 * [Užduotys]()
 * [Atsakymai]()
 * [API's naudojimas]()
