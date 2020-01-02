@@ -26,3 +26,15 @@
 * [NumPy arrays](https://github.com/robotautas/kursas/blob/master/NumPy/numpy.ipynb)
 * [Užduotys](https://github.com/robotautas/kursas/blob/master/NumPy/Uzduotys.ipynb)
 * [Atsakymai](https://github.com/robotautas/kursas/blob/master/NumPy/Atsakymai.ipynb)
+
+**Requests, JSON, API**
+
+* [Requests]()
+* [Užduotys]()
+* [Atsakymai]()
+* [JSON]()
+* [Užduotys]()
+* [Atsakymai]()
+* [API's naudojimas]()
+* [Užduotys]()
+* [Atsakymai]()
