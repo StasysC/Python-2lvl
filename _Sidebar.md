@@ -31,7 +31,7 @@
 
 * [Requests](https://github.com/robotautas/kursas/wiki/Requests)
 * [Užduotys]()
-* [Atsakymai]()
+* [Atsakymai](https://github.com/robotautas/kursas/wiki/Requests-atsakymai)
 * [JSON](https://github.com/robotautas/kursas/wiki/JSON)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/JSON-U%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/JSON-Atsakymai)
