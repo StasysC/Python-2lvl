@@ -41,6 +41,8 @@ for month in months:
 # 2019-08-15     EUR-USD    1.115
 # 2019-09-15     EUR-USD    1.1096
 # 2019-10-15     EUR-USD    1.1007
+# 2019-11-15     EUR-USD    1.1034
+# 2019-12-15     EUR-USD    1.1174
 ```
  
  Šiame pavyzdyje matome, kaip nesudėtingai galime gauti EUR-USD kasmėnesinius kurso pokyčius. Rezultatą galime panaudoti 
