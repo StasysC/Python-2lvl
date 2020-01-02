@@ -47,3 +47,31 @@ for month in months:
  
  Šiame pavyzdyje matome, kaip nesudėtingai galime gauti EUR-USD kasmėnesinius kurso pokyčius. Rezultatą galime panaudoti 
  kur tik norime, atlikti papildomus skaičiavimus, braižyti grafikus, vaizduoti juos interneto tinklalapyje ir t.t.
+ 
+ Kai kurios API paslaugas teikiančios svetainės reikalauja registracijos, tam, kad išvengtų piktnaudžiavimo, ir galėtų 
+ taikyti įvairius apribojimus (užklausų per dieną ir t.t.). Jums užsiregisravus, gausite su jūsų duomenimis susietą *apiKey*, 
+ be kurį, priklausomai nuo dokumentacijos turėsite nurodyti, vykdydami užklausą.
+ 
+ Pvz, užsiregistravus https://pixabay.com/ dokumentacijoje rasite jums priklausantį API raktą:
+ ```python
+import webbrowser as wb
+import requests
+import json
+
+API_key = '14795746-624081efd179b5bd9be0efe43'
+
+
+def open_first(query):
+    payload = {'key': API_key, 'q': query, 'img_type': 'photo', 'pretty': 'true'}
+    r = requests.get('https://pixabay.com/api/', params=payload)
+    json_str = r.text
+    result = json.loads(json_str)
+    wb.open_new_tab(result['hits'][1]['largeImageURL'])
+
+open_first('elephant')
+```
+Čia yra programėlė, kuri naršyklėje atidaro pirmą nuotrauką pagal paiešką. Dokumentacijoje nurodyta, 
+kad API raktas turi būti nurodytas URL eilutės parametruose, ten jį ir įdėjome. 
+[Webbrowser](https://docs.python.org/2/library/webbrowser.html) yra paprasta biblioteka, valdanti naršyklę.
+Beje, neviešinkite savo API rakto, nes gali atsirasti piktnaudžiautojų, dėl kurių veiksmų jums gali būti 
+apribota paslauga, kai kuriais atvejais (pvz. Google) išrašyta sąskaita. 
