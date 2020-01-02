@@ -33,7 +33,7 @@
 * [Užduotys]()
 * [Atsakymai]()
 * [JSON](https://github.com/robotautas/kursas/wiki/JSON)
-* [Užduotys]()
+* [Užduotys](https://github.com/robotautas/kursas/wiki/JSON-U%C5%BEduotys)
 * [Atsakymai]()
 * [API's naudojimas]()
 * [Užduotys]()
