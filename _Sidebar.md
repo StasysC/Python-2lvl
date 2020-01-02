@@ -30,7 +30,7 @@
 **Requests, JSON, API**
 
 * [Requests](https://github.com/robotautas/kursas/wiki/Requests)
-* [Užduotys]()
+* [Užduotys](https://github.com/robotautas/kursas/wiki/Requests-u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Requests-atsakymai)
 * [JSON](https://github.com/robotautas/kursas/wiki/JSON)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/JSON-U%C5%BEduotys)
