@@ -2,6 +2,8 @@
 
 atsisiųskite šį failą (uzduotis.json). parašykite programą, kuri nuskaitys failo turinį ir performuos jį taip:
 
+
+```json
 {
   "colors": [
     {
@@ -14,6 +16,7 @@ atsisiųskite šį failą (uzduotis.json). parašykite programą, kuri nuskaitys
       "rgb": "0, 0, 0",
       "hex": "#FFF"
     }
-    ......... etc.
+```
+ir t.t.
     
 Išsaugokite rezultatą į .json failą savo kompiuteryje.
