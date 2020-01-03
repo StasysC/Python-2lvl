@@ -36,5 +36,5 @@
 * [Užduotys](https://github.com/robotautas/kursas/wiki/JSON-U%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/JSON-Atsakymai)
 * [API's naudojimas](https://github.com/robotautas/kursas/wiki/API's)
-* [Užduotys]()
+* [Užduotys](https://github.com/robotautas/kursas/wiki/API's-u%C5%BEduotys)
 * [Atsakymai]()
