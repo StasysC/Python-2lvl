@@ -12,8 +12,7 @@ get_rate('ZZZ', 'GBP')
 # 2
 Sukurkite programą, kuri ieškotų receptų pagal parametruose pateiktą reikšmę ir išsaugotų rezultatą 
 <paieškos žodis>.html faile. Paskui atidarytų tą failą naršyklėje (*import webbrowser*). Naudokite šį 
-[resursą](http://www.recipepuppy.com/about/api/). Rezultatas turėtų atrodyti maždaug taip:\ 
-![](https://github.com/robotautas/kursas/blob/master/requests/salmon.png?raw=true)
+[resursą](http://www.recipepuppy.com/about/api/). Rezultatas turėtų atrodyti maždaug [taip:](https://github.com/robotautas/kursas/blob/master/requests/salmon.png)
 
 # 3
 Naudodami tą pačią Frankfurter API (kaip ir pirmoje užduotyje), sukurkite programą, kuri pagal parametruose pateiktas valiutų poras, 
