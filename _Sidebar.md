@@ -28,15 +28,15 @@
 * [Atsakymai](https://github.com/robotautas/kursas/blob/master/NumPy/Atsakymai.ipynb)
 
 **Pandas**
-[Pandas I]()
-[Užduotys I]()
-[AtsakymaiI]()
-[Pandas II]()
-[Užduotys II]()
-[Atsakymai II]()
-[Pandas III]()
-[Užduotys III]()
-[Atsakymai III]()
+* [Pandas I]()
+* [Užduotys I]()
+* [AtsakymaiI]()
+* [Pandas II]()
+* [Užduotys II]()
+* [Atsakymai II]()
+* [Pandas III]()
+* [Užduotys III]()
+* [Atsakymai III]()
 
 **Requests, JSON, API**
 
