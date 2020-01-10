@@ -30,7 +30,7 @@
 **Pandas**
 * [Pandas I]()
 * [Užduotys I]()
-* [AtsakymaiI]()
+* [Atsakymai I]()
 * [Pandas II]()
 * [Užduotys II]()
 * [Atsakymai II]()
