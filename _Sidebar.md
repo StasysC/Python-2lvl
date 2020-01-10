@@ -28,13 +28,13 @@
 * [Atsakymai](https://github.com/robotautas/kursas/blob/master/NumPy/Atsakymai.ipynb)
 
 **Pandas**
-* [Pandas I]()
+* [Pandas I](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas%201.ipynb)
 * [Užduotys I]()
 * [Atsakymai I]()
-* [Pandas II]()
+* [Pandas II](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_2.ipynb)
 * [Užduotys II]()
 * [Atsakymai II]()
-* [Pandas III]()
+* [Pandas III](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_3.ipynb)
 * [Užduotys III]()
 * [Atsakymai III]()
 
