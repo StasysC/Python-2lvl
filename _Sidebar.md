@@ -30,7 +30,7 @@
 **Pandas**
 * [Pandas I](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas%201.ipynb)
 * [Užduotys I]()
-* [Atsakymai I]()
+* [Atsakymai I](https://github.com/robotautas/kursas/blob/master/Pandas/pandas_atsakymai1.ipynb)
 * [Pandas II](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_2.ipynb)
 * [Užduotys II]()
 * [Atsakymai II]()
