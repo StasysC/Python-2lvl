@@ -29,14 +29,14 @@
 
 **Pandas**
 * [Pandas I](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas%201.ipynb)
-* [Užduotys I]()
+* [Užduotys I](https://github.com/robotautas/kursas/blob/master/Pandas/pandas_uzduotys1.ipynb)
 * [Atsakymai I](https://github.com/robotautas/kursas/blob/master/Pandas/pandas_atsakymai1.ipynb)
 * [Pandas II](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_2.ipynb)
-* [Užduotys II]()
-* [Atsakymai II]()
+* [Užduotys II](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_uzduotys2.ipynb)
+* [Atsakymai II](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_atsakymai_2.ipynb)
 * [Pandas III](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_3.ipynb)
-* [Užduotys III]()
-* [Atsakymai III]()
+* [Užduotys III](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_uzduotys3.ipynb)
+* [Atsakymai III](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_atsakymai3.ipynb)
 
 **Requests, JSON, API**
 
