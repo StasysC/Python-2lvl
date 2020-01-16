@@ -38,6 +38,11 @@
 * [Užduotys III](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_uzduotys3.ipynb)
 * [Atsakymai III](https://github.com/robotautas/kursas/blob/master/Pandas/Pandas_atsakymai3.ipynb)
 
+**Seaborn**
+* [Seaborn](https://github.com/robotautas/kursas/blob/master/Seaborn/Seaborn.ipynb)
+* [Užduotys]()
+* [Atsakymai]()
+
 **Requests, JSON, API**
 
 * [Requests](https://github.com/robotautas/kursas/wiki/Requests)
