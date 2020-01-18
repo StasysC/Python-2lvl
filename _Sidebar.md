@@ -40,8 +40,8 @@
 
 **Seaborn**
 * [Seaborn](https://github.com/robotautas/kursas/blob/master/Seaborn/Seaborn.ipynb)
-* [Užduotys]()
-* [Atsakymai]()
+* [Užduotys](https://github.com/robotautas/kursas/blob/master/Seaborn/seaborn_uzduotys.ipynb)
+* [Atsakymai](https://github.com/robotautas/kursas/blob/master/Seaborn/seaborn_atsakymai.ipynb)
 
 **Mašininis mokymąsis**
 * [Tiesinės regresijos modelis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression.ipynb)
