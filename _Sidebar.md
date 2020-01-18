@@ -58,4 +58,4 @@
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/JSON-Atsakymai)
 * [API's naudojimas](https://github.com/robotautas/kursas/wiki/API's)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/API's-u%C5%BEduotys)
-* [Atsakymai](https://github.com/robotautas/kursas/wiki/API's-atsakymai)
+* [Atsakymai](<!--https://github.com/robotautas/kursas/wiki/API's-atsakymai-->)
