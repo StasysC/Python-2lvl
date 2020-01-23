@@ -47,6 +47,12 @@
 * [Tiesinės regresijos modelis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression.ipynb)
 * [Užduotis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression__uzduotis.ipynb)
 * [Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression_atsakymas.ipynb)
+* [Modeliai - klasifikatoriai](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/logistical_regression.ipynb)
+* [Užduotis]()
+* [Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_atsakymas.ipynb)
+* [Modeliai praktikoje](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/modelio_naudojimas.ipynb)
+* [Užduotis](https://github.com/robotautas/kursas/wiki/ML-Praktikoje-U%C5%BEduotis)
+* [Atsakymas]()
 
 **Requests, JSON, API**
 
