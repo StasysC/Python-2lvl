@@ -7,7 +7,7 @@ Sukurkite Flask'o web-programėlę, kurioje į laukelius suvedę gėlės išmata
 * tame pat faile sukurkite funkciją, kuri priimtų gėlės išmatavimus ir grąžintų prognozę.
 * Sukurkite Flask programėlę, kuri generuos puslapį, kuriame bus forma į kurią bus suvedami gėlių išmatavimai.
 * Išgaudykite tuos suvedamus duomenis, praleiskite per regex filtrą, ir atiduokite ML funkcijai, iš kurios pasiėmę rezultatus, siųskite į template. 
-* programos - demonstracija (nuoroda).
+* programos - demonstracija ![](https://github.com/robotautas/kursas/raw/master/Machine%20Learning/webapp_demo.mkv).
 
   
 
