@@ -52,7 +52,7 @@
 * [Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_atsakymas.ipynb)
 * [Modeliai praktikoje](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/modelio_naudojimas.ipynb)
 * [Užduotis](https://github.com/robotautas/kursas/wiki/ML-Praktikoje-U%C5%BEduotis)
-* [Atsakymas]()
+* [Atsakymas (kodas su komentarais)](https://github.com/robotautas/kursas/tree/master/Machine%20Learning/ML_flask)
 
 **Requests, JSON, API**
 
