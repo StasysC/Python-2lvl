@@ -67,7 +67,7 @@
 * [Atsakymai](<!--https://github.com/robotautas/kursas/wiki/API's-atsakymai-->)
 
 **Flask**
-* [Įžanga]()
+* [Įžanga](https://github.com/robotautas/kursas/wiki/Flask----%C4%AF%C5%BEanga)
 * [Užduotys]()
 * [I dalis]()
 * [Užduotis]()
