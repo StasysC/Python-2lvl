@@ -65,3 +65,11 @@
 * [API's naudojimas](https://github.com/robotautas/kursas/wiki/API's)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/API's-u%C5%BEduotys)
 * [Atsakymai](<!--https://github.com/robotautas/kursas/wiki/API's-atsakymai-->)
+
+**Flask**
+* [Įžanga]()
+* [Užduotys]()
+* [I dalis]()
+* [Užduotis]()
+* [I dalies kodas (atsakymas)]()
+
