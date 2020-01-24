@@ -18,7 +18,7 @@ if __name__ == "__main__":
  app.run(debug=True)
 ```
 Gauname rezultatą:\
-![](minimalus_puslapis.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/Izanga/minimalus_puslapis.png)
 
 ### Kaip puslapyje atvaizduoti įvestą kintamąjį:
 
@@ -31,7 +31,7 @@ def user(name):
 if __name__ == "__main__":
  app.run()
 ```
-![](labas_donatas.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/Izanga/labas_donatas.png)
 
 ### Kaip sukurti ir panaudoti HTML šabloną:
 Main faile:
@@ -58,7 +58,7 @@ templates/index.html:
 </html>
 ```
 
-![](pirmas_template.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/Izanga/pirmas_template.png)
 
 ### Įdėkime į šabloną šiek tiek logikos:
 
@@ -80,7 +80,7 @@ templates/index.html:
 </html>
 ```
 
-![](Logika_sablone.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/Izanga/Logika_sablone.png)
 
 ### Kaip kintamuosius perkelti į šabloną:
 
@@ -112,7 +112,7 @@ if __name__ == "__main__":
 </html>
 ```
 
-![](kintamieji_i_sablona.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/Izanga/kintamieji_i_sablona.png)
 
 ### Kaip perduoti duomenis iš svetainės į programą:
 
@@ -154,7 +154,7 @@ login.html:
 </html>
 ```
 
-![](forma_vardas_submit.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/Izanga/forma_vardas_submit.png)
 
 greetings.html:
 
@@ -171,4 +171,4 @@ greetings.html:
 </html>
 ```
 
-![](Antanas_greetings.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/Izanga/Antanas_greetings.png)
