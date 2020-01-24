@@ -41,7 +41,7 @@ Komentaruose šiek tiek informacijos, kas vyksta. Dabar mums reikės susikurti h
 
 Patikrinkime, ar veikia:
 
-![](flaskflaskflask.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/flaskflaskflask.png)
 
 ### Logikos naudojimas šablonuose:
 
@@ -100,7 +100,7 @@ Dabar dirbsime su šablonu. Pradžiai tiesiog perduokime kintamąjį į *body*:
 </body>
 ```
 
-![](perduotas1_kintamasis.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/perduotas1_kintamasis.png)
 
 Čia yra grubus žodynų sąrašo perdavimas, jį ir matome. Pabandykime tai paversti straipsnių puslapiu:
 
@@ -118,7 +118,7 @@ Dabar dirbsime su šablonu. Pradžiai tiesiog perduokime kintamąjį į *body*:
 </body>
 ```
 
-![](straipsniai.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/straipsniai.png)
 
 Matome, kaip galime iteruoti per duomenis html'e. Pamėginkime įtraukti if logiką. Pradžiai papildykime 'duomenų bazę'. Kiekviename žodyne įtraukime 'status'. Dalies statusas bus 'published', dalies 'unpublished':
 
@@ -150,7 +150,7 @@ Matome, kaip galime iteruoti per duomenis html'e. Pamėginkime įtraukti if logi
 </body>
 ```
 
-![](su_if.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/su_if.png)
 
 Matome, kad straipsnis su statusu != 'published' nebuvo publikuotas.
 Kaip ir python'e, galima naudoti *{%elif %}* ir *{% else %}*. Pvz.:
@@ -174,7 +174,7 @@ Kaip ir python'e, galima naudoti *{%elif %}* ir *{% else %}*. Pvz.:
 </body>
 ```
 
-![](su_else.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/su_else.png)
 
 # Paveldėjimas šablonuose
 
@@ -188,7 +188,7 @@ Dažniausiai interneto svetainės turi struktūrą, kai kiekviename puslapyje at
 
 Rezultatas atrodys maždaug taip:
 
-![](bootstraped.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/bootstraped.png)
 
 
 Įsivaizduokime, kad mums reikės dar puslapio 'apie', galbūt dar keleto puslapių ateityje. Visi jie turės tą patį bootstrap'ą, ir tą pačią navigacijos panelę. 
@@ -276,6 +276,6 @@ susikurkime dar vieną šabloną, about.html:
 
 Svetainėje, paspaudę nuorodą atsidursime puslapyje "Apie":
 
-![](about.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/about.png)
 
 Naudodami šablonų paveldėjimą, išvengiame daugybės pasikartojančio kodo. Jeigu, pvz reikėtų padaryti pakeitimus navigacijoje, juos darytumėm tik viename faile. O turinio failai gaunasi labai sutrumpinti. 
