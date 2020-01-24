@@ -69,7 +69,7 @@
 **Flask**
 * [Įžanga](https://github.com/robotautas/kursas/wiki/Flask----%C4%AF%C5%BEanga)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Flask---%C4%AF%C5%BEanga---u%C5%BEduotys)
-* [I dalis]()
+* [I dalis](https://github.com/robotautas/kursas/wiki/Flask-1-dalis)
 * [Užduotis]()
 * [I dalies kodas (atsakymas)]()
 
