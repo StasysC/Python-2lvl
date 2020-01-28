@@ -64,7 +64,7 @@
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/JSON-Atsakymai)
 * [API's naudojimas](https://github.com/robotautas/kursas/wiki/API's)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/API's-u%C5%BEduotys)
-* [Atsakymai](<!--https://github.com/robotautas/kursas/wiki/API's-atsakymai-->)
+* [Atsakymai](https://github.com/robotautas/kursas/wiki/API's-atsakymai)
 
 **Flask**
 * [Įžanga](https://github.com/robotautas/kursas/wiki/Flask----%C4%AF%C5%BEanga)
