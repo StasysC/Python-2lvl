@@ -12,8 +12,8 @@ Sugeneruokite CSV failą, kuriame būtų stulpeliai IP,Country,City,Temp,Weather
 
 Naudokite šias API:
 
-https://freegeoip.app/\
-https://api.met.no/weatherapi/locationforecast/2.0/documentation
+* https://freegeoip.app/
+* https://api.met.no/weatherapi/locationforecast/2.0/documentation
 
 Hints:
 
@@ -30,7 +30,7 @@ with open('ip_data.csv', 'a') as f: # nurodome failo pavadinimą, ir kad norėsi
         writer.writerow(['IP', 'Country', 'City', 'Temp', 'Weather']) # objekto 'writerow' metodui perduodame iš esmės bet kokį sąrašą.
 ```
 
-
+* Nepadavinėkite iš karto visų reikšmių, susikurkite testinę iškarpą, ar iš viso po vieną IP testavimui naudokite. Ir darbas bus greitesnis, ir su apribojimais mažesnė tikimybė susidurti:)
 
 
 
