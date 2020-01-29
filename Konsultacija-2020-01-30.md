@@ -12,7 +12,7 @@ Sugeneruokite CSV failą, kuriame būtų stulpeliai IP,Country,City,Temp,Weather
 
 Naudokite šias API:
 
-https://freegeoip.app/
+https://freegeoip.app/\
 https://api.met.no/weatherapi/locationforecast/2.0/documentation
 
 Hints:
