@@ -32,7 +32,8 @@ with open('ip_data.csv', 'a') as f: # nurodome failo pavadinimą, ir kad norėsi
 
 * Nepadavinėkite iš karto visų reikšmių, susikurkite testinę iškarpą, ar iš viso po vieną IP testavimui naudokite. Ir darbas bus greitesnis, ir su apribojimais mažesnė tikimybė susidurti:)
 
-
+### TEXTBLOB
+nuoroda: https://textblob.readthedocs.io/en/dev/
 
  
 
