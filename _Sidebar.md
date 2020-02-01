@@ -21,6 +21,11 @@
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Regex-II-u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Regex-II-atsakymai)
 
+**Pillow**
+* [Darbas su nuotraukomis]()
+* [Užduotys]()
+* [Atsakymai]()
+
 **NumPy**
 
 * [NumPy arrays](https://github.com/robotautas/kursas/blob/master/NumPy/numpy.ipynb)
