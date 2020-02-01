@@ -22,9 +22,9 @@
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Regex-II-atsakymai)
 
 **Pillow**
-* [Darbas su nuotraukomis]()
-* [Užduotys]()
-* [Atsakymai]()
+* [Darbas su nuotraukomis](https://github.com/robotautas/kursas/wiki/Pillow)
+* [Užduotys](https://github.com/robotautas/kursas/wiki/Pillow-u%C5%BEduotys)
+* [Atsakymai](https://github.com/robotautas/kursas/wiki/Pillow-atsakymai)
 
 **NumPy**
 
