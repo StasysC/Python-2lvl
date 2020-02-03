@@ -25,7 +25,7 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
 
 Čia yra paprasta programėlė, kurioje matosi visas laiškų siuntimo mechanizmas. Komentaruose matome šiek tiek detalių.
 
-![](pirmas_laiskas.png)
+![](https://github.com/robotautas/kursas/blob/master/Email/MDs/pirmas_laiskas.png)
 
 ## HTML laiškų siuntimas
 
@@ -83,7 +83,7 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
 
  Sukurdami žinutės objektą, *.set_content* parametruose nurodome, kintamąjį su turiniu, ir kad norėsime 'html' formato. Visa kita vyksta analogiškai, kaip ir siunčiant paprastą žinutę.
 
-![](html.png)
+![](https://github.com/robotautas/kursas/blob/master/Email/MDs/html.png)
 
 Deja, CSS palaikymas yra sunkiai prognozuojamas, todėl fono spalva nepasikeitė. Taip yra todėl, kad bandome sumaišyti savo CSS su gmail'o CSS.
 
@@ -129,7 +129,7 @@ Tokiu būdu, iteruodami kokį nors žodyną, kiekvienam adresatui galime parinkt
 
 Template galima naudoti ne tik su html, bet ir su bet kokiais tekstais, pvz kad ir su paprasta *str* eilute. Ir ne tik su email operacijomis.
 
-![](sveiki_donatas.png)
+![](https://github.com/robotautas/kursas/blob/master/Email/MDs/sveiki_donatas.png)
 
 ## Prisegtukų prisegimas
 
@@ -175,7 +175,7 @@ Kad būtų lengviau susiorientuoti, ką nurodyti parametruose - [nuoroda](https:
 
 Laikmenos tipas (dar žinomas kaip daugiafunkcinis interneto pašto plėtinys arba MIME tipas) yra standartas, nurodantis dokumento, failo ar *baitų išrūšiavimo* pobūdį ir formatą.
 
-![](elephant.png)
+![](https://github.com/robotautas/kursas/blob/master/Email/MDs/elephant.png)
 
 jeigu norime prisegti keletą prisegtukų, **importuojame mimetypes** ir dalį,atsakingą už prisegtukus pertvarkome taip:
 
@@ -208,4 +208,4 @@ print(subtype)
 
 rezultatas:
 
-![](elhippo.png)
+![](https://github.com/robotautas/kursas/blob/master/Email/MDs/elhippo.png)
