@@ -82,4 +82,9 @@
 * [I dalis](https://github.com/robotautas/kursas/wiki/Flask-1-dalis)
 * [Užduotis](https://github.com/robotautas/kursas/blob/master/Flask/MDs/1%20dalis/1uzduotis.md)
 * [I dalies kodas (atsakymas)](https://github.com/robotautas/kursas/tree/master/Flask/Code/1%20dalis)
+* [II dalis](https://github.com/robotautas/kursas/wiki/Flask-2-dalis)
+* [Užduotis](https://github.com/robotautas/kursas/wiki/Flask-2-U%C5%BEduotis)
+* [Atsakymas (kodas)](https://github.com/robotautas/kursas/tree/master/Flask/Flask%202%20dalis/MDs/uzduotis)
+
+
 
