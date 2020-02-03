@@ -130,7 +130,7 @@ sukurkime naują šabloną add_article.html:
 
 užeikime į "Rašyti straipsnį" nuorodą:
 
-![https://github.com/robotautas/kursas/blob/master/Flask/Flask%202%20dalis/MDs/](straipsnio_forma.png)
+![](https://github.com/robotautas/kursas/blob/master/Flask/Flask%202%20dalis/MDs/straipsnio_forma.png)
 
 Turime neveikiančią formą.
 
