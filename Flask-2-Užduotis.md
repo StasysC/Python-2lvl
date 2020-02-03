@@ -1,4 +1,4 @@
-# Užduotys
+# Užduotis
 
 ### 1
 sukurkite flask registracijos puslapį, kuriame būtų panaudotas Bootstrap, veikianti žemiau nurodyta forma su csrf apsauga, ir sėkmės puslapis, kuriame bus išgaudytos visos laukų reikšmės. Apdėliokite formą validacijos filtrais, ir padarykite taip, kad nesėkmės atveju vartotojas matytų klaidas. Kadangi šablonai bus 2 (forma ir success puslapis), sukurkite base.httml, iš kurios jie paveldėtų titulinę dalį ir JS nuorodas.
