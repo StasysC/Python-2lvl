@@ -26,6 +26,11 @@
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Pillow-u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Pillow-atsakymai)
 
+**Email**
+* [El. pašto siuntimas](https://github.com/robotautas/kursas/wiki/Email)
+* [Užduotys](https://github.com/robotautas/kursas/wiki/Email-u%C5%BEduotys)
+* [Atsakymai](https://github.com/robotautas/kursas/wiki/Email-atsakymai)
+
 **NumPy**
 
 * [NumPy arrays](https://github.com/robotautas/kursas/blob/master/NumPy/numpy.ipynb)
