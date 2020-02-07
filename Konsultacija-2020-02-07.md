@@ -25,3 +25,5 @@ Bonus: Leiskite vartotojui pasirinkti, iš kiek valiutų jis nori lentelės (iki
 Rezultatas turi atrodyti maždaug taip:
 
 ![](https://github.com/robotautas/kursas/blob/master/konsultacijos/0207/MDs/arbitrage.png)
+
+# [Atsakymas](https://github.com/robotautas/kursas/tree/master/konsultacijos/0207/Code)
