@@ -36,4 +36,4 @@ with open('ip_data.csv', 'a') as f: # nurodome failo pavadinimą, ir kad norėsi
 nuoroda: https://textblob.readthedocs.io/en/dev/
 
  
-
+# [ATSAKYMAS](https://github.com/robotautas/kursas/blob/master/konsultacijos/0130/sav_darbas.py)
