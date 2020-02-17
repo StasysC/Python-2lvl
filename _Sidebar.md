@@ -88,7 +88,7 @@
 * [III dalis](https://github.com/robotautas/kursas/wiki/Flask-3-dalis)
 * [Užduotis]()
 * [Atsakymas]()
-* [IV dalis]()
+* [IV dalis](https://github.com/robotautas/kursas/wiki/Flask-4-dalis)
 * [Užduotis]()
 * [Atsakymas]()
 
