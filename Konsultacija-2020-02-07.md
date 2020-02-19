@@ -27,3 +27,5 @@ Rezultatas turi atrodyti maždaug taip:
 ![](https://github.com/robotautas/kursas/blob/master/konsultacijos/0207/MDs/arbitrage.png)
 
 # [Atsakymas](https://github.com/robotautas/kursas/tree/master/konsultacijos/0207/Code)
+
+*Update(2020-02-19):* API laikinai, o gal ir ne laikinai nustojo reaguoti į tam tikrų monetų ID bandant ištraukti pasiūlymus iš keityklų. Response grąžina None, ir tai sugadina žodyno struktūrtą. Išspręsti rekomenduočiau naudojant try/except blokus arba if/else. 
