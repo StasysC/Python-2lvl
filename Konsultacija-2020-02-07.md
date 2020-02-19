@@ -28,4 +28,4 @@ Rezultatas turi atrodyti maždaug taip:
 
 # [Atsakymas](https://github.com/robotautas/kursas/tree/master/konsultacijos/0207/Code)
 
-**Update(2020-02-19):** API laikinai, o gal ir ne laikinai nustojo reaguoti į tam tikrų monetų ID bandant ištraukti pasiūlymus iš keityklų. Response grąžina None, ir tai sugadina žodyno struktūrtą. Išspręsti rekomenduočiau naudojant try/except blokus arba if/else. 
+**Update(2020-02-19):** API laikinai, o gal ir ne laikinai nustojo reaguoti į tam tikrų monetų ID bandant ištraukti pasiūlymus iš keityklų. Response grąžina None, ir tai sugadina žodyno struktūrtą. Išspręsti rekomenduočiau naudojant try/except blokus arba if/else. Arba perdarant struktūrą į json friendly, nurodant, kad nepavyko gauti duomenų.
