@@ -180,8 +180,8 @@ Kaip ir python'e, galima naudoti *{%elif %}* ir *{% else %}*. Pvz.:
 
 Dažniausiai interneto svetainės turi struktūrą, kai kiekviename puslapyje atsikartoja tam tikri komponentai. Tai gali būti titulinė puslapio dalis, *\<head>* komponentai, navigacijos panelė, *footer'is*, nuorodos į CSS, JavaScript ir pan. Jinja2 turi mechanizmą, leidžiantį mums kiekvieną kartą nerašyti į šabloną šių komponentų, t.y. išsaugoti juos atskirai ir naudoti tik nuorodas į juos. Pabandykime pritaikyti praktikoje.
 
-* Pasiskolinkime standartinį išdėstymą iš [čia](view-source:https://blackrockdigital.github.io/startbootstrap-bare/). 
-* Išsaugokime į kokį nors html failą. 
+* Pasiskolinkime standartinį išdėstymą iš [čia](https://blackrockdigital.github.io/startbootstrap-bare/).  
+* Nusikopijuokime nuorodos HTML'ą  į kokį nors html failą. 
 * Pakeiskime lokalias css ir JavaScript nuorodas į [Bootstrap CDN](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 * Perkelkime savo \<body> dalį vietoje tos dalies, kuri yra po komentaru \<!-- Page Content -->
 * senąjį failą pervadinkime backup.html, naująjį - index html.
