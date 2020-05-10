@@ -105,4 +105,6 @@
 * [9. Registracija, Formos]()
 * [10. Diegimas į serverį]()
 
+* [Kodas iki 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code/mysite)
+* [Kodas nuo 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code_nuo_6/mysite)
 
