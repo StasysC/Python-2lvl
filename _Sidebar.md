@@ -96,10 +96,10 @@
 
 * [1. Įžanga](https://github.com/robotautas/kursas/blob/master/Django/MDs1/django1.md)
 * [2. Modeliai](https://github.com/robotautas/kursas/blob/master/Django/MDs2/django2.md)
-* [3. Admin Panel](https://github.com/robotautas/kursas/blob/master/Django/MDs3/django3.md)
+* [3. Administratoriaus svetainė](https://github.com/robotautas/kursas/blob/master/Django/MDs3/django3.md)
 * [4. Šablonai](https://github.com/robotautas/kursas/blob/master/Django/MDs4/django4.md)
 * [5. Views](https://github.com/robotautas/kursas/blob/master/Django/MDs5/django5.md)
-* [6. Puslapiacija, Paieška, Nuotraukos](https://github.com/robotautas/kursas/blob/master/Django/MDs6/django6.md)
+* [6. Puslapiavimas, Paieška, Nuotraukos](https://github.com/robotautas/kursas/blob/master/Django/MDs6/django6.md)
 * [7. Autorizacija](https://github.com/robotautas/kursas/blob/master/Django/MDs7/django7.md)
 * [8. Vartotojai II, turinio valdymo sistema](https://github.com/robotautas/kursas/blob/master/Django/MDs8/django8.md)
 * [9. Registracija, Formos](https://github.com/robotautas/kursas/blob/master/Django/MDs9/django9.md)
