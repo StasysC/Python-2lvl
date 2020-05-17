@@ -103,7 +103,7 @@
 * [7. Autorizacija](https://github.com/robotautas/kursas/blob/master/Django/MDs7/django7.md)
 * [8. Vartotojai II, turinio valdymo sistema](https://github.com/robotautas/kursas/blob/master/Django/MDs8/django8.md)
 * [9. Registracija, Formos](https://github.com/robotautas/kursas/blob/master/Django/MDs9/django9.md)
-* [10. Diegimas į serverį]()
+* [10. Diegimas į serverį](https://github.com/robotautas/kursas/blob/master/Django/MDs10/django10.md)
 
 * [Kodas iki 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code/mysite)
 * [Kodas nuo 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code_nuo_6/mysite)
