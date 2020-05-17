@@ -1,4 +1,4 @@
-Užduotis: Autoservisas
+## Užduotis: Autoservisas
 
 Sukurti programą su Django framework'u, kuri leistų įvesti autoservisų informaciją:
 * Taisymo užsakymus (su kliento vardu, automobiliu, bendra suma ir atskiromis eilutėmis su atliktomis paslaugomis, kiekiais ir kainomis)
