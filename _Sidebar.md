@@ -93,8 +93,7 @@
 * [Atsakymas]()
 
 **Django**
-[Užduotis: Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas)
-
+* [Užduotis: Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas)
 * [1. Įžanga](https://github.com/robotautas/kursas/blob/master/Django/MDs1/django1.md)
 * [2. Modeliai](https://github.com/robotautas/kursas/blob/master/Django/MDs2/django2.md)
 * [3. Administratoriaus svetainė](https://github.com/robotautas/kursas/blob/master/Django/MDs3/django3.md)
