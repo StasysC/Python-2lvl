@@ -5,4 +5,4 @@ Sukurti programą su Django framework'u, kuri leistų įvesti autoservisų infor
 * Paslaugų kainas (su paslauga, automobiliais (manytomany) ir kainomis)
 * Automobilių modelius (su metais, markėmis, modeliais ir varikliais)
 * Automobiliais (konkrečiais, su automobilio ID, klientu, valstybiniu numeriu, VIN kodu)
-* Taisymo užsakymus (su kliento vardu, automobiliu, bendra suma ir atskiromis eilutėmis su atliktomis paslaugomis, kiekiais ir kainomis)
+* Taisymo užsakymus (automobiliu, bendra suma ir atskiromis eilutėmis su atliktomis paslaugomis, kiekiais ir kainomis)
