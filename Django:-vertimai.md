@@ -11,13 +11,38 @@ Django automatiškai atvaizduoja visą administratoriaus puslapį lietuvių kalb
 Iš pradžių į Windows įdiegiame reikiamas programas gettext ir iconv iš čia:
 [https://mlocati.github.io/articles/gettext-iconv-windows.html](https://mlocati.github.io/articles/gettext-iconv-windows.html)
 
-# Išverčiame užrašus puslapyje:
-
 Padarykime vertimus puslapyje index.html:
+```python
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+  <h1>{% trans "Local library" %}</h1>
+  <p>{% trans "Welcome to my Library" %}</p>
+  <p>{% trans "Today we have:" %}</p>
+  <ul>
+    <li><strong>{% trans "Books" %}:</strong> {{ num_books }}</li>
+    <li><strong>{% trans "Book Instances" %}:</strong> {{ num_instances }}</li>
+    <li><strong>{% trans "Now Available" %}:</strong> {{ num_instances_available }}</li>
+    <li><strong>{% trans "Authors" %}:</strong> {{ num_authors }}</li>
+  </ul>
 
+<p>{% trans "Your visits:" %} {{ num_visits }}</p>
+{% endblock %}
+```
 
+# Pakeičiame modulių laukų, kintamųjų pavadinimus:
+```python
+from django.utils.translation import gettext as _
 
-# Modulių laukų, kintamųjų pavadinimai:
+class Book(models.Model):
+    title = models.CharField(_('Title'), max_length=200)
+    author = models.ForeignKey('Author', on_delete=models.SET_NULL, null=True, related_name='books')
+    summary = models.TextField(_('Summary'), max_length=1000, help_text='Trumpas knygos aprašymas')
+    isbn = models.CharField('ISBN', max_length=13,
+                            help_text='13 Simbolių <a href="https://www.isbn-international.org/content/what-isbn">ISBN kodas</a>')
+    genre = models.ManyToManyField(Genre, help_text='Išrinkite žanrą(us) šiai knygai')
+    cover = models.ImageField(_('Cover'), upload_to='covers', null=True)
+```
 
 Dabar mūsų programoje (library) sukuriame katalogą "locale" ir konsolėje paleidžiame šią komandą:
 ```console
