@@ -105,7 +105,9 @@
 * [8. Vartotojai II, turinio valdymo sistema](https://github.com/robotautas/kursas/blob/master/Django/MDs8/django8.md)
 * [9. Registracija, Formos](https://github.com/robotautas/kursas/blob/master/Django/MDs9/django9.md)
 * [10. Vartotojo profilis su nuotrauka](https://github.com/robotautas/kursas/wiki/Django:-Vartotojo-profilio-puslapis)
+* [11. Vertimai](https://github.com/robotautas/kursas/wiki/Django:-vertimai)
 * [Diegimas į serverį](https://github.com/robotautas/kursas/blob/master/Django/MDs10/django10.md)
+
 
 * [Kodas iki 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code/mysite)
 * [Kodas nuo 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code_nuo_6/mysite)
