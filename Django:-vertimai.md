@@ -13,8 +13,14 @@ Iš pradžių į Windows įdiegiame reikiamas programas gettext ir iconv iš či
 
 # Išverčiame užrašus puslapyje:
 
-Padarykite vertimus puslapyje index.html:
+Padarykime vertimus puslapyje index.html:
 
 
 
 # Modulių laukų, kintamųjų pavadinimai:
+
+Dabar mūsų programoje (library) sukuriame katalogą "locale" ir konsolėje paleidžiame šią komandą:
+```console
+django-admin makemessages -l lt
+```
+Django automatiškai sukurs vertimų failą .po, kurį galime atsidaryti su [POEdit](https://poedit.net/) programa, pasidaryti vertimus ir juos išsaugoti .mo faile (ten pat).
