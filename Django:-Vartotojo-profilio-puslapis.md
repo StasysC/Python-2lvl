@@ -111,6 +111,25 @@ Susikuriame naują vartotoją per registracijos formą ir pasitikrinkite, ar aut
 pip install django-crispy-forms
 ```
 
+Įdėti į settings.py:
+```python
+INSTALLED_APPS = [
+    'tinymce',
+    'library.apps.LibraryConfig',
+    'crispy_forms',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
+settings.py gale:
+```python
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+```
+
 Susikuriame vartotojo ir profilio atnaujinimo formas faile library/forms.py:
 ```python
 from .models import Profilis
@@ -160,4 +179,40 @@ def profilis(request):
         'p_form': p_form,
     }
     return render(request, 'profilis.html', context)
+```
+
+Atnaujiname puslapį profilis.html:
+```html
+
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-danger" role="alert">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+      <div class="media">
+        <img class="rounded-circle account-img" src="{{ user.profilis.nuotrauka.url }}">
+        <div class="media-body">
+          <h2 class="account-heading">{{ user.username }}</h2>
+          <p class="text-secondary">{{ user.email }}</p>
+        </div>
+      </div>
+       <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Profilio info</legend>
+                {{ u_form|crispy }}
+                {{ p_form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Atnaujinti</button>
+            </div>
+        </form>
+    </div>
+{% endblock content %}
 ```
