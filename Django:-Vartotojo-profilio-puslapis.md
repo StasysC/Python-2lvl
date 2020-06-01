@@ -1,8 +1,8 @@
 # Praplečiame vartotojo formą
 
-### Padarysime, kad prie vartotojo leistų prisegti nuotrauką. Ši informacija bus atvaizduojama naujame profilio puslapyje.
+Padarysime, kad prie vartotojo leistų prisegti nuotrauką. Ši informacija bus atvaizduojama naujame profilio puslapyje.
 
-Sukuriame naują modelį faile models.py:
+### Sukuriame naują modelį faile models.py:
 ```python
 class Profilis(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
