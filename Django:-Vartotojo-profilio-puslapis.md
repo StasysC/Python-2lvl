@@ -106,3 +106,58 @@ Susikuriame naują vartotoją per registracijos formą ir pasitikrinkite, ar aut
 
 # Padarome profilio puslapį redaguojamą
 
+Šį kartą naudosime supaprastintas Crispy formas. Tam reikės įsidiegti tai:
+```console
+pip install django-crispy-forms
+```
+
+Susikuriame vartotojo ir profilio atnaujinimo formas faile library/forms.py:
+```python
+from .models import Profilis
+from django import forms
+from django.contrib.auth.models import User
+
+class BookReviewForm(forms.ModelForm):
+    class Meta:
+        model = BookReview
+        fields = ('content', 'book', 'reviewer',)
+        widgets = {'book': forms.HiddenInput(), 'reviewer': forms.HiddenInput()}
+
+class UserUpdateForm(forms.ModelForm):
+    email = forms.EmailField()
+
+    class Meta:
+        model = User
+        fields = ['username', 'email']
+
+
+class ProfilisUpdateForm(forms.ModelForm):
+    class Meta:
+        model = Profilis
+        fields = ['nuotrauka']
+```
+
+Pakeičiame profilio rodinį taip, kad į puslapį būtų užkrautos abi anksčiau sukurtos formos, kartu su prieš tai buvusiais įrašais. Abi jas validavus, jos abi išsaugomos, pranešama apie sėkmingą atnaujinimą ir gražinama į tą patį puslapį. Faile views.py:
+```python
+from .forms import BookReviewForm, UserUpdateForm, ProfilisUpdateForm
+
+@login_required
+def profilis(request):
+    if request.method == "POST":
+        u_form = UserUpdateForm(request.POST, instance=request.user)
+        p_form = ProfilisUpdateForm(request.POST, request.FILES, instance=request.user.profilis)
+        if u_form.is_valid() and p_form.is_valid():
+            u_form.save()
+            p_form.save()
+            messages.success(request, f"Profilis atnaujintas")
+            return redirect('profilis')
+    else:
+        u_form = UserUpdateForm(instance=request.user)
+        p_form = ProfilisUpdateForm(instance=request.user.profilis)
+
+    context = {
+        'u_form': u_form,
+        'p_form': p_form,
+    }
+    return render(request, 'profilis.html', context)
+```
