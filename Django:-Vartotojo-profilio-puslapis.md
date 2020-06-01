@@ -102,6 +102,20 @@ class LibraryConfig(AppConfig):
         from .signals import create_profile, save_profile
 ```
 
+Įrašome į settings.py:
+```python
+INSTALLED_APPS = [
+    'tinymce',
+    'library.apps.LibraryConfig',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+```
+
 Susikuriame naują vartotoją per registracijos formą ir pasitikrinkite, ar automatiškai susikūrė jo profilis. Taip pat, ar profilio puslapyje matoma jo informacija (default nuotrauka).
 
 # Padarome profilio puslapį redaguojamą
