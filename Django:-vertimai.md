@@ -63,3 +63,39 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 ```
+
+Galime į puslapį įdėti kalbos pasirinkimo formą. Tam:
+
+Į settings.py dedame:
+```python
+from django.utils.translation import ugettext_lazy as _
+
+LANGUAGES = (
+    ('en-us', _('English')),
+    ('lt', _('Lietuvių')),
+)
+```
+
+Į library/urls.py pridedame:
+```python
+    path(r'^i18n/', include('django.conf.urls.i18n')),
+```
+
+Ten, kur norime turėti kalbos pasirinkimo formą, dedame šį kodą (pvz. į base.html meniu):
+
+```html
+      <form action="{% url 'set_language' %}" method="post">
+        {% csrf_token %}
+        <input name="next" type="hidden" value="{{ redirect_to }}"/>
+        <select name="language">
+          {% get_current_language as LANGUAGE_CODE %}
+          {% get_available_languages as LANGUAGES %}
+          {% for lang in LANGUAGES %}
+          <option value="{{ lang.0 }}" {% if lang.0== LANGUAGE_CODE %} selected="selected" {% endif %}>
+            {{ lang.1 }} ({{ lang.0 }})
+          </option>
+          {% endfor %}
+        </select>
+        <input type="submit" value="Go"/>
+      </form>
+```
