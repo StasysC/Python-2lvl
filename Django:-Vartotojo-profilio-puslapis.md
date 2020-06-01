@@ -2,7 +2,7 @@
 
 Padarysime, kad prie vartotojo leistų prisegti nuotrauką. Ši informacija bus atvaizduojama naujame profilio puslapyje.
 
-### Sukuriame naują modelį faile models.py:
+Sukuriame naują modelį faile models.py:
 ```python
 class Profilis(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
@@ -12,7 +12,7 @@ class Profilis(models.Model):
         return f"{self.user.username} profilis"
 ```
 
-### Sukuriame rodinį faile views.py:
+Sukuriame rodinį faile views.py:
 ```python
 from django.contrib.auth.decorators import login_required
 
@@ -21,12 +21,12 @@ def profilis(request):
     return render(request, 'profilis.html')
 ```
 
-### Įdedame naują urls'ą į library/urls:
+Įdedame naują urls'ą į library/urls:
 ```python
     path('profilis/', views.profilis, name='profilis'),
 ```
 
-### Galiausiai sukuriame naują profilis.html:
+Galiausiai sukuriame naują profilis.html:
 ```html
 {% extends "base.html" %}
 {% block content %}
@@ -43,7 +43,7 @@ def profilis(request):
 {% endblock content %}
 ```
 
-### Įdedame naują nuorodą į meniu, paveikslėlio ir vartotojo vardo tage, faile base.html:
+Įdedame naują nuorodą į meniu, paveikslėlio ir vartotojo vardo tage, faile base.html:
 ```html
         <ul class="navbar-nav ml-auto">
           {% if user.is_authenticated %}
@@ -62,5 +62,5 @@ def profilis(request):
         </ul>
 ```
 
-### Kad vartotojui nepriskyrus jokios nuotraukos, būtų rodoma numatytoji, į media katalogą įdėkite failą default.png (numatytąjį paveikslėlį)
+Kad vartotojui nepriskyrus jokios nuotraukos, būtų rodoma numatytoji, į media katalogą įdėkite failą default.png (numatytąjį paveikslėlį)
 
