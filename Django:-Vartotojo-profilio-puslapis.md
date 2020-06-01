@@ -62,3 +62,5 @@ Galiausiai sukuriame naują profilis.html:
         </ul>
 ```
 
+Kad vartotojui nepriskyrus jokios nuotraukos, būtų rodoma numatytoji, į media katalogą įdėkite failą default.png (numatytąjį paveikslėlį)
+
