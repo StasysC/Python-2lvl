@@ -277,3 +277,15 @@ Dabar galime vartotojo nuotraukas ir puslapiuose, kurie turi ryšį su vartotoju
     {% endif %}
 {% endblock %}
 ```
+
+ ## Užduotis
+Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas):
+* Sukurti naują su vartotoju susietą profilio modelį su nuotraukos lauku, įdėti jį į admin ir išbandyti.
+* Padaryti naują profilio puslapį, kuriame būtų atvaizduojamas profilio vardas, el. pašto adresas ir nuotrauka. Jei nuotrauka neprisegta, būtų rodoma default nuotrauka (ją reikia įdėti į media katalogą).
+* Padaryti, kad sukūrus vartotoją, būtų automatiškai sukurtas ir jo profilis.
+* Padaryti, kad profilio puslapyje būtų galima redaguoti vartotojo informaciją, pakeisti nuotrauką.
+* Padaryti, kad prisegta profilio nuotrauka būtų automatiškai sumažinama iki norimo dydžio (pagal dizainą).
+* Padaryti, kad vartotojo nuotrauka būtų matoma prie kiekvieno užsakymo, užsakymų sąraše.
+
+
+[Atsakymas](https://github.com/DonatasNoreika/autoservisas)
