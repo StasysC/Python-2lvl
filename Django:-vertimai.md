@@ -1,4 +1,4 @@
-# Keičiame bendrą Django puslapio kalbą
+# Darome Django vertimus
 
 Viso Django puslapio kalbą galime pakeisti labai paprastai, tiesiog settings.py faile:
 
