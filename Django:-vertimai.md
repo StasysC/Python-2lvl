@@ -99,3 +99,11 @@ Ten, kur norime turėti kalbos pasirinkimo formą, dedame šį kodą (pvz. į ba
         <input type="submit" value="Go"/>
       </form>
 ```
+
+ ## Užduotis
+Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas):
+* Visus užrašus, kintamuosius (kiek įmanoma) aprašyti anglų kalba.
+* Padaryti vertimus, kad perjungus iš anglų kalbos į lietuvių, automatiškai išsiverstų visi užrašai.
+* Padaryti mygtukus (arba pasirinkimą), kuris leistų pasirinkti puslapio kalbą.
+
+[Atsakymas](https://github.com/DonatasNoreika/autoservisas)
