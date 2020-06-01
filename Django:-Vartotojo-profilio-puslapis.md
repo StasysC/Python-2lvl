@@ -1,5 +1,7 @@
 # Praplečiame vartotojo formą
 
+Padarysime, kad prie vartotojo leistų prisegti nuotrauką. Ši informacija bus atvaizduojama naujame profilio puslapyje.
+
 Sukuriame naują modelį faile models.py:
 ```python
 class Profilis(models.Model):
@@ -59,3 +61,4 @@ Galiausiai sukuriame naują profilis.html:
           {% endif %}
         </ul>
 ```
+
