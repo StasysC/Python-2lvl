@@ -30,7 +30,7 @@ Padarykime vertimus puslapyje index.html:
 {% endblock %}
 ```
 
-# Pakeičiame modulių laukų, kintamųjų pavadinimus:
+Pakeičiame modulių laukų, kintamųjų pavadinimus:
 ```python
 from django.utils.translation import gettext as _
 
