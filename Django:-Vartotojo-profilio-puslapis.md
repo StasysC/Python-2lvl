@@ -103,3 +103,6 @@ class LibraryConfig(AppConfig):
 ```
 
 Susikuriame naują vartotoją per registracijos formą ir pasitikrinkite, ar automatiškai susikūrė jo profilis. Taip pat, ar profilio puslapyje matoma jo informacija (default nuotrauka).
+
+# Padarome profilio puslapį redaguojamą
+
