@@ -230,3 +230,50 @@ Atnaujiname puslapį profilis.html:
     </div>
 {% endblock content %}
 ```
+
+# Automatiškai sumažiname ir atvaizduojame nuotraukas:
+
+Profilio modelyje perrašome save metodą. Faile models.py:
+```python
+class Profilis(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    nuotrauka = models.ImageField(default="default.png", upload_to="profile_pics")
+
+    def __str__(self):
+        return f"{self.user.username} profilis"
+
+    def save(self):
+        super().save()
+        img = Image.open(self.nuotrauka.path)
+        if img.height > 300 or img.width > 300:
+            output_size = (300, 300)
+            img.thumbnail(output_size)
+            img.save(self.nuotrauka.path)
+
+``` 
+
+Dabar, prisegus naują failą profilyje, jis bus automatiškai sumažinamas iki 300x300 taškų.
+
+Dabar galime vartotojo nuotraukas ir puslapiuose, kurie turi ryšį su vartotoju, pavyzdžiui faile user_books.html:
+```html
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Mano paimtos knygos</h1>
+
+    {% if books %}
+    <ul>
+
+      {% for bookinst in books %}
+        <img class="rounded-circle" src="{{bookinst.reader.profilis.nuotrauka.url}}">
+      <li class="{% if bookinst.is_overdue %}text-danger{% endif %}">
+        <a href="{% url 'book-detail' bookinst.book.pk %}">{{bookinst.book.title}}</a> ({{ bookinst.due_back }})
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% else %}
+      <p>There are no books borrowed.</p>
+    {% endif %}
+{% endblock %}
+```
