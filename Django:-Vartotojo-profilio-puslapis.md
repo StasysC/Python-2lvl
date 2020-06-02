@@ -43,6 +43,13 @@ Galiausiai sukuriame naują profilis.html:
 {% endblock content %}
 ```
 
+Įdedame į library/admin.py:
+```python
+from .models import Author, Genre, Book, BookInstance, BookReview, Profilis
+
+admin.site.register(Profilis)
+```
+
 Įdedame naują nuorodą į meniu, paveikslėlio ir vartotojo vardo tage, faile base.html:
 ```html
         <ul class="navbar-nav ml-auto">
