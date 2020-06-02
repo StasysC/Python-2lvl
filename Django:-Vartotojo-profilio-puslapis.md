@@ -145,6 +145,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+```
 
 settings.py gale:
 ```python
@@ -242,6 +243,8 @@ Atnaujiname puslapį profilis.html:
 
 Profilio modelyje perrašome save metodą. Faile models.py:
 ```python
+from PIL import Image
+
 class Profilis(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     nuotrauka = models.ImageField(default="default.png", upload_to="profile_pics")
