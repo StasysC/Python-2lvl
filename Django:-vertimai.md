@@ -32,20 +32,24 @@ Padarykime vertimus puslapyje index.html:
 
 Pakeičiame modulių laukų pavadinimus:
 ```python
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 
 class Book(models.Model):
+    """Modelis reprezentuoja knygą (bet ne specifinę knygos kopiją)"""
     title = models.CharField(_('Title'), max_length=200)
     author = models.ForeignKey('Author', on_delete=models.SET_NULL, null=True, related_name='books')
-    summary = models.TextField(_('Summary'), max_length=1000, help_text='Trumpas knygos aprašymas')
+    summary = models.TextField(_('Summary'), max_length=1000, help_text=_('Shot book summary'))
     isbn = models.CharField('ISBN', max_length=13,
                             help_text='13 Simbolių <a href="https://www.isbn-international.org/content/what-isbn">ISBN kodas</a>')
-    genre = models.ManyToManyField(Genre, help_text='Išrinkite žanrą(us) šiai knygai')
+    genre = models.ManyToManyField(Genre, help_text=_('Please choose genres'))
+    # genre = models.ForeignKey('Žanras', Genre)
     cover = models.ImageField(_('Cover'), upload_to='covers', null=True)
 ```
 
 Išverčiame pranešimų žinutes:
 ```python
+from django.utils.translation import gettext as _
+
 @csrf_protect
 def register(request):
     if request.method == "POST":
