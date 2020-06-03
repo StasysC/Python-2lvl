@@ -92,6 +92,8 @@ Sukompiliuojame vertimus, kad Django galėtų juos naudoti:
 python manage.py compilemessages
 ```
 
+## Automatiškai parenkame kalbą pagal naršyklę
+
 Jei norime, kad kalba būtų automatiškai parenkama pagal naršyklėje nustatytą kalbą, į settings.py pridedame 'django.middleware.locale.LocaleMiddleware':
 ```python
 MIDDLEWARE = [
@@ -105,6 +107,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 ```
+
+## Dedame kalbos pasirinkimo formą
 
 Galime į puslapį įdėti kalbos pasirinkimo formą. Tam:
 
