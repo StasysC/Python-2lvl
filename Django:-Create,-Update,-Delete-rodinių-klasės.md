@@ -2,6 +2,8 @@
 
 ## ListView klasė
 
+**Dėmesio:** perdaryti bookinstance klasę, kad pk būtų standartinis.
+
 Iš pradžių sukuriame (patobuliname jau įprastą ListView), faile library/views:
 ```python
 from django.contrib.auth.mixins import LoginRequiredMixin
