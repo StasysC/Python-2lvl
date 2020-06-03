@@ -16,7 +16,7 @@ class LoanedBooksByUserListView(LoginRequiredMixin, ListView):
     paginate_by = 10
 
     def get_queryset(self):
-        return BookInstance.objects.filter(reader=self.request.user).filter(status__exact='p').order_by('due_back')
+        return BookInstance.objects.filter(reader=self.request.user).order_by('due_back')
 ```
 
 Sukuriame path, faile library/urls:
