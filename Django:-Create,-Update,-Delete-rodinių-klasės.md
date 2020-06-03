@@ -134,3 +134,5 @@ Sukuriame html, faile user_book_form.html:
     </div>
 {% endblock content %}
 ```
+
+UpdateView klasė
