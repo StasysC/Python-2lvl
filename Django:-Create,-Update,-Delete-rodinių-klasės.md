@@ -4,7 +4,9 @@
 
 Iš pradžių sukuriame (patobuliname jau įprastą ListView), faile library/views:
 ```python
-class LoanedBooksByUserListView(LoginRequiredMixin, generic.ListView):
+from django.views.generic import ListView
+
+class LoanedBooksByUserListView(LoginRequiredMixin, ListView):
     model = BookInstance
     context_object_name = 'books'
     template_name = 'user_books.html'
@@ -43,4 +45,9 @@ Sukuriame html, faile user_books.html:
       <p>There are no books borrowed.</p>
     {% endif %}
 {% endblock %}
+```
+
+## DetailView klasė
+```python
+
 ```
