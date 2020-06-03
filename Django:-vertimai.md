@@ -113,7 +113,7 @@ Galime į puslapį įdėti kalbos pasirinkimo formą. Tam:
 
 Į settings.py dedame:
 ```python
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 LANGUAGES = (
     ('en-us', _('English')),
