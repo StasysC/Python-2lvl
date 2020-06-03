@@ -77,6 +77,8 @@ Kad vartotojui nepriskyrus jokios nuotraukos, būtų rodoma numatytoji, į media
 
 Šiame skyriuje padarysime, kad sukūrus vartotoją, būtų automatiškai sukurtas jo profilis.
 
+**Dėmesio:** Prieš vartotojo ir profilio susiejimą, per admin puslapį rankiniu būdu kiekvienam vartotojui priskirkite profilį. Kitaip mes klaidą, kad vartotojas neturi profilio.
+
 Sukuriame failą library/signals.py:
 
 ```python
