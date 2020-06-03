@@ -30,7 +30,7 @@ Padarykime vertimus puslapyje index.html:
 {% endblock %}
 ```
 
-Pakeičiame modulių laukų, kintamųjų pavadinimus:
+Pakeičiame modulių laukų pavadinimus:
 ```python
 from django.utils.translation import gettext as _
 
@@ -42,6 +42,37 @@ class Book(models.Model):
                             help_text='13 Simbolių <a href="https://www.isbn-international.org/content/what-isbn">ISBN kodas</a>')
     genre = models.ManyToManyField(Genre, help_text='Išrinkite žanrą(us) šiai knygai')
     cover = models.ImageField(_('Cover'), upload_to='covers', null=True)
+```
+
+Išverčiame pranešimų žinutes:
+```python
+@csrf_protect
+def register(request):
+    if request.method == "POST":
+        # pasiimame reikšmes iš registracijos formos
+        username = request.POST['username']
+        email = request.POST['email']
+        password = request.POST['password']
+        password2 = request.POST['password2']
+        # tikriname, ar sutampa slaptažodžiai
+        if password == password2:
+            # tikriname, ar neužimtas username
+            if User.objects.filter(username=username).exists():
+                messages.error(request, _(f'Username {username} already exists!'))
+                return redirect('register')
+            else:
+                # tikriname, ar nėra tokio pat email
+                if User.objects.filter(email=email).exists():
+                    messages.error(request, _(f'Email {email} already exists!'))
+                    return redirect('register')
+                else:
+                    # jeigu viskas tvarkoje, sukuriame naują vartotoją
+                    User.objects.create_user(username=username, email=email, password=password)
+                    return redirect('index')
+        else:
+            messages.error(request, _('Passwords do not match!'))
+            return redirect('register')
+    return render(request, 'register.html')
 ```
 
 Dabar mūsų programoje (library) sukuriame katalogą "locale" ir konsolėje paleidžiame šią komandą:
