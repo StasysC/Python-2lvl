@@ -136,3 +136,5 @@ Sukuriame html, faile user_book_form.html:
 ```
 
 ## UpdateView klasė
+
+## DeleteView klasė
