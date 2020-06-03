@@ -83,3 +83,54 @@ Sukuriame html, faile user_book.html:
     </ul>
 {% endblock %}
 ```
+
+## CreateView klasė
+
+```python
+from django.views.generic import (
+    ListView,
+    DetailView,
+    CreateView,
+)
+
+class BookByUserCreateView(CreateView):
+    model = BookInstance
+    fields = ['book', 'due_back']
+    template_name = 'user_book_form.html'
+
+    def form_valid(self, form):
+        form.instance.reader = self.request.user
+        return super().form_valid(form)
+```
+
+Sukuriame path, faile library/urls:
+```python
+path('mybooks/new', views.BookByUserCreateView.as_view(), name='my-borrowed-new'),
+```
+
+Prie knygos egzemplioriaus pridedame metodą:
+```python
+    def get_absolute_url(self):
+        """Nurodo konkretaus aprašymo galinį adresą"""
+        return reverse('book-detail', args=[str(self.id)])
+```
+
+Sukuriame html, faile user_book_form.html:
+```python
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Naujas knygos egzempliorius</legend>
+            {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Sukurti</button>
+        </div>
+    </form>
+    </div>
+{% endblock content %}
+```
