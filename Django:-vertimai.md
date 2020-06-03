@@ -81,6 +81,11 @@ django-admin makemessages -l lt
 ```
 Django automatiškai sukurs vertimų failą .po, kurį galime atsidaryti su [POEdit](https://poedit.net/) programa, pasidaryti vertimus ir juos išsaugoti .mo faile (ten pat). Pabandykime perjungti kalbas ir pažiūrėti, ar pasikeičia kalbos išverstame puslapyje, taip pat išversto modelio admin puslapyje.
 
+Sukompiliuojame vertimus, kad Django galėtų juos naudoti:
+```console
+python manage.py compilemessages
+```
+
 Jei norime, kad kalba būtų automatiškai parenkama pagal naršyklėje nustatytą kalbą, į settings.py pridedame 'django.middleware.locale.LocaleMiddleware':
 ```python
 MIDDLEWARE = [
@@ -103,7 +108,7 @@ from django.utils.translation import ugettext_lazy as _
 
 LANGUAGES = (
     ('en-us', _('English')),
-    ('lt', _('Lietuvių')),
+    ('lt', _('Lithuanian')),
 )
 ```
 
