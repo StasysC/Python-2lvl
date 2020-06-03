@@ -62,12 +62,12 @@ def register(request):
         if password == password2:
             # tikriname, ar neužimtas username
             if User.objects.filter(username=username).exists():
-                messages.error(request, _(f'Username {username} already exists!'))
+                messages.error(request, _('Username already exists!'))
                 return redirect('register')
             else:
                 # tikriname, ar nėra tokio pat email
                 if User.objects.filter(email=email).exists():
-                    messages.error(request, _(f'Email {email} already exists!'))
+                    messages.error(request, _('Email already exists!'))
                     return redirect('register')
                 else:
                     # jeigu viskas tvarkoje, sukuriame naują vartotoją
