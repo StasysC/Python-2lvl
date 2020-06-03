@@ -23,7 +23,7 @@ path('mybooks/', views.LoanedBooksByUserListView.as_view(), name='my-borrowed'),
 ```
 
 Sukuriame html, faile user_books.html:
-```python
+```html
 {% extends "base.html" %}
 
 {% block content %}
@@ -37,7 +37,7 @@ Sukuriame html, faile user_books.html:
         <li><strong class="{% if bookinst.is_overdue %}text-danger{% endif %}">Pavadinimas: {{bookinst.book.title}}</strong></li>
         <li><strong>Gražinimo terminas:</strong> {{bookinst.due_back}}</li>
         <br/>
-        <a class="btn btn-primary" href="{{ bookinst.id }}" role="button">Peržiūrėti</a>
+        <a class="btn btn-primary" href="{{ bookinst.pk }}" role="button">Peržiūrėti</a>
       </li>
 
     </ul>
@@ -50,5 +50,34 @@ Sukuriame html, faile user_books.html:
 
 ## DetailView klasė
 ```python
+from django.views.generic import (
+    ListView,
+    DetailView,
+)
 
+class BookByUserDetailView(LoginRequiredMixin, DetailView):
+    model = BookInstance
+    template_name = 'user_book.html'
+```
+
+Sukuriame path, faile library/urls:
+```python
+path('mybooks/<int:pk>', views.BookByUserDetailView.as_view(), name='my-book'),
+```
+
+Sukuriame html, faile user_book.html:
+```html
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Mano paimta knyga:</h1>
+    <hr>
+        <ul>
+        <img class="rounded-circle" src="{{object.reader.profilis.nuotrauka.url}}">
+        <li><strong class="{% if object.is_overdue %}text-danger{% endif %}">Pavadinimas: {{object.book.title}}</strong></li>
+        <li><strong>Gražinimo terminas:</strong> {{object.due_back}}</li>
+        <br/>
+      </li>
+    </ul>
+{% endblock %}
 ```
