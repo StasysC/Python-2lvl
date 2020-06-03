@@ -8,6 +8,8 @@ LANGUAGE_CODE = 'lt'
 
 Django automatiškai atvaizduoja visą administratoriaus puslapį lietuvių kalba. Tačiau taip neišverčiami mūsų sukurti laukai ir užrašai. Tai padarysime taip:
 
+## Darome vertimus mūsų puslapiuose
+
 Iš pradžių į Windows įdiegiame reikiamas programas gettext ir iconv iš čia:
 [https://mlocati.github.io/articles/gettext-iconv-windows.html](https://mlocati.github.io/articles/gettext-iconv-windows.html)
 
