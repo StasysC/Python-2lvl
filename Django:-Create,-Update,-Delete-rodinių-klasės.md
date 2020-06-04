@@ -169,6 +169,16 @@ Sukuriame path, faile library/urls:
     path('mybooks/<int:pk>/update', views.BookByUserUpdateView.as_view(), name='my-book-update'),
 ```
 
+Įdedame atnaujinimo nuorodą į failą user_book.html:
+```html
+        <li><strong>Gražinimo terminas:</strong> {{object.due_back}}</li>
+            {% if object.reader == user %}
+            <div>
+                <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'my-book-update' object.id %}">Redaguoti</a>
+            </div>
+            {% endif %}
+```
+
 ## DeleteView klasė
 ```python
 from django.views.generic import (
@@ -213,4 +223,15 @@ Sukuriame html, faile user_book_delete.html:
     </form>
     </div>
 {% endblock content %}
+```
+
+Įdedame atnaujinimo nuorodą į failą user_book.html:
+```html
+        <li><strong>Gražinimo terminas:</strong> {{object.due_back}}</li>
+            {% if object.reader == user %}
+            <div>
+                <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'my-book-update' object.id %}">Redaguoti</a>
+                <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'my-book-delete' object.id %}">Ištrinti</a>
+            </div>
+            {% endif %}
 ```
