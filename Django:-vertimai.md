@@ -91,7 +91,7 @@ Sukompiliuojame vertimus, kad Django galėtų juos naudoti:
 python manage.py compilemessages
 ```
 
-Taip pat galima išversti visą html failo bloką, įdėjus {% blocktrans %} ir {% endblocktrans %}, pvz.:
+Taip pat galima išversti visą html kodo bloką, įdėjus {% blocktrans %} ir {% endblocktrans %}, pvz.:
 
 ```html
 <h1>
