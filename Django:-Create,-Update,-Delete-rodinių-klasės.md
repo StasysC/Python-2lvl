@@ -93,7 +93,7 @@ from django.views.generic import (
     CreateView,
 )
 
-class BookByUserCreateView(CreateView):
+class BookByUserCreateView(LoginRequiredMixin, CreateView):
     model = BookInstance
     fields = ['book', 'due_back']
     template_name = 'user_book_form.html'
