@@ -128,7 +128,7 @@ Sukuriame html, faile user_book_form.html:
             {{ form|crispy }}
         </fieldset>
         <div class="form-group">
-            <button class="btn btn-outline-info" type="submit">Sukurti</button>
+            <button class="btn btn-outline-info" type="submit">Išsaugoti</button>
         </div>
     </form>
     </div>
