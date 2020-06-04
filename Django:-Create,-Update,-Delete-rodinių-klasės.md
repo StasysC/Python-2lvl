@@ -155,6 +155,7 @@ from django.views.generic import (
 class BookByUserUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = BookInstance
     fields = ['book', 'due_back']
+    success_url = "/library/mybooks/"
     template_name = 'user_book_form.html'
 
     def form_valid(self, form):
