@@ -91,6 +91,14 @@ Sukompiliuojame vertimus, kad Django galėtų juos naudoti:
 python manage.py compilemessages
 ```
 
+Taip pat galima išversti visą html failo bloką, įdėjus {% blocktrans %} ir {% endblocktrans %}, pvz.:
+
+```html
+<h1>
+  <a href="/" title="{% blocktrans %}Back to '{{ race }}' homepage{% endblocktrans %}">{{ race }}</a>
+</h1>
+```
+
 ## Automatiškai parenkame kalbą pagal naršyklę
 
 Jei norime, kad kalba būtų automatiškai parenkama pagal naršyklėje nustatytą kalbą, į settings.py pridedame 'django.middleware.locale.LocaleMiddleware':
