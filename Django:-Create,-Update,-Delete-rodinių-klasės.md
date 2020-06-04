@@ -135,6 +135,11 @@ Sukuriame html, faile user_book_form.html:
 {% endblock content %}
 ```
 
+Įdedame į savo meniu naują punktą, faile base.html:
+```python
+<li class="nav-item"><a class="nav-link" href="{% url 'my-borrowed-new'%}?next=/library">{% trans "New" %}</a></li>
+```
+
 ## UpdateView klasė
 
 ## DeleteView klasė
