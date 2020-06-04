@@ -225,7 +225,7 @@ Sukuriame html, faile user_book_delete.html:
 {% endblock content %}
 ```
 
-Įdedame atnaujinimo nuorodą į failą user_book.html:
+Įdedame trynimo nuorodą į failą user_book.html:
 ```html
         <li><strong>Gražinimo terminas:</strong> {{object.due_back}}</li>
             {% if object.reader == user %}
