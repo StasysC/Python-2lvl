@@ -106,6 +106,9 @@
 * [9. Registracija, Formos](https://github.com/robotautas/kursas/blob/master/Django/MDs9/django9.md)
 * [10. Vartotojo profilis](https://github.com/robotautas/kursas/wiki/Django:-Vartotojo-profilio-puslapis)
 * [11. Vertimai](https://github.com/robotautas/kursas/wiki/Django:-vertimai)
+* [12. Create, Update, Delete rodinių klasės](https://github.com/robotautas/kursas/wiki/Django:-Create,-Update,-Delete-rodini%C5%B3-klas%C4%97s)
+
+
 * [Diegimas į serverį](https://github.com/robotautas/kursas/blob/master/Django/MDs10/django10.md)
 
 
