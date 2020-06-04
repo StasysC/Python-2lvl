@@ -122,7 +122,7 @@ Sukuriame html, faile user_book_form.html:
 {% load crispy_forms_tags %}
 {% block content %}
     <div class="content-section">
-    <form method="POST" enctype="multipart/form-data">
+    <form method="POST">
         {% csrf_token %}
         <fieldset class="form-group">
             <legend class="border-bottom mb-4">Naujas knygos egzempliorius</legend>
