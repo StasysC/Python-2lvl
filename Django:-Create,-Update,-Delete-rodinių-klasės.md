@@ -4,7 +4,7 @@
 
 **Dėmesio:** perdaryti bookinstance klasę, kad pk būtų standartinis.
 
-Iš pradžių sukuriame (patobuliname jau įprastą ListView), faile library/views:
+Iš pradžių sukuriame (patobuliname jau įprastą ListView). Tam, kad šį puslapį galėtų peržiūrėti tik prisijungę vartotojai, paveldime LoginRequiredMixin. Faile library/views:
 ```python
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import ListView
@@ -67,7 +67,7 @@ Sukuriame path, faile library/urls:
 path('mybooks/<int:pk>', views.BookByUserDetailView.as_view(), name='my-book'),
 ```
 
-Sukuriame html, faile user_book.html:
+Sukuriame html. Jei objekto pavadinimas nenurodytas, jo laukus pasiekiame per object.. Faile user_book.html:
 ```html
 {% extends "base.html" %}
 
@@ -142,6 +142,8 @@ Sukuriame html, faile user_book_form.html:
 ```
 
 ## UpdateView klasė
+
+Kad knygos įrašą leistų atnaujinti tik tam vartotojui, kuris yra nurodytas jos reader lauke, paveldime UserPassesTestMixin ir perrašome metodą test_func, kuris gražina True tik tuomet, kai reader laukas sutampa su prisijungusiu vartotoju.
 ```python
 from django.views.generic import (
     ListView,
