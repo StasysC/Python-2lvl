@@ -96,6 +96,7 @@ from django.views.generic import (
 class BookByUserCreateView(LoginRequiredMixin, CreateView):
     model = BookInstance
     fields = ['book', 'due_back']
+    success_url = "/library/mybooks/"
     template_name = 'user_book_form.html'
 
     def form_valid(self, form):
@@ -169,3 +170,47 @@ Sukuriame path, faile library/urls:
 ```
 
 ## DeleteView klasė
+```python
+from django.views.generic import (
+    ListView,
+    DetailView,
+    CreateView,
+    UpdateView,
+    DeleteView,
+)
+
+class BookByUserDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+    model = BookInstance
+    success_url = "/library/mybooks/"
+    template_name = 'user_book_delete.html'
+
+    def test_func(self):
+        book = self.get_object()
+        return self.request.user == book.reader
+```
+
+Sukuriame path, faile library/urls:
+```python
+path('mybooks/<int:pk>/delete', views.BookByUserDeleteView.as_view(), name='my-book-delete'),
+```
+
+Sukuriame html, faile user_book_delete.html:
+```html
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+    <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Ištrinti knygą</legend>
+            <h2>Ar tikrai norite ištrinti knygą {{ object.uuid }}?</h2>
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-danger" type="submit">Taip, ištrinti</button>
+            <button class="btn btn-outline-secondary" href="{% url 'my-book' object.id %}">Atšaukti</button>
+        </div>
+    </form>
+    </div>
+{% endblock content %}
+```
