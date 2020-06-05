@@ -14,6 +14,7 @@ Naudojantis Django framework'u sukurti tinklaraštį, kuris:
 * Padaryti, kad prisijungusiam vartotojui būtų leista redaguoti ir trinti savo straipsnius (per UpdateView ir DeleteView).
 * Padaryti, kad prie kiekvieno straipsnio būtų matomas komentarų kiekis (parašyti atitinkama @property metodą).
 * Padaryti, kad straipsnių sąraše būtų matomos tik straipsnių santraukos (pvz. 2 eilučių) ir nuoroda "Skaityti daugiau". Ją paspaudus, būtų nukreipiama į pilną straipsnio aprašymą (DetailView).
+* Prie komentaro modelio pridėti vartotojo lauką (ryšį su user). Padaryti, kad vartotojui leistų trinti ir redaguoti savo komentarus.
 ***
 
 [Atsakymas](https://github.com/DonatasNoreika/django_tinklarastis)
