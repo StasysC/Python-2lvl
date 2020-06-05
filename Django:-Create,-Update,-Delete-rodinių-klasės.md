@@ -221,7 +221,7 @@ Sukuriame html, faile user_book_delete.html:
         </fieldset>
         <div class="form-group">
             <button class="btn btn-outline-danger" type="submit">Taip, ištrinti</button>
-            <button class="btn btn-outline-secondary" href="{% url 'my-book' object.id %}">Atšaukti</button>
+            <a class="btn btn-outline-secondary" href="{% url 'my-book' object.id %}">Atšaukti</a>
         </div>
     </form>
     </div>
