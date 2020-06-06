@@ -115,3 +115,5 @@
 * [Kodas iki 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code/mysite)
 * [Kodas nuo 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code_nuo_6/mysite)
 
+**Linux**
+* [Teorija](https://github.com/robotautas/kursas/blob/master/linux_terminalas/linux1.md)
