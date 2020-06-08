@@ -117,3 +117,5 @@
 
 **Linux**
 * [Teorija](https://github.com/robotautas/kursas/blob/master/linux_terminalas/linux1.md)
+
+[Užduotis: savo programos kūrimas](https://github.com/robotautas/kursas/wiki/Savo-programos-k%C5%ABrimas)
