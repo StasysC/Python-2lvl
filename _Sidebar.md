@@ -91,6 +91,8 @@
 * [IV dalis](https://github.com/robotautas/kursas/wiki/Flask-4-dalis)
 * [Užduotis]()
 * [Atsakymas]()
+* [Flask diegimas į serverį](https://github.com/robotautas/kursas/wiki/Flask-diegimas-%C4%AF-server%C4%AF)
+
 
 **Django**
 * [Užduotis: Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas)
