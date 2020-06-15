@@ -133,7 +133,7 @@ Sukuriame konfiguracinį failą:
 ```bash
 (venv) vartotojas@ubuntu:~/biudzetas$ sudo nano /etc/supervisor/conf.d/biudzetas.conf 
 ```
-Įrašome tokį kodą:
+Į failą įrašome tokį kodą:
 ```
 [program:biudzetas]                                                     directory=/home/vartotojas/biudzetas
 command=/home/vartotojas/biudzetas/venv/bin/gunicorn -w 3 run:app
@@ -144,4 +144,11 @@ stopasgroup=true
 killasgroup=true
 stderr_logfile=/var/log/biudzetas/biudzetas.err.log
 stdout_logfile=/var/log/biudzetas/biudzetas.out.log
+```
+
+Sukuriame aprašytus log failus:
+```bash
+(venv) vartotojas@ubuntu:~/biudzetas$ sudo mkdir -p /var/log/biudzetas
+(venv) vartotojas@ubuntu:~/biudzetas$ sudo touch /var/log/biudzetas/biudzetas.err.log
+(venv) vartotojas@ubuntu:~/biudzetas$ sudo touch /var/log/biudzetas/biudzetas.out.log
 ```
