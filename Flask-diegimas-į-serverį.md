@@ -53,7 +53,7 @@ vartotojas@ubuntu:~/biudzetas$ source venv/bin/activate
 (venv) vartotojas@ubuntu:~/biudzetas$ flask run --host=0.0.0.0
 ```
 
-Galime kompiuterio naršyklėje užeiti į IP ir portą ir patikrinti, ar veikia programa:
+Galime kompiuterio naršyklėje užeiti į IP ir portą ir patikrinti, ar veikia programa, pvz.:
 http://192.168.43.108:5000/
 
 Sustabdome procesą cmd programoje paspaudę CTRL+C
