@@ -56,5 +56,10 @@ vartotojas@ubuntu:~/biudzetas$ source venv/bin/activate
 Galime kompiuterio naršyklėje užeiti į IP ir portą ir patikrinti, ar veikia programa, pvz.:
 http://192.168.43.108:5000/
 
+Matome užrašą:
+WARNING: This is a development server. Do not use it in a production deployment.
+Todėl toks paleidimas tinka tik kūrimo tikslams. Normaliam veikimui serveryje mums reikės programų nginx ir gunicorn.
+
 Sustabdome procesą cmd programoje paspaudę CTRL+C
 
+### Susikuriame virtualią aplinką:
