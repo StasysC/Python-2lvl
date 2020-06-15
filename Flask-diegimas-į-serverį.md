@@ -41,3 +41,7 @@ Aktyvuojame sukurtą aplinką:
 vartotojas@ubuntu:~$ cd biudzetas/
 vartotojas@ubuntu:~/biudzetas$ source venv/bin/activate
 ```
+Įdiegiame programas iš requirements.txt failo:
+```bash
+(venv) vartotojas@ubuntu:~/biudzetas$ pip install -r requirements.txt
+```
