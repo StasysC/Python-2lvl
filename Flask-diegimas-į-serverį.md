@@ -13,6 +13,6 @@ sudo apt install openssh-server
 ```
 
 Prisijungiame prie mūsų serverio su cmd (jei sukurtas vartotojas - per jį, jei ne - per root):
-```bash
-
+```cmd
+C:\Users\Donoras>ssh vartotojas@192.168.43.108
 ```
