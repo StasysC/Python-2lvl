@@ -98,3 +98,8 @@ server {
 }
 
 ```
+
+Perkrauname nginx:
+```bash
+(venv) vartotojas@ubuntu:~$ sudo systemctl restart nginx
+```
