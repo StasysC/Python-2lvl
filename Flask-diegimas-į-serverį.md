@@ -68,3 +68,14 @@ Sustabdome procesą cmd programoje paspaudę CTRL+C
 (venv) vartotojas@ubuntu:~$ sudo apt install nginx
 (venv) vartotojas@ubuntu:~$ pip install gunicorn
 ```
+
+### Konfiguruojame ngnix:
+```bash
+(venv) vartotojas@ubuntu:~$ sudo rm /etc/nginx/sites-enabled/default
+(venv) vartotojas@ubuntu:~$ sudo nano /etc/nginx/sites-enabled/biudzetas
+```
+
+Šiame faile įdedame tokį kodą:
+```
+
+```
