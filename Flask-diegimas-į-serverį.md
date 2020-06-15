@@ -106,3 +106,9 @@ Perkrauname nginx:
 
 Jei naršyklėje atidarysime http://192.168.43.108/, pamatysime, kad programa vis dar neveikia (nginx klaida)
 
+### Konfiguruojame ir paleidžiame gunicorn:
+Sužinome, kiek mūsų serveris turi branduolių:
+```bash
+(venv) vartotojas@ubuntu:~$ nproc --all
+```
+
