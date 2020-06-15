@@ -17,6 +17,11 @@ Prisijungiame prie mūsų serverio su cmd (jei sukurtas vartotojas - per jį, je
 C:\Users\Donoras>ssh vartotojas@192.168.43.108
 ```
 
+Serveryje atnaujiname programas:
+```bash
+vartotojas@ubuntu:~$ sudo apt update && apt upgrade  
+```
+
 ### Susikuriame virtualią aplinką:
 
 ```bash
