@@ -62,4 +62,9 @@ Todėl toks paleidimas tinka tik kūrimo tikslams. Normaliam veikimui serveryje 
 
 Sustabdome procesą cmd programoje paspaudę CTRL+C
 
-### Susikuriame virtualią aplinką:
+### Diegiame ngnix ir gunicorn:
+```bash
+(venv) vartotojas@ubuntu:~/biudzetas$ cd
+(venv) vartotojas@ubuntu:~$ sudo apt install nginx
+(venv) vartotojas@ubuntu:~$ pip install gunicorn
+```
