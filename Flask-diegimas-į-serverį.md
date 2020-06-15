@@ -121,3 +121,15 @@ Paleidžiame gunicorn:
 ```
 
 Galime užeiti į naršyklę ir pažiūrėti, ar viskas veikia, pvz.: http://192.168.43.108/
+
+Bėda, kad nutraukę gunicorn procesą, vėl neprieisime prie programos per naršyklę. Tam reikia įsidiegti ir sukonfiguruoti supervisor
+
+### Konfiguruojame ir paleidžiame supervisor:
+Įsidiegiame:
+```bash
+(venv) vartotojas@ubuntu:~/biudzetas$ sudo apt install supervisor
+```
+Sukuriame konfiguracinį failą:
+```bash
+(venv) vartotojas@ubuntu:~/biudzetas$ sudo nano /etc/supervisor/conf.d/biudzetas.conf 
+```
