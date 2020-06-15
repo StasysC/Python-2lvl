@@ -77,5 +77,19 @@ Sustabdome procesą cmd programoje paspaudę CTRL+C
 
 Šiame faile įdedame tokį kodą:
 ```
+  GNU nano 4.8       /etc/nginx/sites-enabled/biudzetas                 server {
+    listen 80;
+    server_name 192.168.43.108;                                         
+    location /static {
+        alias /home/vartotojas/biudzetas/biudzetas/static;
+    }
+
+    location / {
+        proxy_pass http://localhost:8000;
+        include /etc/nginx/proxy_params;
+        proxy_redirect off;
+    }
+}
+
 
 ```
