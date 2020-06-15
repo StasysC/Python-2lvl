@@ -152,3 +152,12 @@ Sukuriame aprašytus log failus:
 (venv) vartotojas@ubuntu:~/biudzetas$ sudo touch /var/log/biudzetas/biudzetas.err.log
 (venv) vartotojas@ubuntu:~/biudzetas$ sudo touch /var/log/biudzetas/biudzetas.out.log
 ```
+
+Perkrauname supervisor:
+```bash
+(venv) vartotojas@ubuntu:~/biudzetas$ sudo supervisorctl reload
+```
+
+Galime naršyklėje atsidaryti http://192.168.43.108/
+
+VISKAS!
