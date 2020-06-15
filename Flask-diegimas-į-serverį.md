@@ -24,9 +24,15 @@ vartotojas@ubuntu:~$ sudo apt update && apt upgrade
 
 ### Susikuriame virtualią aplinką:
 
+Įdiegiame pip:
 ```bash
 vartotojas@ubuntu:~$ sudo apt install python3-pip
 ```
+Įdiegiame venv:
 ```bash
 vartotojas@ubuntu:~$ sudo apt install python3-venv
+```
+Sukuriame venv:
+```bash
+vartotojas@ubuntu:~$ python3 -m venv biudzetas/venv
 ```
