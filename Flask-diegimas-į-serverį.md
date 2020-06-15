@@ -36,3 +36,8 @@ Sukuriame venv:
 ```bash
 vartotojas@ubuntu:~$ python3 -m venv biudzetas/venv
 ```
+Aktyvuojame sukurtą aplinką:
+```bash
+vartotojas@ubuntu:~$ cd biudzetas/
+vartotojas@ubuntu:~/biudzetas$ source venv/bin/activate
+```
