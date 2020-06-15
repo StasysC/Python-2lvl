@@ -133,3 +133,15 @@ Sukuriame konfiguracinį failą:
 ```bash
 (venv) vartotojas@ubuntu:~/biudzetas$ sudo nano /etc/supervisor/conf.d/biudzetas.conf 
 ```
+Įrašome tokį kodą:
+```
+[program:biudzetas]                                                     directory=/home/vartotojas/biudzetas
+command=/home/vartotojas/biudzetas/venv/bin/gunicorn -w 3 run:app
+user=vartotojas
+autostart=true
+autorestart=true
+stopasgroup=true
+killasgroup=true
+stderr_logfile=/var/log/biudzetas/biudzetas.err.log
+stdout_logfile=/var/log/biudzetas/biudzetas.out.log
+```
