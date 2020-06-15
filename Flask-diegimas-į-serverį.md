@@ -45,3 +45,16 @@ vartotojas@ubuntu:~/biudzetas$ source venv/bin/activate
 ```bash
 (venv) vartotojas@ubuntu:~/biudzetas$ pip install -r requirements.txt
 ```
+
+### Nustatome app kintamąjį ir išbandome programą:
+
+```bash
+(venv) vartotojas@ubuntu:~/biudzetas$ export FLASK_APP=run.py
+(venv) vartotojas@ubuntu:~/biudzetas$ flask run --host=0.0.0.0
+```
+
+Galime kompiuterio naršyklėje užeiti į IP ir portą ir patikrinti, ar veikia programa:
+http://192.168.43.108:5000/
+
+Sustabdome procesą cmd programoje paspaudę CTRL+C
+
