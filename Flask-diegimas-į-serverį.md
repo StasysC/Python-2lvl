@@ -1,3 +1,5 @@
+Diegsime Flask programą biudzetas į Linux Ubuntu serverį per sukurtą vartotoją "vartotojas"
+
 # Flask diegimas į serverį
 
 Savo projekte sukuriame requirements.txt failą (žr. temą virtualios aplinkos)
