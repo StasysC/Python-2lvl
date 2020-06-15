@@ -110,5 +110,14 @@ Jei naršyklėje atidarysime http://192.168.43.108/, pamatysime, kad programa vi
 Sužinome, kiek mūsų serveris turi branduolių:
 ```bash
 (venv) vartotojas@ubuntu:~$ nproc --all
+1
+```
+Reiškia, paleisdami gunicorn, prie -w turėsime įrašyti 3 ((2 x branduolių_kiekis) + 1)
+
+Paleidžiame gunicorn:
+```bash
+(venv) vartotojas@ubuntu:~$ cd biudzetas/
+(venv) vartotojas@ubuntu:~/biudzetas$ gunicorn -w 3 run:app
 ```
 
+Galime užeiti į naršyklę ir pažiūrėti, ar viskas veikia, pvz.: http://192.168.43.108/
