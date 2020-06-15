@@ -103,3 +103,6 @@ Perkrauname nginx:
 ```bash
 (venv) vartotojas@ubuntu:~$ sudo systemctl restart nginx
 ```
+
+Jei naršyklėje atidarysime http://192.168.43.108/, pamatysime, kad programa vis dar neveikia (nginx klaida)
+
