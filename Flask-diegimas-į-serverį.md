@@ -12,7 +12,7 @@ Jei reikia, serveryje įdiegiame openssh:
 sudo apt install openssh-server
 ```
 
-Prisijungiame prie mūsų serverio per cmd (jei sukurtas vartotojas - per jį, jei ne - per root):
+Prisijungiame prie mūsų serverio su cmd (jei sukurtas vartotojas - per jį, jei ne - per root):
 ```bash
 
 ```
