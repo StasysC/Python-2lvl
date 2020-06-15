@@ -76,6 +76,11 @@ Sustabdome procesą cmd programoje paspaudę CTRL+C
 ```
 
 Šiame faile įdedame tokį kodą:
+
+Prie server_name įrašome savo serverio IP
+
+Į location /static - kelia iki programos static katalogo
+
 ```
 server {
     listen 80;
