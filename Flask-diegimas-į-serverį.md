@@ -137,7 +137,7 @@ Sukuriame konfiguracinį failą:
 ```
 Į failą įrašome tokį kodą:
 ```
-[program:biudzetas]                                                     directory=/home/vartotojas/biudzetas
+[program:biudzetas]                                                    directory=/home/vartotojas/biudzetas
 command=/home/vartotojas/biudzetas/venv/bin/gunicorn -w 3 run:app
 user=vartotojas
 autostart=true
