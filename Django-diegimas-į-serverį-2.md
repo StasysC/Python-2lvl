@@ -1,6 +1,7 @@
 # Apsaugome jautrius Django duomenis
 
-Linux serveryje susikuriame konfiguracinį json failą:
+### Sukuriame konfiguracinį json failą
+
 ```bash
 vartotojas@ubuntu:~$ sudo touch /etc/config.json
 ```
@@ -19,5 +20,25 @@ Jame įrašome tuos duomenis, kurie neturėtų būti settings.py faile.
     "EMAIL_HOST_USER": "jusuel@pastas.lt",                                                      
     "EMAIL_HOST_PASSWORD": "jusu_slaptazodis",                                          
 }
+
+```
+
+### Išimame jautrius duomenis iš settings.py:
+
+Atsidarome per open config failą:
+```python
+import json
+
+with open ('/etc/config.json') as config_file:
+    config = json.load(config_file) 
+```
+
+Nustatome SECRET_KEY nuskaitymą iš failo:
+```python
+SECRET_KEY = config['SECRET_KEY']
+```
+
+Nustatome el. pašto duomenų nuskaitymą iš failo:
+```python
 
 ```
