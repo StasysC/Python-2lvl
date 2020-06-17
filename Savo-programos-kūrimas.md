@@ -6,5 +6,5 @@ Tai gali būti svetainė, verslo valdymo programa, duomenų analizė (panaudojan
 
 Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą. Gali būti panaudota ir tai, ko nesimokėme. Programai kurti galima panaudoti karkasą (framework): Flask, Odoo, Django.
 
-Tikrai nereikia pasirinkti sudėtingiausios, bet ir kad būtų pakankamas iššūkis.
+Nebūtina pasirinkti sudėtingiausios, bet ir kad būtų pakankamas iššūkis.
 
