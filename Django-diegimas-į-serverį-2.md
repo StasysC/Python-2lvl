@@ -52,3 +52,10 @@ Perkrauname Apache2 serverį:
 ```bash
 vartotojas@ubuntu:~$ sudo systemctl restart apache2
 ```
+
+# Įkeliame ir atnaujiname projektą per GIT:
+
+Ištriname seną projekto katalogą:
+```bash
+vartotojas@ubuntu:/var/www$ sudo rm -r mysite/
+```
