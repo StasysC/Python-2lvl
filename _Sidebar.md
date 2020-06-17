@@ -119,5 +119,6 @@
 * [Teorija](https://github.com/robotautas/kursas/blob/master/linux_terminalas/linux1.md)
 * [Flask diegimas į serverį](https://github.com/robotautas/kursas/wiki/Flask-diegimas-%C4%AF-server%C4%AF)
 * [Django diegimas į serverį](https://github.com/robotautas/kursas/blob/master/Django/MDs10/django10.md)
+* [Django diegimas į serverį 2](https://github.com/robotautas/kursas/wiki/Django-diegimas-%C4%AF-server%C4%AF-2)
 
 [Pabaigimo užduotis: savo programos kūrimas](https://github.com/robotautas/kursas/wiki/Savo-programos-k%C5%ABrimas)
