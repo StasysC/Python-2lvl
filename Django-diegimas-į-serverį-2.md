@@ -40,5 +40,10 @@ SECRET_KEY = config['SECRET_KEY']
 
 Nustatome el. pašto duomenų nuskaitymą iš failo:
 ```python
-
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'                                                               
+EMAIL_POST = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = config.get('EMAIL_HOST_USER')                                             
+EMAIL_HOST_PASSWORD = config.get('EMAIL_HOST_PASSWORD')  
 ```
