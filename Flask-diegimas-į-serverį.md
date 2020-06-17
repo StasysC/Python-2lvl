@@ -163,4 +163,31 @@ Perkrauname supervisor:
 
 Galime naršyklėje atsidaryti http://192.168.43.108/
 
+### Padidiname atsiunčiamos nuotraukos dydžio limitą:
+Atsidarome nginx konfiguracinį failą:
+```bash
+vartotojas@ubuntu:~$ sudo nano /etc/nginx/nginx.conf
+```
+Jame pridedame eilutę client_max_body_size 5M:
+```
+http {
+
+        ##
+        # Basic Settings
+        ##
+
+        sendfile on;
+        tcp_nopush on;
+        tcp_nodelay on;
+        keepalive_timeout 65;
+        types_hash_max_size 2048;
+        client_max_body_size 5M;
+        # server_tokens off;
+
+```
+Perkrauname nginx:
+```bash
+vartotojas@ubuntu:~$ sudo systemctl restart nginx
+```
+
 VISKAS!
