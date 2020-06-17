@@ -55,7 +55,17 @@ vartotojas@ubuntu:~$ sudo systemctl restart apache2
 
 # Įkeliame ir atnaujiname projektą per GIT:
 
+Įdiegiame GIT:
+```bash
+vartotojas@ubuntu:/var/www$ sudo apt install git 
+```
+
 Ištriname seną projekto katalogą:
 ```bash
 vartotojas@ubuntu:/var/www$ sudo rm -r mysite/
+```
+
+Klonuojame projekto GIT repozitoriją, pvz.:
+```bash
+vartotojas@ubuntu:/var/www$ git clone https://github.com/DonatasNoreika/django_tinklarastis.git  
 ```
