@@ -120,4 +120,4 @@
 * [Flask diegimas į serverį](https://github.com/robotautas/kursas/wiki/Flask-diegimas-%C4%AF-server%C4%AF)
 * [Django diegimas į serverį](https://github.com/robotautas/kursas/blob/master/Django/MDs10/django10.md)
 
-[Užduotis: savo programos kūrimas](https://github.com/robotautas/kursas/wiki/Savo-programos-k%C5%ABrimas)
+[Pabaigimo užduotis: savo programos kūrimas](https://github.com/robotautas/kursas/wiki/Savo-programos-k%C5%ABrimas)
