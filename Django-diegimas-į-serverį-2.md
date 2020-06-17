@@ -47,3 +47,8 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = config.get('EMAIL_HOST_USER')                                             
 EMAIL_HOST_PASSWORD = config.get('EMAIL_HOST_PASSWORD')  
 ```
+
+Perkrauname Apache2 serverį:
+```bash
+vartotojas@ubuntu:~$ sudo systemctl restart apache2
+```
