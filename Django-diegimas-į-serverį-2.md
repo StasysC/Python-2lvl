@@ -69,7 +69,7 @@ vartotojas@ubuntu:~$ sudo apt-get install certbot python3-certbot-apache
 
 Atsidarome mūsų Apache konfiguracinį failą:
 ```bash
-vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/mysite.conf 
+vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/django_app.conf 
 ```
 
 Užkomentuojame šias eilutes:
