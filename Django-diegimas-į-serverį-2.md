@@ -90,11 +90,13 @@ Atsidarome mūsų Apache konfiguracinį failą:
 vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/django_app.conf
 ```
 
-ir matome, kad failo apačioje yra įrašytos trys eilutės:
+ir matome, kad failo apačioje yra įrašytos trys eilutės, pvz.:
 ```
-
+RewriteEngine on
+RewriteCond %{SERVER_NAME} =jbln.l.dedikuoti.lt
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 ```
-Ištriname visus Alias ir Directory įrašus
+Ištriname visus Alias ir Directory įrašus (eilutę galime trinti su CTRL+K)
 
 Atsidarome mūsų naujai sukurtą konfiguracinį failą:
 ```bash
