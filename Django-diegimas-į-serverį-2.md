@@ -87,7 +87,7 @@ Nurodome savo el. pašto adresą, patvirtiname taisykles (A), leidžiame (arba n
 
 Atsidarome mūsų Apache konfiguracinį failą:
 ```bash
-vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/mysite.conf 
+vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/django_app.conf
 ```
 
 ir matome, kad failo apačioje yra įrašytos trys eilutės:
@@ -98,7 +98,7 @@ Ištriname visus Alias ir Directory įrašus
 
 Atsidarome mūsų naujai sukurtą konfiguracinį failą:
 ```bash
-vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/mysite-le-ssl.conf 
+vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/django_app-le-ssl.conf 
 ```
 
 Nukomentuojame užkomentuotas eilutes
