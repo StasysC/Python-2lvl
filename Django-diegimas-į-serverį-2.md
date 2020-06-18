@@ -124,3 +124,8 @@ Ištestuojame Apache konfiguraciją:
 ```bash
 vartotojas@ubuntu:~$ sudo apachectl configtest
 ```
+
+Jei naudojame firewall, leidžiame:
+```bash
+sudo ufw allow https
+```
