@@ -100,4 +100,4 @@ Dabar jau leidžiame:
 ```bash
 vartotojas@ubuntu:~$ sudo certbot --apache
 ```
-ir nurodome savo el. pašto adresą, patvirtiname taisykles (A), leidžiame (arba ne) siųsti naujienas (N), galiausiai pasirenkame 2 (Redirect, kad leistų tik https užklausas)
+Nurodome savo el. pašto adresą, patvirtiname taisykles (A), leidžiame (arba ne) siųsti naujienas (N), pasirenkame savo puslapį (1) galiausiai pasirenkame 2 (Redirect, kad leistų tik https užklausas)
