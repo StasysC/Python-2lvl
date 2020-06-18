@@ -119,3 +119,8 @@ vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/mysite-le-ssl.conf
 ```
 
 Nukomentuojame užkomentuotas eilutes
+
+Ištestuojame Apache konfiguraciją:
+```bash
+vartotojas@ubuntu:~$ sudo apachectl configtest
+```
