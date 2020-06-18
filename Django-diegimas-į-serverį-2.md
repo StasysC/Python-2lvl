@@ -56,7 +56,13 @@ vartotojas@ubuntu:~$ sudo systemctl restart apache2
 # Aktyvuojame SSL(TLS) (HTTPS) sertifikatą
 
 Atsidarome svetainę https://letsencrypt.org/, spaudžiame "Get Started" ir spaudžiame ant nuorodos "Certbot".
-Šiame puslapyje pasirenkame savo serverio sistemą ir operacinę sistemą (mūsų atveju - Apache ir Ubuntu 20.04)
+Šiame puslapyje pasirenkame savo serverio sistemą ir operacinę sistemą (mūsų atveju - Apache ir Ubuntu 20.04):
+
+![Certbot](https://github.com/robotautas/kursas/blob/master/Django%20diegimas%202/certbot.png)
+
+Matome komandas, kurias reikia paleisti (tačiau neskubėkime!):
+
+![Certbot2](https://github.com/robotautas/kursas/blob/master/Django%20diegimas%202/certbot2.png)
 
 Prisijungiame prie mūsų serverio ir leidžiame šias komandas (jei komandos skiriasi, leiskime jas), pvz.:
 ```bash
