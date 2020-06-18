@@ -110,11 +110,6 @@ Ištestuojame Apache konfiguraciją:
 vartotojas@ubuntu:~$ sudo apachectl configtest
 ```
 
-Jei naudojame firewall, leidžiame:
-```bash
-sudo ufw allow https
-```
-
 Perkrauname Apache2 serverį:
 ```bash
 vartotojas@ubuntu:~$ sudo systemctl restart apache2
