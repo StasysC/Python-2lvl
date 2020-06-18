@@ -111,8 +111,11 @@ ir matome, kad failo apačioje yra įrašytos trys eilutės:
 ```
 
 ```
+Ištriname visus Alias ir Directory įrašus
 
 Atsidarome mūsų naujai sukurtą konfiguracinį failą:
 ```bash
 vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/mysite-le-ssl.conf 
 ```
+
+Nukomentuojame užkomentuotas eilutes
