@@ -83,3 +83,15 @@ vartotojas@ubuntu:~$ sudo add-apt-repository universe
 vartotojas@ubuntu:~$ sudo apt-get update
 vartotojas@ubuntu:~$ sudo apt-get install certbot python3-certbot-apache
 ```
+
+Atsidarome mūsų Apache konfiguracinį failą:
+```bash
+vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/mysite.conf 
+```
+
+Užkomentuojame šias eilutes:
+```
+    #WSGIDaemonProcess mysite processes=1 threads=15 python-path=/var/w>    
+    #WSGIProcessGroup mysite
+    #WSGIScriptAlias / /var/www/mysite/mysite/wsgi.py
+```
