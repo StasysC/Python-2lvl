@@ -101,3 +101,14 @@ Dabar jau leidžiame:
 vartotojas@ubuntu:~$ sudo certbot --apache
 ```
 Nurodome savo el. pašto adresą, patvirtiname taisykles (A), leidžiame (arba ne) siųsti naujienas (N), pasirenkame savo puslapį (1) galiausiai pasirenkame 2 (Redirect, kad leistų tik https užklausas)
+
+Atsidarome mūsų Apache konfiguracinį failą:
+```bash
+vartotojas@ubuntu:~$ sudo nano /etc/apache2/sites-enabled/mysite.conf 
+```
+
+ir matome, kad failo apačioje yra įrašytos trys eilutės:
+```
+
+```
+
