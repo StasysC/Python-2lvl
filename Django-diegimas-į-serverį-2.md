@@ -53,23 +53,6 @@ Perkrauname Apache2 serverį:
 vartotojas@ubuntu:~$ sudo systemctl restart apache2
 ```
 
-# Įkeliame ir atnaujiname projektą per GIT:
-
-Įdiegiame GIT:
-```bash
-vartotojas@ubuntu:/var/www$ sudo apt install git 
-```
-
-Ištriname seną projekto katalogą:
-```bash
-vartotojas@ubuntu:/var/www$ sudo rm -r mysite/
-```
-
-Klonuojame projekto GIT repozitoriją, pvz.:
-```bash
-vartotojas@ubuntu:/var/www$ git clone https://github.com/DonatasNoreika/django_tinklarastis.git  
-```
-
 # Aktyvuojame SSL(TLS) (HTTPS) sertifikatą
 
 Atsidarome svetainę https://letsencrypt.org/, spaudžiame "Get Started" ir spaudžiame ant nuorodos "Certbot".
@@ -128,4 +111,9 @@ vartotojas@ubuntu:~$ sudo apachectl configtest
 Jei naudojame firewall, leidžiame:
 ```bash
 sudo ufw allow https
+```
+
+Perkrauname Apache2 serverį:
+```bash
+vartotojas@ubuntu:~$ sudo systemctl restart apache2
 ```
