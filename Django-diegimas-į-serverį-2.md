@@ -69,3 +69,17 @@ Klonuojame projekto GIT repozitoriją, pvz.:
 ```bash
 vartotojas@ubuntu:/var/www$ git clone https://github.com/DonatasNoreika/django_tinklarastis.git  
 ```
+
+# Aktyvuojame SSL(TLS) (HTTPS) sertifikatą
+
+Atsidarome svetainę https://letsencrypt.org/, spaudžiame "Get Started" ir spaudžiame ant nuorodos "Certbot".
+Šiame puslapyje pasirenkame savo serverio sistemą ir operacinę sistemą (mūsų atveju - Apache ir Ubuntu 20.04)
+
+Prisijungiame prie mūsų serverio ir leidžiame šias komandas (jei komandos skiriasi, leiskime jas), pvz.:
+```bash
+vartotojas@ubuntu:~$ sudo apt-get update
+vartotojas@ubuntu:~$ sudo apt-get install software-properties-common
+vartotojas@ubuntu:~$ sudo add-apt-repository universe
+vartotojas@ubuntu:~$ sudo apt-get update
+vartotojas@ubuntu:~$ sudo apt-get install certbot python3-certbot-apache
+```
