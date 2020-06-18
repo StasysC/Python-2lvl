@@ -95,3 +95,9 @@ Užkomentuojame šias eilutes:
     #WSGIProcessGroup mysite
     #WSGIScriptAlias / /var/www/mysite/mysite/wsgi.py
 ```
+
+Dabar jau leidžiame:
+```bash
+vartotojas@ubuntu:~$ sudo certbot --apache
+```
+ir nurodome savo el. pašto adresą, patvirtiname taisykles (A), leidžiame (arba ne) siųsti naujienas (N), galiausiai pasirenkame 2 (Redirect, kad leistų tik https užklausas)
