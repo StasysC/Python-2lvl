@@ -117,3 +117,23 @@ Perkrauname Apache2 serverį:
 ```bash
 vartotojas@ubuntu:~$ sudo systemctl restart apache2
 ```
+
+Patikriname, ar mūsų svetainė jau su https
+
+Dabar ištestuojame, ar veikia automatinis sertifikato atnaujinimas:
+```bash
+sudo certbot renew --dry-run
+```
+
+Automatizuojame sertifikato atnaujinimą. Panaudosime cron:
+
+Leidžiame:
+```
+vartotojas@ubuntu:~$ sudo crontab -e
+```
+Pasirenkame 1 (nano)
+
+Atidarytame failę įrašome:
+```
+30 4 1 * * sudo certbot renew --quiet
+```
