@@ -1,4 +1,4 @@
-# Apsaugome jautrius Django duomenis
+# Apsaugome Django duomenis
 
 ### Sukuriame konfiguracinį json failą
 
