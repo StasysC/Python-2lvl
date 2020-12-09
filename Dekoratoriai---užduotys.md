@@ -18,4 +18,4 @@ print(end_time - start_time)  # atspausdiname laiką, per kurį gaovme atsakymą
 ```
 
 Parašykite dekoratorių, bet kokios funkcijos vykdymo laikui fiksuoti. Galite patobulinti,
-pvz funkcijos (vardas), su tokiais ir tokiais argumentais vykdymo laikas - XX s. 
+pvz funkcijos (vardas), su tokiais ir tokiais argumentais vykdymo laikas - XX s. Ištestuokite, su funkcija, grąžinančia svetainės atsako kodą ir su funkcija, išrenkančia pirminius skaičius užduotame diapazone.
