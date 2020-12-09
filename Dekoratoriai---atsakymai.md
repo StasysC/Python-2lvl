@@ -46,4 +46,18 @@ def get_status(website):
 
 
 get_status('http://python.org')
+
+@speed_test
+def prime_finder(given_range):
+    final_list = []
+    for num in range(given_range):
+        if num > 1:
+            for i in range(2,num):  
+                    if (num % i) == 0:  
+                        break
+            else:  
+                final_list.append(num)
+    return final_list
+
+prime_finder(10000)
 ```
