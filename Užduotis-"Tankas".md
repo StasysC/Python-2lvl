@@ -1,9 +1,11 @@
 Klasė: Tankas
+
 Metodai: pirmyn, atgal, kairėn, dešinėn, šūvis, info, ...
+
 Kintamieji turi:
-• saugoti tanko koordinates,
-• saugoti tanko kryptį,
-• saugoti šūvių skaičių į kiekvieną kryptį.
+* saugoti tanko koordinates,
+* saugoti tanko kryptį,
+* saugoti šūvių skaičių į kiekvieną kryptį.
 
 • Tankas gali judėti pirmyn (į Šiaurę), dešinėn (į Rytus), atgal (į
 Pietus), kairėn (į Vakarus) per vieną poziciją. Pvz. „tankas pajuda
