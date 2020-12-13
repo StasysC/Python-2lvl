@@ -24,3 +24,7 @@ Visas tanko ir informacijos valdymas turi būti atliktas konsolėje
 vartotojo nurodymai. Veiksmai turi būti atliekami (kviečiami metodai)
 tol, kol vartotojas nesustabdys programos (pavyzdžiui, pasirinkęs tam
 tikrą meniu punktą).
+
+## 2 etapas
+
+Patobulinkite programą taip, kad koordinačių sistemoje būtų generuojamas taikinys. Tanko užduotis - atsidurti tinkamoje pozicijoje ir reikiama kryptimi, kad iššovus būtų fiksuojamas pataikymas. Tankui pataikius, konsolėje matome užrašą "pataikei" ir tuoj pat sugeneruojamas naujas taikinys. Už pataikymus galima skirti taškų, už nepataikymus ar info metodo panaudojimą galima taškus nubraukti. 
