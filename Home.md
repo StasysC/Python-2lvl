@@ -8,5 +8,5 @@
 
 ## Trumpos temos:
 
-* [lru_cache]()
+* [lru_cache](https://github.com/robotautas/kursas/wiki/lru_cache)
 
