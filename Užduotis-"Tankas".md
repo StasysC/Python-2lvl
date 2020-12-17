@@ -27,4 +27,7 @@ tikrą meniu punktą).
 
 ## 2 etapas
 
-Patobulinkite programą taip, kad koordinačių sistemoje būtų generuojamas taikinys. Tanko užduotis - atsidurti tinkamoje pozicijoje ir reikiama kryptimi, kad iššovus būtų fiksuojamas pataikymas. Tankui pataikius, konsolėje matome užrašą "pataikei" ir tuoj pat sugeneruojamas naujas taikinys. Už pataikymus galima skirti taškų, už nepataikymus ar info metodo panaudojimą galima taškus nubraukti. 
+Patobulinkite programą taip, kad koordinačių sistemoje būtų generuojamas taikinys. Tanko užduotis - atsidurti tinkamoje pozicijoje ir reikiama kryptimi, kad iššovus būtų fiksuojamas pataikymas. Tankui pataikius, konsolėje matome užrašą "pataikei" ir tuoj pat sugeneruojamas naujas taikinys. 
+## 3 etapas
+
+Sugalvokite taškų sistemą, pvz už pataikymus galima skirti 100 taškų, už kiekvieną kitą veiksmą nubraukti 10 taškų. Sumuoti pataikymus. Pasibaigus taškams programa parodo, kiek numušta taikinių, ir pasibaigia. Galbūt galima saugoti high scores - pasibaigus įvedamas vardas ir žaidėjas su numuštų taikinių skaičiumi įrašomas į topus. Topus galbūt galima pažiūrėti su komanda 'top'. Sugalvokite kokių nors savo patobulinimų, sėkmės :)
