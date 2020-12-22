@@ -16,7 +16,7 @@ Workshop paper notifications: March 27, 2020
 Workshop paper camera-ready versions: April 10, 2020
 Tutorial material due (online): April 10, 2020'''
 
-pattern = re.compile(r'[A-Z]\w+\s\d{1,2},\s20\d{2}')
+pattern = re.compile(r'[A-Z]\w+ \d{1,2}, 20\d{2}')
 res = pattern.findall(text)
 print(res)
 ```
