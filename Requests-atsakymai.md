@@ -21,7 +21,7 @@ def sites_headers_data(*args):
 
 sites_headers_data('http://delfi.lt', 'http://alfa.lt', 'http://15min.lt', 'http://lrytas.lt', 'http://google.com')
 ```
-#3
+# 3
 ```python
 import requests
 
