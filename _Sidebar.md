@@ -75,7 +75,10 @@
 * [API's naudojimas](https://github.com/robotautas/kursas/wiki/API's)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/API's-u%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/API's-atsakymai)
-
+**Beautiful Soup**
+* [BS](https://github.com/robotautas/kursas/wiki/Beautiful-Soup)
+* [Užduotys](https://github.com/robotautas/kursas/wiki/Beautiful-Soup-U%C5%BEduotys)
+* [Atsakymai](https://github.com/robotautas/kursas/wiki/Beautiful-Soup-Atsakymai)
 **Flask**
 * [Įžanga](https://github.com/robotautas/kursas/wiki/Flask----%C4%AF%C5%BEanga)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Flask---%C4%AF%C5%BEanga---u%C5%BEduotys)
