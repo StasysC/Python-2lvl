@@ -2,8 +2,8 @@
 
 Parašykite programą, kuri nuskaitytų delfi antraštes, patikrintų, ar jos turi dvitaškį. Dalį iki dvitaškio sudėtų į vieną sarašą, dalį po dvitaškio į kitą. Antrą sarašą išmaišykite (google). Tuomet atspausdinkite pirmas dalis iš pirmo sarašo, prie jų prijunkite antras dalis iš antro sąrašo. Turėtume gauti panašių variantų:
 
-Orai : už 9 šlakius teks sumokėti 26 tūkstančius eurų
-Antradienio vakare kauniečius išgąsdino termofikacijos elektrinė : ar bus naujagimių bumas?
+* Orai : už 9 šlakius teks sumokėti 26 tūkstančius eurų
+* Antradienio vakare kauniečius išgąsdino termofikacijos elektrinė : ar bus naujagimių bumas?
 
 # 2
 
