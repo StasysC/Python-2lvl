@@ -9,4 +9,5 @@
 ## Trumpos temos:
 
 * [lru_cache](https://github.com/robotautas/kursas/wiki/lru_cache)
+* [env_vars](https://github.com/robotautas/kursas/wiki/Aplinkos-kintamieji)
 
