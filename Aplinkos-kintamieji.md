@@ -1,5 +1,3 @@
-# Aplinkos kintamieji (Environment Variables)
-
 Dažnai mūsų programos turės jungtis prie tam tikrų paskyrų su slaptažodžiais. Savo kode galime nurodyti *password = 'koks_nors_slaptazodis'*, tačiau tai nėra gera praktika, kadangi saugant programą versijavimo sistemose, ar kažkaip kitaip dalinantis kodu, konfidenciali informacija bus matoma visiems, kas gali perskaityti kodą. Vienas iš gerų būdų spręsti šiai problemai yra slaptos informacijos saugojimas aplinkos kintamuosiuose (environment variables). Skirtingose OS šių kintamųjų nustatymo procesas skiriasi.
 
 ## Windows
