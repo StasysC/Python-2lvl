@@ -13,7 +13,7 @@ Sugeneruokite CSV failą, kuriame būtų stulpeliai IP,Country,City,Temp,Weather
 Naudokite šias API:
 
 * https://freegeoip.app/
-* http://api.openweathermap.org/data/2.5/weather/
+* https://openweathermap.org/api
 
 OpenWeather reikės užsiregistruoti ir gauti API-key.
 
@@ -26,8 +26,3 @@ with open('ip_data.csv', 'a') as f: # nurodome failo pavadinimą, ir kad norėsi
         writer = csv.writer(f, delimiter=',') # susikuriame 'writer' objektą, nurodome kur rašysime, ir kad skirtukais bus kablelis
         writer.writerow(['IP', 'Country', 'City', 'Temp', 'Weather']) # objekto 'writerow' metodui perduodame iš esmės bet kokį sąrašą.
 ```
-
-
-
- 
-# [ATSAKYMAS](https://github.com/robotautas/kursas/blob/master/konsultacijos/0130/sav_darbas.py)
