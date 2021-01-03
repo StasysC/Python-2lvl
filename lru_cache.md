@@ -22,7 +22,7 @@ labai galvoju
 100000
 100000
 ```
-Pirmą kartą programa galvoja, tačiau antrą kartą skaičiavimo rezultatą traukia iš atminties. Dekoratoriaus parametruose galima nurodyti, kiek saugoti paskutinių reikšmių, numatytoji yra 128(?). 
+Pirmą kartą programa galvoja, tačiau antrą kartą skaičiavimo rezultatą traukia iš atminties. Dekoratoriaus parametruose galima nurodyti, kiek saugoti parametrų kombinacijų, numatytoji yra 128(?). 
 
 ```bash
 python -i .\cache_pvz.py
