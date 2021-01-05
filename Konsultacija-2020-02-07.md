@@ -4,7 +4,7 @@ Arbitražas yra paprasta prekybos strategija, kai vienoje vietoje perkama pigiau
 
 ## Užduotis
 
-Jums reikės, naudojant [šį](https://www.coinlore.com/cryptocurrency-data-api) API parašyti flask programėlę, kuri sugeneruotų naršyklėje lentelę, kurioje matytųsi:
+Jums reikės, naudojant [šį API](https://www.coinlore.com/cryptocurrency-data-api) parašyti flask programėlę, kuri sugeneruotų naršyklėje lentelę, kurioje matytųsi:
 
 * Kriptovaliutos pavadinimas
 * Keityklos, kuri tą kriptovaliutą siūlo pigiausiai, pavadinimas
