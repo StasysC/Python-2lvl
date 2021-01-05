@@ -202,3 +202,16 @@ def index():
 ```
 
 Čia yra paprastas pavyzdys, kaip galime dirbti su vartotojo įvestais duomenimis. Aplikacijos logika paprasta, tačiau nėra ribų, kiek galime ją plėsti.
+
+# Užduotys (pasipraktikavimui :)
+## 1 užduotis
+Sukurti programą, kuri turėtų statinį puslapį, pvz. localhost:5000 su norimu tekstu (rekomenduojama naudoti šablonus)
+
+## 2 užduotis
+Sukurti programą, kuri įvedus norimą žodį langelyje ir nuspaudus mygtuką, atspausdintų jį penkis kartus.
+
+## 3 užduotis
+Sukurti programą, kuri leistų įvesti metus ir paspaudus patvirtinimo mygtuką parodytų, ar jie yra keliamieji.
+
+## 4 užduotis
+sukurkite kūno masės indekso skaičiuoklę
