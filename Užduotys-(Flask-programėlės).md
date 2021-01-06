@@ -1,6 +1,8 @@
 # 1
 
-Sukurti web aplikaciją, kurioje į langelius įvedus adresą, subject ir laiško tekstą, paspaudus mygtuką 'Send' laiškas būtų išsiųstas. Jeigu programa susiduria su klaida (pvz. neteisingai įvestas email adresas), ji neturėtų nulūžti, o klaidos tekstą atspausdinti naršyklėje. 
+Sukurkite web aplikaciją, kuri siunčia elektroninį paštą. Atrodyti ruti maždaug taip:
+[](https://github.com/robotautas/kursas/blob/master/konsultacijos/email_sender_flask/email_sender.png)
+Sėkmingai išsiuntus žinutę, apačioje pasirodo įrašas 'Message sent!'. Klaidos atveju pasirodo klaidos tekstas.
 
 # 2
 
