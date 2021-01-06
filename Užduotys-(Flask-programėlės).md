@@ -1,7 +1,7 @@
 # 1
 
 Sukurkite web aplikaciją, kuri siunčia elektroninį paštą. Atrodyti ruti maždaug taip:
-[](https://github.com/robotautas/kursas/blob/master/konsultacijos/email_sender_flask/email_sender.png)
+![](https://github.com/robotautas/kursas/blob/master/konsultacijos/email_sender_flask/email_sender.png)
 Sėkmingai išsiuntus žinutę, apačioje pasirodo įrašas 'Message sent!'. Klaidos atveju pasirodo klaidos tekstas.
 
 # 2
