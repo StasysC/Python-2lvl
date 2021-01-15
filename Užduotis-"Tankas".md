@@ -25,6 +25,8 @@ vartotojo nurodymai. Veiksmai turi būti atliekami (kviečiami metodai)
 tol, kol vartotojas nesustabdys programos (pavyzdžiui, pasirinkęs tam
 tikrą meniu punktą).
 
+![Tanko iliustracija](https://github.com/robotautas/kursas/blob/master/tanko%20iliustracija.png)
+
 ## 2 etapas
 
 Patobulinkite programą taip, kad koordinačių sistemoje būtų generuojamas taikinys. Tanko užduotis - atsidurti tinkamoje pozicijoje ir reikiama kryptimi, kad iššovus būtų fiksuojamas pataikymas. Tankui pataikius, konsolėje matome užrašą "pataikei" ir tuoj pat sugeneruojamas naujas taikinys. 
