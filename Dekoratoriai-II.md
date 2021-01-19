@@ -115,6 +115,8 @@ print(give_me_10.__doc__)
 # give_me_10
 # Grąžina skaičių 10
 
+```
+
 ## Kaip sukurti dekoratorių su parametrais:
 
 ```python
