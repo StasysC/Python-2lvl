@@ -118,6 +118,8 @@ print(give_me_10.__doc__)
 ## Kaip sukurti dekoratorių su parametrais:
 
 ```python
+from time import sleep
+
 def uzvelavimas(laikas):
     def uzvelavimas(fn):
         def wrapper(*args, **kwargs):
@@ -133,8 +135,44 @@ def for_sukimas(kartai):
         print(x, " ", end="")
     print()
 
+@uzvelavimas(3)
+@args_counter
+def sumavimas(*args):
+    print("Skaičių suma:", sum(args))
+
 for_sukimas(10000)
 
 # Funkcija buvo atidėta 1 sekundę(-es)
 # 0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  
+```
+Dabar skirtingoms funkcijoms galime uždėti dekoratorių su skirtingais argumentais (šiuo atveju - funkcijos bus paleidžiamos su skirtingu užvėlavimu)
+
+## Keli dekoratoriai ant funkcijos
+Funkcijai galima uždėti ir kelis dekoratorius, pvz.:
+```python
+def uzvelavimas(laikas):
+    def uzvelavimas(fn):
+        def wrapper(*args, **kwargs):
+            sleep(laikas)
+            print(f"Funkcija buvo atidėta {laikas} sekundę(-es)")
+            return fn(*args, **kwargs)
+        return wrapper
+    return uzvelavimas
+
+def args_counter(fn):
+    def wrapper(*args, **kwargs):
+        print("Args number:", len(args))
+        return fn(*args, **kwargs)
+    return wrapper
+
+@uzvelavimas(3)
+@args_counter
+def sumavimas(*args):
+    print("Skaičių suma:", sum(args))
+
+sumavimas(50, 30, 20, 15)
+
+# Funkcija buvo atidėta 3 sekundę(-es)
+# Args number: 4
+# Skaičių suma: 115
 ```
