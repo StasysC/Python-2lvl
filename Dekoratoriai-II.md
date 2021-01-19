@@ -178,3 +178,5 @@ sumavimas(50, 30, 20, 15)
 # Args number: 4
 # Skaičių suma: 115
 ```
+
+Dabar ant funkcijos sumavimas uždėjome du dekoratorius – uzvelavimas (jis užvėlina programos paleidimą 3 sekundėmis) ir args_counter (jis suskaičiuoja funkcijai paduotus argumentus). Paleidus šią funkciją, ji pereina ir per abu dekoratorius ir padaro atitinkamą veiksmą.
