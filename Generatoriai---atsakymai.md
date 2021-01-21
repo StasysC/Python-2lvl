@@ -45,6 +45,30 @@ for num in generator:
     print(num)
 ```
 
+Alternatyva:
+
+
+```python
+#Tarkime, kad teisingas pin yra 0123
+PIN = '9999'
+
+def pin_breaker(pin):
+    guess = 0
+    while True:
+        res = ("0" * (4 - (len(str(guess))))) + str(guess)
+        if res == pin:
+            print(f"PIN is {res}")
+            break
+        yield res
+        guess += 1
+
+
+generator = pin_breaker(PIN)
+for num in generator:
+    #Čia irgi galime įterpti logiką, kad spausdintų nulius prieky
+    print(num)
+```
+
 4
 ```python
 def read_in_lines(filename):
