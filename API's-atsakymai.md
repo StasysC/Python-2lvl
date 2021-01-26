@@ -2,6 +2,8 @@
 
 # 1
 ```python
+import requests
+
 url = 'https://api.frankfurter.app/'
 
 def get_currency_list():
@@ -29,6 +31,9 @@ get_rate('ZZZ', 'GBP')
 ```
 # 2
 ```python
+import requests
+import webbrowser as wb
+
 url = 'http://www.recipepuppy.com/api/'
 
 def get_recipes(query):
