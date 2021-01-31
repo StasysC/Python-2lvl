@@ -82,7 +82,7 @@
 * [Užduotys](https://github.com/robotautas/kursas/wiki/Beautiful-Soup-U%C5%BEduotys)
 * [Atsakymai](https://github.com/robotautas/kursas/wiki/Beautiful-Soup-Atsakymai)
 
-** Duomenų bazės **
+**Duomenų bazės**
 
 * [SQL 1](https://github.com/robotautas/kursas/blob/master/DB/db1/db1.md)
 * [Užduotys](https://drive.google.com/file/d/193cc7tQ17R0Z6AdJmNQgPmMbyPQ1DmJa/view?usp=sharing)
@@ -92,6 +92,10 @@
 * [Atsakymai](https://drive.google.com/file/d/15rG8Z90enifsFiPHNXT84Y7OsgNKf25v/view?usp=sharing)
 * [SQL per Python](https://github.com/robotautas/kursas/blob/master/DB/db_python/db.md)
 * [Užduotys]()
+* [SQL 3](https://github.com/robotautas/kursas/blob/master/DB/db3/db3.md)
+* [Užduotys](https://drive.google.com/file/d/1UnbTxf9r_lCWzNSoaIb4aqoR6LT0AOaY/view?usp=sharing)
+* [SQL 4](https://github.com/robotautas/kursas/blob/master/DB/db4/db4.md)
+* [Užduotis](https://github.com/robotautas/kursas/blob/master/DB/db4/uzduotis.md)
 
 **Flask**
 
