@@ -91,7 +91,7 @@
 * [Užduotys](https://drive.google.com/file/d/1Dj9tUK0OH7RGeMbBy4m1MZwhfwNVjuSK/view?usp=sharing)
 * [Atsakymai](https://drive.google.com/file/d/15rG8Z90enifsFiPHNXT84Y7OsgNKf25v/view?usp=sharing)
 * [SQL per Python](https://github.com/robotautas/kursas/blob/master/DB/db_python/db.md)
-* [Užduotys]()
+* [Užduotis](https://github.com/robotautas/kursas/wiki/DB-Python-u%C5%BEduotys)
 * [SQL 3](https://github.com/robotautas/kursas/blob/master/DB/db3/db3.md)
 * [Užduotys](https://drive.google.com/file/d/1UnbTxf9r_lCWzNSoaIb4aqoR6LT0AOaY/view?usp=sharing)
 * [SQL 4](https://github.com/robotautas/kursas/blob/master/DB/db4/db4.md)
