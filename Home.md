@@ -15,5 +15,5 @@
 * [lru_cache](https://github.com/robotautas/kursas/wiki/lru_cache)
 * [env_vars](https://github.com/robotautas/kursas/wiki/Aplinkos-kintamieji)
 * [Naršyklė kaip vartotojo sąsaja](https://github.com/robotautas/kursas/wiki/Nar%C5%A1ykl%C4%97-kaip-vartotojo-s%C4%85saja)
-* [Pandas NaN reikšmių ir kategorinių stulpelių tvarkymas] (https://github.com/robotautas/kursas/blob/master/pandasNANcategorical.ipynb)
+* [Pandas NaN reikšmių ir kategorinių stulpelių tvarkymas](https://github.com/robotautas/kursas/blob/master/pandasNANcategorical.ipynb)
 
