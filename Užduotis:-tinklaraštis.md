@@ -12,7 +12,7 @@ Naudojantis Django framework'u sukurti tinklaraštį, kuris:
 ### 2 etapas
 * Padaryti, kad prisijungusiam vartotojui būtų leista kurti straipsnius (per CreateView).
 * Padaryti, kad prisijungusiam vartotojui būtų leista redaguoti ir trinti savo straipsnius (per UpdateView ir DeleteView).
-* Padaryti, kad prie kiekvieno straipsnio būtų matomas komentarų kiekis (parašyti atitinkama @property metodą).
+* Padaryti, kad prie kiekvieno straipsnio būtų matomas komentarų kiekis (parašyti atitinkamą @property metodą).
 * Padaryti, kad straipsnių sąraše būtų matomos tik straipsnių santraukos (pvz. 2 eilučių) ir nuoroda "Skaityti daugiau". Ją paspaudus, būtų nukreipiama į pilną straipsnio aprašymą (DetailView).
 * Prie komentaro modelio pridėti vartotojo lauką (ryšį su user). Padaryti, kad vartotojui leistų trinti ir redaguoti savo komentarus.
 * Padaryti vertimus (puslapis turėtų būti dvejomis kalbomis, pvz. anglų, lietuvių). Padaryti kalbos perjungimo mygtuką.
