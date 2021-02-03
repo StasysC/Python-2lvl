@@ -1,2 +1,1 @@
-Perdaryti prieš tai kurtą programą su grafine vartotojo sąsaja (Flask), duomenų baze (SQLAlchemy)
-
+Perdaryti prieš tai kurtą biudžeto programą, kad ji būtų su grafine vartotojo sąsaja (Flask), duomenų baze (SQLAlchemy).
