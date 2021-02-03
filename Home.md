@@ -9,7 +9,7 @@
 * [Paskolų skaičiuoklė (konsolėje arba tkinter)](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis-paskolos)
 * Biudžetas (su Flask, SQLalchemy)
 * [Egzaminavimo programa (su Flask, SQLalchemy)](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis:-egzaminavimo-programa)
-* [Tinklaraštis (su Django)(du etapai)](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis:-tinklara%C5%A1tis)
+* [Tinklaraštis (su Django)](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis:-tinklara%C5%A1tis) (du etapai)
 
 ## Trumpos temos:
 
