@@ -6,6 +6,7 @@
 * [2020-05-28](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis:-tinklara%C5%A1tis)
 * [Tankas 2020](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis-%22Tankas%22)
 * [Citatų žaidimas su DB]()
+* [Paskolų skaičiuoklė (konsolėje arba tkinter)](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis-paskolos)
 
 ## Trumpos temos:
 
