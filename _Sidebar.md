@@ -98,8 +98,8 @@
 * [Užduotis](https://github.com/robotautas/kursas/blob/master/DB/db4/uzduotis.md)
 * [ORM 1](https://github.com/DonatasNoreika/python1lygis/wiki/Duomen%C5%B3-baz%C4%97s-2)
 * [Užduotys](https://github.com/robotautas/kursas/wiki/DB-u%C5%BEduotis-su-ma%C5%A1inom,-SQLAlchemy)
-* [ORM 2]()
-* [Užduotis]()
+* [ORM 2](https://github.com/DonatasNoreika/Python-pamokos/wiki/ORM-(sqlalchemy)-II-dalis)
+* [Užduotis](https://github.com/robotautas/kursas/wiki/ORM-2-u%C5%BEduotis)
 
 **Flask**
 
