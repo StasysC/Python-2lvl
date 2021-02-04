@@ -100,6 +100,7 @@
 * [Užduotys](https://github.com/robotautas/kursas/wiki/DB-u%C5%BEduotis-su-ma%C5%A1inom,-SQLAlchemy)
 * [ORM 2](https://github.com/DonatasNoreika/Python-pamokos/wiki/ORM-(sqlalchemy)-II-dalis)
 * [Užduotis](https://github.com/robotautas/kursas/wiki/ORM-2-u%C5%BEduotis)
+* [Atsakymas](https://github.com/robotautas/kursas/tree/master/DB/uzduotis_ORM2)
 
 **Flask**
 
