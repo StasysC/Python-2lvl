@@ -141,6 +141,13 @@
 * [Kodas iki 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code/mysite)
 * [Kodas nuo 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code_nuo_6/mysite)
 
+**Django REST**
+
+* [GET, POST](https://github.com/robotautas/kursas/blob/master/Django_REST/1dalis/1_dalis.md)
+* [PUT, DELETE, Ryšiai](https://github.com/robotautas/kursas/blob/master/Django_REST/2dalis/2dalis.md)
+* [Patiktukai, nuotraukos](https://github.com/robotautas/kursas/blob/master/Django_REST/3dalis/3dalis.md)
+* [Vartotojai, autorizacija, httpie](https://github.com/robotautas/kursas/blob/master/Django_REST/4dalis/4dalis.md)
+
 **Linux**
 * [Teorija](https://github.com/robotautas/kursas/blob/master/linux_terminalas/linux1.md)
 * [Flask diegimas į serverį](https://github.com/robotautas/kursas/wiki/Flask-diegimas-%C4%AF-server%C4%AF)
