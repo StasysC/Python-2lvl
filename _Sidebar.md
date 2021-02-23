@@ -88,7 +88,7 @@
 * [Užduotys](https://github.com/DonatasNoreika/Python-pamokos/wiki/SQL-1-u%C5%BEduotys)
 * [Atsakymai](https://github.com/DonatasNoreika/Python-pamokos/wiki/SQL-1-atsakymai)
 * [SQL 2](https://github.com/robotautas/kursas/blob/master/DB/db2/db2.md)
-* [Užduotys](https://drive.google.com/file/d/1Dj9tUK0OH7RGeMbBy4m1MZwhfwNVjuSK/view?usp=sharing)
+* [Užduotys](https://github.com/DonatasNoreika/Python-pamokos/wiki/SQL-2-u%C5%BEduotys)
 * [Atsakymai](https://drive.google.com/file/d/15rG8Z90enifsFiPHNXT84Y7OsgNKf25v/view?usp=sharing)
 * [SQL per Python](https://github.com/robotautas/kursas/blob/master/DB/db_python/db.md)
 * [Užduotis](https://github.com/robotautas/kursas/wiki/DB-Python-u%C5%BEduotys)
