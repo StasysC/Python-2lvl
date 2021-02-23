@@ -94,6 +94,7 @@
 * [Užduotis](https://github.com/robotautas/kursas/wiki/DB-Python-u%C5%BEduotys)
 * [SQL 3](https://github.com/robotautas/kursas/blob/master/DB/db3/db3.md)
 * [Užduotys](https://github.com/DonatasNoreika/Python-pamokos/wiki/SQL-3-u%C5%BEduotys)
+* [Atsakymai](https://github.com/DonatasNoreika/Python-pamokos/wiki/SQL-3-atsakymai)
 * [SQL 4](https://github.com/robotautas/kursas/blob/master/DB/db4/db4.md)
 * [Užduotis](https://github.com/robotautas/kursas/blob/master/DB/db4/uzduotis.md)
 * [ORM 1](https://github.com/DonatasNoreika/python1lygis/wiki/Duomen%C5%B3-baz%C4%97s-2)
