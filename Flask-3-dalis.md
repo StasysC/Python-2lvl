@@ -193,7 +193,9 @@ Papildėme duomenų bazės modelį nauju stulpeliu (*phone*).
 app.py  data.sqlite  migrations  __pycache__  setupdb.py  simple_crud.py  test.py
 ```
 
-* matome, kad sukurtas migracijų katalogas. Dabar paruoškime savo pirmą migraciją, **flask db migrate -m "žinutė atminčiai"** (jei tai darome pakartotinai ir matome klaidą ERROR [flask_migrate] Error: Target database is not up to date., reikės prieš tai paleisti "flask db stamp head"):
+* matome, kad sukurtas migracijų katalogas. Dabar paruoškime savo pirmą migraciją, **flask db migrate -m "žinutė atminčiai"**:
+
+(jei tai darome pakartotinai ir matome klaidą "ERROR [flask_migrate] Error: Target database is not up to date.", reikės prieš tai paleisti "flask db stamp head")
 
 ```bash
 (flask-kursui) robotautas@robotautas-MS-7A34:~/Dropbox/Flask 3 dalis/Code$ flask db migrate -m "pridėtas stulpelis phone"
