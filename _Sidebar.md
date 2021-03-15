@@ -119,6 +119,13 @@
 * [IV dalis](https://github.com/robotautas/kursas/wiki/Flask-4-dalis)
 * [Užduotis]()
 * [Atsakymas]()
+* [Flask Many2one, CRUD](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask-DB-ry%C5%A1iai-%E2%80%93-Many-to-one)
+* [Flask Many2one, CRUD](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask-DB-ry%C5%A1iai-%E2%80%93-Many-to-one)
+* [Flask: REST API kūrimas](https://github.com/DonatasNoreika/Python-pamokos/wiki/REST-API-k%C5%ABrimas)
+* [Flask: vartotojai](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask:--vartotoj%C5%B3-registravimas-ir-prisijungimas)
+* [Flask: nuotraukos pridėjimas, admin puslapis, puslapiavimas](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask:-nuotraukos-prid%C4%97jimas,-admin-puslapis,-puslapiavimas)
+* [Flask: password reset, error pages](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask:-slapta%C5%BEod%C5%BEio-keitimas,-error-puslapiai)
+* [Flask: projekto sutvarkymas](https://github.com/DonatasNoreika/Python-pamokos/wiki/Projekto-sutvarkymas,-naudojant-paketus)
 * [Flask diegimas į serverį](https://github.com/robotautas/kursas/wiki/Flask-diegimas-%C4%AF-server%C4%AF)
 
 
