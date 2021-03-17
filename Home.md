@@ -6,7 +6,7 @@
 * [Tankas 2020](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis-%22Tankas%22)
 * [Citatų žaidimas su DB]()
 * [Paskolų skaičiuoklė (konsolėje arba tkinter)](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis-paskolos)
-* [Biudžetas (su Flask, SQLalchemy)](https://github.com/robotautas/kursas/wiki/Biud%C5%BEetas-(su-Flask,-SQLalchemy))
+* [Biudžetas](https://github.com/robotautas/kursas/wiki/Biud%C5%BEetas-(su-Flask,-SQLalchemy)) (su Flask, SQLalchemy)
 * [Egzaminavimo programa](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis:-egzaminavimo-programa) (su Flask, SQLalchemy)
 * [Tinklaraštis (su Django)](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis:-tinklara%C5%A1tis) (du etapai)
 * [Testavimo programa](https://github.com/DonatasNoreika/Python-pamokos/wiki/Testavimo-programa-(su-konsole,-2-etapai)) (su konsole, 2 etapai)
