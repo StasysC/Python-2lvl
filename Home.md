@@ -10,7 +10,7 @@
 * [Egzaminavimo programa (su Flask, SQLalchemy)](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis:-egzaminavimo-programa)
 * [Tinklaraštis (su Django)](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis:-tinklara%C5%A1tis) (du etapai)
 * [Testavimo programa (su konsole, 2 etapai)](https://github.com/DonatasNoreika/Python-pamokos/wiki/Testavimo-programa-(su-konsole,-2-etapai))
-* [Prekių užsakymo programa (Flask, SQLAlchemy)](https://github.com/DonatasNoreika/Python-pamokos/wiki/Preki%C5%B3-u%C5%BEsakymo-programa))
+* [Prekių užsakymo programa ](https://github.com/DonatasNoreika/Python-pamokos/wiki/Preki%C5%B3-u%C5%BEsakymo-programa) (Flask, SQLAlchemy)
 
 ## Trumpos temos:
 
