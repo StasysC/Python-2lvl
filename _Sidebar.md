@@ -122,6 +122,7 @@
 * [Flask Many2one, CRUD](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask-DB-ry%C5%A1iai-%E2%80%93-Many-to-one)
 * [Flask One2many, many2many CRUD](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask-DB-ry%C5%A1iai-%E2%80%93-One-to-many,-Many-to-many)
 * [Flask: REST API kūrimas](https://github.com/DonatasNoreika/Python-pamokos/wiki/REST-API-k%C5%ABrimas)
+* [Flask: API su One2many (kodas)](https://github.com/robotautas/kursas/tree/master/flask_API_o2m)
 * [Flask: vartotojai](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask:--vartotoj%C5%B3-registravimas-ir-prisijungimas)
 * [Flask: nuotraukos pridėjimas, admin puslapis, puslapiavimas](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask:-nuotraukos-prid%C4%97jimas,-admin-puslapis,-puslapiavimas)
 * [Flask: password reset, error pages](https://github.com/DonatasNoreika/Python-pamokos/wiki/Flask:-slapta%C5%BEod%C5%BEio-keitimas,-error-puslapiai)
