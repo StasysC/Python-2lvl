@@ -20,7 +20,7 @@ SWIFT kodas: HABALT22
 6. Parašykite šabloną, kuris tiktų ir ilgąjam telefono numeriui, ir faksui (naudokite '|' ir grupavimą)
 7. Parašykite šabloną banko sąskaitos numeriui
 8. Parašykite šabloną PVM mokėtojo kodui
-9. Išrinkite visus žodžius prieš dviteškį
+9. Išrinkite visus žodžius prieš dvitaškį
 10. Parašykite paprastą šabloną el. paštui
 11. [a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6} - Tai yra nesudėtingas el. pašto šablonas. Išnagrinėkite, 
 palyginkite su savo sukurtu.
