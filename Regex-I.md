@@ -113,7 +113,7 @@ Pvz.:
 Panagrinėkime šabloną (Mr.|Mrs.)\s([A-Z\w]+\s[A-Z\w]+):
 * (Mr.|Mrs.) - ieško Mr. ARBA Mrs. Vienas iš dviejų.
 * \s - tarpas
-* ([A-Z\w]+\s[A-Z\w]+) - Ieško divejų žodžių, prasidedančių didžiąja raide, atskirtų vienu tarpu.
+* ([A-Z]\w+\s[A-Z]\w+) - Ieško dviejų žodžių, prasidedančių didžiąja raide, atskirtų vienu tarpu.
 
 paveikslėlyje atkreipkite dėmesį į *Match Captures* skiltį. Matome, kad rezultatas išskirstytas į grupes, 
 t.y. 1. kreipinys 2. Vardas Pavardė, nes jos išskirtos skliausteliuose. Programuojant Python aplinkoje galėsime
