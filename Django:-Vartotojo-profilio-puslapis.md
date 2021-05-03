@@ -77,7 +77,16 @@ Kad vartotojui nepriskyrus jokios nuotraukos, būtų rodoma numatytoji, į media
 
 Šiame skyriuje padarysime, kad sukūrus vartotoją, būtų automatiškai sukurtas jo profilis.
 
-**Dėmesio:** Prieš vartotojo ir profilio susiejimą, per admin puslapį rankiniu būdu kiekvienam vartotojui priskirkite profilį. Kitaip mes klaidą, kad vartotojas neturi profilio.
+**Dėmesio:** Prieš vartotojo ir profilio susiejimą, per admin puslapį rankiniu būdu kiekvienam vartotojui priskirkite profilį. Jeigu turite daug profilių, galima automatizuoti per django shell'ą leidžiant nesudėtingą skriptą:
+
+```bash
+>>> from django.contrib.auth.models import User
+>>> from library.models import Profilis
+>>>
+>>> for u in User.objects.all():
+...     profile = Profilis(user=u)
+...     profile.save()
+``` 
 
 Sukuriame failą library/signals.py:
 
