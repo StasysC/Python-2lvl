@@ -2,7 +2,7 @@
 
 ## ListView klasė
 
-**Dėmesio:** perdaryti bookinstance klasę, kad pk būtų standartinis.
+**Dėmesio:** perdaryti bookinstance klasę, kad pk būtų standartinis. ** Arba naudoti urlpatternuose <str:pk>, o viewsų href attributuose nurodyti bookinstance.pk :) ** 
 
 Iš pradžių sukuriame (patobuliname jau įprastą ListView). Tam, kad šį puslapį galėtų peržiūrėti tik prisijungę vartotojai, paveldime LoginRequiredMixin. Faile library/views:
 ```python
