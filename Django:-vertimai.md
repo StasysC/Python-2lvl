@@ -80,7 +80,7 @@ def register(request):
     return render(request, 'register.html')
 ```
 
-Dabar mūsų programoje (library) sukuriame katalogą "locale" ir konsolėje paleidžiame šią komandą:
+Dabar mūsų programoje (library) sukuriame katalogą "locale" ir konsolėje (**būtinai iš library katalogo!**) paleidžiame šią komandą:
 ```console
 django-admin makemessages -l lt
 ```
