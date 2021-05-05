@@ -79,7 +79,7 @@ def register(request):
             return redirect('register')
     return render(request, 'register.html')
 ```
-
+Tuose failuose, kuriuos django leidžia vieną kartą (models.py, forms.py) reikėtų importuoti *gettext_lazy*, tuose, kuriuos naudoja nuolat, pvz views.py, importuojame *gettext*.
 Dabar mūsų programoje (library) sukuriame katalogą "locale" ir konsolėje (**būtinai iš library katalogo!**) paleidžiame šią komandą:
 ```console
 django-admin makemessages -l lt
