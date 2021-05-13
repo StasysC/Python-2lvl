@@ -43,3 +43,9 @@ Labai panaši, [kaip darėme su Odoo](https://github.com/DonatasNoreika/projekta
 1. Sukurti modelius pagal duotą aprašą.
 2. Sukurti atitinkamus meniu administravimo svetainėje (įtraukiant norimus filtrus, paieškos laukus, nustatymus ir t.t.).
 2. Padaryti projektų atvaizdavimo puslapį (ne administravimo puslapyje) su išsamia projektų informacija.
+
+## 2 etapas:
+1. Padaryti, kad prie puslapio būtų leidžiama prisiregistruoti ir prisijungti išoriniam vartotojui. Tai pat įgyvendinti slaptažodžio pakeitimą.
+2. Padaryti, kad prisijungusiam vartotojui būtų rodomi jam priskirti projektai (tuos, kuriuos jis yra atsakingasis).
+3. Padaryti, kad projektų įrašai būtų puslapiuojami.
+4. Leisti prie projekto prisegti nuotrauką. Atvaizduoti ją projektų sąraše ir išsamiame projekto aprašyme.
