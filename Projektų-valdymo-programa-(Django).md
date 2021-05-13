@@ -49,3 +49,4 @@ Labai panaši, [kaip darėme su Odoo](https://github.com/DonatasNoreika/projekta
 2. Padaryti, kad prisijungusiam vartotojui būtų rodomi jam priskirti projektai (tuos, kuriuos jis yra atsakingasis).
 3. Padaryti, kad projektų įrašai būtų puslapiuojami.
 4. Leisti prie projekto prisegti nuotrauką. Atvaizduoti ją projektų sąraše ir išsamiame projekto aprašyme.
+5. Prie projekto pridėti aprašymo lauką, kuriame galima būtų įrašyti ir atvaizduoti informaciją HTML formatu (tiny-mce biblioteka).
