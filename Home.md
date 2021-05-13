@@ -11,6 +11,8 @@
 * [Tinklaraštis (su Django)](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis:-tinklara%C5%A1tis) (du etapai)
 * [Testavimo programa](https://github.com/DonatasNoreika/Python-pamokos/wiki/Testavimo-programa-(su-konsole,-2-etapai)) (su konsole, 2 etapai)
 * [Prekių užsakymo programa ](https://github.com/DonatasNoreika/Python-pamokos/wiki/Preki%C5%B3-u%C5%BEsakymo-programa) (Flask, SQLAlchemy)
+[Projektų valdymo programa (Django)](https://github.com/robotautas/kursas/wiki/Projekt%C5%B3-valdymo-programa-(Django))
+
 
 ## Trumpos temos:
 
