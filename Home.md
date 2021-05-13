@@ -20,4 +20,5 @@
 * [env_vars](https://github.com/robotautas/kursas/wiki/Aplinkos-kintamieji)
 * [Naršyklė kaip vartotojo sąsaja](https://github.com/robotautas/kursas/wiki/Nar%C5%A1ykl%C4%97-kaip-vartotojo-s%C4%85saja)
 * [Pandas NaN reikšmių ir kategorinių stulpelių tvarkymas](https://github.com/robotautas/kursas/blob/master/pandasNANcategorical.ipynb)
+* [Multipass](https://github.com/robotautas/kursas/blob/master/linux_terminalas/vb_linux.md)
 
