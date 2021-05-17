@@ -277,7 +277,7 @@ class Profilis(models.Model):
 
 Dabar, prisegus naują failą profilyje, jis bus automatiškai sumažinamas iki 300x300 taškų.
 
-Dabar galime vartotojo nuotraukas ir puslapiuose, kurie turi ryšį su vartotoju, pavyzdžiui faile user_books.html:
+Dabar galime vartotojo nuotraukas atvaizduoti ir puslapiuose, kurie turi ryšį su vartotoju, pavyzdžiui faile user_books.html:
 ```html
 {% extends "base.html" %}
 
