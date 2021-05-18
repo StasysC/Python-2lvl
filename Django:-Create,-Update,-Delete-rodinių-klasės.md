@@ -145,6 +145,8 @@ Sukuriame html, faile user_book_form.html:
 
 Kad knygos įrašą leistų atnaujinti tik tam vartotojui, kuris yra nurodytas jos reader lauke, paveldime UserPassesTestMixin ir perrašome metodą test_func, kuris gražina True tik tuomet, kai reader laukas sutampa su prisijungusiu vartotoju.
 ```python
+from django.contrib.auth.mixins import UserPassesTestMixin
+
 from django.views.generic import (
     ListView,
     DetailView,
