@@ -245,7 +245,7 @@ Sukuriame html, faile user_book_delete.html:
 Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas):
 * Jei reikia, perdaryti vartotojo užsakymų puslapius į ListView ir DetailView klases.
 * Padaryti, kad prisijungęs vartotojas galėtų kurti naujus užsakymus (be eilučių, tik pasirinkęs automobilį ir terminą). Panaudoti CreateView
-* Padaryti, kad prisijungęs vartotojas redaguoti savo užsakymus. Panaudoti DetailView
+* Padaryti, kad prisijungęs vartotojas redaguoti savo užsakymus. Panaudoti UpdateView
 * Padaryti, kad prisijungęs vartotojas ištrinti savo užsakymus. Panaudoti DeleteView
 
 [Atsakymas](https://github.com/DonatasNoreika/autoservisas)
