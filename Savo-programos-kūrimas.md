@@ -16,7 +16,7 @@ Geriau jau sukurti paprastesnę, galbūt neišbaigtą programą, nei nesukurti j
 ## Programų idėjos:
 * **Svetainė** (su Flask, Django, Odoo). Galima sukurti norimą svetainę su statiniu turiniu, taip pat galimybe vartotojui prisijungti ir matyti jam skirtą turinį. Pavyzdžiui, įmonės svetainę, žinių portalą, e-parduotuvę, kažkokių paslaugų užsakymą ir valdymą, t.t.
 * **Verslo valdymo sistemą** (su Odoo, Flask, Django). Galima sukurti vidinę, darbuotojams skirtą sistemą, skirtą konkrečiam verslui valdyti. Galima tiesiog pasirinkti norimą verslo sritį ir parašyti jai programą, kuri padarytų įmonės darbą efektyvesniu. Pavyzdžiui, banko, parduotuvių tinklo, mokymo, kažkokių paslaugų teikimo.
-* **Duomenų ištraukimo ir apdorojimo** (su Pandas, API, Web Scraping, Machine Learning). Galima ištraukti kažkokius duomenis (per API ar Scraping) iš interneto ir juos išsaugoti (duomenų bazėje), apdoroti (su Pandas, Machine Learning), atvaizduoti (su Matplotlib, Seaborn, kitais įrankiais).
+* **Duomenų ištraukimo ir apdorojimo** (su Pandas, API, Web Scraping, Machine Learning). Galima ištraukti kažkokius duomenis (per API ar Scraping) iš interneto ir juos išsaugoti (duomenų bazėje), apdoroti (su Pandas, Machine Learning), atvaizduoti (su Matplotlib, Seaborn, kitais įrankiais). Pavyzdžiui, ištraukti ir apdoroti kažkokias produktų ar paslaugų kainas, valiutų ar vertybinių popierių kursus, įvairią statistinę informaciją, sporto statistiką ir panašiai.
 
 ## Programos pristatymas:
 Sukurtą programą reikės pristatyti paskutinėje šio kurso paskaitoje. Joje dalyvaus visi kurso studentai, galbūt kažkas iš CodeAcademy administracijos, vertins kurso dėstytojas.
