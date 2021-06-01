@@ -1,6 +1,6 @@
 # Savo programos kūrimas
 
-Tikslas – savarankiškai sukurti norimą programą, kuri vėliau būtų visiems pristatyta. Svarbiausia – kad programa patiems būtų įdomi ir aktuali :)
+Tikslas – savarankiškai sukurti norimą programą, kuri vėliau būtų visiems pristatyta. **Svarbiausia – kad programa patiems būtų įdomi ir aktuali :)**
 
 ## Ką galima suprogramuoti:
 * Programą (svetainę) su Flask karkasu.
