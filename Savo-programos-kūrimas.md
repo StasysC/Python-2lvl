@@ -11,7 +11,7 @@ Tikslas – savarankiškai sukurti norimą programą, kuri vėliau būtų visiem
 
 Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą (bent dalis). Bet gali būti panaudota ir tai, ko nesimokėme.
 
-Geriau jau sukurti paprastesnę, neišbaigtą programą, nei nesukurti jokios ;)
+Geriau jau sukurti paprastesnę, galbūt neišbaigtą programą, nei nesukurti jokios ;)
 
 ## Programos pristatymas:
 Sukurtą programą reikės pristatyti paskutinėje šio kurso paskaitoje. Joje dalyvaus visi kurso studentai, galbūt kažkas iš CodeAcademy administracijos, vertins kurso dėstytojas.
