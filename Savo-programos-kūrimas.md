@@ -14,7 +14,9 @@ Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą (bent dalis)
 Geriau jau sukurti paprastesnę, neišbaigtą programą, nei nesukurti jokios ;)
 
 ## Programos pristatymas:
-
+Sukurtą programą reikės pristatyti paskutinėje šio kurso paskaitoje. Joje dalyvaus visi kurso studentai, galbūt kažkas iš CodeAcademy administracijos, vertins kurso dėstytojas.
+Pristatymas vyksta prisijungus savo kompiuterį prie projektoriaus (jei bus pristatoma gyvai) ar pasidalinant ekrano vaizdu. Nereikia ilgo pristatymo (paprastai jis užtrunka iki 5 minučių), nebent turite daug ko įdomaus papasakoti arba dalyviai daug klausinėja :)
+Pristatymo metu dėstytojas, dalyvaujantys CodeAcademy darbuotojai, kolegos studentai gali klausti klausimų apie programą.
 
 ## Vertinimo kriterijai:
 * Aktualumas
