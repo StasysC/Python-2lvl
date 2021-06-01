@@ -14,7 +14,8 @@ Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą (bent dalis)
 Geriau jau sukurti paprastesnę, galbūt neišbaigtą programą, nei nesukurti jokios ;)
 
 ## Programų idėjos:
-* **Svetainė** (su Flask, Django, Odoo). Galima sukurti norimą svetainę su statiniu turiniu, taip pat galimybe vartotojui prisijungti ir matyti jam skirtą turinį. Pavyzdžiui, įmonės svetainę, žinių portalą, e-parduotuvę, 
+* **Svetainė** (su Flask, Django, Odoo). Galima sukurti norimą svetainę su statiniu turiniu, taip pat galimybe vartotojui prisijungti ir matyti jam skirtą turinį. Pavyzdžiui, įmonės svetainę, žinių portalą, e-parduotuvę, kažkokių paslaugų užsakymą ir valdymą, t.t.
+* **Verslo valdymo sistemą** (su Odoo, Flask, Django). Galima sukurti vidinę, darbuotojams skirtą sistemą, skirtą konkrečiam verslui valdyti. Galima tiesiog pasirinkti norimą verslo sritį ir parašyti jai programą, kuri supaprastintų įmonės darbą.
 
 ## Programos pristatymas:
 Sukurtą programą reikės pristatyti paskutinėje šio kurso paskaitoje. Joje dalyvaus visi kurso studentai, galbūt kažkas iš CodeAcademy administracijos, vertins kurso dėstytojas.
