@@ -3,7 +3,7 @@
 Tikslas – savarankiškai sukurti norimą programą, kuri vėliau būtų visiems pristatyta. **Svarbiausia – kad programa patiems būtų įdomi ir aktuali :)**
 
 ## Ką galima suprogramuoti:
-* Programą (svetainę) su Flask karkasu.
+* Programą (svetainę) su Flask karkasu. 
 * Programą (verslo valdymo) su Odoo karkasu.
 * Programą (svetainę) su Django karkasu.
 * REST API programą (pvz. su klientu) su bet kuriuo iš anksčiau aprašytų karkasų.
@@ -12,6 +12,9 @@ Tikslas – savarankiškai sukurti norimą programą, kuri vėliau būtų visiem
 Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą (bent dalis). Bet gali būti panaudota ir tai, ko nesimokėme.
 
 Geriau jau sukurti paprastesnę, galbūt neišbaigtą programą, nei nesukurti jokios ;)
+
+## Programų idėjos:
+* **Svetainė** (su Flask, Django, Odoo). Galima sukurti norimą svetainę su statiniu turiniu, taip pat galimybe vartotojui prisijungti ir matyti jam skirtą turinį. Pavyzdžiui, įmonės svetainę, žinių portalą, e-parduotuvę, 
 
 ## Programos pristatymas:
 Sukurtą programą reikės pristatyti paskutinėje šio kurso paskaitoje. Joje dalyvaus visi kurso studentai, galbūt kažkas iš CodeAcademy administracijos, vertins kurso dėstytojas.
