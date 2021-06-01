@@ -8,3 +8,14 @@ Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą. Gali būti 
 
 Nebūtina pasirinkti sudėtingiausios, bet ir kad būtų pakankamas iššūkis.
 
+## Vertinimo kriterijai:
+* Aktualumas
+* Išbaigtumas
+* Kodo kokybė
+* Technologijų panaudojimas
+
+## Klausimai, kuriuos reikėtų atsakyti pristatant programą:
+* Kodėl pasirinkote kurti būtent šią programą?
+* Kuo naudinga ši programa?
+* Programos veikimo demonstracija
+* Įdomiausio/sudėtingiausio kodo demonstracija
