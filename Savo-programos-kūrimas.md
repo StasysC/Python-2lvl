@@ -2,14 +2,19 @@
 
 Tikslas – savarankiškai sukurti norimą programą, kuri vėliau būtų visiems pristatyta. Svarbiausia – kad programa patiems būtų įdomi ir aktuali :)
 
-## Vertinimo kriterijai:
-Tai gali būti svetainė, verslo valdymo programa, duomenų analizė (panaudojant Numpy, Pandas, Seaborn). Galima panaudoti Machine Learning. Ir taip toliau..
+## Ką galima suprogramuoti:
+* Programą (svetainę) su Flask karkasu.
+* Programą (verslo valdymo) su Odoo karkasu.
+* Programą (svetainę) su Django karkasu.
+* REST API programą (pvz. su klientu) su bet kuriuo iš anksčiau aprašytų karkasų.
+* Duomenų apdorojimo programą (panaudojant Numpy, Pandas, API, Web Scraping, Machine Learning). Dar geriau, jei tie duomenys bus atvaizduojami svetainėje (pvz. panaudojant vieną iš išmoktų karkasų).
 
-Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą. Gali būti panaudota ir tai, ko nesimokėme. Programai kurti galima panaudoti karkasą (framework): Flask, Odoo, Django.
+Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą (bent dalis). Bet gali būti panaudota ir tai, ko nesimokėme.
 
-Nebūtina pasirinkti sudėtingiausios, bet ir kad būtų pakankamas iššūkis.
+Geriau jau sukurti paprastesnę, neišbaigtą programą, nei nesukurti jokios ;)
 
 ## Programos pristatymas:
+
 
 ## Vertinimo kriterijai:
 * Aktualumas
