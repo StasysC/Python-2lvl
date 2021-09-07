@@ -28,6 +28,7 @@ Pristatymo metu dėstytojas, dalyvaujantys CodeAcademy darbuotojai, kolegos stud
 * Išbaigtumas
 * Kodo kokybė
 * Technologijų panaudojimas
+* Sudėtingumas
 
 ## Klausimai, kuriuos reikėtų atsakyti pristatant programą:
 * Kodėl pasirinkote kurti būtent šią programą?
