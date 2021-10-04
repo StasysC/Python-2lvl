@@ -8,4 +8,4 @@ Sukurti programą su Django framework'u, kuri leistų įvesti autoservisų infor
 * Taisymo užsakymus (automobiliu, bendra suma ir atskiromis eilutėmis su atliktomis paslaugomis, kiekiais ir kainomis)
 
 DB struktūra:
-![Autoserviso DB planas](https://github.com/robotautas/kursas/blob/master/autoserviso%20programos%20DB%20planas.jpg)
+![Autoserviso DB planas](https://github.com/robotautas/kursas/blob/master/autoserviso%20programos%20DB%20planas%202.png)
