@@ -265,7 +265,7 @@ class Profilis(models.Model):
     def __str__(self):
         return f"{self.user.username} profilis"
 
-    def save(self):
+    def save(self, *args, **kwargs):
         super().save()
         img = Image.open(self.nuotrauka.path)
         if img.height > 300 or img.width > 300:
