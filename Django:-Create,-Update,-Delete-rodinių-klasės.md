@@ -141,6 +141,16 @@ Sukuriame html, faile user_book_form.html:
 <li class="nav-item"><a class="nav-link" href="{% url 'my-borrowed-new'%}?next=/library">{% trans "New" %}</a></li>
 ```
 
+PAPILDOMAI:
+
+Jei CreateView view'e prireiktų į formą įdėti kintamąjį (id lauką) iš URL adreso, galime padaryti pavyzdžiui taip:
+
+```python
+def form_valid(self, form):
+    form.instance.reader = User.objects.get(pk=self.kwargs['pk'])
+    return super().form_valid(form)    
+```
+
 ## UpdateView klasė
 
 Kad knygos įrašą leistų atnaujinti tik tam vartotojui, kuris yra nurodytas jos reader lauke, paveldime UserPassesTestMixin ir perrašome metodą test_func, kuris gražina True tik tuomet, kai reader laukas sutampa su prisijungusiu vartotoju.
