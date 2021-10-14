@@ -258,4 +258,8 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/k
 * Padaryti, kad prisijungęs vartotojas galėtų redaguoti savo užsakymus. Panaudoti UpdateView
 * Padaryti, kad prisijungęs vartotojas galėtų ištrinti savo užsakymus. Panaudoti DeleteView
 
+ ## Papildoma užduotis
+* Padaryti, kad vartotojas galėtų savo užsakyme įvesti eilutes (pasirinktas paslaugas ir kiekius). 
+
+
 [Atsakymas](https://github.com/DonatasNoreika/autoservisas)
