@@ -146,7 +146,8 @@
 * [10. Vartotojo profilis](https://github.com/robotautas/kursas/wiki/Django:-Vartotojo-profilio-puslapis)
 * [11. Vertimai](https://github.com/robotautas/kursas/wiki/Django:-vertimai)
 * [12. Create, Update, Delete rodinių klasės](https://github.com/robotautas/kursas/wiki/Django:-Create,-Update,-Delete-rodini%C5%B3-klas%C4%97s)
-* [**Django diegimas į serverį**](https://github.com/robotautas/kursas/blob/master/Django/MDs10/django10.md)
+* [Django diegimas į serverį](https://github.com/robotautas/kursas/blob/master/Django/MDs10/django10.md)
+* [Django diegimas į serverį 2](https://github.com/robotautas/kursas/wiki/Django-diegimas-%C4%AF-server%C4%AF-2)
 * [Kodas iki 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code/mysite)
 * [Kodas nuo 6-tos dalies](https://github.com/robotautas/kursas/tree/master/Django/Code_nuo_6/mysite)
 
