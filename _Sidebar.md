@@ -159,25 +159,16 @@
 * [Vartotojai, autorizacija, httpie](https://github.com/robotautas/kursas/blob/master/Django_REST/4dalis/4dalis.md)
 
 **Odoo**
-[Kurso programa: projektų valdymas](https://github.com/DonatasNoreika/projektai/wiki/Kurso-programa:-projekt%C5%B3-valdymas)
-
-[1 pamoka](https://github.com/DonatasNoreika/projektai/wiki/1-pamoka)
-
-[2 pamoka](https://github.com/DonatasNoreika/projektai/wiki/2-pamoka)
-
-[3 pamoka](https://github.com/DonatasNoreika/projektai/wiki/3-pamoka)
-
-[4 pamoka](https://github.com/DonatasNoreika/projektai/wiki/4-pamoka)
-
-[5 pamoka](https://github.com/DonatasNoreika/projektai/wiki/5-pamoka)
-
-[6 pamoka](https://github.com/DonatasNoreika/projektai/wiki/6-pamoka)
-
-[7 pamoka](https://github.com/DonatasNoreika/projektai/wiki/7-pamoka)
-
-[8 pamoka](https://github.com/DonatasNoreika/projektai/wiki/8-pamoka)
-
-[9 pamoka](https://github.com/DonatasNoreika/projektai/wiki/9-pamoka)
+* [Kurso programa: projektų valdymas](https://github.com/DonatasNoreika/projektai/wiki/Kurso-programa:-projekt%C5%B3-valdymas)
+* [1 pamoka](https://github.com/DonatasNoreika/projektai/wiki/1-pamoka)
+* [2 pamoka](https://github.com/DonatasNoreika/projektai/wiki/2-pamoka)
+* [3 pamoka](https://github.com/DonatasNoreika/projektai/wiki/3-pamoka)
+* [4 pamoka](https://github.com/DonatasNoreika/projektai/wiki/4-pamoka)
+* [5 pamoka](https://github.com/DonatasNoreika/projektai/wiki/5-pamoka)
+* [6 pamoka](https://github.com/DonatasNoreika/projektai/wiki/6-pamoka)
+* [7 pamoka](https://github.com/DonatasNoreika/projektai/wiki/7-pamoka)
+* [8 pamoka](https://github.com/DonatasNoreika/projektai/wiki/8-pamoka)
+* [9 pamoka](https://github.com/DonatasNoreika/projektai/wiki/9-pamoka)
 
 **Linux**
 * [Teorija](https://github.com/robotautas/kursas/blob/master/linux_terminalas/linux1.md)
