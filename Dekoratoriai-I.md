@@ -56,7 +56,7 @@ Dabar pamėginsime analogišką rezultatą išgauti rašant dekoratorių:
 ```python
 def upper_decorator(func):
     def wrapper(our_text):
-        if type(some_text) != str:
+        if type(our_text) != str:
             return 'input must be a type of string'
         some_text = func(our_text)
         return some_text.upper()
