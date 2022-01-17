@@ -20,9 +20,9 @@ Taip pat naudojame f-ją, kuri į parametrus priima kažkokį tekstą ir šalia 
 
 ```python
 def returns_upper_string(text, func):
-    some_text = func(text)
     if type(some_text) != str:
         return 'input must be a type of string'
+    some_text = func(text)
     return some_text.upper()
 ```
 
