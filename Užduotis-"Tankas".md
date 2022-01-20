@@ -21,7 +21,7 @@ Metodas info() turi parodyti:
 
 Visas tanko ir informacijos valdymas turi būti atliktas konsolėje
 (grafinio interfeiso nereikia). Tam reikės sukurti meniu ir priimti
-vartotojo nurodymai. Veiksmai turi būti atliekami (kviečiami metodai)
+vartotojo nurodymus. Veiksmai turi būti atliekami (kviečiami metodai)
 tol, kol vartotojas nesustabdys programos (pavyzdžiui, pasirinkęs tam
 tikrą meniu punktą).
 
