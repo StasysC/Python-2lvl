@@ -85,3 +85,23 @@ def read_in_lines(filename):
 
 generator = read_in_lines('os.py')
 ```
+
+Alternatyva:
+
+```python
+def read_in_lines(filename):
+    with open(filename, 'r', encoding="utf-8") as file:
+        for line in file:
+            yield line
+
+
+
+generator = read_in_lines('os.txt')
+
+while True:
+    try:
+        print(next(generator), end="")
+    except:
+        print("Pabaiga")
+        break
+```
