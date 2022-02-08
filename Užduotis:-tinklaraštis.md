@@ -17,5 +17,3 @@ Naudojantis Django framework'u sukurti tinklaraštį, kuris:
 * Prie komentaro modelio pridėti vartotojo lauką (ryšį su user). Padaryti, kad vartotojui leistų trinti ir redaguoti savo komentarus.
 * Padaryti vertimus (puslapis turėtų būti dvejomis kalbomis, pvz. anglų, lietuvių). Padaryti kalbos perjungimo mygtuką.
 ***
-
-[Atsakymas](https://github.com/DonatasNoreika/django_tinklarastis)
