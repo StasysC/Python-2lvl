@@ -96,7 +96,7 @@ def send_mail(error):
 
 while True:
     try:
-        res = requests.get('http://0.0.0.0:8000')
+        res = requests.get('http://127.0.0.1:8000')
         print(res.status_code)
         sleep(5)
     except requests.ConnectionError as e:
@@ -145,13 +145,13 @@ def send_mail(file):
 
 while True:
     try:
-        res = requests.get('http://0.0.0.0:8000')
+        res = requests.get('http://127.0.0.1:8000')
         with open('log.txt', 'a') as log:
             log.write(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} {res.status_code} OK\n')
             sleep(5)
     except requests.ConnectionError as e:
         with open('log.txt', 'a') as log:
             log.write(str(e))
-            send_mail('log.txt')
+        send_mail('log.txt')
         break
 ```
