@@ -5,3 +5,5 @@
 3. PyCharm'e sukurti programą, kuri pasiimti apmokytą modelį iš pickle failo ir pagal vartotojo įvestus duomenis (žuvies dydžius), pateiktų atsakymą (spėjamą žuvies rūšį).
 
 Modelį geriausia apmokyti Jupyter'yje. Su vartotoju bendrauti PyCharm konsolėje.
+
+# Atsakymai:
