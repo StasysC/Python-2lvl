@@ -6,4 +6,4 @@
 
 Modelį geriausia apmokyti Jupyter'yje. Su vartotoju bendrauti PyCharm konsolėje.
 
-# Atsakymai:
+###  Atsakymai:
