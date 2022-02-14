@@ -1,6 +1,6 @@
 1. Pasiimti žuvų duomenis, juos paruošti apmokymui. Target - žuvies rūšis (species). https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression__uzduotis.ipynb
 
-2. Apmokyti modelį naudojant klasifikatorių. Modelį išsaugoti pickle faile.
+2. Apmokyti modelį, naudojant klasifikatorių (pvz. Random Forests). Modelį išsaugoti pickle faile.
 
 3. PyCharm'e sukurti programą, kuri pasiimti apmokytą modelį iš pickle failo ir pagal vartotojo įvestus duomenis (žuvies dydžius), pateiktų atsakymą (spėjamą žuvies rūšį).
 
