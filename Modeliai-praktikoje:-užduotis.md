@@ -7,3 +7,5 @@
 Modelį geriausia apmokyti Jupyter'yje. Su vartotoju bendrauti PyCharm konsolėje.
 
 ###  Atsakymai:
+
+[Modelio apmokymas (Jupyter dalis)](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/ML3%2B_atsakymai.ipynb)
