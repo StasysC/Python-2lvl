@@ -61,6 +61,7 @@
 * [Užduotis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_uzduotis.ipynb)
 * [Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_atsakymas.ipynb)
 * [Modeliai praktikoje](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/modelio_naudojimas.ipynb)
+* [Užduotis (atnaujinta), atsakymas](https://github.com/robotautas/kursas/wiki/Modeliai-praktikoje:-u%C5%BEduotis-(atnaujinta))
 * [Užduotis](https://github.com/robotautas/kursas/wiki/ML-Praktikoje-U%C5%BEduotis)
 * [Atsakymas (kodas su komentarais)](https://github.com/robotautas/kursas/tree/master/Machine%20Learning/ML_flask)
 
