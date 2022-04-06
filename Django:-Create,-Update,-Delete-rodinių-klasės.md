@@ -251,6 +251,14 @@ Sukuriame html, faile user_book_delete.html:
             {% endif %}
 ```
 
+## Kaip padaryti patogesnį datos/laiko įvedimą (datepicker)
+
+view.py faile, CreateView klasėje:
+
+```python
+
+```
+
  ## Užduotis
 Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas):
 * Jei reikia, perdaryti vartotojo užsakymų puslapius į ListView ir DetailView klases.
