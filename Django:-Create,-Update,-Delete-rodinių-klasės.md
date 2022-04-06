@@ -253,7 +253,7 @@ Sukuriame html, faile user_book_delete.html:
 
 ## Kaip padaryti patogesnį datos/laiko įvedimą (datepicker)
 
-models.py faile, modelyje turi būti DateField:
+models.py faile, modelyje turi būti DateField (arba DateTimeField?):
 ```python
 class BookInstance(models.Model):
     """Modelis, aprašantis konkrečios knygos kopijos būseną"""
