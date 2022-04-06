@@ -311,6 +311,8 @@ user_book_form.html faile:
 {% endblock content %}
 ```
 
+[Šio patarimo nuoroda](https://webpedia.net/how-to-use-datepicker-in-django)
+
  ## Užduotis
 Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas):
 * Jei reikia, perdaryti vartotojo užsakymų puslapius į ListView ir DetailView klases.
