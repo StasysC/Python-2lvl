@@ -253,8 +253,16 @@ Sukuriame html, faile user_book_delete.html:
 
 ## Kaip padaryti patogesnį datos/laiko įvedimą (datepicker)
 
-view.py faile, CreateView klasėje:
+models.py faile, modelyje turi būti DateField:
+```python
+class BookInstance(models.Model):
+    """Modelis, aprašantis konkrečios knygos kopijos būseną"""
+    book = models.ForeignKey('Book', on_delete=models.SET_NULL, null=True)
+    due_back = models.DateField('Bus prieinama', null=True, blank=True)
+    reader = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
+```
 
+view.py faile, CreateView klasėje:
 ```python
 class BookByUserCreateView(LoginRequiredMixin, CreateView):
     model = BookInstance
