@@ -256,7 +256,51 @@ Sukuriame html, faile user_book_delete.html:
 view.py faile, CreateView klasėje:
 
 ```python
+class BookByUserCreateView(LoginRequiredMixin, CreateView):
+    model = BookInstance
+    # fields = ['book', 'due_back']
+    success_url = "/library/mybooks/"
+    template_name = 'user_book_form.html'
+    form_class = UserBookCreateForm
 
+    def form_valid(self, form):
+        form.instance.reader = self.request.user
+        return super().form_valid(form)
+```
+
+forms.py faile, nauja forma ir papildoma klasė:
+```python
+from .models import BookReview, Profilis, BookInstance
+
+class DateInput(forms.DateInput):
+    input_type = 'date'
+
+class UserBookCreateForm(forms.ModelForm):
+    class Meta:
+        model = BookInstance
+        fields = ['book', 'reader', 'due_back']
+        widgets = {'reader': forms.HiddenInput(), 'due_back': DateInput()}
+```
+
+user_book_form.html faile:
+
+```html
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+    <form method="POST" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Naujas knygos egzempliorius</legend>
+            {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Išsaugoti</button>
+        </div>
+    </form>
+    </div>
+{% endblock content %}
 ```
 
  ## Užduotis
