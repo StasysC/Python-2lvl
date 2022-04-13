@@ -7,7 +7,7 @@ Tikslas – savarankiškai sukurti norimą programą, kuri kurso pabaigoje būt�
 * Programą (verslo valdymo) su Odoo karkasu.
 * Programą (svetainę) su Django karkasu.
 * REST API programą (pvz. su klientu) su bet kuriuo iš anksčiau aprašytų karkasų.
-* Duomenų ištraukimo ir/ar apdorojimo programą (panaudojant Numpy, Pandas, API, Web Scraping, Machine Learning, Matplotlib, Seaborn). Dar geriau, jei tie duomenys bus atvaizduojami svetainėje (pvz. panaudojant vieną iš išmoktų karkasų).
+* Duomenų ištraukimo ir/ar apdorojimo, analizės programą (panaudojant Numpy, Pandas, API, Web Scraping, Machine Learning, Matplotlib, Seaborn). Dar geriau, jei tie duomenys bus atvaizduojami svetainėje (pvz. panaudojant vieną iš išmoktų karkasų).
 
 Programoje rekomenduojama naudoti šiame kurse išmoktą medžiagą (bent dalis). Bet gali būti panaudota ir tai, ko nesimokėme.
 
