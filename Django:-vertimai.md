@@ -147,7 +147,7 @@ Ten, kur norime turėti kalbos pasirinkimo formą, dedame šį kodą (pvz. į ba
           {% get_available_languages as LANGUAGES %}
           {% for lang in LANGUAGES %}
           <option style="background-image: url({% static 'img/lt.png' %});" value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected" {% endif %}>
-            {{ lang.0 }}
+            {{ lang.1 }}
           </option>
           {% endfor %}
         </select>
