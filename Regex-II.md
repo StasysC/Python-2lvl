@@ -9,7 +9,7 @@ tarkime, kad dirbsime su telefono numeriais, tokiais kaip +370 642 12321. Iš pr
 (regex objektą):
 
 ```python
-pattern = re.compile(r'\+370\s\d{3}\s\d{4}')
+pattern = re.compile(r'\+370\s\d{3}\s\d{5}')
 ```
 
 Kintamąjame *pattern* dabar turime objektą, kuris turi įvairių naudingų metodų iš re bibliotekos.
