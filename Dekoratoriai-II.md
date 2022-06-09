@@ -138,7 +138,6 @@ def for_sukimas(kartai):
     print()
 
 @uzvelavimas(3)
-@args_counter
 def sumavimas(*args):
     print("Skaičių suma:", sum(args))
 
