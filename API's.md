@@ -50,7 +50,7 @@ for month in months:
  
  Kai kurios API paslaugas teikiančios svetainės reikalauja registracijos, tam, kad išvengtų piktnaudžiavimo, ir galėtų 
  taikyti įvairius apribojimus (užklausų per dieną ir t.t.). Jums užsiregisravus, gausite su jūsų duomenimis susietą *apiKey*, 
- be kurį, priklausomai nuo dokumentacijos turėsite nurodyti, vykdydami užklausą.
+ kurį, priklausomai nuo dokumentacijos, turėsite nurodyti vykdydami užklausą.
  
  Pvz, užsiregistravus https://pixabay.com/ dokumentacijoje rasite jums priklausantį API raktą:
  ```python
