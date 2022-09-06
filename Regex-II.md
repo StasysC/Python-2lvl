@@ -23,7 +23,7 @@ print(res)
 # <re.Match object; span=(28, 42), match='+370 123 12321'>
 ```
 
-*res* dabar yra mūsų *Match* objektas. Atspausdinus jį matome, kad tekste yra šabloną atinkanti simbolių seka,
+*res* dabar yra mūsų *Match* objektas. Atspausdinus jį matome, kad tekste yra šabloną atitinkanti simbolių seka,
 kurios pradžios indeksas 28, pabaigos 42(neįskaitant). Metodas ieško ir grąžina pirmą surastą reikšmę. Jei *.search* neranda mūsų
 šabloną atitinkančios simbolių sekos, res įgauna *None* reikšmę.
 Tam, kad ištraukti match reikšmę, naudojame *.group()* metodą:
