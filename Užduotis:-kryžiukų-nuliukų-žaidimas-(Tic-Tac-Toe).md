@@ -5,5 +5,5 @@
 * Sukurtą žaidimą paskelbti github repozitorijoje, nuorodą paskelbti temsuose, tam skirtoje užduotyje (Assignments)
 * Galima sukurti papildomo funkcionalumo: 
 > * Kad žaidimas skaičiuotų abiejų žaidėjų sesijos laimėjimus.
-> * Kad baigus žaidimą, programa leistų jį pakartoti, o ne išsijungtų. Taip pat būtų galimybė išjungti programą.
+> * Kad baigus žaidimą, programa neišsijungtų, o leistų pakartoti žaidimą. Taip pat būtų galimybė išjungti programą.
 > * Leistų žaisti prieš kompiuterį (sukurti logiką, kaip jis elgsis)
