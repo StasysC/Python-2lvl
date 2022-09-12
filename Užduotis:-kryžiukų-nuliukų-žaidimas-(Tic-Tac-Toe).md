@@ -3,4 +3,7 @@
 * Teisingai fiksuotų žaidėjo laimėjimą ir stabdytų žaidimą
 * Žaidimų vyktų konsolėje, grafinio intefeiso nereikia (nebent patys norite pasidaryti su tkinter, pygame, dar kažkuo)
 * Sukurtą žaidimą paskelbti github repozitorijoje, nuorodą paskelbti temsuose, tam skirtoje užduotyje (Assignments)
-* Galima sukurti papildomo funkcionalumą (skaičiuotų abiejų žaidėjų sesijos laimėjimus, leistų žaisti prieš kompiuterį (sukurti logiką, kaip jis elgsis)).
+* Galima sukurti papildomo funkcionalumo: 
+> * Kad žaidimas skaičiuotų abiejų žaidėjų sesijos laimėjimus.
+> * Kad baigus žaidimą, programa leistų jį pakartoti, o ne išsijungtų. Taip pat būtų galimybė išjungti programą.
+> * Leistų žaisti prieš kompiuterį (sukurti logiką, kaip jis elgsis)
