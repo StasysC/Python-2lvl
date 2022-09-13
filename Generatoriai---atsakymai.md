@@ -69,6 +69,18 @@ for num in generator:
     print(num)
 ```
 
+Alternatyva 2:
+
+```python
+counter = ("%.4d" % num for num in range(10000))
+pin_list = list(counter)
+for pin in pin_list:
+    print(pin)
+    if pin == "0549":
+        print(f"PIN kodas yra: {pin}")
+        break
+```
+
 4
 ```python
 def read_in_lines(filename):
