@@ -85,35 +85,13 @@ for pin in pin_list:
 ```python
 def read_in_lines(filename):
     with open(filename, 'r', encoding="utf-8") as file:
-        line = 1
-        while True:
-            data = file.readlines(line)
-            # Čia galima užsiimti text formatavimu, bet nebūtina.
-            if not data:
-                break
-            yield data
-            line += 1
-
-
-generator = read_in_lines('os.py')
-```
-
-Alternatyva:
-
-```python
-def read_in_lines(filename):
-    with open(filename, 'r', encoding="utf-8") as file:
         for line in file:
-            yield line
+            yield line[:-1]
 
 
+generator = read_in_lines('tekstas.txt')
 
-generator = read_in_lines('os.txt')
+for x in generator:
+    print(x)
 
-while True:
-    try:
-        print(next(generator), end="")
-    except:
-        print("Pabaiga")
-        break
 ```
