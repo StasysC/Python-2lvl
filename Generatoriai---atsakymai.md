@@ -72,7 +72,7 @@ for num in generator:
 Alternatyva 2:
 
 ```python
-counter = ("%.4d" % num for num in range(10000))
+counter = (f"{num:04}" for num in range(10000))
 pin_list = list(counter)
 for pin in pin_list:
     print(pin)
