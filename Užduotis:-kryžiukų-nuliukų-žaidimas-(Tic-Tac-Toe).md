@@ -1,9 +1,10 @@
 # Sukurti kryžiukų/nuliukų žaidimą, kuris:
 * Leistų žaisti dviems žaidėjams (X ir O)
 * Teisingai fiksuotų žaidėjo laimėjimą ir stabdytų žaidimą
-* Žaidimų vyktų konsolėje, grafinio intefeiso nereikia (nebent patys norite pasidaryti su tkinter, pygame, dar kažkuo)
+* Žaidimų vyktų konsolėje, grafinio intefeiso nereikia (bet galima daryti, tada konsolės nebereikia) 
 * Sukurtą žaidimą paskelbti github repozitorijoje, nuorodą paskelbti temsuose, tam skirtoje užduotyje (Assignments)
-* Galima sukurti papildomo funkcionalumo: 
+> PAPILDOMAI (nebūtina): 
 > * Kad baigus žaidimą, programa neišsijungtų, o leistų pakartoti žaidimą. Taip pat būtų galimybė išjungti programą.
 > * Kad žaidimas skaičiuotų abiejų žaidėjų sesijos laimėjimus.
 > * Leistų žaisti prieš kompiuterį (sukurti logiką, kaip jis elgsis)
+> * Padaryti GUI (su tkinter, pygame, dar kažkuo)
