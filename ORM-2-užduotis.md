@@ -22,4 +22,5 @@ class OrderProduct(Base):
 * Pridėti užsakymą
 * Ištraukti užsakymą pagal id
 * Pakeisti užsakymo statusą pagal užsakymo id
+* Pridėti į užsakymą produktus su kiekiais
  
