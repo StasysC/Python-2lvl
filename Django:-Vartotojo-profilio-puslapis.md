@@ -308,7 +308,7 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/k
 * Padaryti, kad sukūrus vartotoją, būtų automatiškai sukurtas ir jo profilis.
 * Padaryti, kad profilio puslapyje būtų galima redaguoti vartotojo informaciją, pakeisti nuotrauką.
 * Padaryti, kad prisegta profilio nuotrauka būtų automatiškai sumažinama iki norimo dydžio (pagal dizainą).
-* Padaryti, kad vartotojo nuotrauka būtų matoma prie kiekvieno užsakymo, užsakymų sąraše.
+* Padaryti, kad vartotojo nuotrauka būtų matoma prie kiekvieno užsakymo.
 
 
 [Atsakymas](https://github.com/DonatasNoreika/autoservisas)
