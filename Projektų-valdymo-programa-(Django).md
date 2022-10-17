@@ -45,5 +45,5 @@ Programa, skirta projektų valdymui. Leidžia įvesti projektus, jiems priskirtu
 5. Padaryti, kad prisijungusiam vartotojui būtų rodomi jam priskirti projektai (tuos, už kuriuos jis yra atsakingasis).
 6. Padaryti, kad prisijungusiam vartotojui būtų rodomas išsamus projekto aprašymas (pagrindiniai duomenys plius darbuotojai, darbai, sąskaitos)
 7. Padaryti, kad projektų įrašai būtų puslapiuojami.
-8. Leisti prie projekto prisegti nuotrauką (per admin). Atvaizduoti ją projektų sąraše ir išsamiame projekto aprašyme.
-9. Prie projekto pridėti aprašymo lauką (per admin), kuriame galima būtų įrašyti ir atvaizduoti informaciją HTML formatu (tiny-mce biblioteka).
+8. Leisti prie projekto prisegti nuotrauką (per admin puslapį). Atvaizduoti ją projektų sąraše ir išsamiame projekto aprašyme.
+9. Prie projekto pridėti aprašymo lauką (per admin puslapį), kuriame galima būtų įrašyti ir atvaizduoti informaciją HTML formatu (tiny-mce biblioteka).
