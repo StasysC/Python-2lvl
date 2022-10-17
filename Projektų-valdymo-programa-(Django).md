@@ -43,7 +43,6 @@ Programa, skirta projektų valdymui. Leidžia įvesti projektus, jiems priskirtu
 3. Padaryti projektų atvaizdavimo puslapį (ne administravimo puslapyje) su išsamia projektų informacija (pagrindiniai duomenys plius darbuotojai, darbai, sąskaitos).
 4. Padaryti, kad prie svetainės būtų leidžiama prisiregistruoti ir prisijungti išoriniam vartotojui. Taip pat įgyvendinti slaptažodžio pakeitimą.
 5. Padaryti, kad prisijungusiam vartotojui būtų rodomi jam priskirti projektai (tuos, už kuriuos jis yra atsakingasis).
-6. Padaryti, kad prisijungusiam vartotojui būtų rodomas išsamus projekto aprašymas 
-7. Padaryti, kad projektų įrašai būtų puslapiuojami.
-8. Leisti prie projekto prisegti nuotrauką (per admin puslapį). Atvaizduoti ją projektų sąraše ir išsamiame projekto aprašyme.
-9. Prie projekto pridėti aprašymo lauką (per admin puslapį), kuriame galima būtų įrašyti ir atvaizduoti informaciją HTML formatu (tiny-mce biblioteka).
+6. Padaryti, kad projektų įrašai būtų puslapiuojami.
+7. Leisti prie projekto prisegti nuotrauką (per admin puslapį). Atvaizduoti ją projektų sąraše ir išsamiame projekto aprašyme.
+8. Prie projekto pridėti aprašymo lauką (per admin puslapį), kuriame galima būtų įrašyti ir atvaizduoti informaciją HTML formatu (tiny-mce biblioteka).
