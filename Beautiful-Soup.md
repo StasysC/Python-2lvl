@@ -110,7 +110,7 @@ print(soup.find_all(attrs={'data-example': 'yes'}))
 
 Susipažinti su CSS selektoriais galite [čia](https://www.creativebloq.com/css3/introduction-css-selectors-61515320)
 
-Naudosime medotą *.select()*:
+Naudosime metodą *.select()*:
 
 ```python
 print(soup.select('#first'))
