@@ -9,5 +9,5 @@ Sukurkite blogų žodžių sąrašą, pagal kurį išsifiltruoja pranešimai api
 
 # 2
 
-Parašykite žaidimą, kuris iš svetainės http://quotes.toscrape.com/ pateiks citatas, o žaidėjui reikės atspėti autorių. Žaidėjui neatspejus, reikės pasufleruoti autoriaus inicialus, dar kartą neatspėjus - gimimo datą ir vietą. Jeigu žaidėjas neatspėja iš 3 kartų, jam atspausdinamas teisingas atsakymas ir paklausiama, ar nori tęsti.
+Parašykite žaidimą, kuris iš svetainės http://quotes.toscrape.com/ pateiks citatas, o žaidėjui reikės atspėti autorių. Žaidėjui neatspėjus, reikės pasufleruoti autoriaus inicialus, dar kartą neatspėjus - gimimo datą ir vietą. Jeigu žaidėjas neatspėja iš 3 kartų, jam atspausdinamas teisingas atsakymas ir paklausiama, ar nori tęsti.
  
