@@ -72,19 +72,24 @@ def get_second_hint(i):
 
 # žaidimo ciklas
 while True:
-    i = randint(1,10)
+    i = randint(0, 9)
     print('\n',quotes_list[i])
     answer1 = input('Your answer: ')
-    if answer1 != answers[i]:
+    if answer1 == answers[i]:
+        print(f"Correct! Answer is {answers[i]}")
+    else:
         print(hints1[i])
         answer2 = input('Your answer: ')
-        if answer2 != answers[i]:
+        if answer2 == answers[i]:
+            print(f"Correct! Answer is {answers[i]}")
+        else:
             print(get_second_hint(i))
             answer3 = input('Your answer: ')
-            if answer3 != answers[i]:
-                if_continue = input(f'Correct answer is {answers[i]}. Continue? y/n: ')
-                if if_continue == 'y':
-                    continue
-                else:
-                    break
+            if answer3 == answers[i]:
+                print(f"Correct! Answer is {answers[i]}")
+            else:
+                print(f"Wrong! Correct answer is {answers[i]}")
+    if_continue = input('Continue? y/n: ')
+    if if_continue != 'y':
+        break
 ```
