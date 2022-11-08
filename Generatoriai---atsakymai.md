@@ -18,55 +18,25 @@ def fibonacci():
 
 3
 ```python
-#Tarkime, kad teisingas pin yra 0123
-PIN = '0123'
+PIN = '0012'
 
 def pin_breaker():
-    guess = 0
-    while True:
+    num = 0
+    while num < 10000:
+        guess = f'{num:04}'
+        if guess == PIN:
+            print(f"{guess} That's your PIN!")
+            break
         yield guess
-        if guess == int(PIN):
-            if len(str(guess)) < 4:
-                if len(str(guess)) == 3:
-                    print(f'PIN is 0{guess}!')
-                elif len(str(guess)) == 2:
-                    print(f'PIN is 00{guess}!')
-                else:
-                    print(f'PIN is 000{guess}!')
-            else:
-                print(f'PIN is {guess}!')
-            break
-        guess += 1
+        num += 1
 
+gen = pin_breaker()
 
-generator = pin_breaker()
-for num in generator:
-    #Čia irgi galime įterpti logiką, kad spausdintų nulius prieky
-    print(num)
-```
-
-Alternatyva:
-
-
-```python
-#Tarkime, kad teisingas pin yra 0123
-PIN = '9999'
-
-def pin_breaker(pin):
-    guess = 0
-    while True:
-        res = ("0" * (4 - (len(str(guess))))) + str(guess)
-        if res == pin:
-            print(f"PIN is {res}")
-            break
-        yield res
-        guess += 1
-
-
-generator = pin_breaker(PIN)
-for num in generator:
-    #Čia irgi galime įterpti logiką, kad spausdintų nulius prieky
-    print(num)
+while True:
+    try:
+        print(next(gen))
+    except StopIteration:
+        break
 ```
 
 Alternatyva 2:
