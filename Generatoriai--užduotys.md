@@ -10,7 +10,7 @@ Kiekvienas šios sekos skaičius lygus dviejų prieš jį einančių skaičių s
 pradedant 0000, ir sustos, kai pin kodas bus teisingas. Pradėkite programą nuo (pvz.) PIN = '0549' ir 
 rašykite toliau. Pabaigus funkciją, praiteruokite sukurtą generatorių su *for* ciklu, kad spausdintų 
 skaičiukus iš eilės ir atspausdinus paskutinį, parašytų 'PIN is XXXX(jųsų pin'as)'. Atkreipkite dėmesį, kad kodas gali 
-prasidėti nuliu. Sugalvokite, kaip apeiti šią problemą (hint - type conversion, if sąlygos).
+prasidėti nuliu. Sugalvokite, kaip apeiti šią problemą :).
 
 4. Parašykite generatoriaus funkciją, kuri atidarytų nurodytą failą, ir grąžintų 
 po vieną eilutę (tiesiog yield'inti reikės ne skaičių o kitą duomenų tipą.). 
