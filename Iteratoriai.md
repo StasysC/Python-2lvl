@@ -69,11 +69,11 @@ def iteruoklis(objektas, func):
     iteratorius = iter(objektas)
     while True:
         try:
-            result = next(iteratorius)
+            item = next(iteratorius)
         except StopIteration:
             break
         else:
-            func(result)
+            func(item)
 ```
 
 Mūsų funkcija priima objektą (pvz. list'ą ar kt.) iš karto jį paverčia iteratoriumi. 
