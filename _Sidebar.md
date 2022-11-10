@@ -54,16 +54,16 @@
 * [Atsakymai](https://github.com/robotautas/kursas/blob/master/Seaborn/seaborn_atsakymai.ipynb)
 
 **Mašininis mokymąsis**
-* [Tiesinės regresijos modelis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression.ipynb)
-* [Užduotis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression__uzduotis.ipynb)
-* [Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression_atsakymas.ipynb)
-* [Modeliai - klasifikatoriai](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/logistical_regression.ipynb)
-* [Užduotis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_uzduotis.ipynb)
-* [Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_atsakymas.ipynb)
-* [Modeliai praktikoje](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/modelio_naudojimas.ipynb)
-* [Užduotis (atnaujinta), atsakymas](https://github.com/robotautas/kursas/wiki/Modeliai-praktikoje:-u%C5%BEduotis-(atnaujinta))
-* [Užduotis](https://github.com/robotautas/kursas/wiki/ML-Praktikoje-U%C5%BEduotis)
-* [Atsakymas (kodas su komentarais)](https://github.com/robotautas/kursas/tree/master/Machine%20Learning/ML_flask)
+* [1 Tiesinės regresijos modelis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression.ipynb)
+* [1 Užduotis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression__uzduotis.ipynb)
+* [1 Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/linear_regression_atsakymas.ipynb)
+* [2 Modeliai - klasifikatoriai](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/logistical_regression.ipynb)
+* [2 Užduotis](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_uzduotis.ipynb)
+* [2 Atsakymas](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/klasifikatoriai_atsakymas.ipynb)
+* [3 Modeliai praktikoje](https://github.com/robotautas/kursas/blob/master/Machine%20Learning/modelio_naudojimas.ipynb)
+* [3 Užduotis (atnaujinta), atsakymas](https://github.com/robotautas/kursas/wiki/Modeliai-praktikoje:-u%C5%BEduotis-(atnaujinta))
+* [3 Užduotis](https://github.com/robotautas/kursas/wiki/ML-Praktikoje-U%C5%BEduotis)
+* [3 Atsakymas (kodas su komentarais)](https://github.com/robotautas/kursas/tree/master/Machine%20Learning/ML_flask)
 
 **Requests, JSON, API**
 
