@@ -2,7 +2,7 @@
 
 2. Apmokyti modelį, naudojant klasifikatorių (pvz. Random Forests). Modelį išsaugoti pickle faile.
 
-3. PyCharm'e sukurti programą, kuri pasiimti apmokytą modelį iš pickle failo ir pagal vartotojo įvestus duomenis (žuvies dydžius), pateiktų atsakymą (spėjamą žuvies rūšį).
+3. PyCharm'e sukurti programą, kuri pasiimtų apmokytą modelį iš pickle failo ir pagal vartotojo įvestus duomenis (žuvies dydžius), pateiktų atsakymą (spėjamą žuvies rūšį).
 
 Modelį geriausia apmokyti Jupyter'yje. Su vartotoju bendrauti PyCharm konsolėje.
 
