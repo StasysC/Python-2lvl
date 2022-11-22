@@ -29,7 +29,7 @@ Pristatymo metu dėstytojas, dalyvaujantys CodeAcademy darbuotojai, kolegos stud
 * Kodo kokybė
 * Technologijų panaudojimas
 * Sudėtingumas
-* UI dizainas (naudojimo patogumas, aiškumas)
+* UI/UX dizainas (naudojimo patogumas, aiškumas)
 
 ## Klausimai, kuriuos reikėtų atsakyti pristatant programą:
 * Kodėl pasirinkote kurti būtent šią programą?
