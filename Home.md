@@ -7,6 +7,7 @@
 * [Citatų žaidimas su DB]()
 * [Paskolų skaičiuoklė](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis-paskolos) (konsolėje arba tkinter)
 * [Biudžetas](https://github.com/robotautas/kursas/wiki/Biud%C5%BEetas-(su-Flask,-SQLalchemy)) (su Flask, SQLalchemy)
+* [Black Jack (konsolėje)](https://github.com/robotautas/kursas/blob/master/black_jack.md)
 * [Egzaminavimo programa](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis:-egzaminavimo-programa) (su Flask, SQLalchemy)
 * [Tinklaraštis (su Django)](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis:-tinklara%C5%A1tis) (du etapai)
 * [Testavimo programa](https://github.com/DonatasNoreika/Python-pamokos/wiki/Testavimo-programa-(su-konsole,-2-etapai)) (su konsole, 2 etapai)
