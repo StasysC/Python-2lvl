@@ -3,6 +3,7 @@
 * [Oras pagal IP](https://github.com/robotautas/kursas/wiki/Konsultacija-Oras-pagal-IP)
 * [Arbitražas](https://github.com/robotautas/kursas/wiki/Konsultacija-2020-02-07)
 * [Biudžetas (be UI)](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis-biud%C5%BEetas?fbclid=IwAR2c8utjVOV2f6gx1GSDRdpa2Lflw0hgElMvftBPBfNa-ljMvLzSElpo6y4)
+* [Hangman]()
 * [Tankas 2020](https://github.com/robotautas/kursas/wiki/U%C5%BEduotis-%22Tankas%22)
 * [Citatų žaidimas su DB]()
 * [Paskolų skaičiuoklė](https://github.com/DonatasNoreika/Python-pamokos/wiki/U%C5%BEduotis-paskolos) (konsolėje arba tkinter)
