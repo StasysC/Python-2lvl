@@ -30,7 +30,7 @@ Atspausdinkite tą patį teksta taip:
 ```
 
 ### #4 
-Parašykite funkciją, kuri į parametrus priimtų teksta ir žodžių, kuriuos reikia jame išcenzūruoti sąrašą.
+Parašykite funkciją, kuri į parametrus priimtų tekstą ir žodžių, kuriuos reikia jame išcenzūruoti sąrašą.
 Pvz, žodis "kvaraba" yra baisus keiksmažodis, ir mums reikia duotame tekste pakeisti k*****a. 
 Pradėkite maždaug taip:
 ```python
