@@ -43,11 +43,4 @@ cenzura('baisūs žodžiai, tokie kaip kvaraba, žaltys..', 'kvaraba', 'žaltys'
 # baisūs žodžiai, tokie kaip k*****a, ž****s..
 ```
 žodžių cenzūravimui naudokite regex, o jų sukeitimui tekste naudokite *.replace()*\
-### #5
-
-Išsaugokite visą tekstą iš nuorodos į failą:
-https://raw.githubusercontent.com/robotautas/kursas/master/RegEx/most_visited.html
-
-čia yra html fragmentas, kuriame sudėti lankomiausi puslapiai 2019. 
-Ištraukite šių puslapių sąrašą regex pagalba.
 
