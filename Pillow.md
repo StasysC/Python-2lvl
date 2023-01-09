@@ -135,7 +135,7 @@ EMBOSS,
 FIND_EDGES,
 SMOOTH,
 SMOOTH_MORE,
-SHARPEN. Apie filtrus daugiau informacijos rasite [čia](https://pillow.readthedocs.io/en/3.1.x/reference/ImageFilter.html#module-PIL.ImageFilter)
+SHARPEN. Apie filtrus daugiau informacijos rasite [čia](https://pillow.readthedocs.io/en/stable/index.html)
 
 ![](https://github.com/robotautas/kursas/blob/master/PIL/MDs/blur.png)
 
