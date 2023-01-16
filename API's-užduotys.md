@@ -10,7 +10,7 @@ get_rate('ZZZ', 'GBP')
 # ['AUD', 'BGN', 'BRL', 'CAD', 'CHF', 'CNY', 'CZK', 'DKK', 'EUR', 'GBP', 'HKD', 'HRK', 'HUF', 'IDR', 'ILS', 'INR', 'ISK', 'JPY', 'KRW', 'MXN', 'MYR', 'NOK', 'NZD', 'PHP', 'PLN', 'RON', 'RUB', 'SEK', 'SGD', 'THB', 'TRY', 'USD', 'ZAR']
 ```
 # 2
-Sukurkite programą, kuri ieškotų kuri atspausdintų rytdienos jūsų horoskopą, naudokite šį [resursą](https://aztro.readthedocs.io/en/latest//).
+Sukurkite programą, kuri atspausdintų jūsų rytdienos horoskopą, naudokite šį [resursą](https://aztro.readthedocs.io/en/latest//).
 
 # 3
 Naudodami tą pačią Frankfurter API (kaip ir pirmoje užduotyje), sukurkite programą, kuri pagal parametruose pateiktas valiutų poras, 
