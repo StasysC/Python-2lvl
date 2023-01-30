@@ -1,11 +1,10 @@
-1. Parašykite dekoratorių kuris riboja parametrų kiekį 
-(tarkime, ne daugiau negu 2 parametrai funkcijai)
+1. Parašykite dekoratorių kuris riboja parametrų kiekį (tarkime, ne daugiau negu 2 parametrai funkcijai)
 
-1.5 Parašykite dekoratorių, kuris atideda funkcijos vykdymą 3s
+2. Parašykite dekoratorių, kuris atideda funkcijos vykdymą 3s
 
-2. Parašykite dekoratorių, kuris leidžia į funkciją įrašyti tik string tipo parametrus ir turi galimybę būti panaudotas kaip papildomas dekoratorius.
+3. Parašykite dekoratorių, kuris leidžia į funkciją įrašyti tik string tipo parametrus ir turi galimybę būti panaudotas kaip papildomas dekoratorius.
 
-3. Turime tokį kodą:
+4. Turime tokį kodą:
 ```python
 import requests  # importuojame requests
 from time import time  # importuojame time modulį
