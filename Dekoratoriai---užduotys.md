@@ -3,7 +3,7 @@
 
 1.5 Parašykite dekoratorių, kuris atideda funkcijos vykdymą 3s
 
-2. Parašykite dekoratorių, kuris leidžia į funkciją įrašyti tik string tipo parametrus.
+2. Parašykite dekoratorių, kuris leidžia į funkciją įrašyti tik string tipo parametrus ir turi galimybę būti panaudotas kaip papildomas dekoratorius.
 
 3. Turime tokį kodą:
 ```python
