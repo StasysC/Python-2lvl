@@ -93,7 +93,7 @@ class TestKeliamieji(unittest.TestCase):
 
 # OK
 ```
-
+![](UNIT_metodai.png)
 ```python
 
 ```
