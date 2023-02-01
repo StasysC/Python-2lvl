@@ -5,7 +5,7 @@ Parsisiųskite lentelę "darbuotojai2.db", atsidarykite ją programoje DB Browse
 3. Išrinkite duomenis apie darbuotojus (vardą, Skyriaus ID ir Projekto ID) iš lentelės DARBUOTOJAS, kurie dirba 2 ir 3 skyriuose (panaudoti IN operatorių).
 4. Išrinkite duomenis (vardą, pavarde ir asmens kodą) apie visas moteris iš lentelės DARBUOTOJAS (panaudojant operatorių LIKE).
 5. Išrinkite visus duomenis apie visus darbuotojus iš lentelės DARBUOTOJAS, kurie yra gimę 12 dieną (panaudojant operatorių LIKE).
-išrinkite visus projektus iš lentelės PROJEKTAS, kurių pavadinime antra raidė būtų ‘a’.
+6. Išrinkite visus projektus iš lentelės PROJEKTAS, kurių pavadinime antra raidė būtų ‘a’.
 7. Išrinkite visus darbuotojus iš lentelės DARBUOTOJAS, kuriems nepaskirtos jokios pareigos.
 8. Išrinkite duomenis apie darbuotojus (vardą, pavarde, nuo kada dirba ir pareigas), kurie dirba nuo 2011-02-12 ir jų pareigos yra Programuotojai.
 9. Išrinkite duomenis apie darbuotojus (vardą, pavardę, Skyriaus ID ir Projekto ID) iš lentelės DARBUOTOJAS, kurie yra iš Gamybos (2) skyriaus arba 1 projekto.
