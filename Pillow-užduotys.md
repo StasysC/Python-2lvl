@@ -1,7 +1,7 @@
 ### 1
 Turime [logo](https://github.com/StasysC/Python-2lvl/blob/master/logo.png) su peršviečiamu fonu, dydis 128*128. Atsisiųskite, ir perdarykite taip, kad nuo viršaus ir apačios nusiimtų po 28 eilutes pikselių. Išsisaugokite, nes naudosime sekančioms užduotims.
 
-2
+### 2
 
 sukurkite funkciją, kuri priimtų 
 * paveikslėlį 
