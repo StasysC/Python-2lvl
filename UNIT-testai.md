@@ -263,7 +263,7 @@ def ar_keliamieji2(metai):
 ### Failas: test_keliamieji.py:
 ```python
 import unittest
-from keliamieji2 import ar_keliamieji2
+from keliamieji import ar_keliamieji2
 
 class TestKeliamieji2(unittest.TestCase):
     def test_ar_keliamieji(self):
@@ -295,7 +295,7 @@ class Keliamieji:
 import unittest
 from keliamieji import Keliamieji
 
-class TestKeliamieji3(unittest.TestCase):
+class TestKeliamieji(unittest.TestCase):
     def test_tikrinti(self):
         objektas = Keliamieji()
         self.assertTrue(objektas.tikrinti(2000))
@@ -314,7 +314,7 @@ class TestKeliamieji3(unittest.TestCase):
 import unittest
 from keliamieji import Keliamieji
 
-class TestKeliamieji3(unittest.TestCase):
+class TestKeliamieji(unittest.TestCase):
     def setUp(self):
         self.objektas = Keliamieji()
 
