@@ -276,7 +276,7 @@ class TestKeliamieji2(unittest.TestCase):
 # OK
 ```
 ## Objektų klasių testavimas
-### Failas: keliamieji2.py:
+### Failas: keliamieji.py:
 ```python
 class Keliamieji:
 
@@ -290,10 +290,10 @@ class Keliamieji:
                 sarasas.append(metai)
         return sarasas
 ```
-### Failas: test_keliamieji2.py:
+### Failas: test_keliamieji.py:
 ```python
 import unittest
-from keliamieji3 import Keliamieji
+from keliamieji import Keliamieji
 
 class TestKeliamieji3(unittest.TestCase):
     def test_tikrinti(self):
@@ -309,10 +309,10 @@ class TestKeliamieji3(unittest.TestCase):
         self.assertEqual(lukestis, rezultatas)
 ```
 ## Patogesnis būdas:
-### Failas: test_keliamieji2.py
+### Failas: test_keliamieji.py
 ```python
 import unittest
-from keliamieji3 import Keliamieji
+from keliamieji import Keliamieji
 
 class TestKeliamieji3(unittest.TestCase):
     def setUp(self):
@@ -329,12 +329,9 @@ class TestKeliamieji3(unittest.TestCase):
         self.assertEqual(lukestis, rezultatas)
 ```
 ## UNIT testų privalumai
-
-```python
 * Galimybė išvengti klaidų rašant ar taisant kodą
 * UNIT testai gali būti panaudoti kaip būsimos programos dokumentacija
 * Sutaupo laiko testuotojų komandai
 * Taupo pinigus (klaidų taisymas vėliau yra brangus)
-```
 ## Testavimu paremtas programavimas (TDD)
 Iš pradžių sukuriame testą – po to parašome kodą
