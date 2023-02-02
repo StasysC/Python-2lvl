@@ -1,11 +1,11 @@
 ## 1 užduotis
-1. Pasiimti anksčiau sukurtą programos kodą
+1. Pasiimti anksčiau sukurtą programos kodą iš paskaitos apie funkcijas ir pasirinkti 3 - 4 funkcijas, kurias toliau testuosite
 2. Funkcijas perdaryti taip, kad jos gražintų duomenis
 3. Sukurti UNIT testą visoms funkcijoms
 4. Kiekvienai funkcijai turi būti mažiausiai 3 patikrinimai
 5. Maksimaliai patobulinti kodą, nuolatos leidžiant sukurtą UNIT testą
 ## 2 užduotis
-1. Pasiimti anksčiau sukurtą programos kodą
+1. Pasiimti anksčiau sukurtą programos kodą iš paskaitos apie funkcijas ir pasirinkti 3 - 4 funkcijas, kurias toliau testuosite
 2. Teste sukurti setUp() metodą, kuriame būtų inicijuotas klasės objektas
 3. Funkcijas perdaryti taip, kad jos gražintų duomenis
 4. Sukurti UNIT testą visoms funkcijoms
