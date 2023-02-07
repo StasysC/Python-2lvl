@@ -1,5 +1,5 @@
 # 1
-https://cataas.com/cat kas kartą užkrauna vis skirtingą katės nuotrauką. 
+http://random.cat/ kas kartą užkrauna vis skirtingą katės nuotrauką. 
 Parašykite funkciją, kuriai į parametrus įrašius, kiek norime nuotraukų, 
 išsaugotų jas mūsų kompiuteryje. 
 # 2
