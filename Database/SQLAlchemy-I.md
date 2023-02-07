@@ -35,10 +35,11 @@ class Projektas(Base):
 Base.metadata.create_all(engine)
 ```
 
-Kaip įrašyti, nuskaityti, atnaujinti, ištrinti duomenys SQLAlchemy lentelėje
+### Kaip įrašyti, nuskaityti, atnaujinti, ištrinti duomenys SQLAlchemy lentelėje
 (CRUD – create, read, update, delete)
 
 Kaip sukurti ryšį su sukurta DB kitame faile:
+```python
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from projektas import Projektas
@@ -47,9 +48,9 @@ engine = create_engine('sqlite:///projektai.db')
 Session = sessionmaker(bind=engine)
 session = Session()
 """:type: sqlalchemy.orm.Session"""
-Kaip įrašyti duomenis į lentelę:
-(Crud)
-
+```
+### Kaip įrašyti duomenis į lentelę (Crud):
+```python
 projektas1 = Projektas("Naujas pr.", 20000)
 session.add(projektas1)
 session.commit()
@@ -57,20 +58,28 @@ session.commit()
 projektas2 = Projektas("2 projektas", 55000)
 session.add(projektas2)
 session.commit()
-Kaip gauti duomenis iš lentelės (cRud):
+```
+
+### Kaip gauti duomenis iš lentelės (cRud):
+```python
 projektas1 = session.query(Projektas).get(1)
 
 print(projektas1.name)
 # Naujas pr.
+```
+```python
 projektas2 = session.query(Projektas).filter_by(name="2 projektas").one()
+```
+```python
 projektai = session.query(Projektas).all()
 
 for projektas in projektai:
     print(projektas.name, projektas.price)
 # Naujas pr. 20000.0
 # 2 projektas 55000.0
-Kaip ieškoti duomenų pagal sąlygą ar šabloną:
-
+```
+### Kaip ieškoti duomenų pagal sąlygą ar šabloną:
+```python
 search = session.query(Projektas).filter(Projektas.name.ilike("2%"))
 search2 = session.query(Projektas).filter(Projektas.price > 1000)
 search3 = session.query(Projektas).filter(
@@ -84,14 +93,20 @@ print([i for i in search3])
 # [2 2 projektas - 55000.0: 2021-02-03 14:29:33.477232]
 # [1 Naujas pr. - 20000.0: 2021-02-03 14:29:33.437231, 2 2 projektas - 55000.0: 2021-02-03 14:29:33.477232]
 # [2 2 projektas - 55000.0: 2021-02-03 14:29:33.477232]
-Kaip pakeisti duomenis lentelėje (crUd):
+```
+### Kaip pakeisti duomenis lentelėje (crUd):
+```python
 projektas1 = session.query(Projektas).get(1)
 projektas1.price = 22000
 session.commit()
+```
+```python
 projektas2 = session.query(Projektas).filter_by(name="2 projektas").one()
 projektas2.name = "2 projektas tikrai"
 session.commit()
-Kaip ištrinti duomenis lentelėje (cruD):
+```
+### Kaip ištrinti duomenis lentelėje (cruD):
+```python
 projektas1 = session.query(Projektas).filter_by(name="Naujas pr.").one()
 
 session.delete(projektas1)
@@ -147,3 +162,4 @@ while True:
         trinamas_projektas = session.query(Projektas).get(keiciamo_id)
         session.delete(trinamas_projektas)
         session.commit()
+```
