@@ -78,7 +78,7 @@ for projektas in projektai:
 # Naujas pr. 20000.0
 # 2 projektas 55000.0
 ```
-### Kaip ieškoti duomenų pagal sąlygą ar šabloną:
+Kaip ieškoti duomenų pagal sąlygą ar šabloną:
 ```python
 search = session.query(Projektas).filter(Projektas.name.ilike("2%"))
 search2 = session.query(Projektas).filter(Projektas.price > 1000)
@@ -111,7 +111,9 @@ projektas1 = session.query(Projektas).filter_by(name="Naujas pr.").one()
 
 session.delete(projektas1)
 session.commit()
-Programos su duomenų baze (konsolėje) pavyzdys:
+```
+### Programos su duomenų baze (konsolėje) pavyzdys:
+```python
 from models import engine, Projektas
 from sqlalchemy.orm import sessionmaker
 
