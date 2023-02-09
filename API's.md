@@ -25,24 +25,28 @@ Web API's yra labai daug, duomenis jos pateikia iš pačių įvairiausių gyveni
 registracijos ir autentifikacijos (*apiKey*), kitas galima naudoti tiesiog iš karto.
 
 ```python
+import requests
+
+headers = {"apikey": "KQVVznJtJA4eY4DBAk0cCGATHJ0BaHyF"}
 months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
 for month in months:
-    r = requests.get(f'https://api.ratesapi.io/api/2019-{month}-15')
-    dictionary = json.loads(r.text)
-    print(f"2019-{month}-15     EUR-USD    {dictionary['rates']['USD']}")
+    url = f"https://api.apilayer.com/exchangerates_data/2021-{month}-16?symbols=USD&base=EUR"
+    response = requests.get(url, headers=headers)
+    result = response.json()
+    print(f"2021-{month}-15     EUR-USD    {result['rates']['USD']}")
 
-# 2019-01-15     EUR-USD    1.1424
-# 2019-02-15     EUR-USD    1.126
-# 2019-03-15     EUR-USD    1.1308
-# 2019-04-15     EUR-USD    1.1313
-# 2019-05-15     EUR-USD    1.1183
-# 2019-06-15     EUR-USD    1.1265
-# 2019-07-15     EUR-USD    1.1269
-# 2019-08-15     EUR-USD    1.115
-# 2019-09-15     EUR-USD    1.1096
-# 2019-10-15     EUR-USD    1.1007
-# 2019-11-15     EUR-USD    1.1034
-# 2019-12-15     EUR-USD    1.1174
+# 2021-01-15     EUR-USD    1.20795
+# 2021-02-15     EUR-USD    1.209212
+# 2021-03-15     EUR-USD    1.190129
+# 2021-04-15     EUR-USD    1.198195
+# 2021-05-15     EUR-USD    1.215059
+# 2021-06-15     EUR-USD    1.199379
+# 2021-07-15     EUR-USD    1.180665
+# 2021-08-15     EUR-USD    1.177854
+# 2021-09-15     EUR-USD    1.176495
+# 2021-10-15     EUR-USD    1.159911
+# 2021-11-15     EUR-USD    1.131791
+# 2021-12-15     EUR-USD    1.133472
 ```
  
  Šiame pavyzdyje matome, kaip nesudėtingai galime gauti EUR-USD kasmėnesinius kurso pokyčius. Rezultatą galime panaudoti 
