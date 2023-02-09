@@ -419,7 +419,7 @@ import csv
 from bs4 import BeautifulSoup
 import requests
 
-source = requests.get('https://shop.telia.lt/telefonai/?filter=brand:samsung').text
+source = requests.get('https://www.telia.lt/prekes/mobilieji-telefonai/samsung').text
 soup = BeautifulSoup(source, 'html.parser')
 
 blokai = soup.find_all('div', class_ = 'mobiles-product-card card card__product card--anim js-product-compare-product')
