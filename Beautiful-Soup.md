@@ -313,9 +313,127 @@ print(res)
 # hi
 ```
 
+# Web scrapping pavyzdžiai
+## Pavyzdys nr. 1
+### Kaip nuskaityti norimą svetainės bloką (pirmą):
+```python
+from bs4 import BeautifulSoup
+import requests
 
+source = requests.get('https://www.delfi.lt/').text
+soup = BeautifulSoup(source, 'html.parser')
+blokas = soup.find('div', class_ = 'headline')
+print(blokas.prettify())
+Kaip išrinkti norimą informaciją iš bloko:
+from bs4 import BeautifulSoup
+import requests
 
+source = requests.get('https://www.delfi.lt/').text
+soup = BeautifulSoup(source, 'html.parser')
+blokas = soup.find('div', class_ = 'headline')
 
+kategorija = blokas.find('div', class_ = 'headline-category').text.strip()
+tekstas = blokas.find('a', class_ = 'CBarticleTitle').text.strip()
+linkas = blokas.find('a', class_="CBarticleTitle")['href']
 
+print(kategorija)
+print(tekstas)
+print(linkas)
+```
+### Kaip gauti visų blokų informaciją:
+```python
+from bs4 import BeautifulSoup
+import requests
 
+source = requests.get('https://www.delfi.lt/').text
+soup = BeautifulSoup(source, 'html.parser')
+blokai = soup.find_all('div', class_ = 'headline')
 
+for blokas in blokai:
+    try:
+        kategorija = blokas.find('div', class_ = 'headline-category').text.strip()
+        tekstas = blokas.find('a', class_ = 'CBarticleTitle').text.strip()
+        linkas = blokas.find('a', class_="CBarticleTitle")['href']
+        print(kategorija)
+        print(tekstas)
+        print(linkas)
+    except:
+        pass
+```
+### Kaip įrašyti gautą informaciją į csv failą:
+```python
+from bs4 import BeautifulSoup
+import requests
+import csv
+
+source = requests.get('https://www.delfi.lt/').text
+
+soup = BeautifulSoup(source, 'html.parser')
+blokai = soup.find_all('div', class_="headline")
+
+with open("delfi_naujienos.csv", 'w', encoding="UTF-8", newline='') as failas:
+    csv_writer = csv.writer(failas)
+    csv_writer.writerow(['KATEGORIJA', 'ANTRAŠTĖ', 'NUORODA'])
+
+    for blokas in blokai:
+        try:
+            kategorija = blokas.find("div", class_='headline-category').text.strip()
+            tekstas = blokas.find('a', class_="CBarticleTitle").text.strip()
+            linkas = blokas.find('a', class_="CBarticleTitle")['href']
+            print(kategorija, tekstas, linkas)
+            csv_writer.writerow([kategorija, tekstas, linkas])
+        except:
+            pass
+```
+### Daugiau rezultatų su regex:
+```python
+from bs4 import BeautifulSoup
+import requests
+import csv
+import re
+
+source = requests.get('https://www.delfi.lt/').text
+
+soup = BeautifulSoup(source, 'html.parser')
+blokai = soup.find_all('div', class_=re.compile(r'col-xs-.'))
+
+with open("delfi_naujienos.csv", 'w', encoding="UTF-8", newline='') as failas:
+    csv_writer = csv.writer(failas)
+    csv_writer.writerow(['KATEGORIJA', 'ANTRAŠTĖ', 'NUORODA'])
+
+    for blokas in blokai:
+        try:
+            kategorija = blokas.find("div", class_='headline-category').text.strip()
+            tekstas = blokas.find('a', class_="CBarticleTitle").text.strip()
+            linkas = blokas.find('a', class_="CBarticleTitle")['href']
+            print(kategorija, tekstas, linkas)
+            csv_writer.writerow([kategorija, tekstas, linkas])
+        except:
+            pass
+## Pavyzdys Nr. 2
+### Norimo gamintojo parduodamų telefonų išrinkimas iš svetainės
+```python
+import csv
+
+from bs4 import BeautifulSoup
+import requests
+
+source = requests.get('https://shop.telia.lt/telefonai/?filter=brand:samsung').text
+soup = BeautifulSoup(source, 'html.parser')
+
+blokai = soup.find_all('div', class_ = 'mobiles-product-card card card__product card--anim js-product-compare-product')
+
+with open("Telia Samsung telefonai.csv", "w", encoding="UTF-8", newline='') as failas:
+    csv_writer = csv.writer(failas)
+    csv_writer.writerow(['Modelis', 'Mėnesio kaina', 'Kaina'])
+
+    for blokas in blokai:
+        try:
+            pavadinimas = blokas.find('a', class_ = 'mobiles-product-card__title js-open-product').text.strip()
+            men_kaina = blokas.find('div', class_ = 'mobiles-product-card__price-marker').text.strip()
+            kaina = blokas.find_all('div', class_ = 'mobiles-product-card__price-marker')[1].text.strip()
+            print(pavadinimas, men_kaina, kaina)
+            csv_writer.writerow([pavadinimas, men_kaina, kaina])
+        except:
+            pass
+```
