@@ -410,6 +410,7 @@ with open("delfi_naujienos.csv", 'w', encoding="UTF-8", newline='') as failas:
             csv_writer.writerow([kategorija, tekstas, linkas])
         except:
             pass
+```
 ## Pavyzdys Nr. 2
 ### Norimo gamintojo parduodamų telefonų išrinkimas iš svetainės
 ```python
