@@ -324,7 +324,9 @@ source = requests.get('https://www.delfi.lt/').text
 soup = BeautifulSoup(source, 'html.parser')
 blokas = soup.find('div', class_ = 'headline')
 print(blokas.prettify())
-Kaip išrinkti norimą informaciją iš bloko:
+```
+### Kaip išrinkti norimą informaciją iš bloko:
+```python
 from bs4 import BeautifulSoup
 import requests
 
