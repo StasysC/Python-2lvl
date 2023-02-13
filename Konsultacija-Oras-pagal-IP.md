@@ -14,9 +14,6 @@ Naudokite šias API:
 
 * https://freegeoip.app/
 * https://openweathermap.org/api
-
-OpenWeather reikės užsiregistruoti ir gauti API-key. Nerašykite API-key tiesiai į kodą, naudokite [aplinkos kintamuosius](https://github.com/robotautas/kursas/wiki/Aplinkos-kintamieji)
-
 * Jeigu nežinote, kaip rašyti į CSV failus:
 
 ```python
