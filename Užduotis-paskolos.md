@@ -20,7 +20,7 @@
 * Mėnesio palūkanos paskaičiuojamos pagal tokią formulę: (mėnesio likutis * palūkanos) / 12 (nes nurodomos metinės palūkanos)
 * Mėnesio bendra mokėtina suma paskaičiuojama prie gražintinos mėnesio sumos pridėjus priskaičiuotas palūkanas
 Linijinio mokėjimo grafiko pavyzdys:
-https://github.com/DonatasNoreika/Python-pamokos/blob/master/paskolos_grafiko_pavyzdys.jpg
+![](paskolos_grafiko_pavyzdys.jpg)
 
 # 2 etapas
 * Padaryti meniu punktą, kurį pasirinkus, parodytų visų prieš tai įvestų užklausų informaciją (papildomai galima padaryti, kad jas galima būtų koreguoti, atspausdinti pasirinktos paskolos išsamią informaciją bei mokėjimo grafiką)
