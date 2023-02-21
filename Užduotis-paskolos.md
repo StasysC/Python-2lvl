@@ -19,6 +19,7 @@
 * Mėnesio likutis paskaičiuojamas iš mėnesio gražintinos sumos atimant gražintiną to mėnesio sumos dalį.
 * Mėnesio palūkanos paskaičiuojamos pagal tokią formulę: (mėnesio likutis * palūkanos) / 12 (nes nurodomos metinės palūkanos)
 * Mėnesio bendra mokėtina suma paskaičiuojama prie gražintinos mėnesio sumos pridėjus priskaičiuotas palūkanas
+
 Linijinio mokėjimo grafiko pavyzdys:
 ![](paskolos_grafiko_pavyzdys.jpg)
 
