@@ -10,7 +10,7 @@
 * PostgreSQL
 * Microsoft Access
 * SQLite
-* 
+
 Darbui su SQLite duomenų baze (be python) naudosime programą DB Browser for SQLite
 
 # Svarbiausios DB (SQL) užklausos
