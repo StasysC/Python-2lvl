@@ -1,3 +1,31 @@
+# Kas yra duomenų bazė
+* Duomenų bazė – organizuotas duomenų rinkinys (lentelėse)
+* Duomenų bazė yra failas, o ne programa
+* Reliacinė duomenų bazėje lentelės susijusios tarpusavyje ryšiais
+* Su duomenų baze komunikuojama užklausomis (taip kuriamos lentelės, stulpeliai, jų tipai, keičiami, trinami duomenys)
+# Duomenų bazių pavyzdžiai
+* Oracle
+* MySQL
+* Microsoft SQL Server
+* PostgreSQL
+* Microsoft Access
+* SQLite
+* 
+Darbui su SQLite duomenų baze (be python) naudosime programą DB Browser for SQLite
+
+# Svarbiausios DB (SQL) užklausos
+* **SELECT** sakinys naudojamas įrašams iš vienos ar daugiau lentelių atrinkti.
+* **FROM** sakinyje nurodomos lentelės, iš kurių reikia išrinkti eilutes (sąryšiai gali būti nurodomi skirtingais JOIN variantais).
+* **WHERE** sakinyje nurodoma sąlyga, kurią turi tenkinti grąžinamos eilutės.
+* **GROUP BY** sąlygoje nurodoma, kad reikia grupuoti tam tikras eilutes. Grupuojant eilutes, dažniausiai naudojamos agregatinės funkcijos maksimalioms, vidutinėms ir panašioms reikšmėms išrinkti iš grupuotų eilučių.
+* **ORDER BY** sakiniu nurodoma viena ar daugiau rikiavimo sąlygų.
+* **HAVING** sakinyje nurodomas kriterijus, taikomas grupuojamoms eilutėms. HAVING raktinis žodis gali būti naudojamas tik tais atvejais, jeigu užklausoje yra GROUP BY sakinys.
+* **INSERT** vartojamas naujų įrašų įterpimui į lentelę.
+* **DELETE** leidžia ištrinti įrašus iš lentelės.
+* **UPDATE** naudojamas pakeisti vieno ar daugiau įrašų reikšmes.
+* **DISTINCT** - skirtingų reikšmių išrinkimas.
+* **DROP TABLE** pašalina visą lentelę.
+
 # Užklausos
 
 Viena dažniausiai naudojamų SQL užklausų:
@@ -164,4 +192,9 @@ TRUNCATE person;
 jeigu norime ištrinti lentelę su visa struktūra:
 ```sql
 DROP TABLE person;
+```
+
+## Duomenų lentelės kūrimas
+```sql
+CREATE TABLE darbuotojai (vardas text, pavarde text, atlyginimas integer)
 ```
