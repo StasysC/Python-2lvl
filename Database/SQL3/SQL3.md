@@ -102,6 +102,31 @@ HAVING count() > 3
 ```
 ![](netflix_6.png)
 
+## JOIN rūšys
+
+![](joins.jpg)
+
+* INNER JOIN yra standartinis JOIN, kurį naudojome iki šiol
+* LEFT JOIN - jungimo rezultatas yra papildomas kairiosios
+(pirmosios) lentelės nesujungiamomis eilutėmis.
+* RIGHT JOIN - jungimo rezultatas yra papildomas dešiniosios
+(antrosios) lentelės nesujungiamomis eilutėmis.
+* FULL OUTER JOIN - papildoma abiejų lentelių eilutėmis
+nesujungiamomis eilutėmis.
+
+Populiariausias apart standartinio JOIN yra LEFT JOIN, jį ir panagrinėsime:
+
+```sql
+SELECT last_name, make, model
+FROM person
+LEFT JOIN car
+ON person.car_id = car.id
+```
+
+![](left_join.png)
+
+Rezultate matome, kad sujungtos buvo ir tos eilutės, kur *person* neturi car_id.
+
 Kokie yra Apple automobilių numeriai?
 
 ```sql
@@ -131,29 +156,3 @@ ORDER BY company.name
 ```
 
 ![](complicated.png)
-
-
-## JOIN rūšys
-
-![](joins.jpg)
-
-* INNER JOIN yra standartinis JOIN, kurį naudojome iki šiol
-* LEFT JOIN - jungimo rezultatas yra papildomas kairiosios
-(pirmosios) lentelės nesujungiamomis eilutėmis.
-* RIGHT JOIN - jungimo rezultatas yra papildomas dešiniosios
-(antrosios) lentelės nesujungiamomis eilutėmis.
-* FULL OUTER JOIN - papildoma abiejų lentelių eilutėmis
-nesujungiamomis eilutėmis.
-
-Populiariausias apart standartinio JOIN yra LEFT JOIN, jį ir panagrinėsime:
-
-```sql
-SELECT last_name, make, model
-FROM person
-LEFT JOIN car
-ON person.car_id = car.id
-```
-
-![](left_join.png)
-
-Rezultate matome, kad sujungtos buvo ir tos eilutės, kur *person* neturi car_id.
