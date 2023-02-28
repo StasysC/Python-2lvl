@@ -4,7 +4,7 @@
    * įvesti naują eilutę (automobilį su visais parametrais)
    * ieškoti įrašų pagal visus stulpelius. Vartotojas gali pasirinkti kuriuos parametrus paieškoje praleisti. Metus ir kainą vartotojas turėtų nurodinėti nuo -iki.
 3. Sukurti programą, kuri:
-* Sukurtų duomenų bazę
+  * Sukurtų duomenų bazę
    * Sukurtų lentelę paskaitos su stulpeliais pavadinimas, destytojas ir trukme
    * Sukurtų tris paskaitas: ('Vadyba', 'Domantas', 40), ('Python', 'Donatas', 80) ir ('Java', 'Tomas', 80)
    * Atspausdintų tik tas paskaitas, kurių trukmė didesnė už 50
