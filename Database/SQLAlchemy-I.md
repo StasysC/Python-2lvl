@@ -160,8 +160,8 @@ while True:
         for projektas in projektai:
             print(projektas)
         print("-------------------")
-        keiciamo_id = int(input("Pasirinkite norimo ištrinti projekto ID"))
-        trinamas_projektas = session.query(Projektas).get(keiciamo_id)
+        trinamo_id = int(input("Pasirinkite norimo ištrinti projekto ID"))
+        trinamas_projektas = session.query(Projektas).get(trinamo_id)
         session.delete(trinamas_projektas)
         session.commit()
 ```
