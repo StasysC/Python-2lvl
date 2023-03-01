@@ -8,6 +8,7 @@ Suprojektuoti duomenų bazę (nupaišant diagramą) ir sukurti sqlite duomenų b
 * Pageidautina, kad klausimas galėtų turėti neribotą kiekį atsakymų
 * Pageidautina, kad po klausimu galima būtų pažymėti kelis teisingus atsakymus
 * Pageidautina, būtų saugoma detali kiekvieno vartotojo sprendimo informacija (kiekvienas sprendimo klausimas ir pasirinktas atsakymas)
+
 Pabandyti užpildyti sukurtą duomenų bazę duomenimis
 
 Projektavimui galite naudoti https://app.sqldbm.com/
