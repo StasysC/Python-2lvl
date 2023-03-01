@@ -20,4 +20,5 @@ Padaryti programos UI su konsole, naudojant SQLAlchemy (be tiesioginių sql užk
 * Išsaugotų kiekvieno sprendimo informaciją: datą, rezultatą.
 * Išsaugotų kiekvieną atsakytą klausimą ir pasirinktą atsakymą (-us), kad vėliau juos galima būtų peržiūrėti.
 * Leistų įvesti naujus testus su klausimais ir atsakymais.
+
 Jei jūsų 1 etape sukurta duomenų bazė neleidžia padaryti kažkurių iš aprašytų funkcijų, darykite programą pagal savo suprojektuotą duomenų bazę.
