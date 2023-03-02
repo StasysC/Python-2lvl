@@ -84,7 +84,7 @@ class Vaikas(Base):
     id = Column(Integer, primary_key=True)
     vardas = Column("Vardas", String)
     pavarde = Column("Pavardė", String)
-    mokymo_istaiga = Column("Mokymo įskaita", String)
+    mokymo_istaiga = Column("Mokymo įstaiga", String)
     tevas_id = Column(Integer, ForeignKey("tevas.id"))
     tevas = relationship("Tevas", back_populates="vaikai")
 
