@@ -27,10 +27,10 @@ class Vaikas(Base):
     mokymo_istaiga = Column("Mokymo įskaita", String)
 
 Base.metadata.create_all(engine)
-```python
+```
 ### Kaip sukurti sesiją su sukurta DB
 (engine importuoti iš sqlalchemy ORM klasės, jei ji kitame faile)
-
+```python
 Session = sessionmaker(bind=engine)
 session = Session()
 ```
