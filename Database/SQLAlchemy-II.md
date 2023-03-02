@@ -3,8 +3,7 @@
 Daug tėvų turi po vieną vaiką. Atvirkščiai - kiekvienas vaikas gali turėti daug tėvų
 ```python
 from sqlalchemy import Column, Integer, String, ForeignKey, create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker
+from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 
 engine = create_engine('sqlite:///many2one_test.db')
 Base = declarative_base()
@@ -24,7 +23,7 @@ class Vaikas(Base):
     id = Column(Integer, primary_key=True)
     vardas = Column("Vardas", String)
     pavarde = Column("Pavardė", String)
-    mokymo_istaiga = Column("Mokymo įskaita", String)
+    mokymo_istaiga = Column("Mokymo įstaiga", String)
 
 Base.metadata.create_all(engine)
 ```
@@ -36,7 +35,7 @@ session = Session()
 ```
 ### Kaip įrašyti tėvą ir jo vaiką (Crud)
 ```python
-vaikas = Vaikas(vardas="Vaikas", pavarde="Tevaika", mokymo_istaiga = "Čiurlionio gimnazija")
+vaikas = Vaikas(vardas="Vaikas", pavarde="Tevaika", mokymo_istaiga="Čiurlionio gimnazija")
 tevas = Tevas(vardas="Tevas", pavarde="Tevaika", vaikas=vaikas)
 session.add(tevas)
 session.commit()
@@ -66,8 +65,7 @@ session.commit()
 Kiekvienas tėvas gali turėti po daug vaikų. Atvirkščiai - kiekvienas vaikas gali turėti tik vieną tėvą.
 ```python
 from sqlalchemy import Column, Integer, String, Float, ForeignKey, create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker
+from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 
 engine = create_engine('sqlite:///one2many_test.db')
 Base = declarative_base()
@@ -139,8 +137,7 @@ session.commit()
 Kiekvienas tėvas gali turėti po daug vaikų. Kiekvienas vaikas gali turėti po daug tėvų
 ```python
 from sqlalchemy import Column, Integer, String, Float, ForeignKey, create_engine, Table
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker
+from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 
 engine = create_engine('sqlite:///many2many_test.db')
 Base = declarative_base()
