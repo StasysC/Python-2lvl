@@ -13,7 +13,9 @@ Prieš pradedant rašyti kodą, jums reikia susikurti HTML failą:
 Turime tekstą „My cat is very grumpy“. 
 
 HTML kalbos atveju jis atrodytų taip:
-```html <p>My cat is very grumpy</p> ```
+```html
+<p>My cat is very grumpy</p>
+```
 ![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/Grumpy_cat.png)
 
 Elementai taip pat gali turėti atributus. Atributuose yra papildomos informacijos apie elementą, kurios nenorite rodyti tikrame turinyje. Atributai atrodo taip:
