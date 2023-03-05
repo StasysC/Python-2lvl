@@ -1,39 +1,33 @@
-# HTML pagrindai HTML puslapio struktūra
-HTML (HyperText Markup Language) yra pats pagrindinis žiniatinklio kūrimo elementas. Jis apibrėžia interneto turinio prasmę ir struktūrą. Kitos technologijos, išskyrus HTML, paprastai naudojamos aprašyti tinklalapio išvaizdą / pristatymą (CSS) arba funkcionalumą / elgesį (JavaScript).
+# HTML puslapio struktūra
+HTML (*HyperText Markup Language*) yra pats pagrindinis žiniatinklio kūrimo elementas. Jis apibrėžia interneto turinio prasmę ir struktūrą. Kitos technologijos, išskyrus HTML, paprastai naudojamos aprašyti tinklalapio išvaizdą / pristatymą (CSS) arba funkcionalumą / elgesį (JavaScript).
 
-HTML nėra programavimo kalba, tai žymėjimo kalba !
+**HTML nėra programavimo kalba, tai žymėjimo kalba!**
 
-HTML elemento anatomija!
+# HTML elemento anatomija
 Prieš pradedant rašyti kodą, jums reikia susikurti HTML failą:
-Atsidarykite code editor kurį norite naudoti (WebStorm, Sublime, VS Code, Notepad++, etc…);
-Spauskite Ctrl/CMD + S;
-Išsaugokite failą pavadinimu index.html (.html yra failo plėtinys nurodantis jog tai bus būtent HTML
-failas o ne joks kitoks);
-Pradėkite rašyti kodą.
+* Atsidarykite code editor kurį norite naudoti (WebStorm, Sublime, VS Code, Notepad++, etc…);
+* Spauskite Ctrl/CMD + S;
+* Išsaugokite failą pavadinimu index.html (.html yra failo plėtinys nurodantis jog tai bus būtent HTML  failas o ne joks kitoks);
+* Pradėkite rašyti kodą.
 
 Turime tekstą „My cat is very grumpy“. 
+
+HTML kalbos atveju jis atrodytų taip:
 ```html
 <p>My cat is very grumpy</p>
 ```
-
-
-HTML kalbos atveju jis atrodytų taip
-
+![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/Grumpy_cat.png)
 Elementai taip pat gali turėti atributus. Atributuose yra papildomos informacijos apie elementą, kurios nenorite rodyti tikrame turinyje. Atributai atrodo taip:
-![image](https://user-images.githubusercontent.com/37398194/222978536-438ee809-09a7-4b9d-926c-18cf2ccc28ba.png)
+![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/class.png)
+Čia „class“ yra atributo pavadinimas, o „editor-note“ atributo vertė. Beje, „class“ atributas leidžia suteikti elementui identifikatorių, kurį galima naudoti norint jį (ir visus kitus tos pačios klasės vertės elementus) nukreipti su stiliaus informacija ir kitais dalykais.
 
-Čia „class“ yra atributo pavadinimas, o „editor-note“ atributo vertė.
-
-Beje, „class“ atributas leidžia suteikti elementui identifikatorių, kurį galima naudoti norint jį (ir visus kitus tos pačios klasės vertės
-elementus) nukreipti su stiliaus informacija ir kitais dalykais.
-
-Jūs taip pat galite įdėti elementus į kitus elementus - tai vadinama (angl.) “nesting”. Jei norėtume konstatuoti, kad mūsų katė yra labai niūri, žodį „very“ galėtume įvynioti į <strong> elementą, o tai reiškia, kad šis žodis turi būti stipriai pabrėžtas:
-
+Jūs taip pat galite įdėti elementus į kitus elementus - tai vadinama (angl.) “nesting”. Jei norėtume konstatuoti, kad mūsų katė yra labai niūri, žodį „very“ galėtume įvynioti į **<strong>** elementą, o tai reiškia, kad šis žodis turi būti stipriai pabrėžtas:
+```html
 <p>My cat is <strong>very</strong> grumpy.</p>
-  
+```
 Svarbu atkreipti dėmesį ar mūsų elementai yra tinkamai talpinami vienas kitame.
 Negalima: <p>My cat is <strong>very grumpy.</p></strong>
-Galima: <p>My cat is <strong>very</strong> grumpy.</p>
+Negalima <p>My cat is <strong>very</strong> grumpy.</p>
 
 <! DOCTYPE html> – tai yra būtina preambulė. – šis elementas veikia kaip visų dalykų, kuriuos norite įtraukti į HTML
 ![image](https://user-images.githubusercontent.com/37398194/222978846-d5ace57f-7dec-46a2-96b0-363500041cb6.png)
