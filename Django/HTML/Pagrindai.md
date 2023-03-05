@@ -13,9 +13,7 @@ Prieš pradedant rašyti kodą, jums reikia susikurti HTML failą:
 Turime tekstą „My cat is very grumpy“. 
 
 HTML kalbos atveju jis atrodytų taip:
-```html
-<p>My cat is very grumpy</p>
-```
+```html <p>My cat is very grumpy</p> ```
 ![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/Grumpy_cat.png)
 
 Elementai taip pat gali turėti atributus. Atributuose yra papildomos informacijos apie elementą, kurios nenorite rodyti tikrame turinyje. Atributai atrodo taip:
@@ -29,8 +27,9 @@ Jūs taip pat galite įdėti elementus į kitus elementus - tai vadinama (angl.)
 <p>My cat is <strong>very</strong> grumpy.</p>
 ```
 Svarbu atkreipti dėmesį ar mūsų elementai yra tinkamai talpinami vienas kitame.
-Negalima: <p>My cat is <strong>very grumpy.</p></strong>
-Galima <p>My cat is <strong>very</strong> grumpy.</p>
+
+Negalima: ```<p>My cat is <strong>very grumpy.</p></strong>```
+Galima: ```<p>My cat is <strong>very</strong> grumpy.</p>```
 
 ![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/htm_struct.png)
 
