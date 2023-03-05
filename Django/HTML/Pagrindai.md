@@ -17,8 +17,10 @@ HTML kalbos atveju jis atrodytų taip:
 <p>My cat is very grumpy</p>
 ```
 ![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/Grumpy_cat.png)
+
 Elementai taip pat gali turėti atributus. Atributuose yra papildomos informacijos apie elementą, kurios nenorite rodyti tikrame turinyje. Atributai atrodo taip:
 ![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/class.png)
+
 Čia „class“ yra atributo pavadinimas, o „editor-note“ atributo vertė. Beje, „class“ atributas leidžia suteikti elementui identifikatorių, kurį galima naudoti norint jį (ir visus kitus tos pačios klasės vertės elementus) nukreipti su stiliaus informacija ir kitais dalykais.
 
 Jūs taip pat galite įdėti elementus į kitus elementus - tai vadinama (angl.) “nesting”. Jei norėtume konstatuoti, kad mūsų katė yra labai niūri, žodį „very“ galėtume įvynioti į **<strong>** elementą, o tai reiškia, kad šis žodis turi būti stipriai pabrėžtas:
