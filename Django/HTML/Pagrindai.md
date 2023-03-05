@@ -38,10 +38,15 @@ Galima: ```<p>My cat is <strong>very</strong> grumpy.</p>```
 
 
 ```<! DOCTYPE html>``` – tai yra būtina preambulė
+
 ```<html> </html>``` – šis apgaubia visą turinį visame puslapyje ir kartais vadinamas elementas “root” elementu.
+
 ```<head> </head>``` – šis elementas veikia kaip visų dalykų, kuriuos norite įtraukti į HTML puslapį, talpykla, kurie nėra turinys, kurį rodote savo puslapio lankytojams. Tai apima tokius dalykus kaip raktiniai žodžiai ir puslapio aprašymas, kurį norite rodyti paieškos rezultatuose, CSS, kad stilizuotų mūsų turinį, simbolių rinkinio deklaracijos ir kt.
+
 ```<meta charset = "utf-8">``` – šis elementas nustato simbolių rinkinį, kurį jūsų dokumentas turėtų naudoti į UTF-8, kuriame yra dauguma simbolių iš daugumos rašytinių kalbų. Iš esmės dabar jis gali tvarkyti bet kokį tekstinį turinį, kurį galite įdėti. Nėra jokios priežasties to nenustatyti ir tai gali padėti išvengti kai kurių problemų vėliau.
+
 ```<title> </title>``` – tai nustato jūsų puslapio pavadinimą, kuris rodomas naršyklės skirtuke.
+
 ```<body> </body>``` – čia yra visas turinys, kurį norite parodyti interneto vartotojams, kai jie lankosi jūsų puslapyje, nesvarbu, ar tai tekstas, nuotraukos, vaizdo įrašai, žaidimai, grojami garso takeliai ar dar kas kita.
 
 # HTML žymos (angl. tags)
@@ -99,5 +104,6 @@ Daugybė žiniatinklio turinio yra sąrašai, o HTML turi specialių elementų. 
 ```<ul>``` elementą.
 * Suskirstyti (angl. ordered) yra sąrašai, kur svarbi elementų tvarka, pavyzdžiui, receptas. Jie suvynioti į elementą ```<ol>```.
 Kiekvienas elementas sąrašuose dedamas į ```<li>``` elementą	(sąrašo elementas).
+
 ![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/HTML/lists.png)
 
