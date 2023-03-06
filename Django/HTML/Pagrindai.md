@@ -88,7 +88,7 @@ Paveikslėliai kuriami naudojant ```<img>``` arba ```<picture>``` elementus. Į 
 ```html
 <img src=images/firefox-icon.png" alt="My test image> 
 ```
-```<picture>``` - tai darome per <source> ir <img> elementus. Naršyklė įvertins kiekvieną ```<source>``` elementą ir parinks geriausiai atitinkantį situaciją tarp jų. Jei atitiktys nerandamos arba naršyklė nepalaiko elemento ```<picture>```, pasirenkamas ```<img>``` elemento src atributo URL, pvz: 
+```<picture>``` - tai darome per ```<source>``` ir ```<img>``` elementus. Naršyklė įvertins kiekvieną ```<source>``` elementą ir parinks geriausiai atitinkantį situaciją tarp jų. Jei atitiktys nerandamos arba naršyklė nepalaiko elemento ```<picture>```, pasirenkamas ```<img>``` elemento src atributo URL, pvz: 
 ```html
 <picture>
   <source srcset="URL/file directory" media="(min-width: 800px)">
