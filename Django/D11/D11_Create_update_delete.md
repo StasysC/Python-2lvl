@@ -227,7 +227,7 @@ Sukuriame html, faile user_book_delete.html:
             </div>
             {% endif %}
 ```
-Kaip padaryti patogesnį datos/laiko įvedimą (datepicker)
+## Kaip padaryti patogesnį datos/laiko įvedimą (datepicker)
 models.py faile, modelyje turi būti DateField (arba DateTimeField?):
 ```python
 class BookInstance(models.Model):
