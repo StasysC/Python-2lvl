@@ -229,5 +229,3 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Pyth
 * Padaryti, kad įrašai automobilių puslapyje būtų puslapiuojami (per funkciją).
 * Puslapyje įdėti paieškos laukelį, kuris ieškotų automobilių pagal savininką, modelį, valstybinį numerį, VIN kodą
 * Padaryti, kad prie automobilio įrašo galima būtų pridėti nuotrauką ir ji būtų atvaizduojama automobilių puslapyje
-
-[Atsakymas](https://github.com/DonatasNoreika/autoservisas)
