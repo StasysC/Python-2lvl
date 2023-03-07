@@ -1,26 +1,29 @@
-Praplečiame vartotojo formą
+# Praplečiame vartotojo formą
 Padarysime, kad prie vartotojo leistų prisegti nuotrauką. Ši informacija bus atvaizduojama naujame profilio puslapyje.
 
 Sukuriame naują modelį faile models.py:
-
+```python
 class Profilis(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     nuotrauka = models.ImageField(default="profile_pics/default.png", upload_to="profile_pics")
 
     def __str__(self):
         return f"{self.user.username} profilis"
+```
 Sukuriame rodinį faile views.py:
-
+```python
 from django.contrib.auth.decorators import login_required
 
 @login_required
 def profilis(request):
     return render(request, 'profilis.html')
+```
 Įdedame naują urls'ą į library/urls:
-
+```python
     path('profilis/', views.profilis, name='profilis'),
+```
 Galiausiai sukuriame naują profilis.html:
-
+```python
 {% extends "base.html" %}
 {% block content %}
     <div class="content-section">
@@ -34,13 +37,15 @@ Galiausiai sukuriame naują profilis.html:
       <!-- FORM HERE -->
     </div>
 {% endblock content %}
+```
 Įdedame į library/admin.py:
-
+```python
 from .models import Author, Genre, Book, BookInstance, BookReview, Profilis
 
 admin.site.register(Profilis)
+```
 Įdedame naują nuorodą į meniu, paveikslėlio ir vartotojo vardo tage, faile base.html:
-
+```python
         <ul class="navbar-nav ml-auto">
           {% if user.is_authenticated %}
             <li class="nav-item"><a class="nav-link" href="{% url 'profilis' %}">
@@ -56,15 +61,16 @@ admin.site.register(Profilis)
           {% if not user.is_authenticated %}
           {% endif %}
         </ul>
+```
 Nepamirštame migracijų!
 
 Kad vartotojui nepriskyrus jokios nuotraukos, būtų rodoma numatytoji, į media katalogą įdėkite failą default.png (numatytąjį paveikslėlį)
 
-Susiejame vartotoją su profiliu
+# Susiejame vartotoją su profiliu
 Šiame skyriuje padarysime, kad sukūrus vartotoją, būtų automatiškai sukurtas jo profilis.
 
-Dėmesio: Prieš vartotojo ir profilio susiejimą, per admin puslapį rankiniu būdu kiekvienam vartotojui priskirkite profilį. Jeigu turite daug profilių, galima automatizuoti per django shell'ą (python manage.py shell) leidžiant nesudėtingą skriptą:
-
+**Dėmesio**: Prieš vartotojo ir profilio susiejimą, per admin puslapį rankiniu būdu kiekvienam vartotojui priskirkite profilį. Jeigu turite daug profilių, galima automatizuoti per django shell'ą (python manage.py shell) leidžiant nesudėtingą skriptą:
+```python
 >>> from django.contrib.auth.models import User
 >>> from library.models import Profilis
 >>>
@@ -74,8 +80,9 @@ Dėmesio: Prieš vartotojo ir profilio susiejimą, per admin puslapį rankiniu b
 ...         profile.save()
 ...     except:
 ...         pass
+```
 Sukuriame failą library/signals.py:
-
+```python
 from django.db.models.signals import post_save  # signalas (būna įvairių)
 from django.contrib.auth.models import User     # siuntėjas
 from django.dispatch import receiver            # priėmėjas (dekoratorius)
@@ -93,8 +100,9 @@ def create_profile(sender, instance, created, **kwargs): # instance yra ką tik 
 @receiver(post_save, sender=User)
 def save_profile(sender, instance, **kwargs):
     instance.profilis.save()
+```
 Jei nėra, sukuriame failą library/apps.py:
-
+```python
 from django.apps import AppConfig
 
 
@@ -103,8 +111,9 @@ class LibraryConfig(AppConfig):
 
     def ready(self):
         from .signals import create_profile, save_profile
+```
 Įrašome į settings.py:
-
+```python
 INSTALLED_APPS = [
     'tinymce',
     'library.apps.LibraryConfig',
@@ -115,14 +124,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+```
 Susikuriame naują vartotoją per registracijos formą ir pasitikrinkite, ar automatiškai susikūrė jo profilis. Taip pat, ar profilio puslapyje matoma jo informacija (default nuotrauka).
 
-Padarome profilio puslapį redaguojamą
+# Padarome profilio puslapį redaguojamą
 Šį kartą naudosime supaprastintas Crispy formas. Tam reikės įsidiegti tai:
-
+```python
 pip install django-crispy-forms
+```
 Įdėti į settings.py:
-
+```python
 INSTALLED_APPS = [
     'tinymce',
     'library.apps.LibraryConfig',
@@ -134,11 +145,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+```
 settings.py gale:
-
+```python
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+```
 Susikuriame vartotojo ir profilio atnaujinimo formas faile library/forms.py:
-
+```python
 from .models import Profilis
 from django import forms
 from django.contrib.auth.models import User
@@ -161,8 +174,9 @@ class ProfilisUpdateForm(forms.ModelForm):
     class Meta:
         model = Profilis
         fields = ['nuotrauka']
+```
 Pakeičiame profilio rodinį taip, kad į puslapį būtų užkrautos abi anksčiau sukurtos formos, kartu su prieš tai buvusiais įrašais. Abi jas validavus, jos abi išsaugomos, pranešama apie sėkmingą atnaujinimą ir gražinama į tą patį puslapį. Faile views.py:
-
+```python
 from .forms import BookReviewForm, UserUpdateForm, ProfilisUpdateForm
 
 @login_required
@@ -184,8 +198,9 @@ def profilis(request):
         'p_form': p_form,
     }
     return render(request, 'profilis.html', context)
+```
 Atnaujiname puslapį profilis.html:
-
+```python
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
@@ -217,9 +232,10 @@ Atnaujiname puslapį profilis.html:
         </form>
     </div>
 {% endblock content %}
-Automatiškai sumažiname ir atvaizduojame nuotraukas:
+```
+# Automatiškai sumažiname ir atvaizduojame nuotraukas:
 Profilio modelyje perrašome save metodą. Faile models.py:
-
+```python
 from PIL import Image
 
 class Profilis(models.Model):
@@ -236,10 +252,11 @@ class Profilis(models.Model):
             output_size = (300, 300)
             img.thumbnail(output_size)
             img.save(self.nuotrauka.path)
+```
 Dabar, prisegus naują failą profilyje, jis bus automatiškai sumažinamas iki 300x300 taškų.
 
 Dabar galime vartotojo nuotraukas atvaizduoti ir puslapiuose, kurie turi ryšį su vartotoju, pavyzdžiui faile user_books.html:
-
+```python
 {% extends "base.html" %}
 
 {% block content %}
@@ -260,7 +277,7 @@ Dabar galime vartotojo nuotraukas atvaizduoti ir puslapiuose, kurie turi ryšį 
       <p>There are no books borrowed.</p>
     {% endif %}
 {% endblock %}
-
+```
 ## Užduotis
 Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Python-2lvl/blob/master/Django/Autoservisas.md):
 * Sukurti naują su vartotoju susietą profilio modelį su nuotraukos lauku, įdėti jį į admin ir išbandyti.
