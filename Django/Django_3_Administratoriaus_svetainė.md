@@ -157,7 +157,7 @@ class BookInstanceAdmin(admin.ModelAdmin):
 ```
 
  ## Užduotis
-Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas):
+Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Python-2lvl/blob/master/Django/Autoservisas.md):
 * Padaryti, kad modelių pavadinimai būtų atvaizduojami teisingai (vienaskaita ir daugiskaita)
 * Padaryti, kad užsakymo formoje būtų matomos ir užsakymo eilutės (į jas galima būtų įrašyti informaciją)
 * Padaryti, kad užsakymo sąraše būtų matomi automobilio ir datos stulpeliai
