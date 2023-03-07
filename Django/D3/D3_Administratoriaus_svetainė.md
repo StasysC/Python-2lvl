@@ -166,5 +166,3 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Pyth
 * Į Automobilių sąrašą įdėti filtrą pagal klientą ir automobilio modelį*
 * Į Automobilių sąrašą įdėti paiešką pagal valstybinį numerį ir VIN kodą
 
-
-[Atsakymas](https://github.com/DonatasNoreika/autoservisas)
