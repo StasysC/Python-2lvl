@@ -184,7 +184,7 @@ Kelioms eilutėms ar kitam kodui užkomentuoti:
 ```
 
  ## Užduotis
-Tęsti kurti Django užduotį – [Autoservisas](https://github.com/robotautas/kursas/wiki/Django-u%C5%BEduotis:-Autoservisas):
+Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Python-2lvl/blob/master/Django/Autoservisas.md):
 * Padaryti, kad programa matytų templates ir static katalogus
 * Padaryti nukreipimą iš puslapio "/" į "/autoservice" (redirect)
 * Pridėti pasirenkamą statuso lauką į užsakymų modelį
