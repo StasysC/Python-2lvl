@@ -323,5 +323,3 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Pyth
 * Susikonfiguruoti el. paštą slaptažodžio keitimui.
 * Susikurti savo siunčiamo el. laiško šabloną (keičiant slaptažodį).
 * Pakeisti visus administracinius slaptažodžio keitimo puslapius savo formomis (kaip šios paskaitos medžiagoje).
-
-[Atsakymas](https://github.com/DonatasNoreika/autoservisas)
