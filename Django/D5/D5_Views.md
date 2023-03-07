@@ -243,4 +243,3 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Pyth
 * Sukurti puslapį (per klasę views faile), pvz. autoservice/uzsakymai, kuriame būtų atvaizduoti visi serviso užsakymai.
 * Paspaudus ant užsakymo nuorodos, būtų rodoma detali informacija apie užsakymą. Čia pat būtų matomos ir užsakymo eilučių informacija.
 
-[Atsakymas](https://github.com/DonatasNoreika/autoservisas)
