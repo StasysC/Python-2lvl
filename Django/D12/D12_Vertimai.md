@@ -2,7 +2,7 @@
 Viso Django puslapio kalbą galime pakeisti labai paprastai, tiesiog settings.py faile:
 ```python
 LANGUAGE_CODE = 'lt'
-```python
+```
 Django automatiškai atvaizduoja visą administratoriaus puslapį lietuvių kalba. Tačiau taip neišverčiami mūsų sukurti laukai ir užrašai. Tai padarysime taip:
 
 ## Darome vertimus mūsų puslapiuose
