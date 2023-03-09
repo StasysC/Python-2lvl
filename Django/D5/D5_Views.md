@@ -24,7 +24,7 @@ def authors(request):
     return render(request, 'authors.html', context=context)
 ```
 
-Sukurkime šabloną:
+Sukurkime *authors.html* šabloną:
 
 ```html
 {% extends "base.html" %}
