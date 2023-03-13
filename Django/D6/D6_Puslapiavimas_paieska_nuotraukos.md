@@ -214,6 +214,41 @@ Tuo pačiu šiek tiek pagyvinome navigaciją, ir turime tokį vaizdą:
 
 ![](knygos_images.png)
 
+pakeistas base.html kodas:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block title %}<title>Biblioteka</title>{% endblock %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Add additional CSS in static file -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="{% url 'index' %}">Pradžia</a></li>
+          <li class="nav-item active"><a class="nav-link" href="{% url 'books' %}">Visos knygos</a></li>
+          <li class="nav-item active"><a class="nav-link" href="{% url 'authors' %}">Visi autoriai</a></li>
+        </ul>
+      <form class="form-inline my-2 my-lg-0" action="{% url 'search' %}" method="get" class="form-inline my-2 my-md-0">
+      <input class="form-control mr-sm-2" name="query" class="form-control" type="text" placeholder="Paieška">
+      </form>
+    </nav>
+      <div class="col-sm-10 ">
+        {% block content %}
+        {% endblock %}
+      </div>
+  </div>
+</body>
+</html>
+```
+
 Parodykime viršelius ir atskirų knygų aprašymuose. Prieš pavadinimo bloką tiesiog įterpkime: 
 
 ```html
