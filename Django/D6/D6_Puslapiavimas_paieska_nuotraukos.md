@@ -187,9 +187,9 @@ perrašėme *book_list.html*:
 ```html
  {% load static %}
     <h1>Knygų sąrašas</h1></br>
-    {% if my_book_list %}
+    {% if book_list %}
     <div class="row">
-      {% for book in my_book_list %}
+      {% for book in book_list %}
         <div class="col-md-4 d-flex align-items-stretch">
           <div class="card mb-4 shadow-sm">
             {% if book.cover %}
