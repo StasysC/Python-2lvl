@@ -136,7 +136,7 @@ pakeiskime tai, *settings.py* pridėję eilutę:
 LOGIN_REDIRECT_URL = '/'
 ```
 
-sukurkime logout logged_out.html:
+sukurkime logout loggedout.html:
 
 ```html
 {% extends "base.html" %}
@@ -160,7 +160,7 @@ Papildomai galime susikonfiguruoti meniu base.html faile, kad veiktų prisijungi
               </svg>
             {{ user.get_username }}</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Mano knygos</a></li>
-            <li class="nav-item"><a class="nav-link" href="{% url 'logout'%}?next=/library">Atsijungti</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'logout'%}?next=/library/logout">Atsijungti</a></li>
           {% else %}
             <li class="nav-item"><a class="nav-link" href="{% url 'login'%}?next={{request.path}}">Prisijungti</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Registruotis</a></li>
