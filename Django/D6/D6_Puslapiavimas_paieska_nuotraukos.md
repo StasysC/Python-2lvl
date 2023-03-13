@@ -229,22 +229,24 @@ pakeistas base.html kodas:
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <ul class="navbar-nav mr-auto">
+      <div class="container-fluid">
+        <a class="navbar-brand">Rajono biblioteka</a>
+        <ul class="navbar-nav mx-2">
           <li class="nav-item active"><a class="nav-link" href="{% url 'index' %}">Pradžia</a></li>
           <li class="nav-item active"><a class="nav-link" href="{% url 'books' %}">Visos knygos</a></li>
           <li class="nav-item active"><a class="nav-link" href="{% url 'authors' %}">Visi autoriai</a></li>
         </ul>
-      <form class="form-inline my-2 my-lg-0" action="{% url 'search' %}" method="get" class="form-inline my-2 my-md-0">
-      <input class="form-control mr-sm-2" name="query" class="form-control" type="text" placeholder="Paieška">
-      </form>
+        <form class="form-inline my-2 my-lg-0" action="{% url 'search' %}" method="get">
+          <input class="form-control me-2" name="query" class="form-control" type="text" placeholder="Paieška">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </nav>
       <div class="col-sm-10 ">
         {% block content %}
         {% endblock %}
       </div>
-  </div>
 </body>
 </html>
 ```
