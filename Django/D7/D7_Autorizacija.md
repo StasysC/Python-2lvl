@@ -160,7 +160,7 @@ Papildomai galime susikonfiguruoti meniu base.html faile, kad veiktų prisijungi
               </svg>
             {{ user.get_username }}</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Mano knygos</a></li>
-            <li class="nav-item"><a class="nav-link" href="{% url 'logout'%}?next=/library/logout">Atsijungti</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'logout'%}">Atsijungti</a></li>
           {% else %}
             <li class="nav-item"><a class="nav-link" href="{% url 'login'%}?next={{request.path}}">Prisijungti</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Registruotis</a></li>
