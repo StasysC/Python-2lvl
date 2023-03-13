@@ -49,9 +49,9 @@ from django.core.paginator import Paginator
 def authors(request):   
     paginator = Paginator(Author.objects.all(), 2)
     page_number = request.GET.get('page')
-    paged_authors = paginator.get_page(page_number)
+    authors = paginator.get_page(page_number)
     context = {
-        'authors': paged_authors
+        'authors': authors
     }   
     return render(request, 'authors.html', context=context)
 ```
