@@ -136,7 +136,7 @@ pakeiskime tai, *settings.py* pridėję eilutę:
 LOGIN_REDIRECT_URL = '/'
 ```
 
-sukurkime logout loggedout.html:
+sukurkime logout logged_out.html:
 
 ```html
 {% extends "base.html" %}
