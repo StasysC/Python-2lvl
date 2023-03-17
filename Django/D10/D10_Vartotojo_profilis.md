@@ -138,6 +138,7 @@ INSTALLED_APPS = [
     'tinymce',
     'library.apps.LibraryConfig',
     'crispy_forms',
+    'crispy_bootstrap4',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -262,10 +263,10 @@ Dabar galime vartotojo nuotraukas atvaizduoti ir puslapiuose, kurie turi ryšį 
 {% block content %}
     <h1>Mano paimtos knygos</h1>
 
-    {% if books %}
+    {% if bookinstance_list %}
     <ul>
 
-      {% for bookinst in books %}
+      {% for bookinst in bookinstance_list %}
         <img class="rounded-circle" src="{{bookinst.reader.profilis.nuotrauka.url}}">
       <li class="{% if bookinst.is_overdue %}text-danger{% endif %}">
         <a href="{% url 'book-detail' bookinst.book.pk %}">{{bookinst.book.title}}</a> ({{ bookinst.due_back }})
