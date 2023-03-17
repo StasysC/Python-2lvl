@@ -131,6 +131,7 @@ Susikuriame naują vartotoją per registracijos formą ir pasitikrinkite, ar aut
 Šį kartą naudosime supaprastintas Crispy formas. Tam reikės įsidiegti tai:
 ```python
 pip install django-crispy-forms
+pip install crispy-bootstrap4
 ```
 Įdėti į settings.py:
 ```python
