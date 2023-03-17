@@ -168,9 +168,9 @@ Sukuriame path, faile library/urls:
 Įdedame atnaujinimo nuorodą į failą user_book.html:
 ```python
         <li><strong>Gražinimo terminas:</strong> {{object.due_back}}</li>
-            {% if object.reader == user %}
+            {% if bookinst.reader == user %}
             <div>
-                <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'my-book-update' object.id %}">Redaguoti</a>
+                <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'my-book-update' bookinst.id %}">Redaguoti</a>
             </div>
             {% endif %}
 ```
