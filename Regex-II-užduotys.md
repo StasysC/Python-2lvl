@@ -42,5 +42,5 @@ cenzura('baisūs žodžiai, tokie kaip kvaraba, žaltys..', 'kvaraba', 'žaltys'
 # mums atspausdintų
 # baisūs žodžiai, tokie kaip k*****a, ž****s..
 ```
-žodžių cenzūravimui naudokite regex, o jų sukeitimui tekste naudokite *.replace()*\
+žodžių cenzūravimui naudokite regex, o jų sukeitimui tekste naudokite *.replace()*
 
