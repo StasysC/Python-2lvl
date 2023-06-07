@@ -9,10 +9,8 @@ get_rate('ZZZ', 'GBP')
 # Neteisingai suvestos valiutos. Galimų variantų sąrašas:
 # ['AUD', 'BGN', 'BRL', 'CAD', 'CHF', 'CNY', 'CZK', 'DKK', 'EUR', 'GBP', 'HKD', 'HRK', 'HUF', 'IDR', 'ILS', 'INR', 'ISK', 'JPY', 'KRW', 'MXN', 'MYR', 'NOK', 'NZD', 'PHP', 'PLN', 'RON', 'RUB', 'SEK', 'SGD', 'THB', 'TRY', 'USD', 'ZAR']
 ```
-# 2
-Sukurkite programą, kuri atspausdintų jūsų rytdienos horoskopą, naudokite šį [resursą](https://github.com/sameerkumar18/aztro).
 
-# 3
+# 2
 Naudodami tą pačią Frankfurter API (kaip ir pirmoje užduotyje), sukurkite programą, kuri pagal parametruose pateiktas valiutų poras, 
 periodo pradžios ir pabaigos datą surastų dienas kai kursas buvo aukščiausias ir kai kursas buvo žemiausias
 Maždaug taip:
@@ -25,6 +23,7 @@ currency_pair_analysis('EUR', 'GBP', '2019-01-01', '2019-12-31')
     # Aukščiausias kursas buvo 2019-08-12 - 0.92203
 ```
 
-
-
-
+<!--
+# 2
+Sukurkite programą, kuri atspausdintų jūsų rytdienos horoskopą, naudokite šį [resursą](https://github.com/sameerkumar18/aztro).
+-->
