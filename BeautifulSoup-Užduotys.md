@@ -3,7 +3,7 @@
 Parašyti programą, kuri atspausdintu visas puslapio www.15min.lt "Redakcija rekomenduoja" skilties antraštes
 
 ## 2 užduotis
-Parašyti programą, kuri suskaičiuotų kiek šios dienos www.delfi.lt puslapyje yra antraštinių straipsnių
+Parašyti programą, kuri suskaičiuotų kiek šios dienos www.delfi.lt  puslapyje yra antraštinių straipsnių
 
 ## 3 užduotis
 Parašyti programą kuri iš puslapio https://www.telia.lt/prekes/mobilieji-telefonai/samsung rastų pigiausią ir brangiausią telefono modelį
