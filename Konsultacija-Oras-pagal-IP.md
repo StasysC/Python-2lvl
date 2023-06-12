@@ -8,7 +8,7 @@ ip_list = ['122.35.203.161', '174.217.10.111', '187.121.176.91', '176.114.85.116
 
 Sugeneruokite CSV failą, kuriame būtų stulpeliai IP,Country,City,Temp,Weather. Atidarius Excel ar kitoje lentelių skaityklėje, matytumėm maždaug tokį vaizdą:
 
-![](https://https://github.com/StasysC/Python-2lvl/blob/master/ip_weather.png)
+![](https://github.com/StasysC/Python-2lvl/blob/master/ip_weather.png)
 
 Naudokite šias API:
 
