@@ -48,7 +48,7 @@ tevas = session.query(Tevas).get(1)
 tevas.vaikas = vaikas
 session.commit()
 ```
-### Pakeisti tėvo vaiko duomenis:
+Pakeisti tėvo vaiko duomenis:
 ```python
 tevas = session.query(Tevas).get(1)
 tevas.vaikas.pavarde = "Naujapavardaitis"
