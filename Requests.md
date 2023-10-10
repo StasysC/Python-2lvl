@@ -80,6 +80,7 @@ else:
 # Klaida! kodas 404
 ```
 ok grąžina True ir False reikšmes. 
+
 #.headers
 *.headers* grąžina mums papildomus duomenis apie atsaką (*response*):
 ```python
