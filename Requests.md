@@ -56,7 +56,7 @@ print(r.status_code)
 # 200
 ```
 Pvz. 200 yra OK, 404 - Not Found, 500 - Internal server error ir pan.
-daugiau apie šiuos kodus pasiskaitykite [čia](https://httpstatuses.com/).
+daugiau apie šiuos kodus pasiskaitykite [čia](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
 Šie kodai mums naudingi, jeigu tikriname ar pavyko prisijungimas, Tarkime:
 ```python
