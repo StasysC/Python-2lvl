@@ -81,8 +81,8 @@ else:
 ```
 ok grąžina True ir False reikšmes. 
 
-#.headers
-*.headers* grąžina mums papildomus duomenis apie atsaką (*response*):
+
+#.headers *.headers* grąžina mums papildomus duomenis apie atsaką (*response*):
 ```python
 r = requests.get('http://python.org/')
 print(r.headers)
