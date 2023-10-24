@@ -93,29 +93,6 @@ SELECT * FROM cars WHERE (make = "Volvo" OR make = "Ford") AND price NOT BETWEEN
 
 ![](sql_pirmenybes.png)
 
-## ORDER BY, DESC
-
-nustato, kaip turi būti išrūšiuoti duomenys užklausos rezultate. Pvz.:
-
-```sql
-SELECT * FROM cars ORDER BY price;
-```
-![](orderbynum.png)
-
-Jeigu norime atvirkštinio rūšiavimo, naudojame DESC:
-
-```sql
-SELECT * FROM cars ORDER BY price DESC;
-```
-![](orderbynumdesc.png)
-
-analogiškai tekstiniai įrašai rūšiuojasi pagal abėcelę:
-
-```sql
-SELECT * FROM cars ORDER BY make DESC;
-```
-
-![](orderbyabcdesc.png)
 
 ## Case insensitive paieška
 
