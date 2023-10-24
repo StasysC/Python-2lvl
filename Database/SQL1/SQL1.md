@@ -11,7 +11,7 @@
 * Microsoft Access
 * SQLite
 
-Darbui su SQLite duomenų baze (be python) naudosime programą DB Browser for SQLite
+Darbui su SQLite duomenų baze (be python) naudosime programą [DB Browser for SQLite](https://sqlitebrowser.org/)
 
 # Svarbiausios DB (SQL) užklausos
 * **SELECT** sakinys naudojamas įrašams iš vienos ar daugiau lentelių atrinkti.
