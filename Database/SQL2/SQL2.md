@@ -1,5 +1,5 @@
 # Platesnis WHERE panaudojimas
-## BETWEEN ...AND
+## BETWEEN ... AND
 
 Nurodo žemiausios ir aukščiausios
 reikšmių intervalą, išrenkant duomenis iš lentelės, t.y. rezultate
