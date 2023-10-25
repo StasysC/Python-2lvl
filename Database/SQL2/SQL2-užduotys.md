@@ -15,4 +15,4 @@ Parsisiųskite lentelę "darbuotojai2.db", atsidarykite ją programoje DB Browse
 13. Išrinkite iš lentelės DARBUOTOJAS projektų ID, kurie būtų minimalus ir maksimalus skaičius.
 14. Išrinkite duomenis apie tai, kiek kiekviename projekte yra priskirta žmonių (projekto numeris ir skaičius, kiek jame dalyvauja žmonių).
 15. #14 punkto užklausą pataisykite taip, kad rodytų tik tuos projektus, kuriems priskirti daugiau nei 3 darbuotojai.
-16. Išrinkite duomenis (projekto numeris, pareigos, skaičius) iš lentelės DARBUOTOJAS, kiek programuotojų dirba kiekvienam projekte.
+16. Išrinkite duomenis (projekto numeris, pareigos) iš lentelės DARBUOTOJAS, kiek programuotojų dirba kiekvienam projekte.
