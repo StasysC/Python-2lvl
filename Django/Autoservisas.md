@@ -8,4 +8,4 @@ Sukurti programą su Django framework'u, kuri leistų įvesti autoservisų infor
 
 DB struktūra:
 
-![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/autoserviso%20programos%20DB%20planas%202.png)
+![image](https://github.com/StasysC/Python-2lvl/blob/master/Django/autoserviso_db_planas.png)
