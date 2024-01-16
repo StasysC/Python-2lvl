@@ -351,7 +351,7 @@ Parašyti programą, kuri:
 * Išvestų į ekraną „a mažesnis už b“, jei taip yra
 * Išvestų į ekraną „a lygu b“, jei taip yra
 * Išvestų į ekraną „a didesnis už b“, jei taip yra
-* 
+  
 Patarimas: naudoti if, elif, else sąlygas
 
 ## 2 užduotis
@@ -368,7 +368,9 @@ Parašyti programą, kuri su eilute "Zen of Python" darytų šiuos veiksmus:
 Patarimas: naudoti string karpymo įrankius, funkcijas split(), replace()
 
 The Zen of Python:
-```python import this```
+```python
+import this
+```
 
 ## 3 užduotis
 Programoje išbandyti daugiau string funkcijų:
