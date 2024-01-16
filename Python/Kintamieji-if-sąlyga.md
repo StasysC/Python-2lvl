@@ -178,7 +178,6 @@ print(zodis.replace('Code', 'Music'))
 ## Kaip formuoti stringus iš kintamųjų:
 ```python
 a = 5
-
 zodis = "Labas"
 dar_vienas = "Šitas žodis"
 
@@ -234,10 +233,9 @@ print(h)
 ```
 ## Loginiai operatoriai:
 ![](https://github.com/StasysC/Python-2lvl/blob/master/Python/operatoriai.jpg)
-```python
-Sąlyga IF (jeigu):
+## Sąlyga IF (jeigu):
 Jeigu (IF) [sąlyga], tuomet [veiksmas]
-
+```python
 if 5 > 0:
     print("5 yra daugiau už 0")
 # 5 yra daugiau už 0
