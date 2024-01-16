@@ -3,27 +3,22 @@
 ```python
 a = 5
 print(a)
-
 # 5
 
 a = int(5)
 print(a)
-
 # 5
 
 a = 7
 print(a)
-
 # 7
 
 a = 10
 print(a)
-
 # 10
 
 a = a - 4
 print(a)
-
 # 6
 ```
 ## Skaičiai su kableliu – float:
@@ -32,33 +27,28 @@ a = 8.56
 b = 5
 c = a + b
 print(c)
-
 # 13.56
+
 a = float(5)
 print(a)
-
 # 5.00
 ```
 ## Veiksmai su kintamaisiais:
 ```python
 a = 5 + 2
-print(a)
- 
+print(a) 
 # 7
 
 b = 5 - 2
-print(b)
- 
+print(b) 
 # 3
 
 c = 5 * 2
-print(c)
- 
+print(c) 
 # 10
 
 b = 5 / 2
-print(b)
- 
+print(b) 
 # 2.5
 ```
 ## Kintamųjų pavadinimų sudarymo taisyklės
@@ -66,7 +56,7 @@ Kintamųjų pavadinimai turi prasidėti raide arba pabraukimu, pvz:
 
 * _vardas
 * vardas
-* 
+
 Likusioji kintamojo dalis gali būti sudaryta iš raidžių, skaičių ir pabraukimų:
 
 * pirmas1
@@ -75,7 +65,7 @@ Likusioji kintamojo dalis gali būti sudaryta iš raidžių, skaičių ir pabrau
 
 Pavadinimuose svarbios didžiosios ir mažosios raidės:
 
-* 'Vardas' ir 'vardas' būtų skirtingi kintamieji.
+* *Vardas* ir *vardas* būtų skirtingi kintamieji.
 
 Kintamaisiais negali būti python raktiniai žodžiai:
 
@@ -90,13 +80,11 @@ first_block, vandens_temperatura
 a = 5
 a += 2
 print(a)
-
 # 7
 
 b = 12
 b /= 3
 print(b)
-
 # 4.0
 ```
 
@@ -104,12 +92,10 @@ print(b)
 ```python
 a = 2**2
 print(a)
-
 # 4
 
 b = 5**3
 print(b)
-
 # 125
 ```
 
@@ -117,17 +103,14 @@ print(b)
 ```python
 a = 32 / 6
 print(a)
-
 # 5.333333333333333
 
 b = 32 // 6
 print(b)
-
 # 5
 
 c = 32 % 6
 print(c)
-
 # 2
 ```
 
@@ -135,25 +118,24 @@ print(c)
 ```python
 zodis1 = "Labas "
 print(zodis1)
-
 # Labas
 
 zodis2 = str("vakaras")
 print(zodis2)
-
 # vakaras
 
 print(zodis1 + zodis2)
-
 # Labas vakaras
-Nauja eilutė:
+```
+## Nauja eilutė:
+```python
 print("Labas \nvakaras")
-
 # Labas
 # vakaras
 ```
 
 ## Veiksmai su simbolių eilėmis (String):
+[https://github.com/StasysC/Python-2lvl/blob/master/Python/stringas.png]
 ```python
 zodis = "Code Academy"
 
