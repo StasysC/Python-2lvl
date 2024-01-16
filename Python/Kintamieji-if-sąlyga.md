@@ -135,7 +135,7 @@ print("Labas \nvakaras")
 ```
 
 ## Veiksmai su simbolių eilėmis (String):
-![https://github.com/StasysC/Python-2lvl/blob/master/Python/stringas.png]
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/stringas.png)
 ```python
 zodis = "Code Academy"
 
