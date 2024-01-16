@@ -351,6 +351,7 @@ Parašyti programą, kuri:
 * Išvestų į ekraną „a mažesnis už b“, jei taip yra
 * Išvestų į ekraną „a lygu b“, jei taip yra
 * Išvestų į ekraną „a didesnis už b“, jei taip yra
+* 
 Patarimas: naudoti if, elif, else sąlygas
 
 ## 2 užduotis
@@ -365,6 +366,7 @@ Parašyti programą, kuri su eilute "Zen of Python" darytų šiuos veiksmus:
 * Žodį "Python" pakeistų į "Programming" ir atspausdintų naują sakinį
   
 Patarimas: naudoti string karpymo įrankius, funkcijas split(), replace()
+
 The Zen of Python:
 ```python import this```
 
@@ -376,6 +378,7 @@ Programoje išbandyti daugiau string funkcijų:
 * count()
 * find()
 ir t.t.
+
 Visas jas galite rasti [čia](https://www.w3schools.com/python/python_ref_string.asp): 
 
 ## 4 užduotis
@@ -390,7 +393,7 @@ Patarimas: naudoti input(), if, print
 ## 5 užduotis
 Parašyti programą, kuri:
 
-Leistų įvesti skaičių
+* Leistų įvesti skaičių
 * Išvesti į ekraną „Skaičius yra lyginis“, jei taip yra
 * Išvesti į ekraną „Skaičius yra nelyginis“, jei taip yra
 * Išvesti į ekraną „Skaičius dalinasi iš 3“, jei skaičius dalinasi iš trijų
