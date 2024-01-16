@@ -1,7 +1,7 @@
 # Kintamieji (skaičiai):
 ## Sveikieji skaičiai – Integer (int):
 ```python
- a = 5
+a = 5
 print(a)
 
 # 5
@@ -26,7 +26,8 @@ print(a)
 
 # 6
 ```
-Skaičiai su kableliu – float:
+## Skaičiai su kableliu – float:
+```python
 a = 8.56
 b = 5
 c = a + b
@@ -37,7 +38,9 @@ a = float(5)
 print(a)
 
 # 5.00
-Veiksmai su kintamaisiais:
+```
+## Veiksmai su kintamaisiais:
+```python
 a = 5 + 2
 print(a)
  
@@ -57,19 +60,23 @@ b = 5 / 2
 print(b)
  
 # 2.5
-Kintamųjų pavadinimų sudarymo taisyklės
+```
+## Kintamųjų pavadinimų sudarymo taisyklės
 Kintamųjų pavadinimai turi prasidėti raide arba pabraukimu, pvz:
 
-_vardas
-vardas
+* _vardas
+* vardas
+* 
 Likusioji kintamojo dalis gali būti sudaryta iš raidžių, skaičių ir pabraukimų:
 
-pirmas1
-antras_skaicius
-_e5786
+* pirmas1
+* antras_skaicius
+* _e5786
+
 Pavadinimuose svarbios didžiosios ir mažosios raidės:
 
-Vardas ir vardas būtų skirtingi kintamieji.
+* 'Vardas' ir 'vardas' būtų skirtingi kintamieji.
+
 Kintamaisiais negali būti python raktiniai žodžiai:
 
 'False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'
@@ -77,7 +84,9 @@ Kintamaisiais negali būti python raktiniai žodžiai:
 Python kalboje sudurtinius kintamųjų pavadinimus priimta sudarinėti taip:
 
 first_block, vandens_temperatura
-Paprastesnis veiksmų atlikimas:
+
+## Paprastesnis veiksmų atlikimas:
+```python
 a = 5
 a += 2
 print(a)
@@ -89,7 +98,10 @@ b /= 3
 print(b)
 
 # 4.0
-Kėlimas laipsniu:
+```
+
+## Kėlimas laipsniu:
+```python
 a = 2**2
 print(a)
 
@@ -99,7 +111,10 @@ b = 5**3
 print(b)
 
 # 125
-Sveikojo skaičiaus ir liekanos paieška (div/mod):
+```
+
+## Sveikojo skaičiaus ir liekanos paieška (div/mod):
+```python
 a = 32 / 6
 print(a)
 
@@ -114,7 +129,10 @@ c = 32 % 6
 print(c)
 
 # 2
-Simbolių eilutės (String) tipas:
+```
+
+## Simbolių eilutės (String) tipas:
+```python
 zodis1 = "Labas "
 print(zodis1)
 
@@ -133,9 +151,10 @@ print("Labas \nvakaras")
 
 # Labas
 # vakaras
-Veiksmai su simbolių eilėmis (String):
+```
 
-
+## Veiksmai su simbolių eilėmis (String):
+```python
 zodis = "Code Academy"
 
 print(zodis[5])
@@ -185,6 +204,7 @@ print(zodis.replace('c', 'k'))
 print(zodis.replace('Code', 'Music'))
 
 # Music Academy
+```
 Geras būdas formuoti stringus iš kintamųjų:
 a = 5
 
