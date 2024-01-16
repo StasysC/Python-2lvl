@@ -140,86 +140,76 @@ print("Labas \nvakaras")
 zodis = "Code Academy"
 
 print(zodis[5])
-
 # A
 
 print(zodis[-2])
-
 # m
 
 print(zodis[5:12])
-
 # Academy
 
 print(zodis[5:])
-
 # Academy
 
 print(zodis[:4])
-
 # Code
 
 print(zodis[5:12:1])
-
 # Academy
 
 print(zodis[5::2])
-
 # Aaey
 
 print(zodis[::-1])
-
 # ymedacA edoC
 
 print(zodis.split())
-
 # ['Code', 'Academy']
 
 print(zodis.upper())
-
 # CODE ACADEMY
 
 print(zodis.replace('c', 'k'))
-
 # Code Akademy
 
 print(zodis.replace('Code', 'Music'))
-
 # Music Academy
 ```
-Geras būdas formuoti stringus iš kintamųjų:
+## Kaip formuoti stringus iš kintamųjų:
+```python
 a = 5
 
 zodis = "Labas"
 dar_vienas = "Šitas žodis"
 
 print("a lygu: " + str(a) + ", žodis: " + zodis + ", dar vienas žodis – " + dar_vienas)
-
-# Geresni variantai:
-
+```
+## Geresni variantai:
+```python
 print(f'a lygu: {a}, žodis: {zodis}, dar vienas žodis - {dar_vienas}')
 print("a lygu: %s, žodis: %s, dar vienas žodis - %s" % (a, zodis, dar_vienas))
 print("a lygu: {}, žodis: {}, dar vienas žodis - {}".format(a, zodis, dar_vienas))
-Veiksmai su skirtingais tipais (konvertavimas):
+```
+
+## Veiksmai su skirtingais tipais (konvertavimas):
+```python
 d = "Žodis "
 e = 5
 print(d+e)
-
 # TypeError: can only concatenate str (not "int") to str
 
 e = str(e)
 print(d+e)
-
 # Žodis 5
 
 a = "250"
 b = 4
 print(a * b)
-
 # ???
-Kintamųjų įvedimas ir išvedimas:
+```
+## Kintamųjų įvedimas ir išvedimas:
 String įvedimas:
-
+```python
 a = input("Įveskite pirmą žodį ")
 b = input("Įveskite antrą žodį ")
 print("Jūsų sakinys: ", a + b)
@@ -227,6 +217,8 @@ print("Jūsų sakinys: ", a + b)
 # Įveskite pirmą žodį Python
 # Įveskite antrą žodį programavimas
 # Jūsų sakinys: Python programavimas
+```
+```python
 Integer, Float įvedimas:
 
 a = int(input("Įveskite pirmą skaičių "))
@@ -239,9 +231,10 @@ print("Jūsų skaičių suma: ", a + b)
 
 h = float(input("Įveskite skaičių "))
 print(h)
-Loginiai operatoriai:
-
-
+```
+## Loginiai operatoriai:
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/operatoriai.jpg)
+```python
 Sąlyga IF (jeigu):
 Jeigu (IF) [sąlyga], tuomet [veiksmas]
 
@@ -251,8 +244,9 @@ if 5 > 0:
 if 5 < 0:
     print("5 yra daugiau už 0")
 print("Programa baigta")
-
 # Programa baigta
+```
+```python
 skaicius = 25
 if skaicius < 100:
     print("1: Skaičius yra mažesnis už 100")
@@ -276,7 +270,10 @@ if skaicius < 70:
 skaicius = 10
 
 # Skaičius yra mažesnis už 70
-Sąlyga ELSE (jei ne, tuomet):
+```
+
+## Sąlyga ELSE (jei ne, tuomet):
+```python
 skaicius = 56
 if skaicius == 50:
     print("1: Skaičius yra lygus 50")
@@ -284,7 +281,9 @@ else:
     print("2: Skaičius nelygus 50")
 
 # 2: Skaičius nelygus 50
-Sąlyga ELIF (jei sąlyga netenkinama ir jei):
+```
+## Sąlyga ELIF (jei sąlyga netenkinama ir jei):
+```python
 skaicius = 0
 
 if skaicius > 0:
@@ -295,67 +294,69 @@ else:
     print("Neigiamas skaičius")
 
 # Nulis
-Kodo komentavimas:
+```
+## Kodo komentavimas:
 Komentuota eilutė (PyCharm programoje – CTRL+/):
+```python # Ši eilutė nebus vykdoma```
 
-# Ši eilutė nebus vykdoma
 Komentuota pastraipa (Doctrings):
-
+```python
 """
 Sveiki, draugai,
 Ši pastraipa nebus vykdoma.
 """
-Užduotys
-1 užduotis
+```
+# Užduotys
+## 1 užduotis
 Parašyti programą, kuri:
 
-Leistų įvesti skaičius a ir b (int arba float)
-Išvestų į ekraną „a mažesnis už b“, jei taip yra
-Išvestų į ekraną „a lygu b“, jei taip yra
-Išvestų į ekraną „a didesnis už b“, jei taip yra
+* Leistų įvesti skaičius a ir b (int arba float)
+* Išvestų į ekraną „a mažesnis už b“, jei taip yra
+* Išvestų į ekraną „a lygu b“, jei taip yra
+* Išvestų į ekraną „a didesnis už b“, jei taip yra
 Patarimas: naudoti if, elif, else sąlygas
 
-2 užduotis
+## 2 užduotis
 Parašyti programą, kuri su eilute "Zen of Python" darytų šiuos veiksmus:
 
-Atspausdintų paskutinį antro žodžio simbolį
-Atspausdintų pirmą trečio žodžio simbolį
-Atspausdintų tik pirmą žodį
-Atspausdintų tik paskutinį žodį
-Atspausdintų visą frazę atbulai
-Atskirtų žodžius ir juos atspausdintų
-Žodį "Python" pakeistų į "Programming" ir atspausdintų naują sakinį
+* Atspausdintų paskutinį antro žodžio simbolį
+* Atspausdintų pirmą trečio žodžio simbolį
+* Atspausdintų tik pirmą žodį
+* Atspausdintų tik paskutinį žodį
+* Atspausdintų visą frazę atbulai
+* Atskirtų žodžius ir juos atspausdintų
+* Žodį "Python" pakeistų į "Programming" ir atspausdintų naują sakinį
+  
 Patarimas: naudoti string karpymo įrankius, funkcijas split(), replace()
+The Zen of Python:
+```python import this```
 
-3 užduotis
+## 3 užduotis
 Programoje išbandyti daugiau string funkcijų:
-
-upper()
-casefold()
-capitalize()
-count()
-find()
+* upper()
+* casefold()
+* capitalize()
+* count()
+* find()
 ir t.t.
-Visas jas galite rasti čia: https://www.w3schools.com/python/python_ref_string.asp
+Visas jas galite rasti [čia](https://www.w3schools.com/python/python_ref_string.asp): 
 
-4 užduotis
+## 4 užduotis
 Parašyti programą, kuri:
 
-Leistų įvesti pirmą skaičių
-Leistų įvesti antrą skaičių
-Paklaustų, kokį matematinį veiksmą reiktų atliktų
-Atspausdintų rezultatą: pasirinktų skaičių suma, daugybą ar pan.
+* Leistų įvesti pirmą skaičių
+* Leistų įvesti antrą skaičių
+* Paklaustų, kokį matematinį veiksmą reiktų atliktų
+* Atspausdintų rezultatą: pasirinktų skaičių suma, daugybą ar pan.
 Patarimas: naudoti input(), if, print
 
-5 užduotis
+## 5 užduotis
 Parašyti programą, kuri:
 
 Leistų įvesti skaičių
-Išvesti į ekraną „Skaičius yra lyginis“, jei taip yra
-Išvesti į ekraną „Skaičius yra nelyginis“, jei taip yra
-Išvesti į ekraną „Skaičius dalinasi iš 3“, jei skaičius dalinasi iš trijų
+* Išvesti į ekraną „Skaičius yra lyginis“, jei taip yra
+* Išvesti į ekraną „Skaičius yra nelyginis“, jei taip yra
+* Išvesti į ekraną „Skaičius dalinasi iš 3“, jei skaičius dalinasi iš trijų
 Patarimas: naudoti input(), if, print, %
 
-The Zen of Python:
 
-import this
