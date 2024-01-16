@@ -1,6 +1,6 @@
-Kintamieji (skaičiai):
-Sveikieji skaičiai – Integer (int):
-a = 5
+# Kintamieji (skaičiai):
+## Sveikieji skaičiai – Integer (int):
+`Python a = 5
 print(a)
 
 # 5
@@ -24,6 +24,7 @@ a = a - 4
 print(a)
 
 # 6
+`
 Skaičiai su kableliu – float:
 a = 8.56
 b = 5
