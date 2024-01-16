@@ -3,22 +3,27 @@
 ```python
 a = 5
 print(a)
+
 # 5
 
 a = int(5)
 print(a)
+
 # 5
 
 a = 7
 print(a)
+
 # 7
 
 a = 10
 print(a)
+
 # 10
 
 a = a - 4
 print(a)
+
 # 6
 ```
 ## Skaičiai su kableliu – float:
@@ -27,28 +32,34 @@ a = 8.56
 b = 5
 c = a + b
 print(c)
+
 # 13.56
 
 a = float(5)
 print(a)
+
 # 5.00
 ```
 ## Veiksmai su kintamaisiais:
 ```python
 a = 5 + 2
-print(a) 
+print(a)
+
 # 7
 
 b = 5 - 2
-print(b) 
+print(b)
+ 
 # 3
 
 c = 5 * 2
-print(c) 
+print(c)
+
 # 10
 
 b = 5 / 2
-print(b) 
+print(b)
+
 # 2.5
 ```
 ## Kintamųjų pavadinimų sudarymo taisyklės
@@ -80,11 +91,13 @@ first_block, vandens_temperatura
 a = 5
 a += 2
 print(a)
+
 # 7
 
 b = 12
 b /= 3
 print(b)
+
 # 4.0
 ```
 
@@ -92,10 +105,12 @@ print(b)
 ```python
 a = 2**2
 print(a)
+
 # 4
 
 b = 5**3
 print(b)
+
 # 125
 ```
 
@@ -103,14 +118,17 @@ print(b)
 ```python
 a = 32 / 6
 print(a)
+
 # 5.333333333333333
 
 b = 32 // 6
 print(b)
+
 # 5
 
 c = 32 % 6
 print(c)
+
 # 2
 ```
 
@@ -118,18 +136,22 @@ print(c)
 ```python
 zodis1 = "Labas "
 print(zodis1)
+
 # Labas
 
 zodis2 = str("vakaras")
 print(zodis2)
+
 # vakaras
 
 print(zodis1 + zodis2)
+
 # Labas vakaras
 ```
 ## Nauja eilutė:
 ```python
 print("Labas \nvakaras")
+
 # Labas
 # vakaras
 ```
@@ -140,39 +162,51 @@ print("Labas \nvakaras")
 zodis = "Code Academy"
 
 print(zodis[5])
+
 # A
 
 print(zodis[-2])
+
 # m
 
 print(zodis[5:12])
+
 # Academy
 
 print(zodis[5:])
+
 # Academy
 
 print(zodis[:4])
+
 # Code
 
 print(zodis[5:12:1])
+
 # Academy
 
 print(zodis[5::2])
+
 # Aaey
 
 print(zodis[::-1])
+
 # ymedacA edoC
 
 print(zodis.split())
+
 # ['Code', 'Academy']
 
 print(zodis.upper())
+
 # CODE ACADEMY
 
 print(zodis.replace('c', 'k'))
+
 # Code Akademy
 
 print(zodis.replace('Code', 'Music'))
+
 # Music Academy
 ```
 ## Kaip formuoti stringus iš kintamųjų:
@@ -195,15 +229,18 @@ print("a lygu: {}, žodis: {}, dar vienas žodis - {}".format(a, zodis, dar_vien
 d = "Žodis "
 e = 5
 print(d+e)
+
 # TypeError: can only concatenate str (not "int") to str
 
 e = str(e)
 print(d+e)
+
 # Žodis 5
 
 a = "250"
 b = 4
 print(a * b)
+
 # ???
 ```
 ## Kintamųjų įvedimas ir išvedimas:
@@ -295,7 +332,9 @@ else:
 ```
 ## Kodo komentavimas:
 Komentuota eilutė (PyCharm programoje – CTRL+/):
-```python # Ši eilutė nebus vykdoma```
+```python
+# Ši eilutė nebus vykdoma
+```
 
 Komentuota pastraipa (Doctrings):
 ```python
