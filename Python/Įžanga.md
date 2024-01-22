@@ -6,6 +6,7 @@
 * Platus palaikymas
 * Lengvai plečiama (daug bibliotekų)
 * Paprastas darbas su duomenų bazėmis
+  
 Tinkama programavimo kalba pradedantiesiems!
 
 ### Ką mokysimės:
