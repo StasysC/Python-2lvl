@@ -90,7 +90,7 @@ print(amzius["Rokas"])
 # 20
 ```
 ## Kaip pridėti į žodyną įrašą:
-```
+```python
 automobilis = {"Gamintojas": "Tesla", "Modelis": "Model S P100D", "Metai": 2016}
 
 automobilis["Galia"] = 588
