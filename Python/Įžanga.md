@@ -45,7 +45,7 @@ Pavyzdžiui:
 * Naujos temos išdėstymas
 * Praktinė demonstracija
 * Savarankiškas pateiktų užduočių sprendimas su konsultacijomis
-* 
+  
 Rekomenduojama savarankiškai spręsti užduotis namuose, taip pat kurti kitas norimas programas
 
 ### Kurso planas:
