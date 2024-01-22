@@ -315,7 +315,7 @@ https://www.w3schools.com/python/python_ref_dictionary.asp
 ## 2 užduotis
 Parašyti programą, kuri:
 
-Leistų vartotojui įvesti skaičių.
+* Leistų vartotojui įvesti skaičių.
 * Jei įvestas skaičius yra teigiamas, paprašyti įvesti dar vieną skaičių
 * Jei įvestas skaičius neigiamas, nutraukti programą ir atspausdinti visų įvestų teigiamų skaičių sumą
 
@@ -324,10 +324,10 @@ Patarimas: Naudoti ciklą while, sąlygą if, break
 ## 3 užduotis
 Sukurti programą, kuri:
 
-Leistų vartotojui po vieną įvesti 5 žodžius
-Pridėtų įvestus žodžius į sąrašą
-Atspausdintų kiekvieną žodį, jo ilgį ir eilės numerį sąraše (nuo 1)
-Sudėtingiau: kad programa leistų įvesti norimą žodžių kiekį
+* Leistų vartotojui po vieną įvesti 5 žodžius
+* Pridėtų įvestus žodžius į sąrašą
+* Atspausdintų kiekvieną žodį, jo ilgį ir eilės numerį sąraše (nuo 1)
+* Sudėtingiau: kad programa leistų įvesti norimą žodžių kiekį
 
 Patarimas: Naudoti sąrašą (list), ciklą for, funkcijas len ir index
 
