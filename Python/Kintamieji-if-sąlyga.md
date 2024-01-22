@@ -62,6 +62,7 @@ print(b)
 
 # 2.5
 ```
+
 ## Kintamųjų pavadinimų sudarymo taisyklės
 Kintamųjų pavadinimai turi prasidėti raide arba pabraukimu, pvz:
 
@@ -267,6 +268,40 @@ print("Jūsų skaičių suma: ", a + b)
 
 h = float(input("Įveskite skaičių "))
 print(h)
+```
+## Loginis kintamasis (Boolean)
+Boolean duomenų tipoas turi tik dvi reikšmes: True (tiesa) arba False (klaidinga)
+```python
+teisybe = True
+print(teisybe)
+
+# True
+
+teisybe = False
+print(teisybe)
+
+# False
+
+loginis = bool()
+print(loginis)
+
+# False
+
+print(1 == 1 or 2 == 2)
+
+# True
+
+print(2 < 1 or 3 > 6)
+
+# False
+
+logika = 1 == 1 or 2 == 2
+print(logika)
+
+atvirkstine = not 2 * 2 == 4
+print(atvirkstine)
+
+# False
 ```
 ## Loginiai operatoriai:
 ![](https://github.com/StasysC/Python-2lvl/blob/master/Python/operatoriai.jpg)
