@@ -136,9 +136,9 @@ for saraso_irasas in sarasas:
 # 7
 # Labas
 # 45.45
-skaiciai = [2, 6, 7, 9, 41, 4, 46, 789]
 ```
 ```python
+skaiciai = [2, 6, 7, 9, 41, 4, 46, 789]
 skaiciu_suma = 0
 
 for skaicius in skaiciai:
