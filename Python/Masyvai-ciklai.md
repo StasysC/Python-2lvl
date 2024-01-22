@@ -89,7 +89,7 @@ print(amzius["Laura"])
 print(amzius["Rokas"])
 # 20
 ```
-## Kaip pridėti į žodyno įrašą:
+## Kaip pridėti į žodyną įrašą:
 ```
 automobilis = {"Gamintojas": "Tesla", "Modelis": "Model S P100D", "Metai": 2016}
 
