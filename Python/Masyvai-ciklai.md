@@ -110,6 +110,7 @@ print(automobilis)
 # {'Gamintojas': 'Tesla', 'Modelis': 'Model S P100D', 'Metai': 2019}
 ```
 ## Kaip ištrinti žodyno įrašą:
+```python
 automobilis = {"Gamintojas": "Tesla", "Modelis": "Model S P100D", "Metai": 2019}
 
 automobilis.pop("Metai")
