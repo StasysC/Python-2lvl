@@ -11,6 +11,7 @@ visko_po_truputi = [5, 5.6, "Lietuva", [5, 6, 15], True]
 print(zodziai)
 
 # ['Labas ', 'vakaras, ', 'Lietuva']
+```
 ```python
 ## Kaip pasiekti atskirus sąrašo įrašus:
 zodziai = ["Labas ", "vakaras, ", "Lietuva"]
