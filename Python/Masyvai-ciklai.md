@@ -12,8 +12,9 @@ print(zodziai)
 
 # ['Labas ', 'vakaras, ', 'Lietuva']
 ```
-```python
+
 ## Kaip pasiekti atskirus sąrašo įrašus:
+```python
 zodziai = ["Labas ", "vakaras, ", "Lietuva"]
 
 print(zodziai[0])
