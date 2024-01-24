@@ -291,20 +291,13 @@ https://www.w3schools.com/python/python_datetime.asp
 Parašyti programą, kuri:
 
 * Leistų vartotojui įvesti norimą datą ir laiką (pvz. gimtadienį)
-* Paskaičiuotų ir atspausdintų, kiek nuo įvestos datos ir laiko praėjo:
-  
-Metų
-
-Mėnesių
-
-Dienų
-
-Valandų
-
-Minučių
-
-Sekundžių
-
+* Paskaičiuotų ir atspausdintų, kiek nuo įvestos datos ir laiko praėjo:  
+ * Metų
+ * Mėnesių
+ * Dienų
+ * Valandų
+ * Minučių
+ * Sekundžių
 
 Kadangi tiksliai galima paskaičiuoti tik dienas ir sekundes, metus, mėnesius ir t.t. paskaičiuokite apytiksliai.
 
