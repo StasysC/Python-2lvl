@@ -1,5 +1,5 @@
 # Funkcijos
-[!](https://github.com/StasysC/Python-2lvl/blob/master/Python/funkcijos_schema.png)
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/funkcijos_schema.png)
 ```python
 def pasisveikinti():
     print("Sveikas, pasauli!")
@@ -23,7 +23,9 @@ pasisveikinti("")
 
 # Sveikas, Tomas
 # Sveikas, Jonas
-# Sveikas, 
+# Sveikas,
+```
+```python
 def kvadratas(skaicius):
     kvadratu = skaicius ** 2
     print(kvadratu)
