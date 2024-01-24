@@ -251,7 +251,9 @@ print("Programa vykdoma toliau")
 # Todėl įvykdysime daugybą:
 # 49
 # Programa vykdoma toliau
-Kaip panaudoti try/except įvedant duomenis:
+```
+### Kaip panaudoti try/except įvedant duomenis:
+```python
 while True:
     try:
         x = int(input("Įveskite skaičių: "))
