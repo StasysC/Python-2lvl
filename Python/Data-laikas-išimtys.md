@@ -252,7 +252,7 @@ print("Programa vykdoma toliau")
 # 49
 # Programa vykdoma toliau
 ```
-### Kaip panaudoti try/except įvedant duomenis:
+# Kaip panaudoti try/except įvedant duomenis:
 ```python
 while True:
     try:
