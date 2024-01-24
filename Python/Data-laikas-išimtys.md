@@ -151,6 +151,12 @@ for x in range(1000000):
     print("Labas")
     time.sleep(2)
 ```
+
+# Kuo naudingas try/except/finally naudojimas:
+* Leidžia pakeisti klaidų pranešimus norimu tekstu
+* Įvykus klaidai, programa nesustoja (apsaugo nuo lūžimo). Po neįvykdyto kodo, programa vykdoma toliau
+* Leidžia nuspręsti, ką daryti, atsiradus klaidai (pvz., išmesti tam tikrą pranešimą, paleisti kitą funkciją ir t.t
+  
 # Išimtys, jų suvaldymas (su try/except/finally):
 ```python
 7 / 0
@@ -203,10 +209,6 @@ print("Programa vykdoma toliau")
 # Nepavyksta atidaryti failo
 # Programa vykdoma toliau
 ```
-# Kuo naudingas try/except/finally naudojimas:
-* Leidžia pakeisti klaidų pranešimus norimu tekstu
-* Įvykus klaidai, programa nesustoja (apsaugo nuo lūžimo). Po neįvykdyto kodo, programa vykdoma toliau
-* Leidžia nuspręsti, ką daryti, atsiradus klaidai (pvz., išmesti tam tikrą pranešimą, paleisti kitą funkciją ir t.t
 # Kaip suvaldyti kelias išimtis:
 ```python
 try:
