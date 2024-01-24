@@ -1,20 +1,3 @@
-# Funkcijos, gražinančios boolean (True arba False) reikšmę
-```python
-sakinys = "Sveikas, pasauli"
-
-as_skaicius = sakinys.isdigit()
-print(as_skaicius)
-
-# False
-
-
-ar_prasideda_s = sakinys.startswith("S")
-print(ar_prasideda_s)
-
-# True
-```
-Daugiau apie boolean: https://www.w3schools.com/python/python_booleans.asp
-
 # Kaip patikrinti kintamojo tipą (funkcija type):
 ```python
 sarasas = ["Vienas", "Du", "Trys"]
