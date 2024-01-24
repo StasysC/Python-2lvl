@@ -255,4 +255,4 @@ Sukurkite ir išsibandykite funkcijas, kurios:
 * Sukurti funkciją, kuri patikrintų, ar paduotas Lietuvos piliečio asmens kodas yra validus.
 * Padaryti, kad programa sugeneruotų teisingą asmens kodą (panaudojus anksčiau sukurtą funkciją) pagal įvestą lytį, gimimo datą ir eilės numerį).
 
- [](https://lt.wikipedia.org/wiki/Asmens_kodas) 
+ (https://lt.wikipedia.org/wiki/Asmens_kodas) 
