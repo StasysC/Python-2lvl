@@ -116,6 +116,7 @@ class Kate:
 
     def miaukseti(self, zinute = "Miau", kiekis = 1):
         print(zinute * kiekis)
+
 kate5 = Kate("Juoda", 4)
 
 kate5.miaukseti()
@@ -130,6 +131,7 @@ class Kate:
     def __init__(self, spalva, kojos):
         self.spalva = spalva
         self.kojos = kojos
+
 kate5 = Kate("Juoda", 4)
 print(kate5)
 
@@ -141,6 +143,7 @@ class Kate:
 
     def __str__(self):
         return f"Spalva: {self.spalva}, kojos: {self.kojos}"
+
 kate5 = Kate("Juoda", 4)
 print(kate5)
 
