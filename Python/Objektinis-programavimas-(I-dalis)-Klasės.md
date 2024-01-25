@@ -12,7 +12,7 @@ class Kate:
 ```
 Objekto klasė duomenų nesaugo. Ji yra lyg instrukcija, pagal kurią sukuriamas objektas (kuris saugo objekto duomenis).
 
-init metodas (konstruktorius) yra automatiškai įvykdomas kuriant objektą. Jame gali būti inicijuojamos savybės (objekto kintamieji), paleidžiami metodai (funkcijos) ir t. t.
+**init** metodas (konstruktorius) yra automatiškai įvykdomas kuriant objektą. Jame gali būti inicijuojamos savybės (objekto kintamieji), paleidžiami metodai (funkcijos) ir t. t.
 
 Objekto kintamieji vadinami savybėmis (Property), o funkcijos – metodais (Methods)
 
