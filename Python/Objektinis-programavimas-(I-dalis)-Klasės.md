@@ -84,6 +84,7 @@ class Kate:
         self._judinti_kojas()
         self._ziureti_kur_begi()
         print("Bėgu")
+
 muza = Kate("pilka", 4)
 muza.begti()
 
