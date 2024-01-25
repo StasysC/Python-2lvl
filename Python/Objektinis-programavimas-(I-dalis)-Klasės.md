@@ -56,6 +56,7 @@ class Kate:
 
     def miaukseti(self):
         print("Miau")
+
 kate1 = Kate("pilka", 4)
 kate1.miaukseti()
 
