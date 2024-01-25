@@ -60,7 +60,7 @@ kate1 = Kate("pilka", 4)
 kate1.miaukseti()
 
 # Miau
-```python
+```
 # 4 objektinio programavimo principai:
 1. Inkapsuliacija (Encapsulation) – vidiniai objekto (klasės) duomenys yra slepiami ir pasiekiami tik metodais (savybėmis, funkcijomis). Tai leidžia neprisirišti prie vidinės objekto struktūros, jį nesunkiai pakeisti kitu arba pakeisti jo struktūrą, nekeičiant pirminio kodo
 
