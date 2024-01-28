@@ -160,7 +160,7 @@ Sukurti programą, kuri:
 * Su sukurtu Automobilio objektu paleisti funkcijas vaziuoti, stoveti, pildyti_degalu
 * Su sukurtu Elektromobilio objektu paleisti funkcijas vaziuoti, stoveti, pildyti_degalu, vaziuoti_autonomiskai
 
-##2 užduotis
+## 2 užduotis
 Sukurti programą, kuri:
 
 * Turėtų klasę Darbuotojas
