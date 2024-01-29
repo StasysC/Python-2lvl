@@ -40,7 +40,7 @@ print(os.listdir())
 Kaip sužinoti failo/katalogo informaciją:
 ```python
 print(os.stat("Demo Katalogas"))
-```python
+```
 arba:
 ```python
 print(os.stat("naujas_tekstas.txt"))
