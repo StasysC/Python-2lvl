@@ -153,7 +153,7 @@ with open("failas.txt", 'w', encoding="utf-8") as failas:
     failas.write("Test")
     failas.seek(0)
     failas.write("BE")
-```python
+```
 Kaip nuskaityti failą po vieną eilutę:
 ```python
 Čia yra pirmas sakinys
