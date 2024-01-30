@@ -251,7 +251,7 @@ with open("failas.txt", 'r') as r_failas:
 ```
 (gauname tekstinio failo kopiją)
 
-Dvejetainių failų kopijavimas:
+## Dvejetainių failų kopijavimas:
 
 Problema:
 ```python
