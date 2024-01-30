@@ -417,6 +417,7 @@ Sukurti programą, kuri:
 * Atspausdintų visą failo tekstą atbulai
 * Atspausdintų, kiek failo tekste yra žodžių, skaičių, didžiųjų ir mažųjų raidžių
 * Nukopijuotų visą sukurto failą tekstą į naują failą, tik DIDŽIOSIOMIS RAIDĖMIS
+
 Patarimai:
 
 * Naudoti from datetime import datetime, datetime.today()
