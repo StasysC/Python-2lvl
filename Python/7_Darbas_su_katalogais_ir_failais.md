@@ -100,7 +100,7 @@ with open("failas.txt", 'r+') as failas:
 with open("failas.txt", 'r') as failas:
     print(failas.read())
 
-Sveikas, pasauli!Labas rytas, pasauli!
+# Sveikas, pasauli!Labas rytas, pasauli!
 ```
 Kaip į failą įrašyti lietuviškus rašmenis: Problema:
 ```python
@@ -248,6 +248,7 @@ with open("failas.txt", 'r') as r_failas:
     with open("failo_kopija.txt", 'w') as w_failas:
         for r_eilute in r_failas:
             w_failas.write(r_eilute)
+```
 (gauname tekstinio failo kopiją)
 
 Dvejetainių failų kopijavimas:
