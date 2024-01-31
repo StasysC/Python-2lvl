@@ -62,7 +62,7 @@ print(kintamasis)
 ```
 ## Importuoti vieną jų kaip trumpinį:
 
-```
+```python
 from mano_modulis import parasyti_atbulai as pa, kintamasis
 
 sakinys = "Sveikas, pasauli!"
