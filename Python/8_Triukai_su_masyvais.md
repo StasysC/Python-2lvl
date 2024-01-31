@@ -308,7 +308,7 @@ from operator import attrgetter
 surusiuotas = sorted(sarasas, key=attrgetter("atlyginimas"))
 print(surusiuotas)
 
-[(Rokas, Ramanauskas, 1000), (Tadas, Rutkauskas, 1500), (Domas, Radzevičius, 2000)
+# [(Rokas, Ramanauskas, 1000), (Tadas, Rutkauskas, 1500), (Domas, Radzevičius, 2000)]
 ```
 # Užduotys
 ## 1 užduotis:
