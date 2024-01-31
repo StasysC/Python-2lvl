@@ -99,8 +99,8 @@ naujas = reduce(lambda x, y: x * y, sarasas)
 print(naujas)
 
 # 24
-Pritaikymo pavyzdys: Fibonačio seka
 ```
+Pritaikymo pavyzdys: Fibonačio seka
 # Funkcijos sum, max, min
 ```python
 sarasas = [4, 3, 2, 1, 5, 6, 7, 10, 9, 8]
