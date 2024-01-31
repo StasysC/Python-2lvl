@@ -42,7 +42,7 @@ p, a, t, k = map(float, skaiciai.split(", "))
 print(p, a, t, k)
 
 # 4.0 3.0 2.0 1.0
-```python
+```
 # Funkcija filter
 Sąrašo filtravimas (įprastas būdas):
 ```python
