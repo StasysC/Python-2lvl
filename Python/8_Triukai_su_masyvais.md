@@ -326,6 +326,7 @@ Sukurti programą, kuri:
 * Pakeltų visus sąrašo skaičius kvadratu ir atspausdintų. Šį sąrašą (list masyvą) priskirti naujam kintamajam.
 * Su kvadratų sąrašu (nauju kintamuoju) atliktų šiuos veiksmus: atspausdintų sumą, mažiausią ir didžiausią skaičių, vidurkį, medianą
 * Surūšiuotų ir atspausdintų kvadratų sąrašą atbulai
+  
 Patarimai:
 
 * Naudoti map, filter arba comprehension, sum, min, max, mean, median, %
