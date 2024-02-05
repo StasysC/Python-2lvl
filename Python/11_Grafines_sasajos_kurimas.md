@@ -372,7 +372,8 @@ Sukurti programą su grafine sąsaja, kuri:
 
 * Turėtų laukelį su užrašu "Įveskite vardą", kuriame vartotojas galėtų įvesti vardą
 * Turėtų mygtuką su užrašu "Patvirtinti", kurį nuspaudus, programa po lauku atspausdintų "Labas, {vardas}!"
-![]
+  
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/uzduotis1.jpg)
 
 ## 2 užduotis
 Patobulinti 1 užduoties programą, kad ji:
@@ -386,7 +387,7 @@ Patobulinti 2 užduoties programą, kad ji turėtų meniu pavadinimu "Meniu", ku
 * Būtų punktas "Išeiti", kurį paspaudus užsidarytų programos langas
 * Tarp menių punktų "Atkurti" ir "Išeiti" būtų atskyrimo brūkšnys
 
-![]
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/uzduotis3.jpg)
 
 ## 4 užduotis
 Patobulinti 3 užduoties programą, kad ji turėtų statuso juostą apačioje, kurioje:
@@ -394,9 +395,9 @@ Patobulinti 3 užduoties programą, kad ji turėtų statuso juostą apačioje, k
 * Būtų rodoma "Sukurta", kai atspausdinamas pasisveikinimo tekstas
 * Būtų rodoma "Išvalyta", kai ištrinamas pasisveikinimo tekstas
 * Būtų rodoma "Atkurta", kai atkuriamas paskutinis pasisveikinimo tekstas Nuspaudus klaviatūros mygtuką "Escape", uždarytų programos langą
-![]
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/uzduotis4.jpg)
 
 ## 5 užduotis (papildoma)
 Perdaryti bet kurią ankstesnėse pamokose sukurtą arba savo programą, kurioje vartotojas turėjo įvesti duomenis, į programą su grafine sąsaja. Pvz., tą, kuri atrenka keliamuosius metus, skaičiuoja laiką nuo praeitos datos, pateikia informaciją apie įvestą eilutę ar pan.
 
-![]
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/uzduotis5.jpg)
