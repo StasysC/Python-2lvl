@@ -405,7 +405,8 @@ Patobulinti 3 užduoties programą, kad ji turėtų statuso juostą apačioje, k
 
 * Būtų rodoma "Sukurta", kai atspausdinamas pasisveikinimo tekstas
 * Būtų rodoma "Išvalyta", kai ištrinamas pasisveikinimo tekstas
-* Būtų rodoma "Atkurta", kai atkuriamas paskutinis pasisveikinimo tekstas Nuspaudus klaviatūros mygtuką "Escape", uždarytų programos langą
+* Būtų rodoma "Atkurta", kai atkuriamas paskutinis pasisveikinimo tekstas
+* Nuspaudus klaviatūros mygtuką "Escape", uždarytų programos langą
 ![](https://github.com/StasysC/Python-2lvl/blob/master/Python/uzduotis4.jpg)
 
 ## 5 užduotis (papildoma)
