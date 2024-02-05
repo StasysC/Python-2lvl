@@ -162,15 +162,21 @@ langas.mainloop()
 ## Kaip pridėti sąrašo slinkimo juostą:
 ```python
 from tkinter import *
+
 langas = Tk()
-masyvas = range(1, 200)
+
+
+sarasas = range(1, 200)
+
 scrollbaras = Scrollbar(langas)
-boksas = Listbox(langas)
+boksas = Listbox(langas, yscrollcommand=scrollbaras.set)
+boksas.insert(END, *sarasas)
 scrollbaras.config(command=boksas.yview)
-boksas.insert(END, *masyvas)
-scrollbaras.pack(side=RIGHT, fill=Y)
 boksas.pack(side=LEFT)
+scrollbaras.pack(side=RIGHT, fill=Y)
+
 langas.mainloop()
+
 ```
 ## Kaip pasiimti duomenis iš pažymėtos sąrašo vietos:
 ```python
