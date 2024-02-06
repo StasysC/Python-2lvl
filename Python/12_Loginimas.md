@@ -159,7 +159,7 @@ Sprendimas:
 ```python
 import logging
 logger = logging.getLogger(__name__)
-file_handler = logging.FileHandler('aritmetika.log')
+file_handler = logging.FileHandler('aritmetika.log', encoding="UTF-8")
 logger.addHandler(file_handler)
 
 logger.setLevel(logging.DEBUG)
@@ -183,7 +183,7 @@ Tą patį galime padaryti ir faile asmenys.py:
 import logging
 
 logger = logging.getLogger(__name__)
-file_handler = logging.FileHandler('asmenys.log')
+file_handler = logging.FileHandler('asmenys.log', encoding="UTF-8")
 logger.addHandler(file_handler)
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
@@ -203,7 +203,7 @@ rokas = Asmuo("Rokas", "Radzevicius")
 ```python
 import logging
 logger = logging.getLogger(__name__)
-file_handler = logging.FileHandler('aritmetika.log')
+file_handler = logging.FileHandler('aritmetika.log', encoding="UTF-8")
 logger.addHandler(file_handler)
 
 logger.setLevel(logging.DEBUG)
@@ -228,7 +228,7 @@ dalyba(10, 5)
 ```python
 import logging
 logger = logging.getLogger(__name__)
-file_handler = logging.FileHandler('aritmetika.log')
+file_handler = logging.FileHandler('aritmetika.log', encoding="UTF-8")
 logger.addHandler(file_handler)
 
 logger.setLevel(logging.DEBUG)
