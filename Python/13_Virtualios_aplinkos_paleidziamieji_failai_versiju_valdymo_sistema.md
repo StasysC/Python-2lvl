@@ -1,9 +1,9 @@
 # Virtualios aplinkos (VENV)
 ## Kaip pažiūrėti, kokie paketai (moduliai) įdiegti sistemoje ?
 Windows komandinėje eilutėje (Win + c, m, d + Enter):
-
-C:\Users\Vartotojas>pip list
 ```
+C:\Users\Vartotojas>pip list
+
 Package Version
 -------------- --------
 decorator 4.0.10
