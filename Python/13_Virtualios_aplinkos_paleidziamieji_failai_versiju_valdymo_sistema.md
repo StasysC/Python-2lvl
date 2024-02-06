@@ -164,7 +164,7 @@ pywin32-ctypes 0.2.0
 setuptools 40.6.2
 ```
 # EXE failų kūrimas
-```
+
 ## Pyinstaller diegimas Windows sistemoje
 Diegimas Windows komandinėje eilutėje cmd (Win, c, m, d, ENTER):
 
