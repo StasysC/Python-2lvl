@@ -225,6 +225,144 @@ Paleidžiame terminale:
 ```
 pyinstaller --onefile -w --icon=sveikinimas.ico sveikinimas.py
 ```
+# Versijų valdymo sistema (GIT)
+## Kas tai yra?
+Versijų valdymo sistemos (angl. Version Control System arba VCS) seka bendrų projektų, kuriamų grupės žmonių, pokyčių istoriją
+
+Naudosime vieną populiariausių versijų valdymo sistemą GIT – www.github.com (dar yra GitLab, Bitbucket)
+
+## Ką leidžia VCS (GIT)?
+* Saugoti visus kodo pakeitimus ir nesunkiai gražinti kodą į norimą, prieš tai buvusią padėtį
+* Su tuo pačiu kodu lygiagrečiai dirbti (keisti) daugeliui žmonių
+* Lengvai dalintis, rodyti, leisti peržiūrėti kolegoms parašytą kodą per specialią svetainę (pvz. www.github.com)
+* Nuolat išsaugoti paskutinius pakeitimus ne tik lokaliai, bet ir serveryje
+* Lengviau pateikti kodą į produkciją (pvz., publikuoti sukurtą svetainę internete, skelbti pakeitimus)
+
+## Kaip įdiegti GIT Windows sistemoje?
+* Užsiregistruoti svetainėje www.github.com.
+* Įdiegti GIT programą iš https://git-scm.com/downloads (diegiant visuomet spausti „Next“).
+* Patikrinti ar veikia, Windows konsolėje (Win + c, m, d + Enter) įrašius „git“ (jei išmeta pagalbos informaciją apie git, reiškia veikia).
+
+## Kaip nustatyti GIT?
+Windows konsolėje (Win + c, m, d + Enter):
+
+1. Nustatyti vardą:
+```
+git config --global user.name "Vardas Pavarde"
+```
+2. Nustatyti el. pašto adresą:
+```
+git config --global user.email el@pastas.com
+```
+3. Patikrinti ar pasikeitė:
+```
+git config --list
+```
+## Kaip susieti kompiuterį su GitHub (per SSH raktą)?
+1. Atidaryti programą Git Bash (Win + g, i, t, , b, a, s, h + Enter).
+
+2. Sugeneruoti SSH raktą paleidus šią komandą:
+```
+ssh-keygen -t rsa -b 4096 -C "el@pastas.com"
+```
+(galima visas užklausas patvirtinti nieko nevedant, tik spaudžiant Enter).
+
+3. Su bet kokiu teksto redaktoriumi atidaryti sugeneruotą rakto failą id_rsa.pub, pažymėti kodą komanda CTRL+C.
+
+4. Svetainėje www.github.com spausti ant vartotojo ikonos viršutiniame dešiniajame kampe, pasirinkti Settings, tuomet SSH and GPG keys. Tada spausti mygtuką New SSH key.
+
+5. Laukelyje Title įrašyti norimą pavadinimą, pvz. Namų kompiuteris, pele pažymėti lauką key ir paspausti CTRL+V (bus įklijuotas 3 žingsnyje nukopijuotas SSH kodas), galiausiai spausti Add SSH Key.
+
+## Kaip sukurti tuščią GitHub projektą (repozitoriją)?
+1. Pagrindiniame www.github.com puslapyje (prisijungę savo vardu ir slaptažodžiu) spauskite Start a project.
+
+2. Laukelyje Repository name įrašykite norimą projekto pavadinimą (be tarpų) ir spauskite mygtuką Create repository. Atsidariusiame lange pamatysite komandas, reikalingas pridėti failus į repozitoriją
+
+## Kaip pridėti failą į Git repozitoriją?
+1. Atidarykite Windows konsolę (Win + c, m, d + Enter), atidarykite vietą, kur kursite projekto failus (norėdami dirbti Windows darbastalyje, konsolėje įveskite cd Desktop ir spauskite Enter).
+
+2. Norimoje vietoje sukurkite naują failą, pavyzdžiui, suvesdami komandą:
+```
+echo "# test" >> README.md
+```
+3. Sustatykite šią vietą, kaip stebimą su GIT, įvesdami komandą:
+```
+git init
+```
+4. Pridėkite į repozitoriją sukurtą failą, paleisdami komandą:
+```
+git add README.md
+```
+arba:
+```
+git add .
+```
+5. Patikrinkite, ar failas buvo pridėtas, paleisdami komandą:
+```
+git status
+```
+6. Užfiksuokite pakeitimus, paleisdami komandą:
+```
+git commit -m "pirmas commit"
+```
+## Kaip išsaugoti pakeitimus į www.github.com?
+1. Nustatyti nuotolinės repozitorijos, į kurią bus keliami pakeitimai, kelią, pvz.:
+```
+git remote add origin git@github.com:StasysC/Python-2lvl.git
+```
+(kelią rasite užėję į norimą projektą www.github.com svetainėje).
+
+2. Užfiksuokite pakeitimus, paleidę komandą:
+```
+git push -u origin main
+```
+(į klausimą are you sure you want to continue connecting (yes/no)?, atsakykite įvesdami yes ir spausdami Enter)
+
+## Kaip pridėti dar vieną failą į GIT repozitoriją?
+1. Projekto kataloge sukurkite naują failą, pvz. paleisdami komandą:
+```
+echo "# naujas" >> failas2.txt
+```
+2. Pridėkite į repozitoriją sukurtą failą, paleisdami komandą:
+```
+git add failas.txt
+```
+arba:
+```
+git add .
+```
+3. Užfiksuokite pakeitimus, paleisdami komandą:
+```
+git commit -m "pridetas antras failas"
+```
+4. Užfiksuokite pakeitimus į GitHub, paleidę komandą:
+```
+git push -u origin main.
+```
+Padarę vieno iš repozitorijos failo pakeitimą ir pakartoję 2-4 žingsnius, galite taip pat užfiksuoti šiuos pakeitimus į GitHub.
+
+## Kaip panaikinti paskutinius pakeitimus?
+1. Paredaguokite norimą failą, pvz. failas2.txt. Įvedę šią komandą matysite, kuriame faile buvo atlikti pakeitimai:
+```
+git status
+```
+2. Atšaukite paskutinius pakeitimus, įvedę komandą:
+```
+git checkout failas2.txt
+```
+3. Patikrinkite, ar pakeitimai buvo atlikti, įvedę:
+```
+git status
+```
+## Kaip sukurti GitHub repozitorijos kopiją kompiuteryje?
+1. Atidarykite Windows konsolę (Win + c, m, d + Enter), atidarykite vietą, kur kursite projekto failus (norėdami dirbti Windows darbastalyje, konsolėje įveskite cd Desktop ir spauskite Enter).
+
+2. Padarykite nutolusios repozitorijos kopiją, paleisdami komandą:
+```
+git clone git@github.com:DonatasNoreika/test.git
+```
+(norimos repozitorijos adresą galite rasti nuėję į jos puslapį www.github.com ir paspaudę mygtuką Clone or download).
+
 # Užduotys
 ## 1 užduotis
 Išbandyti šioje pamokoje aprašytus žingsnius:
