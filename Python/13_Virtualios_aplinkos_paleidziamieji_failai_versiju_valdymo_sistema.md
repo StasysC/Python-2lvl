@@ -137,7 +137,7 @@ setuptools 40.6.2
 SQLAlchemy 1.3.3
 ```
 ```
-(venv) C:\Users\Donoras\Desktop\Projektas>pip list –local
+(venv) C:\Users\Donoras\Desktop\Projektas>pip list –-local
 Package Version
 ---------- -------
 pip 18.1
