@@ -348,7 +348,7 @@ git status
 ```
 2. Atšaukite paskutinius pakeitimus, įvedę komandą:
 ```
-git checkout failas2.txt
+git reset failas2.txt
 ```
 3. Patikrinkite, ar pakeitimai buvo atlikti, įvedę:
 ```
