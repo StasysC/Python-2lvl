@@ -204,3 +204,45 @@ Apie regex reikėtų žinoti , kad:
 * Nebūna 100% veikiančių regex užklausų, arba jos būna pernelyg ilgos ir visiškai neįskaitomos. Pvz. susiraskite oficialią regex užklausą e-mail adresams:)
 
 * RegEx yra labai plati tema, prirašyta nemažai storų knygų. Tai ką išmokome tėra pagrindai.
+
+# Užduotys
+## 1 užduotis
+Parašykite funkciją, kuri įvestą datą (formatas dd.mm.yyyy) keistų į yyyy mm dd. Dėl datų logikos nesirūpinkite, dirbame grynai su tekstu.
+
+## 2 užduotis
+```python
+text = '''Workshop & Tutorial proposals: November 21, 2019
+Notification of acceptance: December 1, 2019
+Workshop & Tutorial websites online: December 18, 2019
+Workshop papers: February 28, 2020
+Workshop paper notifications: March 27, 2020
+Workshop paper camera-ready versions: April 10, 2020
+Tutorial material due (online): April 10, 2020'''
+```
+Iš šio teksto atspausdinkite datų sąrašą.
+
+## 3 užduotis
+Atspausdinkite tą patį teksta taip:
+```python
+# 1.
+# Event: Workshop & Tutorial proposals due
+# Date: November 21, 2019
+
+# 2.
+# Event: Notification of acceptance
+# Date: December 1, 2019
+
+# ir t.t.
+```
+## 4 užduotis
+Parašykite funkciją, kuri į parametrus priimtų tekstą ir žodžių, kuriuos reikia jame išcenzūruoti sąrašą. Pvz, žodis "kvaraba" yra baisus keiksmažodis, ir mums reikia duotame tekste pakeisti k*****a. Pradėkite maždaug taip:
+```python
+def cenzura(tekstas, *keiksmai):
+    # čia bus jūsų funkcija
+
+# iškvietus funkciją, pvz.:
+cenzura('baisūs žodžiai, tokie kaip kvaraba, žaltys..', 'kvaraba', 'žaltys')
+# mums atspausdintų
+# baisūs žodžiai, tokie kaip k*****a, ž****s..
+```
+žodžių cenzūravimui naudokite regex, o jų sukeitimui tekste naudokite .replace()
