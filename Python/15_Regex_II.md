@@ -1,3 +1,4 @@
+# RegEx Python'e
 Regex užklausas Python'e tvarko modulis *re*.
 Prieš pradėdami darbą, nepamirškime importuoti:
 
