@@ -122,7 +122,7 @@ skirstyti užklausos rezultatus pagal grupes.
 # Užduotys
 
 http://pythex.org įkelkite tekstą:
-
+```
 Buveinės adresas: Konstitucijos pr. 20A, 03502 Vilnius
 
 Telefonai:
@@ -144,7 +144,7 @@ Banko sąskaita: LT55 7300 0100 0000 0036
 Banko kodas: 73000
 
 SWIFT kodas: HABALT22
-
+```
 * Išrinkite visus žodžius, prasidedančius viena didžiąja raide.
 * Išrinkite visus žodžius, kurie yra iš visų didžiųjų raidžių (PVM, SWIFT, HABALT22)
 * Parašykite šabloną trumpąjam telefono numeriui (nereikia idealaus, tiesiog išrinkite 1884 ir 1663)
