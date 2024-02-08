@@ -124,25 +124,15 @@ skirstyti užklausos rezultatus pagal grupes.
 http://pythex.org įkelkite tekstą:
 ```
 Buveinės adresas: Konstitucijos pr. 20A, 03502 Vilnius
-
 Telefonai:
-
 1884 arba +370 5 268 4444 (Privatiems klientams)
-
 1633 arba +370 5 268 4422 (Verslo klientams)
-
 Faksas: (8 5) 258 2700
-
 El. paštas: info@swedbank.lt
-
 Įmonės kodas: 112029651
-
 PVM mokėtojo kodas: LT120296515
-
 Banko sąskaita: LT55 7300 0100 0000 0036
-
 Banko kodas: 73000
-
 SWIFT kodas: HABALT22
 ```
 * Išrinkite visus žodžius, prasidedančius viena didžiąja raide.
