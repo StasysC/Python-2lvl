@@ -224,7 +224,7 @@ Iš šio teksto atspausdinkite datų sąrašą.
 
 ## 3 užduotis
 Atspausdinkite tą patį teksta taip:
-```python
+```
  1.
  Event: Workshop & Tutorial proposals due
  Date: November 21, 2019
