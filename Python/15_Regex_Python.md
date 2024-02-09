@@ -226,7 +226,7 @@ Iš šio teksto atspausdinkite datų sąrašą.
 Atspausdinkite tą patį teksta taip:
 ```
  1.
- Event: Workshop & Tutorial proposals due
+ Event: Workshop & Tutorial proposals
  Date: November 21, 2019
 
  2.
