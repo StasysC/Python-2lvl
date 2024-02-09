@@ -225,15 +225,15 @@ Iš šio teksto atspausdinkite datų sąrašą.
 ## 3 užduotis
 Atspausdinkite tą patį teksta taip:
 ```python
-# 1.
-# Event: Workshop & Tutorial proposals due
-# Date: November 21, 2019
+ 1.
+ Event: Workshop & Tutorial proposals due
+ Date: November 21, 2019
 
-# 2.
-# Event: Notification of acceptance
-# Date: December 1, 2019
+ 2.
+ Event: Notification of acceptance
+ Date: December 1, 2019
 
-# ir t.t.
+ ir t.t.
 ```
 ## 4 užduotis
 Parašykite funkciją, kuri į parametrus priimtų tekstą ir žodžių, kuriuos reikia jame išcenzūruoti sąrašą. Pvz, žodis "kvaraba" yra baisus keiksmažodis, ir mums reikia duotame tekste pakeisti k*****a. Pradėkite maždaug taip:
