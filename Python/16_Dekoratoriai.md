@@ -235,16 +235,16 @@ sumavimas(50, 30, 20, 15)
 Dabar ant funkcijos sumavimas uždėjome du dekoratorius – uzvelavimas (jis užvėlina programos paleidimą 3 sekundėmis) ir args_counter (jis suskaičiuoja funkcijai paduotus argumentus). Paleidus šią funkciją, ji pereina ir per abu dekoratorius ir padaro atitinkamą veiksmą.
 
 # Užduotys
-# 1 Užduotis
+## 1 Užduotis
 Parašykite dekoratorių kuris riboja parametrų kiekį (tarkime, ne daugiau negu 2 parametrai funkcijai)
 
-# 2 Užduotis
+## 2 Užduotis
 Parašykite dekoratorių, kuris atideda funkcijos vykdymą 3s
 
-# 3 Užduotis
+## 3 Užduotis
 Parašykite dekoratorių, kuris leidžia į funkciją įrašyti tik string tipo parametrus ir turi galimybę būti panaudotas kaip papildomas dekoratorius.
 
-# 4 Užduotis
+## 4 Užduotis
 Turime tokį kodą:
 ```python
 import requests  # importuojame requests
