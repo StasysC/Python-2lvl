@@ -124,6 +124,7 @@ print(sum_all(10, 3, 7, 8))
 ```
 Tai yra standartinis universalaus dekoratoriaus rašymo būdas.
 
+## Dekoratorių meta info
 Dekoratorių elgsenoje nėra numatytas funkcijos metaduomenų išsaugojimas. Metaduomenų Python'as ieško ne funkcijoje, kurią iškviečiame, o pačiame warapper'yje. Pvz, jeigu modifikuotumėm mūsų dekoratorių tokiu būdu:
 ```python
 def lyginis_nelyginis(func):
