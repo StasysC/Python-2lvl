@@ -239,12 +239,9 @@ Dabar ant funkcijos sumavimas uždėjome du dekoratorius – uzvelavimas (jis u�
 Parašykite dekoratorių kuris riboja parametrų kiekį (tarkime, ne daugiau negu 2 parametrai funkcijai)
 
 ## 2 Užduotis
-Parašykite dekoratorių, kuris atideda funkcijos vykdymą 3s
-
-## 3 Užduotis
 Parašykite dekoratorių, kuris leidžia į funkciją įrašyti tik string tipo parametrus ir turi galimybę būti panaudotas kaip papildomas dekoratorius.
 
-## 4 Užduotis
+## 3 Užduotis
 Turime tokį kodą:
 ```python
 import requests  # importuojame requests
