@@ -97,7 +97,7 @@ def lyginis_nelyginis(func):
             return result, 'nelyginis!'
         return result, 'lyginis!'
     return wrapper
-```python
+```
 Įvilkime savo f-jas į dekoratorių:
 ```python
 @lyginis_nelyginis
