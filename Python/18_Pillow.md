@@ -220,14 +220,15 @@ reguliuoti kontrastą, šiuo atveju pridėjome 30%.
 
 # Užduotys
 ## 1 užduotis
-Turime logo su peršviečiamu fonu, dydis 128*128. Atsisiųskite, ir perdarykite taip, kad nuo viršaus ir apačios nusiimtų po 28 eilutes pikselių. Išsisaugokite, nes naudosime sekančioms užduotims.
+Turime [logo](https://github.com/StasysC/Python-2lvl/blob/master/Python/logo.png) su peršviečiamu fonu, dydis 128*128. Atsisiųskite, ir perdarykite taip, kad nuo viršaus ir apačios nusiimtų po 28 eilutes pikselių. Išsisaugokite, nes naudosime sekančioms užduotims.
 
 ## 2 užduotis
 sukurkite funkciją, kuri priimtų
 
-paveikslėlį
-kontrasto, spalvingumo, aštrumo ir ryškumo reikšmes
-išsaugoti ar ne reikšmę
+* paveikslėlį
+* kontrasto, spalvingumo, aštrumo ir ryškumo reikšmes
+* išsaugoti ar ne reikšmę
+
 ir atitinkamai pakoreguotų paveikslėlio nustatymus. Parodytų nuotrauką ekrane. Priklausomai nuo pasirinkimo, išsaugotų arba ne. Išsaugokite faile, prie originalaus pavadinimo pridėję pvz. '_modified', tarkime dog_modified.jpg.
 
 ## 3 užduotis
