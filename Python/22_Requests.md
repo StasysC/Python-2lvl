@@ -18,7 +18,7 @@ print(dir(r))
 # 'json', 'links', 'next', 'ok', 'raise_for_status', 'raw', 'reason', 'request', 'status_code', 'text', 'url']
 #
 ``` 
-Panagrinėkim keletą svarbesnių: \
+Panagrinėkim keletą svarbesnių:
 ## .text
 ```python
 print(r.text)
@@ -29,7 +29,7 @@ print(r.text)
 
 # ir t.t. (iškirpta)
 ```
-*.text* mums grąžina puslapio turinį numatytuoju formatu (šiuo atveju HTML). \
+*.text* mums grąžina puslapio turinį numatytuoju formatu (šiuo atveju HTML).
 
 ## .content
 
