@@ -176,5 +176,5 @@ atlikti_veiksma(Veiksmas(ivesta))
 # Veiksmas įvykdytas: ATSPAUSDINTI
 ```
 # Užduotys
-
-* Perdaryti biudžeto programą taip, kad vietoje įprastų pajamų ir išlaidų kintamųjų, būtų naudojami enum (jei nenorite gadinti jau veikiančios programos, pasidarykite kopiją, arba tiesiog naudokite github :)
+## 1 užduotis
+Perdaryti biudžeto programą taip, kad vietoje įprastų pajamų ir išlaidų kintamųjų, būtų naudojami enum (jei nenorite gadinti jau veikiančios programos, pasidarykite kopiją, arba tiesiog naudokite github :)
