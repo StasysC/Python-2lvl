@@ -167,14 +167,14 @@ http://random.cat/ kas kartą užkrauna vis skirtingą katės nuotrauką. Paraš
 
 # 2 užduotis
 parašykite funkciją, kuri į args priimtų url eilučių sąrašą ir grąžintų, kokį serverį naudoja svetainė. Atsakymas galėtų atrodyti maždaug taip:
-```python
-# URL                     Server
-# -------------------------------------
-# https://www.delfi.lt/   DWS
-# https://www.alfa.lt/    nginx/1.10.3 (Ubuntu)
-# https://www.15min.lt/   nginx
-# https://www.lrytas.lt/  shield
-# http://www.google.com/  gws
+```
+ URL                     Server
+-------------------------------------
+https://www.delfi.lt/   DWS
+https://www.alfa.lt/    nginx/1.10.3 (Ubuntu)
+https://www.15min.lt/   nginx
+https://www.lrytas.lt/  shield
+http://www.google.com/  gws
 ```
 
 # 3 užduotis
