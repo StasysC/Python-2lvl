@@ -178,7 +178,7 @@ parašykite funkciją, kuri į args priimtų url eilučių sąrašą ir grąžin
 ```
 
 # 3 užduotis
-Parašykite programą, kuri iš adreso https://orai.15min.lt/prognozes ištrauktų ir atspausdintų oro prognozę Vilniuje šiuo metu. Galima naudoti str metodus, regex.
+Parašykite programą, kuri iš adreso https://orai.15min.lt/prognozes ištrauktų ir atspausdintų orų prognozę Vilniuje šiuo metu. Galima naudoti str metodus, regex.
 
 
 
