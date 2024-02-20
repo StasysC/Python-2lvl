@@ -19,7 +19,7 @@ print(dir(r))
 #
 ``` 
 Panagrinėkim keletą svarbesnių: \
-#.text
+## .text
 ```python
 print(r.text)
 
@@ -31,7 +31,7 @@ print(r.text)
 ```
 *.text* mums grąžina puslapio turinį numatytuoju formatu (šiuo atveju HTML). \
 
-#.content
+## .content
 
 *.content* metodas mums grąžina turinį *binary* formatu. pvz.:
 ```python
@@ -47,7 +47,7 @@ with open('logo.png', 'wb') as f:
 ```
 Kataloge, kuriame dirbame pastebėsime naujai atsiradusį logo.png.
 
- #.status_code
+ ## .status_code
  
 *.status_code* mums atspausdina atsako kodą: 
  ```python
@@ -68,7 +68,8 @@ else:
 # Kažkas ne taip.. Kodas 404
 ``` 
 
-#.ok
+## .ok
+
 prieš tai nagrinėtas pavyzdys gali būti supaprastintas *.ok* metodo pagalba. Jeigu mus tenkina visi kodai, 
 mažesni už 400, galime tiesiog:
 ```python
@@ -82,7 +83,8 @@ else:
 ok grąžina True ir False reikšmes. 
 
 
-#.headers 
+## .headers 
+
 *.headers* grąžina mums papildomus duomenis apie atsaką (*response*):
 ```python
 r = requests.get('http://python.org/')
@@ -99,7 +101,7 @@ print(r.headers['content-type'])
 # text/html; charset=utf-8
 ```
 Jeigu įdomu, kokie *headers* duomenys ką reiškia, galite pasinagrinėti [čia](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
-#.url
+# .url
 
 Kartais, ypač dirbant su daug adresų, naudinga žinoti su kokiu adresu turime reikąlą:
 ```python
@@ -108,7 +110,7 @@ print(r.url)
 ```
 
  
-# URL parametrai
+## URL parametrai
 
 Jeigu, tarkime python.org paieškoje suvestumėm *pep* ir paspaustumėm paieškos mygtuką, adresas paieškos laukelyje 
 pasikeistų į tokį - *https://www.python.org/search/?q=pep*
@@ -130,7 +132,7 @@ print(r.url)
 # https://www.python.org/search/?q=pep&page=2
 ```
 
-#Kiti HTTP metodai
+## Kiti HTTP metodai
 
 iki šiol dirbome su .get() metodu, kuris yra bene dažniausiai naudojamas. Tačiau yra ir kiti, tokie kaip *post, put, 
 delete, patch*. Labai geras resursas jų visų ištestavimui yra www.httpbin.org . 
