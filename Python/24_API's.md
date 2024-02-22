@@ -81,7 +81,7 @@ Beje, neviešinkite savo API rakto, nes gali atsirasti piktnaudžiautojų, dėl 
 apribota paslauga, kai kuriais atvejais (pvz. Google) išrašyta sąskaita. 
 
 # Užduotys
-## 1 uždtuois
+## 1 užduotis
 Sukurkite programą, kuri duoda įvestos valiutų poros dabartinį kursą. Naudokitės https://api.frankfurter.app/. 
 Dokumentaciją rasite [Čia](https://www.frankfurter.app/docs/). Rezultatas galėtų atrodyti taip:
 ```python
