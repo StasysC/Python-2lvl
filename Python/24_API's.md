@@ -82,7 +82,7 @@ apribota paslauga, kai kuriais atvejais (pvz. Google) išrašyta sąskaita.
 
 # Užduotys
 ## 1 užduotis
-Sukurkite programą, kuri duoda įvestos valiutų poros dabartinį kursą. Naudokitės https://api.frankfurter.app/. 
+Sukurkite programą, kuri duoda įvestos valiutų poros dabartinį kursą. Naudokitės api.frankfurter. 
 Dokumentaciją rasite [Čia](https://www.frankfurter.app/docs/). Rezultatas galėtų atrodyti taip:
 ```python
 get_rate('EUR', 'GBP')
