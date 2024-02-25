@@ -438,5 +438,15 @@ with open("Telia Samsung telefonai.csv", "w", encoding="UTF-8", newline='') as f
             print(pavadinimas, men_kaina, kaina)
             csv_writer.writerow([pavadinimas, men_kaina, kaina])
         except:
+
             pass
 ```
+# Užduotys
+## 1 užduotis
+Parašyti programą, kuri atspausdintu visas puslapio www.15min.lt "Redakcija rekomenduoja" skilties antraštes
+
+## 2 užduotis
+Parašyti programą, kuri suskaičiuotų kiek šios dienos www.delfi.lt  puslapyje yra antraštinių straipsnių
+
+## 3 užduotis
+Parašyti programą kuri iš puslapio https://www.telia.lt/prekes/mobilieji-telefonai/samsung rastų pigiausią ir brangiausią telefono modelį
