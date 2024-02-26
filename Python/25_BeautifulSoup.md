@@ -354,15 +354,14 @@ soup = BeautifulSoup(source, 'html.parser')
 blokai = soup.find_all('div', class_='C-block-type-102-headline__content')
 
 for blokas in blokai:
-        kategorija = blokas.find('div', class_='C-headline-labels C-block-type-102-headline__labels').text.strip()
-        tekstas = blokas.find('div', class_='C-block-type-102-headline__title').text.strip()
-        nuorodos_blokas = blokas.find('div', class_="C-block-type-102-headline__title").a
-        nuoroda = nuorodos_blokas['href']
+    kategorija = blokas.find('div', class_='C-headline-labels C-block-type-102-headline__labels').text.strip()
+    tekstas = blokas.find('div', class_='C-block-type-102-headline__title').text.strip()
+    nuorodos_blokas = blokas.find('div', class_="C-block-type-102-headline__title").a
+    nuoroda = nuorodos_blokas['href']
 
-        print(kategorija)
-        print(tekstas)
-        print(nuoroda)
-
+    print(kategorija)
+    print(tekstas)
+    print(nuoroda)
 ```
 ### Kaip įrašyti gautą informaciją į csv failą:
 ```python
