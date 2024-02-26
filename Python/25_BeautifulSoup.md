@@ -404,14 +404,11 @@ with open("delfi_naujienos.csv", 'w', encoding="UTF-8", newline='') as failas:
     csv_writer.writerow(['KATEGORIJA', 'ANTRAŠTĖ', 'NUORODA'])
 
     for blokas in blokai:
-        try:
-            kategorija = blokas.find("div", class_='headline-category').text.strip()
-            tekstas = blokas.find('a', class_="CBarticleTitle").text.strip()
-            linkas = blokas.find('a', class_="CBarticleTitle")['href']
-            print(kategorija, tekstas, linkas)
-            csv_writer.writerow([kategorija, tekstas, linkas])
-        except:
-            pass
+          kategorija = blokas.find("div", class_='headline-category').text.strip()
+          tekstas = blokas.find('a', class_="CBarticleTitle").text.strip()
+          linkas = blokas.find('a', class_="CBarticleTitle")['href']
+          print(kategorija, tekstas, linkas)
+          csv_writer.writerow([kategorija, tekstas, linkas])
 ```
 ## Pavyzdys Nr. 2
 ### Norimo gamintojo parduodamų telefonų išrinkimas iš svetainės
