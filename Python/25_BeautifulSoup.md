@@ -322,7 +322,7 @@ import requests
 
 source = requests.get('https://www.delfi.lt/').text
 soup = BeautifulSoup(source, 'html.parser')
-blokas = soup.find('div', class_ = 'headline')
+blokas = soup.find('div', class_='C-block-type-102-headline__content')
 print(blokas.prettify())
 ```
 ### Kaip išrinkti norimą informaciją iš bloko:
