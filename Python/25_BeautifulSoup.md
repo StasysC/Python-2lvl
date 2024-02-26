@@ -330,17 +330,19 @@ print(blokas.prettify())
 from bs4 import BeautifulSoup
 import requests
 
-source = requests.get('https://www.delfi.lt/').text
+source = requests.get('https://www.delfi.lt').text
 soup = BeautifulSoup(source, 'html.parser')
-blokas = soup.find('div', class_ = 'headline')
+blokas = soup.find('div', class_='C-block-type-102-headline__content')
 
-kategorija = blokas.find('div', class_ = 'headline-category').text.strip()
-tekstas = blokas.find('a', class_ = 'CBarticleTitle').text.strip()
-linkas = blokas.find('a', class_="CBarticleTitle")['href']
+kategorija = blokas.find('div', class_='C-headline-labels C-block-type-102-headline__labels').text.strip()
+tekstas = blokas.find('div', class_='C-block-type-102-headline__title').text.strip()
+nuorodos_blokas = blokas.find('div', class_="C-block-type-102-headline__title").a
+nuoroda = nuorodos_blokas['href']
 
 print(kategorija)
 print(tekstas)
-print(linkas)
+print(nuoroda)
+
 ```
 ### Kaip gauti visų blokų informaciją:
 ```python
