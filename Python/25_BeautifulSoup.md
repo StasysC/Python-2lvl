@@ -369,24 +369,23 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
-source = requests.get('https://www.delfi.lt/').text
-
+page = 'https://www.delfi.lt'
+source = requests.get(page).text
 soup = BeautifulSoup(source, 'html.parser')
-blokai = soup.find_all('div', class_="headline")
+blokai = soup.find_all('div', class_='C-block-type-102-headline__content')
+
 
 with open("delfi_naujienos.csv", 'w', encoding="UTF-8", newline='') as failas:
     csv_writer = csv.writer(failas)
     csv_writer.writerow(['KATEGORIJA', 'ANTRAŠTĖ', 'NUORODA'])
 
     for blokas in blokai:
-        try:
-            kategorija = blokas.find("div", class_='headline-category').text.strip()
-            tekstas = blokas.find('a', class_="CBarticleTitle").text.strip()
-            linkas = blokas.find('a', class_="CBarticleTitle")['href']
-            print(kategorija, tekstas, linkas)
-            csv_writer.writerow([kategorija, tekstas, linkas])
-        except:
-            pass
+        kategorija = blokas.find('div', class_='C-headline-labels C-block-type-102-headline__labels').text.strip()
+        tekstas = blokas.find('div', class_='C-block-type-102-headline__title').text.strip()
+        nuorodos_blokas = blokas.find('div', class_="C-block-type-102-headline__title").a
+        nuoroda = nuorodos_blokas['href']
+        pilna_nuoroda = page + nuoroda
+        csv_writer.writerow([kategorija, tekstas, pilna_nuoroda])
 ```
 ### Daugiau rezultatų su regex:
 ```python
