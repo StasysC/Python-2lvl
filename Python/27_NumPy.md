@@ -333,3 +333,78 @@ np.log(vektorius)
 #  1.94591015 2.07944154 2.19722458 2.30258509]
 ```
 Visas matematines funkcijas galite surasti [čia](https://numpy.org/doc/stable/reference/ufuncs.html).
+
+# Užduotys
+##
+
+1. Sukurkite vektorių su skaičiais nuo 1 iki 9
+
+2. Sukurkite vektorių iš 10 nulių
+
+3. Sukurkite vektorių iš 10 vienetų
+
+4. Sukurkite vektorių iš 10 ketvertų
+
+5. Sukurkite vektorių iš lyginių skaičių nuo 0 iki 100
+
+6. Sukurkite matricą iš 25 narių, pradedant 1, baigiant 25. Priskirkite ją kintamąjam.
+
+7. Iš anksčiau sukurtos matricos ištraukite skaičių 12
+
+8. Iš anksčiau sukurtos matricos ištraukite paskutinę eilutę.
+
+9. Iš anksčiau sukurtos matricos ištraukite submatricą:
+```python
+[[1 2 3]
+ [6 7 8]
+ [11 12 13]]
+```
+10. Iš anksčiau sukurtos matricos ištraukite submatricą:
+```python
+[[7 8 9 10]
+ [12 13 14 15]
+ [17 18 19 20]] 
+```
+11. Iš anksčiau sukurtos matricos ištraukite submatricą
+```python
+[[16 17 18]
+ [21 22 23]]
+```
+12. Sukurkite vektorių iš 20 atsitiktinių reikšmių nuo 0 iki 1. Priskirkite kintamąjam.
+
+* Suraskite didžiausią reikšmę masyve ir jos indeksą.
+* Suraskite mažiausią reikšmę ir jos indeksą
+* Atspausdinkite šio vektoriaus duomenų tipą
+
+
+13. Sukurkite vektorių iš integer reikšmių nuo 1 iki 100. Priskirkite kintamąjam. Iš jo ištraukite visus skaičius, didesnius už 90
+
+14. Ištraukite iš anksčiau sukurto vektoriaus visus skaičiaus 7 kartotinius
+
+15. Sukurkite tokią matricą:
+```python
+[[0.025 0.05 0.075 0.1 0.125 0.15 0.175 0.2],
+ [0.225 0.25 0.275 0.3 0.325 0.35 0.375 0.4],
+ [0.425 0.45 0.475 0.5 0.525 0.55 0.575 0.6],
+ [0.625 0.65 0.675 0.7 0.725 0.75 0.775 0.8],
+ [0.825 0.85 0.875 0.9 0.925 0.95 0.975 1.]])
+```
+
+16. sukurkite tokią matricą (sveiki sk. nuo 2 iki 1000 iš kurių traukiasi sveika šaknis):
+
+[[  4   9  16  25  36],
+ [ 49  64  81 100 121],
+ [144 169 196 225 256],
+ [289 324 361 400 441],
+ [484 529 576 625 676],
+ [729 784 841 900 961]])
+
+17. **Papildoma užduotis**
+
+* Sukurkite vektorių iš sveikų sk. nuo 1 iki 100. Priskirkite kintamąjam.
+* Sukurkite Python funkciją, kuri tikrina ar parametruose įvestas sk. yra pirminis. Jeigu pirminis, grąžina True, jei ne, False.
+* NumPy nevisada supranta įprastą Python kodą su range'ais ir list'ais, todėl sukurtą funkciją teks vektorizuoti taip :
+```python
+  nauja_funkcija = np.vectorize(jūsų_funkcija) .
+```
+* Kadangi sąlygos reikšmių traukimui yra bool reikšmės, pabandykite vietoje sąlygos įdėti savo vektorizuotą funkciją, ir taip išrinkti pirminius skaičius iš savo vektoriaus .
