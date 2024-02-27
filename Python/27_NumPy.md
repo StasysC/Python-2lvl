@@ -389,14 +389,14 @@ Sukurkite tokią matricą:
 ```
 
 Sukurkite tokią matricą (sveiki sk. nuo 2 iki 1000 iš kurių traukiasi sveika šaknis):
-
+```
 [[  4   9  16  25  36],
  [ 49  64  81 100 121],
  [144 169 196 225 256],
  [289 324 361 400 441],
  [484 529 576 625 676],
  [729 784 841 900 961]])
-
+```
 ## Papildoma užduotis
 
 * Sukurkite vektorių iš sveikų sk. nuo 1 iki 100. Priskirkite kintamąjam.
