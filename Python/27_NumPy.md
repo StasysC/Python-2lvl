@@ -403,6 +403,6 @@ Sukurkite tokią matricą (sveiki sk. nuo 2 iki 1000 iš kurių traukiasi sveika
 * Sukurkite Python funkciją, kuri tikrina ar parametruose įvestas sk. yra pirminis. Jeigu pirminis, grąžina True, jei ne, False.
 * NumPy nevisada supranta įprastą Python kodą su range'ais ir list'ais, todėl sukurtą funkciją teks vektorizuoti taip :
 ```python
-  nauja_funkcija = np.vectorize(jūsų_funkcija) .
+  nauja_funkcija = np.vectorize(jūsų_funkcija)
 ```
 * Kadangi sąlygos reikšmių traukimui yra bool reikšmės, pabandykite vietoje sąlygos įdėti savo vektorizuotą funkciją, ir taip išrinkti pirminius skaičius iš savo vektoriaus .
