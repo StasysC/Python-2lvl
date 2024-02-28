@@ -331,3 +331,17 @@ Panevėžys	0.113378	0.060269	0.325921	0.646713	0.124420	0.666479
 ```
 # Užduotys
 ## 1 užduotis
+Nuskaitykite į **df** failą 'miestai isvalyti.csv', failą rasite [čia](https://github.com/StasysC/Python-2lvl/blob/master/Python/miestai_isvalyti.csv) ir atlikite šiuos veiksmus:
+* Atspausdinkite pirmas penkias **df** eilutes
+* Padarykite, kad indeksas būtų stulpelis 'Miestas', ir kad šis pasikeitimas išliktų originale
+* Ištraukite reikšmę, kiek gyventojų gyveno Marijampolėje 1923 m.
+* Ištraukite stulpelį '1897' ir atspausdinkite pirmas penkias eilutes
+* Ištraukite stulpelius '2019', '1970', '1923' ir atspausdinkite pirmas 10 eilučių
+* Pridėkite stulpelį su numeracija
+* Ištraukite miestus nuo 30 iki 39 pozicijos
+* Ištraukite miestus kurių dar nebuvo 1959 m.
+* Ištraukite miestus kurie 1897 m. turėjo daugiau gyventojų, negu 2019 m.
+* Ištraukite miestus kuriuose nuo 2011 m. iki 2019 m. padaugėjo gyventojų 
+* Ištraukite miestus kuriuose gyventojų skaičius nuosekliai mažėjo nuo pat 1897 m.
+* Suraskite labiausiai procentaliai gyventojų skaičiumi padidėjusį ir sumažėjusį miestus nuo 1989 m. (pagalba - naudokite .idxmax() .idxmin, .max() ir .min() funkcijas.)
+* Nuresetinkite indeksą
