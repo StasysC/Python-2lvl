@@ -7,8 +7,9 @@ Dažniausiai naudojamas NumPy ingredientas - NumPy masyvai. Jie būna dviejų ti
 Prieš pradedant darbą su NumPy, reikia jį importuoti.
 ```python
 import numpy as np
-tarkime, turime paprastą Python list'ą:
 ```
+tarkime, turime paprastą Python list'ą:
+
 ```python
 listas = [1, 2, 3, 4, 5]
 ```
