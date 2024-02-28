@@ -313,7 +313,7 @@ C:\Users\scivi\PycharmProjects\PTU21\main.py:3: RuntimeWarning: divide by zero e
 ```
 atkreipkite dėmesį, atlikus dalybą iš 0 gausime begalybes arba nan - not a number. Taip pat galime atlikti veiksmus ir su skaičiais:
 ```python
-vektorius + 1000
+vektorius + 100
 
 # [101 102 103 104 105 106 107 108 109 110]
 
