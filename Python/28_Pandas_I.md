@@ -42,12 +42,12 @@ dtype: int64
 serija = pd.Series([1,2,3,4,5], ['Vilnius', 'Kaunas', 'Klaipėda', 'Panevėžys', 'Šiauliai'])
 # atkreipkite dėmesį, kad duomenis galima sudėti nebūtinai nurodant parametro pavadinimą.
 
-# Vilnius      1
-# Kaunas       2
-# Klaipėda     3
-# Panevėžys    4
-# Šiauliai     5
-# dtype: int64
+Vilnius      1
+Kaunas       2
+Klaipėda     3
+Panevėžys    4
+Šiauliai     5
+dtype: int64
 ```
 ```python
 serija['Vilnius']
@@ -58,24 +58,24 @@ serija['Vilnius']
 serija2 = pd.Series([1,2,3,4,5], ['Vilnius', 'Kaunas', 'Lentvaris', 'Šiauliai', 'Klaipėda'])
 print(serija2)
 
-# Vilnius      1
-# Kaunas       2
-# Lentvaris    3
-# Šiauliai     4
-# Klaipėda     5
-# dtype: int64
+Vilnius      1
+Kaunas       2
+Lentvaris    3
+Šiauliai     4
+Klaipėda     5
+dtype: int64
 ```
 naudojant sudėtį, pandas pagal galimybes bandys sumuoti reikšmes:
 ```python
 serija + serija2
 
-# Kaunas       4.0
-# Klaipėda     8.0
-# Lentvaris    NaN
-# Panevėžys    NaN
-# Vilnius      2.0
-# Šiauliai     9.0
-# dtype: float64
+Kaunas       4.0
+Klaipėda     8.0
+Lentvaris    NaN
+Panevėžys    NaN
+Vilnius      2.0
+Šiauliai     9.0
+dtype: float64
 ```
 Ten, kur pandos negalėjo atlikti sudėties veiksmo, sugeneravo NaN - not a number. Tiek Pandas, tiek NumPy mėgsta integer reikšmes versti į float, kad išlaikytų kiek įmanoma tikslesnę informaciją.
 
