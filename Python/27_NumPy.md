@@ -180,7 +180,7 @@ galime pasirinktam rėžiui suteikti kokią nors savo reikšmę (Broadcasting):
 sample_array[4:8] = 50
 
 # [ 1  2  3  4 50 50 50 50  9]
-
+```
 ## Reikšmių traukimas iš matricos
 ```python
 sample = np.random.randint(1, 10, 25)
@@ -307,6 +307,7 @@ vektorius / vektorius
 vektorius / 0
 
 # [inf inf inf inf inf inf inf inf inf inf]
+
 C:\Users\scivi\PycharmProjects\PTU21\main.py:3: RuntimeWarning: divide by zero encountered in divide
   print(vektorius / 0)
 ```
