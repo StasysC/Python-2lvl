@@ -1,5 +1,5 @@
 # NumPy
-NumPy yra tiesinės algebros biblioteka. Jos pagrindu sukurtos beveik visos su duomenų mokslu susijusios bibliotekos, tokios kaip Pandas ir kt. Numpy yra itin greita, nes yra susieta ryšiais(bindings) su C kalba parašytais moduliais.
+NumPy yra tiesinės algebros biblioteka. Jos pagrindu sukurtos beveik visos su duomenų mokslu susijusios bibliotekos, tokios kaip Pandas ir kt. NumPy yra itin greita, nes yra susieta ryšiais(bindings) su C kalba parašytais moduliais.
 Standartiškai įsidiegia pip install numpy.
 
 ## Vektoriai
