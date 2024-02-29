@@ -149,7 +149,7 @@ axis=0 reikštų, kad atliekame veiksmą su eilute. 1 tuo tarpu reiškia stulpel
 paskutinis mūsų veiksmas originalaus šaltinio nepakeitė, jeigu dabar išsikviesime df, matysime, kad jis koks buvo, toks ir liko:
 ```python
 
-            U        	V         W        	X        	Y         Z	         naujas
+            U         	V          W         	X         	Y          Z	         naujas
 a	0.361370	0.902063	0.702827	0.986880	0.462288	0.504773	  1
 b	0.174726	0.518000	0.119260	0.839525	0.128283	0.042082	  2
 c	0.605317	0.887836	0.094214	0.327027	0.351447	0.072083	  3
