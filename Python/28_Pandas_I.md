@@ -237,11 +237,11 @@ e	0.113378	0.060269	0.325921	0.646713	0.124420	0.666479
 df[df>0.4]
  
       U	            V	      W	       X	        Y	        Z
-a	  NaN	    0.902063	0.702827	0.986880	0.462288	0.504773
-b	  NaN	    0.518000	   NaN	  0.839525	   NaN	    NaN
-c	0.605317	0.887836	   NaN	    NaN	       NaN	    NaN
-d	0.931402	0.905410	0.531652	0.587163	   NaN	    NaN
-e	  NaN	      NaN	      NaN	    0.646713	   NaN	  0.666479
+a	    NaN	    0.902063	0.702827	0.986880	0.462288	0.504773
+b	    NaN	    0.518000	   NaN	  0.839525	   NaN	    NaN
+c	  0.605317	0.887836	   NaN	    NaN	       NaN	    NaN
+d	  0.931402	0.905410	0.531652	0.587163	   NaN	    NaN
+e	    NaN	      NaN	      NaN	    0.646713	   NaN	  0.666479
 ```
 kur reikšmės atitinką sąlygą, turime reikšmes, kur neatitinka - NaN.
 
