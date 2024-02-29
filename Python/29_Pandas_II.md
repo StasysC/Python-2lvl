@@ -148,8 +148,8 @@ duomenys = {'Šalis': ['Lietuva',
 data = pd.DataFrame(duomenys)
 
     Šalis	Miestas	    Gyv
-0	Lietuva	Vilnius	    541
-1	Lietuva	Kaunas	    287
+0	Lietuva	Vilnius      541
+1	Lietuva	Kaunas       287
 2	Lietuva	Klaipėda	  147
 3	Latvija	Ryga	      716
 4	Latvija	Ventspilis	43
