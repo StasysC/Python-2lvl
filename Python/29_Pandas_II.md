@@ -150,13 +150,13 @@ data = pd.DataFrame(duomenys)
     Šalis	Miestas	    Gyv
 0	Lietuva	Vilnius      541
 1	Lietuva	Kaunas       287
-2	Lietuva	Klaipėda	  147
-3	Latvija	Ryga	      716
-4	Latvija	Ventspilis	43
-5	Latvija	Daugpilis	  105
-6	Estija	Talinas	    400
-7	Estija	Tartu	      101
-8	Estija	Pernu	      46
+2	Lietuva	Klaipėda     147
+3	Latvija	Ryga         716
+4	Latvija	Ventspilis   43
+5	Latvija	Daugpilis    105
+6	Estija	Talinas      400
+7	Estija	Tartu        101
+8	Estija	Pernu        46
 ```
 panaudokime .groupby() metodą, viduje nurodydami stulpelį, pagal kurį grupuosime.
 
