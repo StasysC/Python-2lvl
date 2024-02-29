@@ -19,6 +19,7 @@ e	0.082644	0.371362	0.476152	0.464577	0.677104	0.294346
 ```
 ```python
 table = df[df>.15]
+
         U    	    V	        W	        X	        Y	        Z
 a	0.551877	  NaN	      NaN	    0.163693	0.589571	0.275082
 b	0.219124	  NaN	      NaN	    0.196051	  NaN	    0.772043
@@ -27,15 +28,19 @@ d	0.653695	0.182275	0.742331	0.637394	0.804578	0.678703
 e	  NaN    	0.371362	0.476152	0.464577	0.677104	0.294346
 ```
 Funkcija, padėsianti mums aptikti nulines reikšmes yra .isnull(). Naudojimo pavyzdžiai:
+```python
+table.isnull() # grąžina lentelę, kur true reikšmės yra NaN
 
-table.isnull() #grąžina lentelę, kur true reikšmės yra NaN
-U	V	W	X	Y	Z
+    U	    V	    W	    X	    Y	    Z
 a	False	True	True	False	False	False
 b	False	True	True	False	True	False
 c	False	False	False	False	True	False
 d	False	False	False	False	False	False
 e	True	False	False	False	False	False
+```
+```python
 table.isnull().sum() # Rodo kiek kuriame stulpelyje NaN reikšmių
+
 U    1
 V    2
 W    2
@@ -43,66 +48,83 @@ X    0
 Y    2
 Z    0
 dtype: int64
+```
+```python
 table['V'].isnull() # Galima tikrinti atskiruose stulpeliuose
+
 a     True
 b     True
 c    False
 d    False
 e    False
 Name: V, dtype: bool
+```
+```python
 table['V'].isnull().sum()
-2
-pirmas metodas tvarkytis su trūkstamais duomenimis yra .dropna(). Jis išmeta visas eilutes, kuriose yra bent viena NaN reikšmė:
-
+# 2
+```
+pirmas metodas tvarkytis su trūkstamais duomenimis yra **.dropna()** jis išmeta visas eilutes, kuriose yra bent viena NaN reikšmė:
+```python
 table.dropna()
-U	V	W	X	Y	Z
-d	0.653695	0.182275	0.742331	0.637394	0.804578	0.678703
-jeigu norime išmesti stulpelius, turinčius bent vieną NaN, turime nurodyti ašį:
 
+        U	        V	        W	        X	        Y	        Z
+d	0.653695	0.182275	0.742331	0.637394	0.804578	0.678703
+```
+jeigu norime išmesti stulpelius, turinčius bent vieną NaN, turime nurodyti ašį:
+```python
 table.dropna(axis=1)
-X	Z
+        X	        Z
 a	0.163693	0.275082
 b	0.196051	0.772043
 c	0.807019	0.498210
 d	0.637394	0.678703
 e	0.464577	0.294346
+```
 Galime išmesti tik tas eilutes, ar stulpelius, kurie turi mažiau, negu (pvz) 5 NE NaN reikšmes:
-
+```python
 table.dropna(thresh=5)
-U	V	W	X	Y	Z
-c	0.406546	0.643218	0.966651	0.807019	NaN	0.498210
+
+        U	        V	        W	        X	        Y	        Z
+c	0.406546	0.643218	0.966651	0.807019	  NaN    	0.498210
 d	0.653695	0.182275	0.742331	0.637394	0.804578	0.678703
-e	NaN	0.371362	0.476152	0.464577	0.677104	0.294346
+e	  NaN	    0.371362	0.476152	0.464577	0.677104	0.294346
+```
 Papildomai nurodžius ašį, tą patį galima padaryti ir su stulpeliais.
 
-Jei norime NaN reikšmes pakeisti kažkuo kitu, naudosime .fillna() metodą:
-
+Jei norime NaN reikšmes pakeisti kažkuo kitu, naudosime **.fillna()** metodą:
+```python
 table.fillna('bupkis')
-U	V	W	X	Y	Z
-a	0.551877	bupkis	bupkis	0.163693	0.589571	0.275082
-b	0.219124	bupkis	bupkis	0.196051	bupkis	0.772043
-c	0.406546	0.643218	0.966651	0.807019	bupkis	0.498210
-d	0.653695	0.182275	0.742331	0.637394	0.804578	0.678703
-e	bupkis	0.371362	0.476152	0.464577	0.677104	0.294346
-Daugiau prasmės būtų pakeisti pvz. stulpelio vidurkiu:
 
+        U	      V	      W	            X	        Y	        Z
+a	0.551877	  bupkis	bupkis	  0.163693	0.589571	0.275082
+b	0.219124	  bupkis	bupkis	  0.196051	  bupkis	0.772043
+c	0.406546	0.643218	0.966651	0.807019	  bupkis	0.498210
+d	0.653695	0.182275	0.742331	0.637394	0.804578	0.678703
+e	  bupkis	0.371362	0.476152	0.464577	0.677104	0.294346
+```
+Daugiau prasmės būtų pakeisti pvz. stulpelio vidurkiu:
+```python
 table['W'].fillna(value=table['W'].mean())
+
 a    0.728378
 b    0.728378
 c    0.966651
 d    0.742331
 e    0.476152
 Name: W, dtype: float64
+```
+```python
 table.fillna(value=table.mean())
-U	V	W	X	Y	Z
+        U	        V        	W	        X	        Y	        Z
 a	0.551877	0.398952	0.728378	0.163693	0.589571	0.275082
 b	0.219124	0.398952	0.728378	0.196051	0.690418	0.772043
 c	0.406546	0.643218	0.966651	0.807019	0.690418	0.498210
 d	0.653695	0.182275	0.742331	0.637394	0.804578	0.678703
 e	0.457810	0.371362	0.476152	0.464577	0.677104	0.294346
-Grupavimas
+```
+## Grupavimas
 Susikurkime pavyzdį:
-
+```python
 duomenys = {'Šalis': ['Lietuva',
   'Lietuva',
   'Lietuva',
@@ -122,18 +144,20 @@ duomenys = {'Šalis': ['Lietuva',
   'Tartu',
   'Pernu'],
  'Gyv': [541, 287, 147, 716, 43, 105, 400, 101, 46]}
+
 data = pd.DataFrame(duomenys)
-data
-Šalis	Miestas	Gyv
-0	Lietuva	Vilnius	541
-1	Lietuva	Kaunas	287
-2	Lietuva	Klaipėda	147
-3	Latvija	Ryga	716
+
+    Šalis	Miestas	    Gyv
+0	Lietuva	Vilnius	    541
+1	Lietuva	Kaunas	    287
+2	Lietuva	Klaipėda	  147
+3	Latvija	Ryga	      716
 4	Latvija	Ventspilis	43
-5	Latvija	Daugpilis	105
-6	Estija	Talinas	400
-7	Estija	Tartu	101
-8	Estija	Pernu	46
+5	Latvija	Daugpilis	  105
+6	Estija	Talinas	    400
+7	Estija	Tartu	      101
+8	Estija	Pernu	      46
+```
 panaudokime .groupby() metodą, viduje nurodydami stulpelį, pagal kurį grupuosime.
 
 data.groupby('Šalis')
