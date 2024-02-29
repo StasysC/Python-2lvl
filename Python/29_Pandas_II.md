@@ -158,87 +158,106 @@ data = pd.DataFrame(duomenys)
 7	Estija	Tartu        101
 8	Estija	Pernu        46
 ```
-panaudokime .groupby() metodą, viduje nurodydami stulpelį, pagal kurį grupuosime.
-
+panaudokime **.groupby()** metodą, viduje nurodydami stulpelį, pagal kurį grupuosime.
+```python
 data.groupby('Šalis')
+
 <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7fb9cf8000f0>
+```
 gavome groupby objektą, kuris turi savo metodus. Tam kad galėtumėm jais naudotis, priskirkime objektą kintamąjam:
-
+```python
 baltic = data.groupby('Šalis')
-baltic
-<pandas.core.groupby.generic.DataFrameGroupBy object at 0x7fb9cf7da278>
-.mean() skaičiuos mums vidurkį:
 
+<pandas.core.groupby.generic.DataFrameGroupBy object at 0x7fb9cf7da278>
+```python
+**.mean()** skaičiuos mums vidurkį:
+```python
 baltic.mean()
-Gyv
+
+            Gyv
 Šalis	
 Estija	182.333333
 Latvija	288.000000
 Lietuva	325.000000
-.sum() sumuos:
-
+```
+**.sum()** sumuos:
+```python
 baltic.sum()
-Gyv
+        Gyv
 Šalis	
 Estija	547
 Latvija	864
 Lietuva	975
+```
 iš groupby objekto galime trukti reikšmes tokiu būdu:
 
-.count() suskaičiuos kiek yra įrašų grupės stulpeliuose:
-
+**.count()** suskaičiuos kiek yra įrašų grupės stulpeliuose:
+```python
 baltic.count()
-Miestas	Gyv
+
+        Miestas	Gyv
 Šalis		
-Estija	3	3
-Latvija	3	3
-Lietuva	3	3
+Estija	  3      3
+Latvija	  3	     3
+Lietuva	  3	     3
+```
 atkreipkite dėmesį, kad jeigu metodas negali atlikti veiksmo su stulpelio įrašais, rezultate to stulpelio ir nerodo. šiuo atveju galime suskaičiuoti string įrašus, todėl stulpelis 'Miestas' įtrauktas į rezultatą
 
-.max() duos eilutę su maksimaliu, .min() su minimaliu rezultatais:
-
+**.max()** duos eilutę su maksimaliu, **.min()** su minimaliu rezultatais:
+```python
 baltic.max()
-Miestas	Gyv
+
+        Miestas	    Gyv
 Šalis		
-Estija	Tartu	400
+Estija	Tartu	      400
 Latvija	Ventspilis	716
-Lietuva	Vilnius	541
+Lietuva	Vilnius	    541
+```
+```python
 baltic.min()
-Miestas	Gyv
+
+        Miestas	    Gyv
 Šalis		
-Estija	Pernu	46
-Latvija	Daugpilis	43
-Lietuva	Kaunas	147
+Estija	Pernu	      46
+Latvija	Daugpilis	  43
+Lietuva	Kaunas	    147
+```
 šiuo atveju matome, kad miestų stulpelį išrūšiavo pagal abėcelę, o skaičius, kaip ir tikėjomės. Max ir min nėra labai praktiški su string tipo reikšmėmis.
 
 iš groupby objektų galime traukti reikšmes:
-
+```python
 baltic.sum().loc['Lietuva']
+
 Gyv    975
 Name: Lietuva, dtype: int64
-.describe() metodas duoda pagrindinę informaciją apie lentelės duomenis:
-
+```
+**.describe()** metodas duoda pagrindinę informaciją apie lentelės duomenis:
+```python
 baltic.describe()
-Gyv
-count	mean	std	min	25%	50%	75%	max
+
+                                                            Gyv
+        count	mean	          std	  min	  25%	  50%	    75%	max
 Šalis								
 Estija	3.0	182.333333	190.500219	46.0	73.5	101.0	250.5	400.0
 Latvija	3.0	288.000000	371.952954	43.0	74.0	105.0	410.5	716.0
 Lietuva	3.0	325.000000	199.729818	147.0	217.0	287.0	414.0	541.0
-galime sukeisti stulpelius su eilutėmis su .transpose():
-
+```
+galime sukeisti stulpelius su eilutėmis su **.transpose()**:
+```python
 baltic.describe().transpose()
-Šalis	Estija	Latvija	Lietuva
-Gyv	count	3.000000	3.000000	3.000000
-mean	182.333333	288.000000	325.000000
-std	190.500219	371.952954	199.729818
-min	46.000000	43.000000	147.000000
-25%	73.500000	74.000000	217.000000
-50%	101.000000	105.000000	287.000000
-75%	250.500000	410.500000	414.000000
-max	400.000000	716.000000	541.000000
-jeigu domina vieno kurio nors stulpelio statistika, galime ją ištraukti taip:
 
+Šalis	 Estija	      Latvija	    Lietuva
+count	 3.000000	    3.000000	  3.000000
+mean	182.333333	288.000000	325.000000
+std	  190.500219	371.952954	199.729818
+min	  46.000000	  43.000000	  147.000000
+25%	  73.500000	  74.000000	  217.000000
+50%	  101.000000	105.000000	287.000000
+75%	  250.500000	410.500000	414.000000
+max	  400.000000	716.000000	541.000000
+```
+jeigu domina vieno kurio nors stulpelio statistika, galime ją ištraukti taip:
+```python
 baltic.describe().transpose()['Estija']
 Gyv  count      3.000000
      mean     182.333333
@@ -249,50 +268,56 @@ Gyv  count      3.000000
      75%      250.500000
      max      400.000000
 Name: Estija, dtype: float64
-DF Jungimas
+```
+## DF Jungimas
 susikurkime pavyzdžius:
-
+```python
 data_main = data[0:6]
-data_main
-Šalis	Miestas	Gyv
-0	Lietuva	Vilnius	541
-1	Lietuva	Kaunas	287
-2	Lietuva	Klaipėda	147
-3	Latvija	Ryga	716
+
+    Šalis	Miestas	    Gyv
+0	Lietuva	Vilnius	    541
+1	Lietuva	Kaunas	    287
+2	Lietuva	Klaipėda	  147
+3	Latvija	Ryga	      716
 4	Latvija	Ventspilis	43
-5	Latvija	Daugpilis	105
+5	Latvija	Daugpilis	  105
+
 data_bottom = data[6:]
-data_bottom
-Šalis	Miestas	Gyv
+
+  Šalis	  Miestas	Gyv
 6	Estija	Talinas	400
-7	Estija	Tartu	101
-8	Estija	Pernu	46
+7	Estija	Tartu	  101
+8	Estija	Pernu	  46
+```
 norėdami sujungti data_main su data_bottom naudosime .concat() metodą, viduje įrašydami lentelių, kurias jungsime sąrašą:
-
+```python
 pd.concat([data_main, data_bottom])
-Šalis	Miestas	Gyv
-0	Lietuva	Vilnius	541
-1	Lietuva	Kaunas	287
-2	Lietuva	Klaipėda	147
-3	Latvija	Ryga	716
+    Šalis	Miestas	    Gyv
+0	Lietuva	Vilnius	    541
+1	Lietuva	Kaunas	    287
+2	Lietuva	Klaipėda	  147
+3	Latvija	Ryga	      716
 4	Latvija	Ventspilis	43
-5	Latvija	Daugpilis	105
-6	Estija	Talinas	400
-7	Estija	Tartu	101
-8	Estija	Pernu	46
+5	Latvija	Daugpilis	  105
+6	Estija	Talinas	    400
+7	Estija	Tartu	      101
+8	Estija	Pernu	      46
+```
 galime prijungti lentelę iš dešinės:
-
+```python
 pd.concat([data_main, data_bottom], axis=1)
-Šalis	Miestas	Gyv	Šalis	Miestas	Gyv
-0	Lietuva	Vilnius	541.0	NaN	NaN	NaN
-1	Lietuva	Kaunas	287.0	NaN	NaN	NaN
-2	Lietuva	Klaipėda	147.0	NaN	NaN	NaN
-3	Latvija	Ryga	716.0	NaN	NaN	NaN
-4	Latvija	Ventspilis	43.0	NaN	NaN	NaN
-5	Latvija	Daugpilis	105.0	NaN	NaN	NaN
-6	NaN	NaN	NaN	Estija	Talinas	400.0
-7	NaN	NaN	NaN	Estija	Tartu	101.0
-8	NaN	NaN	NaN	Estija	Pernu	46.0
+
+  Šalis	Miestas	      Gyv	  Šalis	  Miestas	Gyv
+0	Lietuva	Vilnius	    541.0	  NaN	    NaN	  NaN
+1	Lietuva	Kaunas	    287.0	  NaN	    NaN	  NaN
+2	Lietuva	Klaipėda	  147.0	  NaN	    NaN	  NaN
+3	Latvija	Ryga	      716.0	  NaN	    NaN	  NaN
+4	Latvija	Ventspilis	43.0	  NaN	    NaN	  NaN
+5	Latvija	Daugpilis	  105.0	  NaN	    NaN	  NaN
+6	  NaN	    NaN	        NaN	Estija	Talinas	400.0
+7	  NaN	    NaN	        NaN	Estija	Tartu	  101.0
+8	  NaN	    NaN	        NaN	Estija	Pernu	  46.0
+```
 matome, kad pandas ieškojo antroje lentelėje sutampančių indeksų, ir neradus atliko jungimą užpildant tuščias vietas NaN. Todėl jungiant, reikia įsitikinti, kad jungimui tinka abi pusės. Pertvarkykime data_right indeksą:
 
 data_right = data_bottom.reset_index()
