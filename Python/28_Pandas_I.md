@@ -149,12 +149,12 @@ axis=0 reikštų, kad atliekame veiksmą su eilute. 1 tuo tarpu reiškia stulpel
 paskutinis mūsų veiksmas originalaus šaltinio nepakeitė, jeigu dabar išsikviesime df, matysime, kad jis koks buvo, toks ir liko:
 ```python
 
-        U        	V         W        	X        	Y         Z	naujas
-a	0.361370	0.902063	0.702827	0.986880	0.462288	0.504773	1
-b	0.174726	0.518000	0.119260	0.839525	0.128283	0.042082	2
-c	0.605317	0.887836	0.094214	0.327027	0.351447	0.072083	3
-d	0.931402	0.905410	0.531652	0.587163	0.232773	0.296398	4
-e	0.113378	0.060269	0.325921	0.646713	0.124420	0.666479	5
+        U        	V         W        	X        	Y         Z	  naujas
+a	0.361370	0.902063	0.702827	0.986880	0.462288	0.504773	  1
+b	0.174726	0.518000	0.119260	0.839525	0.128283	0.042082	  2
+c	0.605317	0.887836	0.094214	0.327027	0.351447	0.072083	  3
+d	0.931402	0.905410	0.531652	0.587163	0.232773	0.296398	  4
+e	0.113378	0.060269	0.325921	0.646713	0.124420	0.666479	  5
 ```
 norėdami pakeisti originalą, turime nurodyti parametrą inplace=True:
 ```python
