@@ -162,7 +162,6 @@ kitas pvz.:
 ```sql
 UPDATE person SET company = "Microsoft" WHERE date_of_birth >= date('1990-01-01') AND gender = "Female";
 ```
-(Nelabai korektiškas pvz...)
 
 Galime pakeisti keleto stulpelių reikšmes:
 ```sql
