@@ -170,6 +170,7 @@ UPDATE person SET first_name = "Mikrosoftas", last_name = "Mikrosoftauskas" WHER
 ```
 
 išrinkę viską pagal kompaniją 'Microsoft', gausime:
+
 ![](update2.png)
 
 ## DELETE
