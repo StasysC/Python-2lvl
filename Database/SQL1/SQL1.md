@@ -96,15 +96,10 @@ SELECT * FROM person GROUP BY gender, last_name;
 ![](group_by.png)
 
 ```sql
-SELECT
-	*
-FROM
-	person
-GROUP BY
-	last_name,
-	first_name	
-HAVING
-	gender="Female";
+SELECT *
+FROM person
+GROUP BY last_name, first_name	
+HAVING gender="Female";
 ```
 
 ![](having1.png)
@@ -112,19 +107,10 @@ HAVING
 sudėtingesnis pavyzdys:
 
 ```sql
-SELECT
-	*
-FROM
-	person
-GROUP BY
-	last_name,
-	first_name	
-HAVING
-	date_of_birth 
-		BETWEEN 
-			date('1980-01-01') 
-		AND 
-			date('1990-01-01');
+SELECT *
+FROM person
+GROUP BY last_name, first_name	
+HAVING date_of_birth BETWEEN date('1980-01-01') AND date('1990-01-01');
 ```
 ![](having2.png)
 
@@ -143,7 +129,7 @@ galime įterpinėti tik į konkrečius stulpelius:
 ```sql
 INSERT INTO person 
 	(first_name, last_name, gender, date_of_birth, company)
-VALUES
+	VALUES
 	("Antanas", "Šampanas", "Male", date('1979-02-02'), "Microsoft");
 ```
 
@@ -182,11 +168,6 @@ DELETE FROM person where company = "Microsoft";
 jeigu nenurodome sąlygos, bus ištrintos visos eilutės:
 ```sql
 DELETE FROM person;
-```
-
-tas pats įvyktų, jeigu naudotumėm 
-```sql
-TRUNCATE person;
 ```
 
 jeigu norime ištrinti lentelę su visa struktūra:
