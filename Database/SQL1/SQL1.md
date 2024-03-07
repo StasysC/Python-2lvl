@@ -119,18 +119,13 @@ HAVING date_of_birth BETWEEN date('1980-01-01') AND date('1990-01-01');
 
 duomenų įterpimui naudojame INSERT, pvz:
 ```sql
-INSERT INTO person VALUES(
-"Jotautas", "Treigys", "jtr@gmail.com", "Male", date('1981-04-25'), "FTMC"
-);
+INSERT INTO person VALUES("Jotautas", "Treigys", "jtr@gmail.com", "Male", date('1981-04-25'), "FTMC");
 ```
 ![](insert1.png)
 
 galime įterpinėti tik į konkrečius stulpelius:
 ```sql
-INSERT INTO person 
-	(first_name, last_name, gender, date_of_birth, company)
-	VALUES
-	("Antanas", "Šampanas", "Male", date('1979-02-02'), "Microsoft");
+INSERT INTO person (first_name, last_name, gender, date_of_birth, company) VALUES ("Antanas", "Šampanas", "Male", date('1979-02-02'), "Microsoft");
 ```
 
 ![](insert2.png)
