@@ -104,16 +104,6 @@ HAVING gender="Female";
 
 ![](having1.png)
 
-sudėtingesnis pavyzdys:
-
-```sql
-SELECT *
-FROM person
-GROUP BY last_name, first_name	
-HAVING date_of_birth BETWEEN date('1980-01-01') AND date('1990-01-01');
-```
-![](having2.png)
-
 # Duomenų įterpimas
 ## INSERT
 
