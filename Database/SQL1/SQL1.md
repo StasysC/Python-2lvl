@@ -183,4 +183,7 @@ Parsisiųskite lentelę "darbuotojai.db", atsidarykite ją programoje DB Browser
 13. Ištrinkite lentelės “DARBUOTOJAI” įrašą, kurio gimimo data yra tokia, kurią jūs sukūrėte.
 14. Įterpkite, du darbuotojus, pavarde Antanaitis kurių pareigos būtų “Programuotojas”.
 15. Pakeiskite, abiejų Antanaičių pareigas į “Testuotojas” vienu sakiniu.
-16. Suskaičiuokite, kiek įmonėje dirba Testuotojų.
+
+**Papildoma**
+
+Suskaičiuokite, kiek įmonėje dirba Testuotojų.
