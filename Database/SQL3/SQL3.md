@@ -114,7 +114,7 @@ HAVING count() > 3
 * FULL OUTER JOIN - papildoma abiejų lentelių eilutėmis
 nesujungiamomis eilutėmis.
 
-Populiariausias apart standartinio JOIN yra LEFT JOIN, jį ir panagrinėsime:
+Populiariausias apart standartinio JOIN yra INNER JOIN, jį ir panagrinėsime:
 
 ```sql
 SELECT last_name, make, model
