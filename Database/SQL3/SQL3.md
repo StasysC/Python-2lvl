@@ -155,6 +155,8 @@ HAVING count() <= 3)
 ORDER BY company.name
 ```
 
+![](complicated.png)
+
 # Užduotys
 Parsisiųskite lentelę "darbuotojai3.db", atsidarykite ją programoje DB Browser for SQLite ir skiltyje "Execute SQL" atlikite šias SQL užklausas:
 
@@ -170,6 +172,3 @@ Parsisiųskite lentelę "darbuotojai3.db", atsidarykite ją programoje DB Browse
 10. 1# punkto užklausą pataisykite taip, kad rodytų tik tuos vardus ir projektų pavadinimus kuriuose dirba daugiau nei 4 darbuotojai.
 11. Naujame stulpeyje parodyti kiekvieno darbuotojo bazinio atlyginimo ir priedų sumą.
 12. Parodyti bendrą atlyginimų, priedų sumą, vidutinį, maksimalų, minimalų atlyginimą.
-
-
-![](complicated.png)
