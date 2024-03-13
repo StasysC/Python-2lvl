@@ -73,7 +73,7 @@ with conn:
 *.fetchone()*:
 ```python
 with conn:
-    c.execute("SELECT * From darbuotojai WHERE pavarde='Rutkauskas'")
+    c.execute("SELECT * From draugai WHERE l_name='Rutkauskas'")
     print(c.fetchall())
 
 # ('Domantas', 'Rutkauskas', 'd.rutkauskas@imone.lt')
