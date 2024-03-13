@@ -198,14 +198,15 @@ Galutinis mūsų duomenų bazės variantas atrodo taip:
 ![](diagrama.png)
 
 # Užduotys
-
-1. Sukurkite duomenų bazę pagal tokią diagramą:
+## 1 užduotis
+Sukurkite duomenų bazę pagal tokią diagramą:
 
 ![](uzduotis.png)
 
-2. Užpildykite duomenimis - bent 3 klientai, bent 5 užsakymai, kiekviename jų po 1-3 pozicijas(product_order), keletas produktų, keletas užsakymo statusų (pvz, patvirtintas, vykdomas, įvykdytas, atmestas).
+Užpildykite duomenimis - bent 3 klientai, bent 5 užsakymai, kiekviename jų po 1-3 pozicijas(product_order), keletas produktų, keletas užsakymo statusų (pvz, patvirtintas, vykdomas, įvykdytas, atmestas).
 
-3. suformuokite porą užklausų:
+## 2 užduotis
+Suformuokite porą užklausų:
 
 * kad rezultate matytųsi užsakymo id, užsakovo pavardė, data, bendra užsakymo suma:
 
