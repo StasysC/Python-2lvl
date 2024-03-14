@@ -47,7 +47,6 @@ from projektas import Projektas
 engine = create_engine('sqlite:///projektai.db')
 Session = sessionmaker(bind=engine)
 session = Session()
-""":type: sqlalchemy.orm.Session"""
 ```
 ### Kaip įrašyti duomenis į lentelę (Crud):
 ```python
