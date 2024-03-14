@@ -65,6 +65,7 @@ session.commit()
 projektas1 = session.query(Projektas).get(1)
 
 print(projektas1.name)
+
 # Naujas pr.
 ```
 ```python
@@ -75,6 +76,7 @@ projektai = session.query(Projektas).all()
 
 for projektas in projektai:
     print(projektas.name, projektas.price)
+
 # Naujas pr. 20000.0
 # 2 projektas 55000.0
 ```
