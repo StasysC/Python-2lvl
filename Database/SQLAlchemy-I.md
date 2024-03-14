@@ -61,7 +61,7 @@ session.commit()
 
 ### Kaip gauti duomenis iš lentelės (cRud):
 ```python
-projektas1 = session.query(Projektas).get(1)
+projektas1 = session.get(Projektas, 2)
 
 print(projektas1.name)
 
@@ -147,7 +147,7 @@ while True:
             print(projektas)
         print("-------------------")
         keiciamo_id = int(input("Pasirinkite norimo pakeisti projekto ID"))
-        keiciamas_projektas = session.query(Projektas).get(keiciamo_id)
+        keiciamas_projektas = session.get(Projektas, keiciamo_id)
         pakeitimas = int(input("Ką norite pakeisti: 1 - pavadinimą, 2 - kainą"))
         if pakeitimas == 1:
             keiciamas_projektas.name = input("Įveskite projekto pavadinimą")
@@ -162,7 +162,7 @@ while True:
             print(projektas)
         print("-------------------")
         trinamo_id = int(input("Pasirinkite norimo ištrinti projekto ID"))
-        trinamas_projektas = session.query(Projektas).get(trinamo_id)
+        trinamas_projektas = session.get(Projektas, trinamo_id)
         session.delete(trinamas_projektas)
         session.commit()
 ```
