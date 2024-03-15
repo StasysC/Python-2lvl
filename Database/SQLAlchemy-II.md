@@ -46,20 +46,20 @@ session.commit()
 Priskirti naują vaiką:
 ```python
 vaikas = Vaikas(vardas="Naujas vaikas", pavarde="Tevaika")
-tevas = session.query(Tevas).get(1)
+tevas = session.get(Tevas, 1)
 tevas.vaikas = vaikas
 session.commit()
 ```
 Pakeisti tėvo vaiko duomenis:
 ```python
-tevas = session.query(Tevas).get(1)
+tevas = session.get(Tevas, 1)
 tevas.vaikas.pavarde = "Naujapavardaitis"
 session.commit()
 ```
 ### Kaip ištrinti tėvą (cruD)
 (vaikas lieka, nes nenustatytas "cascade" trynimas)
 ```python
-tevas = session.query(Tevas).get(1)
+tevas = session.get(Tevas, 1)
 session.delete(tevas)
 session.commit()
 ```
@@ -112,26 +112,26 @@ session.commit()
 ```
 ### Kaip nuskaityti tėvo vaikus (cRud)
 ```python
-tevas = session.query(Tevas).get(1)
+tevas = session.get(Tevas, 1)
 for vaikas in tevas.vaikai:
     print(vaikas.vardas, vaikas.pavarde)
 ```
 ### Kaip redaguoti tėvo vaikus (crUd)
 redaguojamas pirmo (0) vaiko vardas:
 ```python
-tevas = session.query(Tevas).get(1)
+tevas = session.get(Tevas, 1)
 tevas.vaikai[0].vardas = "Vaikas 1"
 session.commit()
 ```
 ### Kaip gauti vaiko tėvą
 ```python
-vaikas = session.query(Vaikas).get(1)
+vaikas = session.get(Tevas, 1)
 print(vaikas.tevas.vardas)
 ```
 ### Kaip ištrinti tėvo vaiką
 (vaikas lieka, nes nenustatytas "cascade" trynimas, tik be tėvo ID)
 ```python
-tevas = session.query(Tevas).get(1)
+tevas = session.get(Tevas, 1)
 vaikas1 = tevas.vaikai[0]
 tevas.vaikai.remove(vaikas1)
 session.commit()
@@ -194,25 +194,25 @@ session.commit()
 ### Kaip peržiūrėti susijusius įrašus
 Kaip gauti visus tėvo vaikus:
 ```python
-tevas = session.query(Tevas).get(2)
+tevas = session.get(Tevas, 2)
 for vaikas in tevas.vaikai:
     print(vaikas.vardas, vaikas.pavarde)
 ```
 Kaip gauti visus vaiko tėvus:
 ```python
-vaikas = session.query(Vaikas).get(1)
+vaikas = session.get(Vaikas, 1)
 for tevas in vaikas.tevai:
     print(tevas.vardas, tevas.pavarde)
 ```
 Kaip pakeisti tėvo vaiko įrašą:
 ```python
-tevas = session.query(Tevas).get(2)
+tevas = session.get(Tevas, 2)
 tevas.vaikai[0].vardas = "Vaikas 1"
 session.commit()
 ```
 Kaip ištrinti tėvo vaiko įrašą:
 ```python
-tevas = session.query(Tevas).get(2)
+tevas = session.get(Tevas, 2)
 vaikas1 = tevas.vaikai[0]
 tevas.vaikai.remove(vaikas1)
 session.commit()
