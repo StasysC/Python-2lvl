@@ -47,10 +47,6 @@ class Book(models.Model):
 
     def __str__(self):
         return self.title
-    
-    def get_absolute_url(self):
-        """Nurodo konkretaus aprašymo galinį adresą"""
-        return reverse('book-detail', args=[str(self.id)])
 ```
 
 Modelis iš esmės pats save aprašantis. Į ką reikėtų atkreipti dėmesį:
