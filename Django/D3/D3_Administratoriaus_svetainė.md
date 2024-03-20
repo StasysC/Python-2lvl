@@ -163,6 +163,6 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Pyth
 * Padaryti, kad užsakymo sąraše būtų matomi automobilio ir datos stulpeliai
 * Padaryti, kad automobilių sąraše būtų matomi kliento, automobilio, valstybinio numerio ir VIN numerio stulpeliai
 * Padaryti, kad Paslaugų sąraše būtų matomi paslaugos pavadinimų ir kainų stulpeliai
-* Į Automobilių sąrašą įdėti filtrą pagal klientą ir automobilio modelį*
+* Į Automobilių sąrašą įdėti filtrą pagal klientą ir automobilio modelį
 * Į Automobilių sąrašą įdėti paiešką pagal valstybinį numerį ir VIN kodą
 
