@@ -291,5 +291,3 @@ Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Pyth
 * Padaryti, kad prisijungęs vartotojas galėtų redaguoti savo užsakymus. Panaudoti UpdateView
 * Padaryti, kad prisijungęs vartotojas galėtų ištrinti savo užsakymus. Panaudoti DeleteView
 * Padaryti, kuriant užsakymą, datą ir laiką leistų pasirinkti kalendoriuje/laikrodyje (datetimepicker)
-## Papildoma užduotis
-* Padaryti, kad vartotojas galėtų savo užsakyme įvesti eilutes (pasirinktas paslaugas ir kiekius). Papildomai - padaryti, kad šias eilutes galima būtų redaguoti/ištrinti.
