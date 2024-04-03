@@ -209,8 +209,9 @@ Nurodėme, kad tik registruoti vartotojai gali naudotis API.
 Jeigu norime prileisti anonimus be teisės daryti pakeitimus duomenų bazėje, vietoje 
 leidimo *IsAuthenticated* turime nurodyti *IsAuthenticatedOrReadOnly*.
 
-# Idėja žinių pritaikymui (užduotis)
-
+# Užduotys
+Sukurkite naują Django projektą, kuriame yra API app'sas ir relizuokite tokią duomenų bazės struktūrą: 
+```sql
 Modeliai:
 
 Band
@@ -239,3 +240,4 @@ AlbumReviewComment
 AlbumReviewLike
 * user(FK User)
 * album_review_id(FK)
+```
