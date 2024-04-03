@@ -210,7 +210,7 @@ Jeigu norime prileisti anonimus be teisės daryti pakeitimus duomenų bazėje, v
 leidimo *IsAuthenticated* turime nurodyti *IsAuthenticatedOrReadOnly*.
 
 # Užduotys
-Sukurkite naują Django projektą, kuriame yra API app'sas ir relizuokite tokią duomenų bazės struktūrą: 
+Sukurkite naują Django projektą, kuriame yra API app'sas ir realizuokite tokią duomenų bazės struktūrą: 
 ```sql
 Modeliai:
 
