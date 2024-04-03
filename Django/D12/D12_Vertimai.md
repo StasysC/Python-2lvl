@@ -102,7 +102,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 ```
-nustatome, kur ieškos locale aplanko:
+nustatome, kur ieškos 'locale' aplanko:
 
 ```python
 LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
