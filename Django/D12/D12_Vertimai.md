@@ -72,7 +72,7 @@ def register(request):
             return redirect('register')
     return render(request, 'register.html')
 ```
-Tuose failuose, kuriuos django leidžia vieną kartą (models.py, forms.py) reikėtų importuoti gettext_lazy, tuose, kuriuos naudoja nuolat, pvz views.py, importuojame gettext. Dabar mūsų programoje (library) sukuriame katalogą "locale" ir konsolėje (būtinai iš library katalogo!) paleidžiame šią komandą:
+Tuose failuose, kuriuos django leidžia vieną kartą (models.py, forms.py) reikėtų importuoti gettext_lazy, tuose, kuriuos naudoja nuolat, pvz views.py, importuojame gettext. Dabar mūsų projekte sukuriame katalogą "locale" ir konsolėje paleidžiame šią komandą:
 ```python
 django-admin makemessages -l lt
 ```
@@ -88,8 +88,8 @@ Taip pat galima išversti visą html kodo bloką, įdėjus {% blocktrans %} ir {
   <a href="/" title="{% blocktrans %}Back to '{{ race }}' homepage{% endblocktrans %}">{{ race }}</a>
 </h1>
 ```
-## Automatiškai parenkame kalbą pagal naršyklę
-Jei norime, kad kalba būtų automatiškai parenkama pagal naršyklėje nustatytą kalbą, į settings.py pridedame 'django.middleware.locale.LocaleMiddleware':
+## Modifikuojame setting.py file
+Į settings.py pridedame 'django.middleware.locale.LocaleMiddleware':
 ```python
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -101,6 +101,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+```
+nustatome, kur ieškos locale aplanko:
+
+```python
+LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
 ```
 ## Dedame kalbos pasirinkimo formą
 Galime į puslapį įdėti kalbos pasirinkimo formą. Tam:
@@ -136,24 +141,7 @@ Ten, kur norime turėti kalbos pasirinkimo formą, dedame šį kodą (pvz. į ba
         </select>
       </form>
 ```
-Alternatyva:
-```python
-{% load i18n %}
-      <form action="{% url 'set_language' %}" method="post">
-        {% csrf_token %}
-        <input name="next" type="hidden" value="{{ redirect_to }}"/>
-        <select name="language">
-          {% get_current_language as LANGUAGE_CODE %}
-          {% get_available_languages as LANGUAGES %}
-          {% for lang in LANGUAGES %}
-          <option value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected" {% endif %}>
-            {{ lang.1 }} ({{ lang.0 }})
-          </option>
-          {% endfor %}
-        </select>
-        <input type="submit" value="Go"/>
-      </form>
-```
+
 ## Užduotis
 Tęsti kurti Django užduotį – [Autoservisas](https://github.com/StasysC/Python-2lvl/blob/master/Django/Autoservisas.md):
 
