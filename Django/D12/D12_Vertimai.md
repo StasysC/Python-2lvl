@@ -88,7 +88,7 @@ Taip pat galima išversti visą html kodo bloką, įdėjus {% blocktrans %} ir {
   <a href="/" title="{% blocktrans %}Back to '{{ race }}' homepage{% endblocktrans %}">{{ race }}</a>
 </h1>
 ```
-## Modifikuojame setting.py file
+## Modifikuojame settings.py file
 Į settings.py pridedame 'django.middleware.locale.LocaleMiddleware':
 ```python
 MIDDLEWARE = [
@@ -102,7 +102,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 ```
-nustatome, kur ieškos 'locale' aplanko:
+nustatome, kur ieškos "locale" katalogo:
 
 ```python
 LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
