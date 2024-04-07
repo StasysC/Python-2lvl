@@ -1,7 +1,5 @@
 ## Vartotojai
 
-*Pastaba: kadangi metodikos dalys buvo kuriamos ne iš eilės, 4 dalies kodo pavyzdyje nematysime nuotraukų dalies*
-
 Pasidarykime paprastą vartotojo registraciją. Pirmiausiai reikės serializatoriaus:
 
 ```python
