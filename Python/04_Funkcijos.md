@@ -251,7 +251,7 @@ Sukurkite ir išsibandykite funkcijas, kurios:
 * Išrikiuotų paduoto stringo žodžius nuo paskutinio iki pirmojo
 * Gražina, ar paduoti metai yra keliamieji, ar ne.
 * Atspausdina, kiek nuo paduotos datos praėjo metų, mėnesių, dienų, valandų, minučių, sekundžių.
-## 2 užduotis
+## 2 užduotis (Papildoma)
 * Sukurti funkciją, kuri patikrintų, ar paduotas Lietuvos piliečio asmens kodas yra validus.
 * Padaryti, kad programa sugeneruotų teisingą asmens kodą (panaudojus anksčiau sukurtą funkciją) pagal įvestą lytį, gimimo datą ir eilės numerį).
 
