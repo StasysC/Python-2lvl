@@ -82,8 +82,9 @@ arba (kitas būdas, kurio geriau nenaudoti):
 failas = open("failas.txt", 'w')
 failas.write("Sveikas, pasauli!")
 failas.close()
+```
 Kaip nuskaityti tekstą iš failo:
-
+```python
 with open("failas.txt", 'r') as failas:
     print(failas.read())
 
