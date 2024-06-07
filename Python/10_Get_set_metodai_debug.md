@@ -103,6 +103,12 @@ print(domas.atlyginimas)
 # 1500
 ```
 
+# Debug
+## Kintamųjų atvaizdavimas
+## Sąrašo debug
+## Kodo tikrinimas
+## Objektų atvaizdavimas
+
 
 # Užduotys
 ## 1 užduotis
