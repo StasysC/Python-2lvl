@@ -105,10 +105,15 @@ print(domas.atlyginimas)
 
 # Debug
 ## Kintamųjų atvaizdavimas
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/Kint1.png)
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/kint2.png)
 ## Sąrašo debug
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/SarasoDebug.png)
 ## Kodo tikrinimas
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/KodoVeikimas.png)
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/Kodoveikimas2.png)
 ## Objektų atvaizdavimas
-
+![](https://github.com/StasysC/Python-2lvl/blob/master/Python/objektai.png)
 
 # Užduotys
 ## 1 užduotis
