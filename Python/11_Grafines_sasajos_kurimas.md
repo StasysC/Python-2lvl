@@ -331,11 +331,28 @@ from tkinter import *
 langas = Tk()
 
 kintamasis = StringVar()
-# kintamasis = ""
+# kintamasis = "Labas"
 
-def funkcija():
+def spausdina():
+    # label["text"] = kintamasis
+    label["text"] = kintamasis.get()
+
+
+def pakeisti():
+    # kintamasis = "Viso gero"
     kintamasis.set("Naujas tekstas")
-    print(kintamasis.get())
+
+
+label = Label(langas, text="")
+button_print = Button(langas, text="Spausdinti", command=spausdina)
+button_change = Button(langas, text="Pakeisti", command=pakeisti)
+
+label.pack()
+button_print.pack()
+button_change.pack()
+
+langas.mainloop()
+
 ```
 ## Kaip tkinter programoje padaryti kelis langus:
 ```python
