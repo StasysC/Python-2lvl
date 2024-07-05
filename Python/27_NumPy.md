@@ -292,32 +292,31 @@ vektorius = np.arange(1,11)
 
 # [ 1  2  3  4  5  6  7  8  9 10]
 
-vektorius + vektorius
+print(vektorius + vektorius)
 
 # [ 2  4  6  8 10 12 14 16 18 20]
 
-vektorius * vektorius
+print(vektorius * vektorius)
 
 # [  1   4   9  16  25  36  49  64  81 100]
 
-vektorius / vektorius
+print(vektorius / vektorius)
 
 # [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
 
-vektorius / 0
+print(vektorius / 0)
 
 # [inf inf inf inf inf inf inf inf inf inf]
 
-C:\Users\scivi\PycharmProjects\PTU21\main.py:3: RuntimeWarning: divide by zero encountered in divide
-  print(vektorius / 0)
+# C:\Users\scivi\PycharmProjects\PTU21\main.py:3: RuntimeWarning: divide by zero encountered in divide print(vektorius / 0)
 ```
 atkreipkite dėmesį, atlikus dalybą iš 0 gausime begalybes arba nan - not a number. Taip pat galime atlikti veiksmus ir su skaičiais:
 ```python
-vektorius + 100
+print(vektorius + 100)
 
 # [101 102 103 104 105 106 107 108 109 110]
 
-vektorius ** 3
+print(vektorius ** 3)
 
 # [   1    8   27   64  125  216  343  512  729 1000]
 ```
