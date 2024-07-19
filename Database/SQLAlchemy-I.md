@@ -97,7 +97,7 @@ print([i for i in search3])
 ```
 ### Kaip pakeisti duomenis lentelėje (crUd):
 ```python
-projektas1 = session.query(Projektas).get(1)
+projektas1 = session.get(Projektas, 1)
 projektas1.price = 22000
 session.commit()
 ```
