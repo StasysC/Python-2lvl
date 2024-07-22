@@ -125,7 +125,7 @@ session.commit()
 ```
 ### Kaip gauti vaiko tėvą
 ```python
-vaikas = session.get(Tevas, 1)
+vaikas = session.get(Vaikas, 1)
 print(vaikas.tevas.vardas)
 ```
 ### Kaip ištrinti tėvo vaiką
@@ -191,26 +191,25 @@ session.add(tevas1)
 session.add(tevas2)
 session.commit()
 ```
-### Kaip peržiūrėti susijusius įrašus
-Kaip gauti visus tėvo vaikus:
+### Kaip gauti visus tėvo vaikus:
 ```python
 tevas = session.get(Tevas, 2)
 for vaikas in tevas.vaikai:
     print(vaikas.vardas, vaikas.pavarde)
 ```
-Kaip gauti visus vaiko tėvus:
+### Kaip gauti visus vaiko tėvus:
 ```python
 vaikas = session.get(Vaikas, 1)
 for tevas in vaikas.tevai:
     print(tevas.vardas, tevas.pavarde)
 ```
-Kaip pakeisti tėvo vaiko įrašą:
+### Kaip pakeisti tėvo vaiko įrašą:
 ```python
 tevas = session.get(Tevas, 2)
 tevas.vaikai[0].vardas = "Vaikas 1"
 session.commit()
 ```
-Kaip ištrinti tėvo vaiko įrašą:
+### Kaip ištrinti tėvo vaiko įrašą:
 ```python
 tevas = session.get(Tevas, 2)
 vaikas1 = tevas.vaikai[0]
