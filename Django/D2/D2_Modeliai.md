@@ -35,7 +35,6 @@ class Genre(models.Model):
 
 pridėkime knygos modelį:
 ```python
-from django.urls import reverse #Papildome imports
 
 class Book(models.Model):
     """Modelis reprezentuoja knygą (bet ne specifinę knygos kopiją)"""
