@@ -255,9 +255,9 @@ print("Jūsų sakinys: ", a + b)
 # Įveskite antrą žodį programavimas
 # Jūsų sakinys: Python programavimas
 ```
-```python
-Integer, Float įvedimas:
 
+Integer, Float įvedimas:
+```python
 a = int(input("Įveskite pirmą skaičių "))
 b = int(input("Įveskite antrą skaičių "))
 print("Jūsų skaičių suma: ", a + b)
