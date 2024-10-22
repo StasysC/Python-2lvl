@@ -144,7 +144,7 @@ Iš dažniau naudojamų reikėtų paminėti šias:
 
 * *re.IGNORECASE* arba *re.I* - padaro jūsų užklausą case insensitive. t.y. nekreipia dėmesio, į didžiąsias - mažąsias raides.
 * *re.MULTILINE* arba *re.M* - elgiasi su jūsų tekstu kaip su daug eilučių turinčia struktūra, o ne žiūri kaip į vieną eilutę.
-* *re.VERBOSE arba *re.X* - leidžia jums suformuoti regex užklausą per kelias eilutes su komentarais. Prideda užklausoms skaitomumo.
+* *re.VERBOSE* arba *re.X* - leidžia jums suformuoti regex užklausą per kelias eilutes su komentarais. Prideda užklausoms skaitomumo.
 
 *flags* naudojimo pavyzdžiai:
 
