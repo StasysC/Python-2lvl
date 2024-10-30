@@ -112,7 +112,7 @@ class Spalva(Enum):
   RAUDONA = auto()
   ZALIA = auto()
   GELTONA = auto()
-  MĖLYNA = auto()
+  MELYNA = auto()
      
 
 spalva = Spalva.RAUDONA
