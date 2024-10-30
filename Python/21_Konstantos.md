@@ -18,10 +18,10 @@ from enum import Enum
 class Savaitė(Enum):
   PIRMADIENIS = 1
   ANTRADIENIS = 2
-  TREČIADIENIS = 3
+  TRECIADIENIS = 3
   KETVIRTADIENIS = 4
   PENKTADIENIS = 5
-  ŠEŠTADIENIS = 6
+  SESTADIENIS = 6
   SEKMADIENIS = 7
      
 
@@ -43,7 +43,7 @@ print(diena.value)
 ```python
 print(list(Savaitė))
      
-# [<Savaitė.PIRMADIENIS: 1>, <Savaitė.ANTRADIENIS: 2>, <Savaitė.TREČIADIENIS: 3>, <Savaitė.KETVIRTADIENIS: 4>, <Savaitė.PENKTADIENIS: 5>, <Savaitė.ŠEŠTADIENIS: 6>, <Savaitė.SEKMADIENIS: 7>]
+# [<Savaitė.PIRMADIENIS: 1>, <Savaitė.ANTRADIENIS: 2>, <Savaitė.TRECIADIENIS: 3>, <Savaitė.KETVIRTADIENIS: 4>, <Savaitė.PENKTADIENIS: 5>, <Savaitė.SESTADIENIS: 6>, <Savaitė.SEKMADIENIS: 7>]
 ```
 ```python
 for x in Savaitė:
@@ -51,10 +51,10 @@ for x in Savaitė:
    
 # PIRMADIENIS 1
 # ANTRADIENIS 2
-# TREČIADIENIS 3
+# TRECIADIENIS 3
 # KETVIRTADIENIS 4
 # PENKTADIENIS 5
-# ŠEŠTADIENIS 6
+# SESTADIENIS 6
 # SEKMADIENIS 7
 ```
 ```python
@@ -63,10 +63,10 @@ for key, value in Savaitė.__members__.items():
      
 # PIRMADIENIS Savaitė.PIRMADIENIS
 # ANTRADIENIS Savaitė.ANTRADIENIS
-# TREČIADIENIS Savaitė.TREČIADIENIS
+# TRECIADIENIS Savaitė.TRECIADIENIS
 # KETVIRTADIENIS Savaitė.KETVIRTADIENIS
 # PENKTADIENIS Savaitė.PENKTADIENIS
-# ŠEŠTADIENIS Savaitė.ŠEŠTADIENIS
+# SESTADIENIS Savaitė.SESTADIENIS
 # SEKMADIENIS Savaitė.SEKMADIENIS
 ```
 ## Kaip sukurti enum su daugiau reikšmių:
@@ -76,28 +76,28 @@ class Menuo(Enum):
     VASARIS = "Vasaris", 2
     KOVAS = "Kovas", 3
     BALANDIS = "Balandis", 4
-    GEGUŽĖ = "Gegužė", 5
-    BIRŽELIS = "Birželis", 6
+    GEGUZE = "Gegužė", 5
+    BIRZELIS = "Birželis", 6
     LIEPA = "Liepa", 7
-    RUGPJŪTIS = "Rugpjūtis", 8
-    RUGSĖJIS = "Rugsėjis", 9
+    RUGPJUTIS = "Rugpjūtis", 8
+    RUGSEJIS = "Rugsėjis", 9
     SPALIS = "Spalis", 10
     LAPKRITIS = "Lapkritis", 11
     GRUODIS = "Gruodis", 12
      
 
-print(Menuo.BIRŽELIS)
+print(Menuo.BIRZELIS)
      
-# Menuo.BIRŽELIS
+# Menuo.BIRZELIS
 ```
 ```python
-menuo = Menuo.GEGUŽĖ
+menuo = Menuo.GEGUZĖ
 print(menuo.name)
 print(menuo.value)
 print(menuo.value[0])
 print(menuo.value[1])
      
-# GEGUŽĖ
+# GEGUZE
 # ('Gegužė', 5)
 # Gegužė
 # 5
@@ -110,7 +110,7 @@ class Spalva(Enum):
   JUODA = auto()
   BALTA = auto()
   RAUDONA = auto()
-  ŽALIA = auto()
+  ZALIA = auto()
   GELTONA = auto()
   MĖLYNA = auto()
      
@@ -152,9 +152,9 @@ class Neunikalus(Enum):
 ## Enum panaudojimo įvedime pavyzdys:
 ```python
 class Veiksmas(Enum):
-  ĮVESTI = 1
+  IVESTI = 1
   ATSPAUSDINTI = 2
-  IŠEITI = 3
+  ISEITI = 3
 
 
 def atlikti_veiksma(veiksmas: Veiksmas):
@@ -169,9 +169,9 @@ for veiksmas in Veiksmas:
 ivesta = int(input("Pasirinkite veiksmą: "))
 atlikti_veiksma(Veiksmas(ivesta))
      
-# 1 - ĮVESTI
+# 1 - IVESTI
 # 2 - ATSPAUSDINTI
-# 3 - IŠEITI
+# 3 - ISEITI
 # Pasirinkite veiksmą: 2
 # Veiksmas įvykdytas: ATSPAUSDINTI
 ```
