@@ -201,8 +201,9 @@ def daugyba(a, b):
 
 def dalyba(a, b):
     return a // b
+```
 Leidžiant testą:
-
+```
 Ran 4 tests in 0.002s
 
 OK
