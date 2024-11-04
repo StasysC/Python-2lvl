@@ -145,7 +145,7 @@ with open('example2.json', 'w') as file:
 
 # Užduotys
 ## 1 užduotis
-Atsisiųskite šį [failą](https://github.com/StasysC/Python-2lvl/blob/master/Python/json_colors.json). parašykite programą, kuri nuskaitys failo turinį ir performuos jį taip:
+Atsisiųskite šį [failą](https://github.com/StasysC/Python-2lvl/blob/master/Python/json_colors.json), parašykite programą, kuri nuskaitys failo turinį ir performuos jį taip:
 ```json
 {
   "colors": [
