@@ -3,15 +3,17 @@
 Yra du pagrindiniai būdai jungti duomenis iš skirtingų lentelių, vienas iš jų yra naudojant WHERE:
 
 ```sql
-SELECT <stulpeliai> FROM <lentelė1>, <lentelė2> WHERE <jungimo
-sąlyga> [AND <paieškos sąlyga>];
+SELECT <stulpeliai>
+FROM <lentelė1>, <lentelė2>
+WHERE <jungimo sąlyga> [AND <paieškos sąlyga>];
 ```
 
 Kitas būdas naudoja JOIN:
 
 ```sql
-SELECT <stulpeliai> FROM <lentelė1> JOIN <lentelė 2> ON
-<jungimo sąlyga> [WHERE <paieškos sąlyga>];
+SELECT <stulpeliai>
+FROM <lentelė1>
+JOIN <lentelė 2> ON <jungimo sąlyga> [WHERE <paieškos sąlyga>];
 ```
 
 ## WHERE
@@ -26,7 +28,7 @@ WHERE person.car_id = car.id
 užklausa iš 3-jų lentelių:
 ```sql
 SELECT last_name, make, name
-from person, car, company
+FROM person, car, company
 WHERE person.car_id = car.id AND person.company_id = company.id
 ORDER BY name
 ```
@@ -37,7 +39,7 @@ Pavyzdys su papildomomis sąlygomis:
 
 ```sql
 SELECT last_name, make, name
-from person, car, company
+FROM person, car, company
 WHERE person.car_id = car.id 
 AND person.company_id = company.id
 AND make = "Ford"
@@ -53,8 +55,7 @@ Atlikime tuos pačius veiksmus su JOIN:
 ```sql
 SELECT person.first_name, person.last_name, car.plate
 FROM person
-JOIN car
-ON person.car_id = car.id
+JOIN car ON person.car_id = car.id
 ```
 
 ![](fname_lname_plate.png)
@@ -84,8 +85,7 @@ Kiek sudėtingesnis - suskaičiuokime, kiek kokioje kompanijoje dirba žmonių:
 ```sql
 SELECT company.name, count(*) as count
 FROM person
-JOIN company
-ON person.company_id = company.id
+JOIN company ON person.company_id = company.id
 GROUP BY company.name
 ```
 
@@ -119,8 +119,7 @@ Populiariausias apart standartinio JOIN yra INNER JOIN, jį ir panagrinėsime:
 ```sql
 SELECT last_name, make, model
 FROM person
-LEFT JOIN car
-ON person.car_id = car.id
+LEFT JOIN car ON person.car_id = car.id
 ```
 
 ![](left_join.png)
