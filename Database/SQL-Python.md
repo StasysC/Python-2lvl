@@ -213,9 +213,6 @@ CREATE TABLE lentele(
 
 # Užduotys
 ## 1 Užduotis
-Sukurkite duomenų bazę, kurioje būtų lentelė su automobilio marke, modeliu, spalva, pagaminimo metais, ir kaina. Lentelės sukūrimo ir užpildymo duomenimis užklausas galite pasigaminti mockaroo.com
-
-## 2 Užduotis
 Sukurti programą, kuri:
   * Sukurtų duomenų bazę
   * Sukurtų lentelę paskaitos su stulpeliais pavadinimas, destytojas ir trukme
@@ -224,6 +221,9 @@ Sukurti programą, kuri:
   * Atnaujintų paskaitos „Python“ pavadinimą į „Python programavimas“
   * Ištrintų paskaitą, kurios dėstytojas – „Tomas“
   * Atspausdintų visas paskaitas (visą lentelę)
+
+## 2 Užduotis
+Sukurkite duomenų bazę, kurioje būtų lentelė su automobilio marke, modeliu, spalva, pagaminimo metais, ir kaina. Lentelės sukūrimo ir užpildymo duomenimis užklausas galite pasigaminti mockaroo.com
 
 ## 3 Užduotis
 Parašykite programą, kuri leistų vartotojui per konsolę:
