@@ -88,7 +88,7 @@ Exception Type:	TemplateDoesNotExist
 Exception Value: registration/login.html
 ...
 ```
-Ši klaida mums sufleruoja, kur ir kokio failo ieško django. *T*emplates* kataloge sukurkime katalogą *registration*, o jame failą *login.html*.
+Ši klaida mums sufleruoja, kur ir kokio failo ieško django. *Templates* kataloge sukurkime katalogą *registration*, o jame failą *login.html*.
 
 ```html
 {% extends "base.html" %}
