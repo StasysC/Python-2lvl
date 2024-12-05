@@ -6,7 +6,7 @@ Pagrindinis dinaminių tinklalapių požymis - jų gebėjimas bendrauti su kiekv
 
 Jeigu paeksperimentuotumėte su atskirų vartotojų prisijungimais, atsijungimais, pastebėtumėte, kad apsilankymų skaitliukas kinta, priklausomai nuo to, koks vartotojas prisijungęs. 
 
-pamėginkime pertvarkyti *BookInstance* modelį taip, kad kiekviena paimta kopija būtų priskirta tam tikram vartotojui. Pirmiausiai, į *models.py** importuokime *User* klasę, bei *datetime* biblioteką.
+pamėginkime pertvarkyti *BookInstance* modelį taip, kad kiekviena paimta kopija būtų priskirta tam tikram vartotojui. Pirmiausiai, į *models.py* importuokime *User* klasę, bei *datetime* biblioteką.
 
 ```python
 from django.contrib.auth.models import User
