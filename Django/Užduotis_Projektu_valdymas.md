@@ -24,7 +24,7 @@ Programa, skirta projektų valdymui. Leidžia įvesti projektus, jiems priskirtu
 - Pastabos
 ## Sąskaita
 - Išrašymo data
-- Suma (galima pasudėtinginti, įterpiant sąskaitos eilutes)
+- Suma
 # Užduotys:
 1. Sukurti modelius pagal duotą aprašą.
 2. Sukurti atitinkamus meniu administravimo svetainėje (įtraukiant norimus filtrus, paieškos laukus, nustatymus ir t.t.).
