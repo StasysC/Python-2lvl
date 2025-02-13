@@ -233,6 +233,8 @@ Dar pora lambda panaudojimo pavyzdžių:
 daugyba_is_saves = [lambda i=skaicius: i*i for skaicius in range(1, 6)]
 for vienas in daugyba_is_saves:
     print(vienas())
+```
+```python
 keliamieji = [lambda i=metai: i for metai in range(1900, 2101) if (metai % 400 == 0) or (metai % 100 != 0 and metai % 4 == 0)]
 for vienas in keliamieji:
     print(vienas())
