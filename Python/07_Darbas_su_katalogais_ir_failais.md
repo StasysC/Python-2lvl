@@ -74,54 +74,54 @@ print(datetime.fromtimestamp(data))
 # Tekstinių failų kūrimas ir nuskaitymas
 Kaip sukurti tekstinį failą: (jei failo nėra, bus sukurtas naujas, jei yra - bus įrašoma jame)
 ```python
-with open("failas.txt", 'w') as failas:
+with open("failas.txt", "w") as failas:
     failas.write("Sveikas, pasauli!")
 ```
 arba (kitas būdas, kurio geriau nenaudoti):
 ```python
-failas = open("failas.txt", 'w')
+failas = open("failas.txt", "w")
 failas.write("Sveikas, pasauli!")
 failas.close()
 ```
 Kaip nuskaityti tekstą iš failo:
 ```python
-with open("failas.txt", 'r') as failas:
+with open("failas.txt", "r") as failas:
     print(failas.read())
 
 # Sveikas, pasauli!
 ```
 Kaip įrašyti ir nuskaityti failą vienu metu:
 ```python
-with open("failas.txt", 'r+') as failas:
+with open("failas.txt", "r+") as failas:
     print(failas.read())
     failas.write("Labas rytas, pasauli!")
 
 # Sveikas, pasauli!
 
-with open("failas.txt", 'r') as failas:
+with open("failas.txt", "r") as failas:
     print(failas.read())
 
 # Sveikas, pasauli!Labas rytas, pasauli!
 ```
 Kaip į failą įrašyti lietuviškus rašmenis: Problema:
 ```python
-with open("failas.txt", 'w') as failas:
+with open("failas.txt", "w") as failas:
     failas.write("Čia yra pirmas failo sakinys")
 
 # UnicodeEncodeError: 'charmap' codec can't encode character '\u010c' in position 0: character maps to <undefined>
 ```
 Sprendimas:
 ```python
-with open("failas.txt", 'w', encoding="utf-8") as failas:
+with open("failas.txt", "w", encoding="utf-8") as failas:
     failas.write("Čia yra pirmas failo sakinys")
 ```
 Kaip nuskaityti failą su lietuviškais rašmenimis:
 ```python
-with open("failas.txt", 'r') as failas:
+with open("failas.txt", "r") as failas:
     print(failas.read())
 ```
 ```python
-with open("failas.txt", 'r', encoding="utf-8") as failas:
+with open("failas.txt", "r", encoding="utf-8") as failas:
     print(failas.read())
 ```
 Kaip pridėti, o ne perrašyti failo eilutę:
@@ -129,28 +129,28 @@ Kaip pridėti, o ne perrašyti failo eilutę:
 Problema:
 ```python
 
-with open("failas.txt", 'w', encoding="utf-8") as failas:
+with open("failas.txt", "w", encoding="utf-8") as failas:
     failas.write("Čia yra pirmas sakinys \n")
 
-with open("failas.txt", 'w', encoding="utf-8") as failas:
+with open("failas.txt", "w", encoding="utf-8") as failas:
     failas.write("Čia yra antras sakinys \n")
 ```
 Sprendimas:
 ```python
-with open("failas.txt", 'a', encoding="utf-8") as failas:
+with open("failas.txt", "a", encoding="utf-8") as failas:
     failas.write("Čia yra pirmas sakinys \n")
 
-with open("failas.txt", 'a', encoding="utf-8") as failas:
+with open("failas.txt", "a", encoding="utf-8") as failas:
     failas.write("Čia yra antras sakinys \n")
 ```
 Kaip perrašyti tekstą norimoje vietoje:
 ```python
-with open("failas.txt", 'w', encoding="utf-8") as failas:
+with open("failas.txt", "w", encoding="utf-8") as failas:
     failas.write("Test")
     failas.write("Test")
 ```
 ```python
-with open("failas.txt", 'w', encoding="utf-8") as failas:
+with open("failas.txt", "w", encoding="utf-8") as failas:
     failas.write("Test")
     failas.seek(0)
     failas.write("BE")
@@ -169,7 +169,7 @@ Kaip nuskaityti failą po vieną eilutę:
 Čia yra dešimtas sakinys
 ```
 ```python
-with open("failas.txt", 'r', encoding="utf-8") as failas:
+with open("failas.txt", "r", encoding="utf-8") as failas:
     print(failas.readline())
     print(failas.readline())
     print(failas.readline())
@@ -180,7 +180,7 @@ with open("failas.txt", 'r', encoding="utf-8") as failas:
 ```
 arba:
 ```python
-with open("failas.txt", 'r', encoding="utf-8") as failas:
+with open("failas.txt", "r", encoding="utf-8") as failas:
     print(failas.readlines())
 
 # ['Čia yra pirmas sakinys \n', 'Čia yra antras sakinys \n', 'Čia
@@ -191,7 +191,7 @@ with open("failas.txt", 'r', encoding="utf-8") as failas:
 ```
 Iteravimas per failo eilutes:
 ```python
-with open("failas.txt", 'r', encoding="utf-8") as failas:
+with open("failas.txt", "r", encoding="utf-8") as failas:
     for eilute in failas:
         print(eilute)
 
@@ -206,7 +206,7 @@ with open("failas.txt", 'r', encoding="utf-8") as failas:
 
 kad nebūtų tarpų tarp eilučių:
 ```python
-with open("failas.txt", 'r', encoding="utf-8") as failas:
+with open("failas.txt", "r", encoding="utf-8") as failas:
     for eilute in failas:
         print(eilute, end="")
 
@@ -223,7 +223,7 @@ with open("failas.txt", 'r', encoding="utf-8") as failas:
 Kaip nuskaityti ribotą kiekį duomenų:
 ```python
 
-with open("failas.txt", 'r', encoding="utf-8") as failas:
+with open("failas.txt", "r", encoding="utf-8") as failas:
     print(failas.read(100))
 
 # Čia yra pirmas sakinys
@@ -245,8 +245,8 @@ print(failas.read(100))
 ```
 Darbas su dviem failais (teksto kopijavimas iš vieno į kitą):
 ```python
-with open("failas.txt", 'r') as r_failas:
-    with open("failo_kopija.txt", 'w') as w_failas:
+with open("failas.txt", "r") as r_failas:
+    with open("failo_kopija.txt", "w") as w_failas:
         for r_eilute in r_failas:
             w_failas.write(r_eilute)
 ```
@@ -256,8 +256,8 @@ with open("failas.txt", 'r') as r_failas:
 
 Problema:
 ```python
-with open("logo.png", 'r') as r_failas:
-    with open("logo_kopija.png", 'w') as w_failas:
+with open("logo.png", "r") as r_failas:
+    with open("logo_kopija.png", "w") as w_failas:
         for r_eilute in r_failas:
             w_failas.write(r_eilute)
 
@@ -265,8 +265,8 @@ with open("logo.png", 'r') as r_failas:
 ```
 Sprendimas:
 ```python
-with open("logo.png", 'rb') as r_failas:
-    with open("logo_kopija.png", 'wb') as w_failas:
+with open("logo.png", "rb") as r_failas:
+    with open("logo_kopija.png", "wb") as w_failas:
         for r_eilute in r_failas:
             w_failas.write(r_eilute)
 ```
@@ -367,19 +367,19 @@ while True:
     veiksmas = int(input("Pasirinkite: 1 - peržiūrėti, 2 - įrašyti, 3 - išeiti"))
     if veiksmas == 1:
         try:
-            with open("zmones.pkl", 'rb') as file:
+            with open("zmones.pkl", "rb") as file:
                 print(pickle.load(file))
         except:
             print("Neįrašyta žmonių vardų")
     if veiksmas == 2:
         try:
-            with open("zmones.pkl", 'rb') as file:
+            with open("zmones.pkl", "rb") as file:
                 zmones = pickle.load(file)
         except:
             zmones = []
         vardas = input("Įveskite naują vardą: ")
         zmones.append(vardas)
-        with open("zmones.pkl", 'wb') as file:
+        with open("zmones.pkl", "wb") as file:
             pickle.dump(zmones, file)
     if veiksmas == 3:
         print("Viso gero")
