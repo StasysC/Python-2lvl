@@ -137,7 +137,7 @@ SWIFT kodas: HABALT22
 ```
 * Išrinkite visus žodžius, prasidedančius viena didžiąja raide.
 * Išrinkite visus žodžius, kurie yra iš visų didžiųjų raidžių (PVM, SWIFT, HABALT22)
-* Parašykite šabloną trumpąjam telefono numeriui (nereikia idealaus, tiesiog išrinkite 1884 ir 1663)
+* Parašykite šabloną trumpąjam telefono numeriui (nereikia idealaus, tiesiog išrinkite 1884 ir 1633)
 * Parašykite šabloną ilgąjam telefono numeriui
 * Parašykite šabloną fakso numeriui
 * Parašykite šabloną, kuris tiktų ir ilgąjam telefono numeriui, ir faksui (naudokite '|' ir grupavimą)
