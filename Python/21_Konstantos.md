@@ -43,10 +43,10 @@ print(diena.value)
 ```python
 print(list(Savaite))
      
-# [<Savaitė.PIRMADIENIS: 1>, <Savaitė.ANTRADIENIS: 2>, <Savaitė.TRECIADIENIS: 3>, <Savaitė.KETVIRTADIENIS: 4>, <Savaitė.PENKTADIENIS: 5>, <Savaitė.SESTADIENIS: 6>, <Savaitė.SEKMADIENIS: 7>]
+# [<Savaite.PIRMADIENIS: 1>, <Savaite.ANTRADIENIS: 2>, <Savaite.TRECIADIENIS: 3>, <Savaite.KETVIRTADIENIS: 4>, <Savaite.PENKTADIENIS: 5>, <Savaite.SESTADIENIS: 6>, <Savaite.SEKMADIENIS: 7>]
 ```
 ```python
-for x in Savaitė:
+for x in Savaite:
     print(x.name, x.value)
    
 # PIRMADIENIS 1
@@ -61,13 +61,13 @@ for x in Savaitė:
 for key, value in Savaitė.__members__.items():
     print(key, value)
      
-# PIRMADIENIS Savaitė.PIRMADIENIS
-# ANTRADIENIS Savaitė.ANTRADIENIS
-# TRECIADIENIS Savaitė.TRECIADIENIS
-# KETVIRTADIENIS Savaitė.KETVIRTADIENIS
-# PENKTADIENIS Savaitė.PENKTADIENIS
-# SESTADIENIS Savaitė.SESTADIENIS
-# SEKMADIENIS Savaitė.SEKMADIENIS
+# PIRMADIENIS Savaite.PIRMADIENIS
+# ANTRADIENIS Savaite.ANTRADIENIS
+# TRECIADIENIS Savaite.TRECIADIENIS
+# KETVIRTADIENIS Savaite.KETVIRTADIENIS
+# PENKTADIENIS Savaite.PENKTADIENIS
+# SESTADIENIS Savaite.SESTADIENIS
+# SEKMADIENIS Savaite.SEKMADIENIS
 ```
 ## Kaip sukurti enum su daugiau reikšmių:
 ```python
