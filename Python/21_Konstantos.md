@@ -15,7 +15,7 @@ Pvz., šiame Enum apibrėžėme savaitės dienas:
 ```python
 from enum import Enum
 
-class Savaitė(Enum):
+class Savaite(Enum):
   PIRMADIENIS = 1
   ANTRADIENIS = 2
   TRECIADIENIS = 3
@@ -25,23 +25,23 @@ class Savaitė(Enum):
   SEKMADIENIS = 7
      
 
-print(Savaitė.PENKTADIENIS)
+print(Savaite.PENKTADIENIS)
      
-# Savaitė.PENKTADIENIS
+# Savaite.PENKTADIENIS
 ```
 ```python
-diena = Savaitė.SEKMADIENIS
+diena = Savaite.SEKMADIENIS
 print(diena)
 print(diena.name)
 print(diena.value)
      
-# Savaitė.SEKMADIENIS
+# Savaite.SEKMADIENIS
 # SEKMADIENIS
 # 7
 ```
 ## Kaip atspausdinti visas enum reikšmes:
 ```python
-print(list(Savaitė))
+print(list(Savaite))
      
 # [<Savaitė.PIRMADIENIS: 1>, <Savaitė.ANTRADIENIS: 2>, <Savaitė.TRECIADIENIS: 3>, <Savaitė.KETVIRTADIENIS: 4>, <Savaitė.PENKTADIENIS: 5>, <Savaitė.SESTADIENIS: 6>, <Savaitė.SEKMADIENIS: 7>]
 ```
