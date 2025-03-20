@@ -372,7 +372,7 @@ import csv
 page = 'https://www.delfi.lt'
 source = requests.get(page).text
 soup = BeautifulSoup(source, 'html.parser')
-blokai = soup.find_all('div', class_='C-block-type-102-headline__content')
+blokai = soup.find_all('div', class_='block-type-102-headline__content')
 
 
 with open("delfi_naujienos.csv", 'w', encoding="UTF-8", newline='') as failas:
@@ -380,9 +380,9 @@ with open("delfi_naujienos.csv", 'w', encoding="UTF-8", newline='') as failas:
     csv_writer.writerow(['KATEGORIJA', 'ANTRAŠTĖ', 'NUORODA'])
 
     for blokas in blokai:
-        kategorija = blokas.find('div', class_='C-headline-labels C-block-type-102-headline__labels').text.strip()
-        tekstas = blokas.find('div', class_='C-block-type-102-headline__title').text.strip()
-        nuorodos_blokas = blokas.find('div', class_="C-block-type-102-headline__title").a
+        kategorija = blokas.find('div', class_='headline-labels block-type-102-headline__labels').text.strip()
+        tekstas = blokas.find('div', class_='block-type-102-headline__title').text.strip()
+        nuorodos_blokas = blokas.find('div', class_="block-type-102-headline__title").a
         nuoroda = nuorodos_blokas['href']
         pilna_nuoroda = page + nuoroda
         csv_writer.writerow([kategorija, tekstas, pilna_nuoroda])
@@ -406,9 +406,9 @@ with open("Telia Samsung telefonai.csv", "w", encoding="UTF-8", newline='') as f
     csv_writer.writerow(['Modelis', 'Mėnesio kaina', 'Kaina'])
 
     for blokas in blokai:
-          pavadinimas = blokas.find('a', class_ = 'mobiles-product-card__title js-open-product').text.strip()
-          men_kaina = blokas.find('div', class_ = 'mobiles-product-card__price-marker').text.strip()
-          kaina = blokas.find_all('div', class_ = 'mobiles-product-card__price-marker')[1].text.strip()
+          pavadinimas = blokas.find('h2').text.strip()
+          men_kaina = blokas.find('span', class_='ProductCard-styles__PriceText-sc-c688db1f-19 hkdhmC').text.strip()
+          kaina = blokas.find('div', class_='ProductCard-styles__FullPriceBlock-sc-c688db1f-16 iCaKDW').div.text.strip()
           print(pavadinimas, men_kaina, kaina)
           csv_writer.writerow([pavadinimas, men_kaina, kaina])
 ```
