@@ -2,9 +2,9 @@ Sukurti programą su Django framework'u, kuri leistų įvesti autoservisų infor
 
 * Paslaugas (pavadinimu, pvz. Alyvos keitimas, stabdžių kaladėlių keitimas ir pan.)
 * Paslaugų kainas (su paslauga ir jos kaina)
-* Automobilių modelius (su metais, markėmis, modeliais ir varikliais)
+* Automobilių modelius (su metais ir markėmis)
 * Automobiliais (konkrečiais, su automobilio ID, klientu (pradžiai - stringu), valstybiniu numeriu, VIN kodu)
-* Taisymo užsakymus (automobiliu, bendra suma ir atskiromis eilutėmis su atliktomis paslaugomis, kiekiais ir kainomis)
+* Taisymo užsakymus (automobiliu, atskiromis eilutėmis su atliktomis paslaugomis ir kiekiais)
 
 DB struktūra:
 
