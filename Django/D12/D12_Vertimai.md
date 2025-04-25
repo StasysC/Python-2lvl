@@ -130,11 +130,10 @@ Ten, kur norime turėti kalbos pasirinkimo formą, dedame šį kodą (pvz. į ba
         {% csrf_token %}
         <input name="next" type="hidden" value="{{ redirect_to }}"/>
         <select name="language" onchange="this.form.submit()">
-          {% load static %}
           {% get_current_language as LANGUAGE_CODE %}
           {% get_available_languages as LANGUAGES %}
           {% for lang in LANGUAGES %}
-          <option style="background-image: url({% static 'img/lt.png' %});" value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected" {% endif %}>
+          <option value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected" {% endif %}>
             {{ lang.1 }}
           </option>
           {% endfor %}
